@@ -1,17 +1,19 @@
 {
   "helpDescription": "A temporary leaderboard, which allows the top member to earn different rewards.",
   "helpUsage": [
-    "Start/end koth event.```/koth <start/end> [channel]```",
-    "Set a reward for the top member of the koth leaderbaord.```/koth reward <role>```",
-    "Shows the koth leaderboard for the server.```/koth leaderboard```"
+    ["Start/end koth event.", "```/koth <start/end> [channel]```"],
+    [
+      "Set a reward for the top member of the koth leaderbaord.",
+      "```/koth reward <role>```"
+    ],
+    ["Shows the koth leaderboard for the server.", "```/koth leaderboard```"]
   ],
 
   "alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
   "enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
   "startSent": "KOTH starting announcement has been sent to %s.",
-  "started": "KOTH Started",
+  "endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
 
-  "winners": "KOTH Winners",
   "noWinners": "Not enough active users in this guild to end KOTH.",
   "winnersSent": "Koth winners announcement has been sent to %s.",
 
@@ -19,9 +21,11 @@
   "alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
 
   "badgeInvalidName": "Unable to find a badge with the id `%s`.",
-  "badgeAdded": "Badge with name `%s` will be rewarded to user in %s position.",
+  "addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+  "addExp": "User in %s position will earn `%s` experience.",
+  "addRole": "User in %s position will earn %s role.",
 
-  "expAdded": "User in %s position will earn `%s` experience.",
-
-  "roleAdded": "User in %s position will earn %s role."
+  "removeSuccess": "Koth %s reward for %s position has been removed.",
+  "removeInvalid": "Unable to find rewards for %s position.",
+  "removePositionInvalid": "Unable to find %s reward set for %s position."
 }
