@@ -1,4 +1,6 @@
 {
+  "invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
+
   "addKyu": "Add Kyu",
   "clickHere": "Click Here",
   "commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
