@@ -1,0 +1,30 @@
+{
+  "helpDescription": "Change global cooldown or for channels/roles.",
+  "helpUsage": [
+    [
+      "Set cooldown for a text/voice channel.",
+      "```/cooldown add channel <channel> <seconds>```"
+    ],
+    [
+      "Set cooldown for a role in text/voice.",
+      "```/cooldown add role <role> <seconds> <for>```"
+    ],
+    [
+      "Remove cooldown from a text/voice channel.",
+      "```/cooldown remove channel <channel> <from>```"
+    ],
+    [
+      "Remove cooldown role from text/voice.",
+      "```/cooldown remove role <role> <from>```"
+    ],
+    ["Show a list of the currently set cooldowns.", "```/cooldown show```"]
+  ],
+
+  "channelAddSuccess": "Cooldown for channel %s has been set to **%s**.",
+  "channelRemoveSuccess": "Channel %s has been **removed** from cooldown.",
+
+  "roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
+  "roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
+
+  "globalSetSuccess": "Global cooldown for %s has been set to %s."
+}
