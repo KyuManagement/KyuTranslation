@@ -1,30 +1,51 @@
 {
   "helpDescription": "Change settings for level up announcement messages.",
   "helpUsage": [
-    "Change the custom message or find out more information.```/announce message custom <text>\n/announce message default\n/announce message variables```",
-    "Enable/disable pings for announcement messages.```/announce ping <setting>```",
-    "Test the current announcement message.```/announce test```"
+    [
+      "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+      "```/announce clear <30-300>```"
+    ],
+    [
+      "Set the description for the embed/message.",
+      "```/announce custom <text>```"
+    ],
+    [
+      "Enable/disable pings for announcement messages.",
+      "```/announce ping <enable/disable>```"
+    ],
+    [
+      "Test the announce for a specific level or the global announce.",
+      "```/announce test <level>```"
+    ],
+    [
+      "Set the channel announcements should be sent to.",
+      "```/announce type channel #channel```"
+    ],
+    [
+      "Set how announcements should be sent when a user levels up.",
+      "```/announce type set <default/dm/off/rewards>```"
+    ],
+    ["Get a list of variables for announcements.", "```/announce variables```"]
   ],
-
-  "messageTooLong": "Max character count is 1250, you are over the count by **%s**.",
-  "messageSuccess": "Announcement message has been updated to:```%s```",
-  "messageDefault": "Announcement message has been reset back to basic message.",
-
-  "pingIncorrect": "Enable/disable pings for announcement messages.```/announce ping <on/off>```",
-  "pingSuccessEnabled": "Announcement pings have been set to **enabled**.",
-  "pingSuccessDisabled": "Announcement pings have been set to **disabled**.",
 
   "clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
   "clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
   "clearSuccessDisabled": "Announcement messages will no longer to deleted.",
 
+  "messageTooLong": "Max character count is 1250, you are over the count by **%s**.",
+  "messageSuccess": "Announcement message has been updated to:```%s```",
+
+  "pingSuccessEnabled": "Announcement pings have been set to **enabled**.",
+  "pingSuccessDisabled": "Announcement pings have been set to **disabled**.",
+
   "typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
-  "typeSuccessChannel": "Announcements channel has been set to **%s**.",
+  "typeSuccessChannel": "Announcements will now be sent to %s.",
   "typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
   "typeSuccessDm": "Announcements have been set to **dm**.",
   "typeSuccessOff": "Announcements have been set to **off**.",
   "typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
 
+  "typeOff": "Announcements are disabled in this guild.",
   "levelupSuccess": "%s has been sent announcement message.",
   "channelNotFound": "Unable to find the given channel for announcement."
 }
