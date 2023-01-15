@@ -1,5 +1,6 @@
 {
   "de": {
+    "announce.channelNotFound": "Unable to find the given channel for announcement.",
     "announce.clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
     "announce.clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
     "announce.clearSuccessDisabled": "Announcement messages will no longer to deleted.",
@@ -9,43 +10,44 @@
       "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <setting>```",
       "Teste die aktuelle Level-Up Nachricht.```/announce test```"
     ],
-    "announce.messageDefault": "Die Level-Up Nachricht wurde zurückgesetzt.",
+    "announce.levelupSuccess": "%s has been sent announcement message.",
     "announce.messageSuccess": "Level-Up Nachricht wurde geändert zu:```%s```",
     "announce.messageTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
-    "announce.pingIncorrect": "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <on/off>```",
     "announce.pingSuccessDisabled": "Level-Up Erwähnungen wurden **deaktiviert**.",
     "announce.pingSuccessEnabled": "Level-Up Erwähnungen wurden **aktiviert**.",
     "announce.typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
-    "announce.typeSuccessChannel": "Announcements channel has been set to **%s**.",
+    "announce.typeOff": "Announcements are disabled in this guild.",
+    "announce.typeSuccessChannel": "Announcements will now be sent to %s.",
     "announce.typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
     "announce.typeSuccessDm": "Announcements have been set to **dm**.",
     "announce.typeSuccessOff": "Announcements have been set to **off**.",
     "announce.typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
     "badge.alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
-    "badge.alreadyExists": "A badge with id `%s` already exists. Please enter another name.",
-    "badge.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-    "badge.invalidName": "Unable to find a badge with the id `%s`.",
+    "badge.alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
+    "badge.helpDescription": "Add/remove custom badges from the server.",
+    "badge.helpUsage": [
+      [
+        "Add a new badge to the server.",
+        "```/badge add <name> <url>```"
+      ],
+      [
+        "Delete a current badge from the server.",
+        "```/badge add <name>```"
+      ],
+      [
+        "Show a list of the available badges in this server.",
+        "```/badge show```"
+      ]
+    ],
+    "badge.invalidName": "Unable to find a badge with the ID `%s`.",
     "badge.successAdded": "Badge with name `%s` has been added to this server.",
     "badge.successRemoved": "`%s` badge has been removed from the server.",
-    "blacklist.channelAdded": "Kanal **%s** wurde zur Blacklist hinzugefügt.",
-    "blacklist.channelAlreadyBlacklisted": "%s Kanal ist bereits auf der Blacklist.",
-    "blacklist.channelList": "Blacklist-Kanäle: ```%s```",
-    "blacklist.channelNotBlacklisted": "%s Kanal ist nicht auf der Blacklist.",
-    "blacklist.channelRemoved": "Kanal **%s** wurde von der Blacklist entfernt.",
     "blacklist.helpDescription": "Füge Kanäle/Rollen zur Blacklist hinzu, um das Verdienen von Exp zu verhindern.",
     "blacklist.helpUsage": [
       "Fügt einen Kanal zur Blacklist hinzu/entfernt ihn.```/blacklist channel <add/remove> <channel>```",
       "Fügt eine Rolle zur Blacklist hinzu/entfernt sie.```/blacklist role <add/remove> <role>```",
       "Zeigt eine Liste der derzeit auf der Blacklist stehenden Rollen und Kanäle an.```/blacklist show```"
     ],
-    "blacklist.invalidChannelType": "Der angegebene Kanaltyp ist ungültig, bitte stelle sicher, dass der Kanaltyp `%s ` ist.",
-    "blacklist.notFound": "Rolle/Kanal kann mit Suchabfrage `%s` nicht gefunden werden. Stelle sicher, dass die angegebene Abfrage korrekt ist.",
-    "blacklist.roleAdded": "Rolle **%s** wurde zur Blacklist hinzugefügt.",
-    "blacklist.roleAlreadyBlacklisted": "%s Kanal ist bereits auf der Blacklist.",
-    "blacklist.roleList": "Blacklist-Rollen: ```%s```",
-    "blacklist.roleListEmpty": "Keine Rollen auf der Blacklist.",
-    "blacklist.roleNotBlacklisted": "%s Rolle ist nicht auf der Blacklist.",
-    "blacklist.roleRemoved": "Rolle **%s** wurde von der Blacklist entfernt.",
     "blacklist.textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
     "blacklist.textChannelIncluded": "Channel %s is **already** in text blacklist.",
     "blacklist.textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
@@ -69,7 +71,7 @@
     "bug.success": "Vielen Dank für das Einreichen eines Fehlers. Unser Team wird sich so schnell wie möglich darum kümmern!",
     "common.addKyu": "Kyu hinzufügen",
     "common.clickHere": "Klick hier",
-    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. Please join our [support server](https://kyubot.com/support) to stay up to date.",
+    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
     "common.confirm": "Bestätigen",
     "common.decline": "Ablehnen",
     "common.docs": "Kyu Doku",
@@ -80,7 +82,9 @@
     "common.footer": "Gib `/help %s` für mehr Hilfe ein. Zum Beispiel: /help help",
     "common.guildPremium": "This feature is only available for premium guilds.\n\nIf you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing, and creating content updates for the bot.\n\n**Premium Perks**\n\n- Customise rank cards for all members\n- Configure global, channel, or role multiplier for text/voice exp\n- Configure cooldown for text/voice exp\n- Disable voting exp booster\n- Enable lootbox events\n- Automatic leaderboard updates in a specific channel\n- Configure server leaderboard as an image\n- Access to music player (Experimental feature)\n- Sneak peaks/Early access to new features\n- Donator badge for rank card\n\n**Dashboard perks**\n\n- Custom vanity url for server leaderboard\n- Custom banner for server leaderboard\n- Join server button on the server leaderboard",
     "common.hierarchyError": "Stelle sicher, dass die Rolle von KyuBot in der Rollenhierarchie über %s steht.",
+    "common.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
     "common.invite": "Einladen",
+    "common.kyuDashboard": "Kyu Dashboard",
     "common.kyuPremium": "Kyu Premium",
     "common.next": "Weiter",
     "common.previous": "Zurück",
@@ -92,6 +96,90 @@
     "common.variables": "Sets a custom message for announcement messages.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
     "common.vote": "Abstimmen",
     "common.voteForKyu": "Für Kyu abstimmen",
+    "config.amount": "Amount of users shown on the leaderboard has been set to %s.",
+    "config.backgroundSuccess": "Background has been uploaded to the database.",
+    "config.colorSuccess": "Profile color has been updated to **%s**.",
+    "config.expboosterDisabled": "Exp booster has been disabled for this server.",
+    "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+    "config.helpDescription": "Configure various settings for the server.",
+    "config.helpUsage": [
+      [
+        "Set if voting expbooster should be enabled/disabled.",
+        "```/config expbooster <true/false>```"
+      ],
+      [
+        "Set an admin role for the server. Members with these roles can config the bot.",
+        "```/config adminrole @role```"
+      ],
+      [
+        "Set the background for the leaderboard image.",
+        "```/config leaderboard background <url>```"
+      ],
+      [
+        "Set the amount of users shown on the leaderboard.",
+        "```/config leaderboard amount <1-10>```"
+      ],
+      [
+        "Set the color for the leaderboard.",
+        "```/config leaderboard color <color>```"
+      ],
+      [
+        "Set if leaderboard should be an embed or an image.",
+        "```/config leaderboard image <setting>```"
+      ],
+      [
+        "Set the opacity for the leaderboard image.",
+        "```/config leaderboard opacity <percentage>```"
+      ],
+      [
+        "Set the overlay for the leaderboard image.",
+        "```/config leaderboard overlay <url>```"
+      ],
+      [
+        "Set the theme for the leaderboard image.",
+        "```/config leaderboard theme <theme>```"
+      ],
+      [
+        "Set the max level users can achieve in this server.",
+        "```/config maxlevel <level>```"
+      ]
+    ],
+    "config.invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
+    "config.opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
+    "config.overlaySuccess": "Background has been uploaded to the database.",
+    "config.setAdminRole": "Users with role %s can now manage the bot in this server.",
+    "config.setMaxlevel": "Max level for the server has been set to %s.",
+    "config.themeSuccess": "Leaderboard image theme has been set to `%s`.",
+    "config.typeDisabled": "Leaderboard will now be sent as an embed.",
+    "config.typeEnabled": "Leaderboard will now be sent as an image.",
+    "cooldown.channelAddSuccess": "Cooldown for channel %s has been set to **%s**.",
+    "cooldown.channelRemoveSuccess": "Channel %s has been **removed** from cooldown.",
+    "cooldown.globalSetSuccess": "Global cooldown for %s has been set to %s.",
+    "cooldown.helpDescription": "Change global cooldown or for channels/roles.",
+    "cooldown.helpUsage": [
+      [
+        "Set cooldown for a text/voice channel.",
+        "```/cooldown add channel <channel> <seconds>```"
+      ],
+      [
+        "Set cooldown for a role in text/voice.",
+        "```/cooldown add role <role> <seconds> <for>```"
+      ],
+      [
+        "Remove cooldown from a text/voice channel.",
+        "```/cooldown remove channel <channel> <from>```"
+      ],
+      [
+        "Remove cooldown role from text/voice.",
+        "```/cooldown remove role <role> <from>```"
+      ],
+      [
+        "Show a list of the currently set cooldowns.",
+        "```/cooldown show```"
+      ]
+    ],
+    "cooldown.roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
+    "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
     "dm.helpDescription": "Aktiviere/deaktiviere Direktnachrichten von KyuBot für Level-Up Nachrichten auf allen Servern",
     "dm.helpUsage": [
       "Aktiviere/deaktiviere Direktnachrichten von KyuBot für Level-Up Nachrichten auf allen Servern.```/dm <disable/enable>```"
@@ -158,31 +246,12 @@
     "givexp.success": "%s wurde **%s** Exp gegeben.",
     "givexp.userNotFound": "Das erwähnte Mitglied kann nicht gefunden werden. Stelle bitte sicher, dass das angegebene Mitglied auf dem Server ist.",
     "givexp.userNotPremium": "Diese Funktion ist nur mit Premium verfügbar. Finde mehr Informationen mit `donate`",
-    "goodbye.clearSuccess": "Die Erfahrung %s beim Verlassen des Servers gelöscht.",
-    "goodbye.embedColorIncorrect": "Die angegebene Farbe ist keine gültige Hex-Farbe (#6CFFAC).",
-    "goodbye.embedColorSuccess": "Die Farbe der Einbettung für die Abschiedsnachricht wurde auf **%s** aktualisiert.",
-    "goodbye.embedToggle": "Einbettung für Abschiedsnachrichten wurde **%s**.",
+    "goodbye.clearDisabled": "Member will no long lose experience upon leaving the server.",
+    "goodbye.clearEnabled": "Member experience will be cleared upon leaving the server.",
     "goodbye.helpDescription": "Ändere die Einstellungen für wenn Mitglieder den Server verlassen.",
     "goodbye.helpUsage": [
       "Ändere die Einstellung, ob die Exp des Mitglieds gelöscht werden sollen, wenn der Server verlassen wird.```/goodbye clear <on/off>```"
     ],
-    "goodbye.imageIncorrect": "Der angegebene Link ist kein Bild, bitte gib einen gültigen Bildlink an. Diese Bildtypen werden derzeit unterstützt: jpg | jpeg | png | gif.",
-    "goodbye.imageSuccess": "Das eingebettete Bild für die Abschiedsnachricht wurde aktualisiert auf zu %s\n\nWenn Du fortfährst, erklärst Du dich damit einverstanden, dass das von Dir hochgeladene Bild den **[Nutzungsbedingungen von Discord](https://discord.com/terms)** entspricht. Alles, was hochgeladen wird, liegt in Deiner Verantwortung und Du werden dafür zur Verantwortung gezogen.",
-    "goodbye.messageDefault": "Die Abschiedsnachricht wurde zurückgesetzt.",
-    "goodbye.messageSuccess": "Die Abschiedsnachricht wurde aktualisiert auf:```%s```",
-    "goodbye.messageTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
-    "goodbye.pingIncorrect": "Erwähnungen für Abschiedsnachrichten aktivieren/deaktivieren.```/announce ping <on/off>```",
-    "goodbye.pingSuccess": "Abschieds-Erwähnungen wurden **%s** gesetzt.",
-    "goodbye.titleSuccess": "Der Titel der Abschiedsnachricht wurde aktualisiert auf:```%s```",
-    "goodbye.titleTooLong": "Die maximale Zeichenanzahl für den Titel beträgt 256, Du hast die Anzahl um **%s** überschritten.",
-    "goodbye.typeChannelSuccess": "Der Abschiedskanal wurde auf **%s** gesetzt.",
-    "goodbye.typeDefault": "Die Abschiedsnachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
-    "goodbye.typeDisabled": "Abschiedsnachrichten wurden **aus** gestellt.",
-    "goodbye.typeDm": "Die Abschiedsnachricht wurde auf **Direktnachricht** gesetzt.",
-    "goodbye.typeInvalidChannel": "Legt fest, wo die Abschiedsnachrichten gesendet werden.```/announce Typ <default/dm/off/reward/#channel>```",
-    "goodbye.typeOff": "Die Abschiedsnachricht wurde auf **aus** gesetzt.",
-    "goodbye.typeReward": "Die Abschiedsnachricht wird nur auf Level gesendet, die Mitglieder **belohnen**.",
-    "goodbye.typeSuccess": "Abschiedsnachrichten werden jetzt in **%s** gesendet.",
     "help.helpDescription": "Informationen über die verfügbaren Befehle",
     "help.helpUsage": [
       "Erhalte Informationen über einen bestimmten Befehl.```/help [command]```"
@@ -190,7 +259,6 @@
     "help.title": "Kyu's Hilfe Menü",
     "ignore.channelAddExists": "Kanal %s **ist bereits** auf der Ignoriert-Liste.",
     "ignore.channelAddSuccess": "%s wurde zur Ignoriert-Liste **hinzugefügt**.",
-    "ignore.channelNotExists": "Der Kanal kann nicht gefunden werden.",
     "ignore.channelRemoveNotExists": "Kanal %s ist **nicht** in der Ignoriert-Liste.",
     "ignore.channelRemoveSuccess": "Kanal %s wurde aus der Ignoriert-Liste **entfernt**.",
     "ignore.commandAddExists": "Befehl `%s` **ist bereits** in der Ignoriert-Liste.",
@@ -222,13 +290,15 @@
     "invite.helpUsage": [
       "Erhalte einen Link, um KyuBot zu deinem Server hinzuzufügen.```/invite```"
     ],
+    "koth.addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+    "koth.addExp": "User in %s position will earn `%s` experience.",
+    "koth.addRole": "User in %s position will earn %s role.",
     "koth.alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
     "koth.alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
-    "koth.badgeAdded": "Badge with name `%s` will be rewarded to user in %s position.",
     "koth.badgeInvalidName": "Unable to find a badge with the id `%s`.",
     "koth.disabled": "Koth ist derzeit auf diesem Server deaktiviert. Bitte die Admins Koth zu aktivieren.",
     "koth.enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
-    "koth.expAdded": "User in %s position will earn `%s` experience.",
+    "koth.endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
     "koth.helpDescription": "Eine temporäre Rangliste, die es dem Top-Mitglied ermöglicht, verschiedene Belohnungen zu verdienen.",
     "koth.helpUsage": [
       "Koth-Event starten/beenden.```/koth <start/end> [channel]```",
@@ -236,10 +306,10 @@
       "Zeigt die Koth-Rangliste für den Server an.```/koth leaderboard```"
     ],
     "koth.noWinners": "Es gibt nicht genug aktive Mitglieder in diesem Server, um Koth zu beenden.",
-    "koth.roleAdded": "User in %s position will earn %s role.",
+    "koth.removeInvalid": "Unable to find rewards for %s position.",
+    "koth.removePositionInvalid": "Unable to find %s reward set for %s position.",
+    "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "Koth-Startankündigung wurde in %s gesendet.",
-    "koth.started": "Koth hat begonnen",
-    "koth.winners": "Koth-Gewinner",
     "koth.winnersSent": "Die Bekanntgabe der Koth-Gewinner wurde in %s gesendet.",
     "leaderboard.helpDescription": "Zeigt die verschiedenen Bestenlisten für den Server an.",
     "leaderboard.helpUsage": [
@@ -260,6 +330,41 @@
     "lootbox.noneLeft": "Sieht so aus als hättest du keine Lootboxen mehr übrig. Stimme ab um mehr zu erhalten!",
     "lootbox.opened": "%sX Lootbox geöffnet!",
     "lootbox.serverDisabled": "Es scheint, als wären Lootboxen auf diesem Server deaktiviert <:KyuSad:948319004869668915>. Bitte einen Admin **Lootboxen zu aktivieren!!!**",
+    "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
+    "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
+    "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
+    "multiplier.channelRemoveSuccess": "Multiplier for channel %s has been removed.",
+    "multiplier.globalAddSuccess": "Global multiplier has been set to %s.",
+    "multiplier.globalRandomSuccess": "Global multiplier has been set to randomise between %s and %s.",
+    "multiplier.helpDescription": "Set multiplier for channels/roles.",
+    "multiplier.helpUsage": [
+      [
+        "Set multiplier for a text/voice channel.",
+        "```/multiplier set channel <#channel> <0-250> <0-250>```"
+      ],
+      [
+        "Set multiplier for a role in text/voice list.",
+        "```/multiplier set role <role> <0-250> <0-250> <for>```"
+      ],
+      [
+        "Delete multiplier for a text/voice channel.",
+        "```/multiplier delete channel```"
+      ],
+      [
+        "Delete multiplier for a role in text/voice list.",
+        "```/multiplier delete role <from>```"
+      ],
+      [
+        "Shows a list of current multiplier roles and channels.",
+        "```/multiplier show```"
+      ]
+    ],
+    "multiplier.invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
+    "multiplier.invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
+    "multiplier.roleAddSuccess": "Multiplier for role %s has been set to %s.",
+    "multiplier.roleNotIncluded": "Unable to find a multiplier for role %s for %s.",
+    "multiplier.roleRandomSuccess": "Multiplier for role %s has been set to randomise between %s and %s.",
+    "multiplier.roleRemoveSuccess": "Multiplier for role %s has been removed from %s multipliers.",
     "profile.backgroundDefaultSuccess": "Der Profilhintergrund wurde zurückgesetzt.",
     "profile.backgroundSuccess": "Der Hintergrund wurde in die Datenbank hochgeladen.",
     "profile.colorSuccess": "Die Profilfarbe wurde zu **%s** geändert.",
@@ -324,12 +429,12 @@
     "rewards.invalidLevel": "Unable to find a reward set for level `%s`.",
     "rewards.limit": "Es wurden zu viele Rollen eingerichtet. Derzeit können nur 30 Rollenbelohnungen eingerichtet werden.",
     "rewards.notExists": "Es kann keine Belohnung für Level %s gefunden werden.",
-    "rewards.removed": "Mitglieder erhalten keine Rolle mehr auf Level `%s`.",
-    "rewards.replace": "Rollen werden nun ersetzt.",
+    "rewards.replaceText": "All text rewards will now be replaced.",
+    "rewards.replaceVoice": "All voice rewards will now be replaced.",
     "rewards.roleAdded": "User will earn %s role when they reach text level %s.",
     "rewards.roleRemoved": "Role reward for level `%s` has been removed from text leveling.",
-    "rewards.stack": "Die Rollen werden nun gestapelt.",
-    "rewards.success": "Mitglieder erhalten jetzt die Rolle %s auf Level`%s`.",
+    "rewards.stackText": "All text rewards will now be stacked.",
+    "rewards.stackVoice": "All voice rewards will now be stacked.",
     "rewards.voiceBadgeAdded": "Badge with name `%s` will be rewarded to user when they reach voice level %s.",
     "rewards.voiceBadgeRemoved": "Badge reward for level `%s` has been removed from voice leveling.",
     "rewards.voiceExpAdded": "User will earn `%s` experience when they reach voice level %s.",
@@ -357,21 +462,6 @@
     "support.helpUsage": [
       "Erhalte einen Link, um dem Support-Server beizutreten.```/support```"
     ],
-    "test.helpDescription": "Teste Level-Up Nachrichten",
-    "test.helpUsage": [
-      "Teste Level-Up Nachrichten.```/test [level]```"
-    ],
-    "test.levelNotFound": "Es kann keine eingebettete Level-Up Nachricht für Level `%s` gefunden werden.",
-    "type.helpDescription": "Ändere die Einstellungen, wohin die Level-Up Nachrichten gesendet werden.",
-    "type.helpUsage": [
-      "Lege fest, wohin Level-Up Nachrichten gesendet werden.```/type set <default/dm//off/rewards>```",
-      "Sende Level-Up Nachrichten an einen bestimmten Kanal.```/type channel <channel>```"
-    ],
-    "type.successChannel": "Der Level-Up Kanal wurde auf **%s** eingestellt.`",
-    "type.successDefault": "Die Level-Up Nachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
-    "type.successDm": "Level-Up Nachrichten werden nun als **Direktnachricht** gesendet.",
-    "type.successOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
-    "type.successReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
     "voice.disabled": "Sprach-Exp wurde **deaktiviert**.",
     "voice.enabled": "Sprach-Exp wurde **aktiviert**.",
     "voice.helpDescription": "Einstellungen für Sprach-Exp ändern.",
@@ -394,13 +484,71 @@
       "Lege eine Rolle fest, die Mitglieder erhalten, wenn sie dem Server beitreten.```/welcome role <role>```",
       "Deaktiviere die Einstellung, damit Mitglieder beim Beitritt keine Rolle erhalten.```/welcome disable```"
     ],
+    "announce.messageDefault": "Die Level-Up Nachricht wurde zurückgesetzt.",
+    "announce.pingIncorrect": "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <on/off>```",
     "announce.variables": "Legt eine benutzerdefinierte Nachricht für Level-Up Nachrichten fest.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: Benutzer-Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: Benutzer-Nickname\n`{user.exp}`: Benutzer-Exp\n\n`{level}`: Erreichtes Level\n`{level.previous}`: Vorheriges Level\n`{level.previous.exp}`: Vorherige Level Exp\n`{level.next}`: Nächstes Level\n`{level.next.exp}`: Nächste Level Exp\n\n`{reward}`: Erhaltene Rolle\n`{reward.role.name}`: Erhaltener Rollenname\n`{reward.rolecount}`: Mitgliederanzahl mit der selben Rolle\n`{reward.rolecount.progess}`: Prozent der Rollen, die das Mitglied von allen verfügbaren Rollen hat\n`{reward.previous}`: Vorherige Rolle\n`{reward.next}`: Nächste Rolle\n\n`{server.name}`: Server Name\n`{server.id}`: Server ID\n`{server.icon}`: Server Symbol\n\n`{channel}`: Ankündigungskanal\n`{channel.name}`: Name des Ankündigungskanals\n`{channel.id}`: Ankündigungskanal ID\n\n`{date}`: Aktuelles Datum mit Uhrzeit (<t:%s:F>)",
+    "blacklist.channelAdded": "Kanal **%s** wurde zur Blacklist hinzugefügt.",
+    "blacklist.channelAlreadyBlacklisted": "%s Kanal ist bereits auf der Blacklist.",
+    "blacklist.channelList": "Blacklist-Kanäle: ```%s```",
+    "blacklist.channelNotBlacklisted": "%s Kanal ist nicht auf der Blacklist.",
+    "blacklist.channelRemoved": "Kanal **%s** wurde von der Blacklist entfernt.",
+    "blacklist.invalidChannelType": "Der angegebene Kanaltyp ist ungültig, bitte stelle sicher, dass der Kanaltyp `%s ` ist.",
+    "blacklist.notFound": "Rolle/Kanal kann mit Suchabfrage `%s` nicht gefunden werden. Stelle sicher, dass die angegebene Abfrage korrekt ist.",
+    "blacklist.roleAdded": "Rolle **%s** wurde zur Blacklist hinzugefügt.",
+    "blacklist.roleAlreadyBlacklisted": "%s Kanal ist bereits auf der Blacklist.",
+    "blacklist.roleList": "Blacklist-Rollen: ```%s```",
+    "blacklist.roleListEmpty": "Keine Rollen auf der Blacklist.",
+    "blacklist.roleNotBlacklisted": "%s Rolle ist nicht auf der Blacklist.",
+    "blacklist.roleRemoved": "Rolle **%s** wurde von der Blacklist entfernt.",
     "embed.customiseRemoveInvalidLevel": "Es existiert keine Level-Up Nachricht für Level %s.",
+    "goodbye.clearSuccess": "Die Erfahrung %s beim Verlassen des Servers gelöscht.",
+    "goodbye.embedColorIncorrect": "Die angegebene Farbe ist keine gültige Hex-Farbe (#6CFFAC).",
+    "goodbye.embedColorSuccess": "Die Farbe der Einbettung für die Abschiedsnachricht wurde auf **%s** aktualisiert.",
+    "goodbye.embedToggle": "Einbettung für Abschiedsnachrichten wurde **%s**.",
+    "goodbye.imageIncorrect": "Der angegebene Link ist kein Bild, bitte gib einen gültigen Bildlink an. Diese Bildtypen werden derzeit unterstützt: jpg | jpeg | png | gif.",
+    "goodbye.imageSuccess": "Das eingebettete Bild für die Abschiedsnachricht wurde aktualisiert auf zu %s\n\nWenn Du fortfährst, erklärst Du dich damit einverstanden, dass das von Dir hochgeladene Bild den **[Nutzungsbedingungen von Discord](https://discord.com/terms)** entspricht. Alles, was hochgeladen wird, liegt in Deiner Verantwortung und Du werden dafür zur Verantwortung gezogen.",
+    "goodbye.messageDefault": "Die Abschiedsnachricht wurde zurückgesetzt.",
+    "goodbye.messageSuccess": "Die Abschiedsnachricht wurde aktualisiert auf:```%s```",
+    "goodbye.messageTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
+    "goodbye.pingIncorrect": "Erwähnungen für Abschiedsnachrichten aktivieren/deaktivieren.```/announce ping <on/off>```",
+    "goodbye.pingSuccess": "Abschieds-Erwähnungen wurden **%s** gesetzt.",
+    "goodbye.titleSuccess": "Der Titel der Abschiedsnachricht wurde aktualisiert auf:```%s```",
+    "goodbye.titleTooLong": "Die maximale Zeichenanzahl für den Titel beträgt 256, Du hast die Anzahl um **%s** überschritten.",
+    "goodbye.typeChannelSuccess": "Der Abschiedskanal wurde auf **%s** gesetzt.",
+    "goodbye.typeDefault": "Die Abschiedsnachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
+    "goodbye.typeDisabled": "Abschiedsnachrichten wurden **aus** gestellt.",
+    "goodbye.typeDm": "Die Abschiedsnachricht wurde auf **Direktnachricht** gesetzt.",
+    "goodbye.typeInvalidChannel": "Legt fest, wo die Abschiedsnachrichten gesendet werden.```/announce Typ <default/dm/off/reward/#channel>```",
+    "goodbye.typeOff": "Die Abschiedsnachricht wurde auf **aus** gesetzt.",
+    "goodbye.typeReward": "Die Abschiedsnachricht wird nur auf Level gesendet, die Mitglieder **belohnen**.",
+    "goodbye.typeSuccess": "Abschiedsnachrichten werden jetzt in **%s** gesendet.",
     "goodbye.variables": "Legt eine benutzerdefinierte Nachricht für Level-Up Nachrichten fest.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: Benutzer-Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: Benutzer-Nickname\n`{user.exp}`: Benutzer-Exp\n\n`{level}`: Erreichtes Level\n`{level.previous}`: Vorheriges Level\n`{level.previous.exp}`: Vorherige Level Exp\n`{level.next}`: Nächstes Level\n`{level.next.exp}`: Nächste Level Exp\n\n`{reward}`: Erhaltene Rolle\n`{reward.role.name}`: Erhaltener Rollenname\n`{reward.rolecount}`: Mitgliederanzahl mit der selben Rolle\n`{reward.rolecount.progess}`: Prozent der Rollen, die das Mitglied von allen verfügbaren Rollen hat\n`{reward.previous}`: Vorherige Rolle\n`{reward.next}`: Nächste Rolle\n\n`{server.name}`: Server Name\n`{server.id}`: Server ID\n`{server.icon}`: Server Symbol\n\n`{channel}`: Ankündigungskanal\n`{channel.name}`: Name des Ankündigungskanals\n`{channel.id}`: Ankündigungskanal ID\n\n`{date}`: Aktuelles Datum mit Uhrzeit (<t:%s:F>)",
+    "ignore.channelNotExists": "Der Kanal kann nicht gefunden werden.",
     "koth.disable": "KOTH ist bereits deaktiviert.",
     "koth.enable": "KOTH hat begonnen! Hole Dir die Krone 👑!",
     "koth.enableReward": "KOTH wurde gestartet! Top-Mitglied erhält die Rolle %s.",
     "koth.rewardAddSuccess": "Der Koth-Gewinner erhält Rolle %s beim Zurücksetzen von Koth.",
+    "koth.started": "Koth hat begonnen",
+    "koth.winners": "Koth-Gewinner",
+    "rewards.removed": "Mitglieder erhalten keine Rolle mehr auf Level `%s`.",
+    "rewards.replace": "Rollen werden nun ersetzt.",
+    "rewards.stack": "Die Rollen werden nun gestapelt.",
+    "rewards.success": "Mitglieder erhalten jetzt die Rolle %s auf Level`%s`.",
+    "test.helpDescription": "Teste Level-Up Nachrichten",
+    "test.helpUsage": [
+      "Teste Level-Up Nachrichten.```/test [level]```"
+    ],
+    "test.levelNotFound": "Es kann keine eingebettete Level-Up Nachricht für Level `%s` gefunden werden.",
+    "type.helpDescription": "Ändere die Einstellungen, wohin die Level-Up Nachrichten gesendet werden.",
+    "type.helpUsage": [
+      "Lege fest, wohin Level-Up Nachrichten gesendet werden.```/type set <default/dm//off/rewards>```",
+      "Sende Level-Up Nachrichten an einen bestimmten Kanal.```/type channel <channel>```"
+    ],
+    "type.successChannel": "Der Level-Up Kanal wurde auf **%s** eingestellt.`",
+    "type.successDefault": "Die Level-Up Nachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
+    "type.successDm": "Level-Up Nachrichten werden nun als **Direktnachricht** gesendet.",
+    "type.successOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
+    "type.successReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
     "voice.channelAddSuccess": "Kanal %s wurde zur Blacklist **hinzugefügt**.",
     "voice.channelIncluded": "Kanal %s **ist bereits** auf der schwarzen Liste.",
     "voice.channelNotIncluded": "Kanal %s ist **nicht** auf der Blacklist.",
@@ -411,52 +559,96 @@
     "voice.roleRemoveSuccess": "Rolle %s wurde aus der Blacklist **entfernt**."
   },
   "en-GB": {
+    "announce.channelNotFound": "Unable to find the given channel for announcement.",
     "announce.clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
     "announce.clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
     "announce.clearSuccessDisabled": "Announcement messages will no longer to deleted.",
     "announce.helpDescription": "Change settings for level up announcement messages.",
     "announce.helpUsage": [
-      "Change the custom message or find out more information.```/announce message custom <text>\n/announce message default\n/announce message variables```",
-      "Enable/disable pings for announcement messages.```/announce ping <setting>```",
-      "Test the current announcement message.```/announce test```"
+      [
+        "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+        "```/announce clear <30-300>```"
+      ],
+      [
+        "Set the description for the embed/message.",
+        "```/announce custom <text>```"
+      ],
+      [
+        "Enable/disable pings for announcement messages.",
+        "```/announce ping <enable/disable>```"
+      ],
+      [
+        "Test the announce for a specific level or the global announce.",
+        "```/announce test <level>```"
+      ],
+      [
+        "Set the channel announcements should be sent to.",
+        "```/announce type channel #channel```"
+      ],
+      [
+        "Set how announcements should be sent when a user levels up.",
+        "```/announce type set <default/dm/off/rewards>```"
+      ],
+      [
+        "Get a list of variables for announcements.",
+        "```/announce variables```"
+      ]
     ],
-    "announce.messageDefault": "Announcement message has been reset back to basic message.",
+    "announce.levelupSuccess": "%s has been sent announcement message.",
     "announce.messageSuccess": "Announcement message has been updated to:```%s```",
     "announce.messageTooLong": "Max character count is 1250, you are over the count by **%s**.",
-    "announce.pingIncorrect": "Enable/disable pings for announcement messages.```/announce ping <on/off>```",
     "announce.pingSuccessDisabled": "Announcement pings have been set to **disabled**.",
     "announce.pingSuccessEnabled": "Announcement pings have been set to **enabled**.",
     "announce.typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
-    "announce.typeSuccessChannel": "Announcements channel has been set to **%s**.",
+    "announce.typeOff": "Announcements are disabled in this guild.",
+    "announce.typeSuccessChannel": "Announcements will now be sent to %s.",
     "announce.typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
     "announce.typeSuccessDm": "Announcements have been set to **dm**.",
     "announce.typeSuccessOff": "Announcements have been set to **off**.",
     "announce.typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
     "badge.alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
-    "badge.alreadyExists": "A badge with id `%s` already exists. Please enter another name.",
-    "badge.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-    "badge.invalidName": "Unable to find a badge with the id `%s`.",
+    "badge.alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
+    "badge.helpDescription": "Add/remove custom badges from the server.",
+    "badge.helpUsage": [
+      [
+        "Add a new badge to the server.",
+        "```/badge add <name> <url>```"
+      ],
+      [
+        "Delete a current badge from the server.",
+        "```/badge add <name>```"
+      ],
+      [
+        "Show a list of the available badges in this server.",
+        "```/badge show```"
+      ]
+    ],
+    "badge.invalidName": "Unable to find a badge with the ID `%s`.",
     "badge.successAdded": "Badge with name `%s` has been added to this server.",
     "badge.successRemoved": "`%s` badge has been removed from the server.",
-    "blacklist.channelAdded": "Channel **%s** has been blacklisted.",
-    "blacklist.channelAlreadyBlacklisted": "%s channel is already blacklisted.",
-    "blacklist.channelList": "Blacklisted channels:```%s```",
-    "blacklist.channelNotBlacklisted": "%s channel is not blacklisted.",
-    "blacklist.channelRemoved": "Channel **%s** has been removed from the blacklist.",
     "blacklist.helpDescription": "Blacklist channels/roles from gaining exp.",
     "blacklist.helpUsage": [
-      "Adds/removes a channel to the blacklist.```/blacklist channel <add/remove> <channel>```",
-      "Adds/removes a role to the blacklist.```/blacklist role <add/remove> <role>```",
-      "Shows a list of currently blacklisted roles and channels.```/blacklist show```"
+      [
+        "Adds/removes a text channel to the text blacklist.",
+        "```/blacklist text channel <add/remove> <channel>```"
+      ],
+      [
+        "Adds/removes a role to the text blacklist.",
+        "```/blacklist text role <add/remove> <role>```"
+      ],
+      [
+        "Adds/removes a voice channel to the voice blacklist.",
+        "```/blacklist voice channel <add/remove> <channel>```"
+      ],
+      [
+        "Adds/removes a role to the voice blacklist.",
+        "```/blacklist voice role <add/remove> <role>```"
+      ],
+      [
+        "Shows a list of currently blacklisted roles and channels.",
+        "```/blacklist show```"
+      ]
     ],
-    "blacklist.invalidChannelType": "Given channel type is invalid, please make sure channel type is `%s`.",
-    "blacklist.notFound": "Unable to find role/channel using search query `%s`. Make sure the given query is correct.",
-    "blacklist.roleAdded": "Role **%s** has been blacklisted.",
-    "blacklist.roleAlreadyBlacklisted": "%s is already blacklisted.",
-    "blacklist.roleList": "Blacklisted roles:```%s```",
-    "blacklist.roleListEmpty": "There are no blacklisted roles.",
-    "blacklist.roleNotBlacklisted": "%s role is not blacklisted.",
-    "blacklist.roleRemoved": "Role **%s** has been removed from the blacklist.",
     "blacklist.textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
     "blacklist.textChannelIncluded": "Channel %s is **already** in text blacklist.",
     "blacklist.textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
@@ -480,7 +672,7 @@
     "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible!",
     "common.addKyu": "Add Kyu",
     "common.clickHere": "Click Here",
-    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. Please join our [support server](https://kyubot.com/support) to stay up to date.",
+    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
     "common.confirm": "Confirm",
     "common.decline": "Decline",
     "common.docs": "Kyu Docs",
@@ -491,7 +683,9 @@
     "common.footer": "Type `/help %s` for more help. For example, /help help",
     "common.guildPremium": "This feature is only available for premium guilds.\n\nIf you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing, and creating content updates for the bot.\n\n**Premium Perks**\n\n- Customise rank cards for all members\n- Configure global, channel, or role multiplier for text/voice exp\n- Configure cooldown for text/voice exp\n- Disable voting exp booster\n- Enable lootbox events\n- Automatic leaderboard updates in a specific channel\n- Configure server leaderboard as an image\n- Access to music player (Experimental feature)\n- Sneak peaks/Early access to new features\n- Donator badge for rank card\n\n**Dashboard perks**\n\n- Custom vanity url for server leaderboard\n- Custom banner for server leaderboard\n- Join server button on the server leaderboard",
     "common.hierarchyError": "Make sure KyuBot's role is above %s in the role hierarchy.",
+    "common.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
     "common.invite": "Invite",
+    "common.kyuDashboard": "Kyu Dashboard",
     "common.kyuPremium": "Kyu Premium",
     "common.next": "Next",
     "common.previous": "Previous",
@@ -503,6 +697,90 @@
     "common.variables": "Sets a custom message for announcement messages.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
     "common.vote": "Vote",
     "common.voteForKyu": "Vote for Kyu",
+    "config.amount": "Amount of users shown on the leaderboard has been set to %s.",
+    "config.backgroundSuccess": "Background has been uploaded to the database.",
+    "config.colorSuccess": "Profile color has been updated to **%s**.",
+    "config.expboosterDisabled": "Exp booster has been disabled for this server.",
+    "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+    "config.helpDescription": "Configure various settings for the server.",
+    "config.helpUsage": [
+      [
+        "Set if voting expbooster should be enabled/disabled.",
+        "```/config expbooster <true/false>```"
+      ],
+      [
+        "Set an admin role for the server. Members with these roles can config the bot.",
+        "```/config adminrole @role```"
+      ],
+      [
+        "Set the background for the leaderboard image.",
+        "```/config leaderboard background <url>```"
+      ],
+      [
+        "Set the amount of users shown on the leaderboard.",
+        "```/config leaderboard amount <1-10>```"
+      ],
+      [
+        "Set the color for the leaderboard.",
+        "```/config leaderboard color <color>```"
+      ],
+      [
+        "Set if leaderboard should be an embed or an image.",
+        "```/config leaderboard image <setting>```"
+      ],
+      [
+        "Set the opacity for the leaderboard image.",
+        "```/config leaderboard opacity <percentage>```"
+      ],
+      [
+        "Set the overlay for the leaderboard image.",
+        "```/config leaderboard overlay <url>```"
+      ],
+      [
+        "Set the theme for the leaderboard image.",
+        "```/config leaderboard theme <theme>```"
+      ],
+      [
+        "Set the max level users can achieve in this server.",
+        "```/config maxlevel <level>```"
+      ]
+    ],
+    "config.invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
+    "config.opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
+    "config.overlaySuccess": "Background has been uploaded to the database.",
+    "config.setAdminRole": "Users with role %s can now manage the bot in this server.",
+    "config.setMaxlevel": "Max level for the server has been set to %s.",
+    "config.themeSuccess": "Leaderboard image theme has been set to `%s`.",
+    "config.typeDisabled": "Leaderboard will now be sent as an embed.",
+    "config.typeEnabled": "Leaderboard will now be sent as an image.",
+    "cooldown.channelAddSuccess": "Cooldown for channel %s has been set to **%s**.",
+    "cooldown.channelRemoveSuccess": "Channel %s has been **removed** from cooldown.",
+    "cooldown.globalSetSuccess": "Global cooldown for %s has been set to %s.",
+    "cooldown.helpDescription": "Change global cooldown or for channels/roles.",
+    "cooldown.helpUsage": [
+      [
+        "Set cooldown for a text/voice channel.",
+        "```/cooldown add channel <channel> <seconds>```"
+      ],
+      [
+        "Set cooldown for a role in text/voice.",
+        "```/cooldown add role <role> <seconds> <for>```"
+      ],
+      [
+        "Remove cooldown from a text/voice channel.",
+        "```/cooldown remove channel <channel> <from>```"
+      ],
+      [
+        "Remove cooldown role from text/voice.",
+        "```/cooldown remove role <role> <from>```"
+      ],
+      [
+        "Show a list of the currently set cooldowns.",
+        "```/cooldown show```"
+      ]
+    ],
+    "cooldown.roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
+    "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
     "dm.helpDescription": "Enable/disable dms from Kyubot for announcements in all servers",
     "dm.helpUsage": [
       "Enable/disable dms from Kyubot for announcements in all servers.```/dm <disable/enable>"
@@ -533,13 +811,46 @@
     "embed.descriptionUpdated": "Announcement message has been updated to:```%s```",
     "embed.helpDescription": "Change settings for announcements.",
     "embed.helpUsage": [
-      "Sets if announcements are sent with embeds or without.```/embed toggle <disable/enable> [level]```",
-      "Enable/disable pings for announcement messages.```/embed ping disable/enable> [level]```",
-      "Customise the embed different sections of embeds.```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```",
-      "Add an embed for a specific level.```/embed add <level>```",
-      "Remove an embed for a specific level.```/embed remove <level>```",
-      "Test the current announcement message.```/embed test [level]```",
-      "Get a list of all the variables available for KyuBot.```/embed variables```"
+      [
+        "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+        "```/embed clear <30-300>```"
+      ],
+      [
+        "Create a custom embed for a specific level.",
+        "```/embed create <level>```"
+      ],
+      [
+        "Customise different sections for the announcement message.",
+        "```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```"
+      ],
+      [
+        "Delete a custom embed for a specific level.",
+        "```/embed delete <level>```"
+      ],
+      [
+        "Enable/disable pings for announcement messages.",
+        "```/embed ping <true/false> <level>```"
+      ],
+      [
+        "Test the announce for a specific level or the global announce.",
+        "```/embed test <level>```"
+      ],
+      [
+        "Set if announcement should be sent as an embed or message.",
+        "```/embed toggle <true/false> <level>```"
+      ],
+      [
+        "Set the channel announcements should be sent to.",
+        "```/embed type channel #channel <level>```"
+      ],
+      [
+        "Set how announcements should be sent when a user levels up.",
+        "```/embed type set <default/dm/off/rewards> <level>```"
+      ],
+      [
+        "Get a list of variables for announcements.",
+        "```/embed variables```"
+      ]
     ],
     "embed.imageInvalid": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg | jpeg | png | gif.",
     "embed.imageUpdated": "Announcement embed image has been updated to %s\n\nBy continuing you understand the image you are uploading follows the **[Discord's Terms of Service](https://discord.com/terms)**. Anything that is uploaded is your responsibility and you will be held accountable for it.",
@@ -569,31 +880,15 @@
     "givexp.success": "%s has been given **%s** exp.",
     "givexp.userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
     "givexp.userNotPremium": "This feature is only available for donator. Find out more information using `donate`",
-    "goodbye.clearSuccess": "Member experience %s be cleared upon leaving the server.",
-    "goodbye.embedColorIncorrect": "Given color is not a valid hex color (#6CFFAC).",
-    "goodbye.embedColorSuccess": "Embed color for goodbye has been updated to **%s**.",
-    "goodbye.embedToggle": "Embeds have been **%s** for goodbye.",
+    "goodbye.clearDisabled": "Member will no long lose experience upon leaving the server.",
+    "goodbye.clearEnabled": "Member experience will be cleared upon leaving the server.",
     "goodbye.helpDescription": "Change settings for when users leave the guild.",
     "goodbye.helpUsage": [
-      "Change setting for exp to be cleared upon user leaving.```/goodbye clear <on/off>```"
+      [
+        "Change setting for exp to be cleared upon user leaving.",
+        "```/goodbye clear <on/off>```"
+      ]
     ],
-    "goodbye.imageIncorrect": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-    "goodbye.imageSuccess": "Goodbye embed image has been updated to %s\n\nBy continuing you understand the image you are uploading follows the **[Discord's Terms of Service](https://discord.com/terms)**. Anything that is uploaded is your responsibility and you will be held accountable for it.",
-    "goodbye.messageDefault": "Goodbye message has been reset back to basic message.",
-    "goodbye.messageSuccess": "Goodbye message has been updated to:```%s```",
-    "goodbye.messageTooLong": "Max character count is 1250, you are over the count by **%s**.",
-    "goodbye.pingIncorrect": "Enable/disable pings for goodbye messages.```/announce ping <on/off>```",
-    "goodbye.pingSuccess": "Goodbye pings have been set to **%s**.",
-    "goodbye.titleSuccess": "Goodbye title has been updated to:```%s```",
-    "goodbye.titleTooLong": "Max character count is 256 for title, you are over the count by **%s**.",
-    "goodbye.typeChannelSuccess": "Goodbye channel has been set to **%s**.",
-    "goodbye.typeDefault": "Goodbye will now appear in the **channel the user levels up in**.",
-    "goodbye.typeDisabled": "Goodbye messages have been set to **off**.",
-    "goodbye.typeDm": "Goodbye have been set to **dm**.",
-    "goodbye.typeInvalidChannel": "Sets where goodbye messages are sent.```/announce type <default/dm/off/reward/#channel>```",
-    "goodbye.typeOff": "Goodbye have been set to **off**.",
-    "goodbye.typeReward": "Goodbye will only be sent on levels which **reward** members.",
-    "goodbye.typeSuccess": "Goodbye messages will now be sent to **%s**.",
     "help.helpDescription": "Information about the available commands",
     "help.helpUsage": [
       "Get information about a specific command.```/help [command]```"
@@ -601,7 +896,6 @@
     "help.title": "Kyu's Help Menu",
     "ignore.channelAddExists": "Channel %s is **already** in ignored list.",
     "ignore.channelAddSuccess": "%s has been **added** to the ignored list.",
-    "ignore.channelNotExists": "Unable to find provided channel.",
     "ignore.channelRemoveNotExists": "Channel %s is **not** in ignored list.",
     "ignore.channelRemoveSuccess": "Channel %s has been **removed** from ignore list.",
     "ignore.commandAddExists": "Command `%s` is **already** in ignored list.",
@@ -612,9 +906,18 @@
     "ignore.commandRemoveSuccess": "Command `%s` has been **removed** from ignore list.",
     "ignore.helpDescription": "Ignore channels/commands when they are ran.",
     "ignore.helpUsage": [
-      "Adds/removes a channel to the ignored list.```/ignore channel <add/remove> <channel>```",
-      "Adds/removes a command to the ignored list.```/ignore command <add/remove> <command>```",
-      "Shows a list of currently ignored commands and channels.```/ignore show```"
+      [
+        "Adds/removes a channel to the ignored list.",
+        "```/ignore channel <add/remove> <channel>```"
+      ],
+      [
+        "Adds/removes a command to the ignored list.",
+        "```/ignore command <add/remove> <command>```"
+      ],
+      [
+        "Shows a list of currently ignored commands and channels.",
+        "```/ignore show```"
+      ]
     ],
     "import.cancelledDescription": "Levels import have been cancelled.",
     "import.cancelledTitle": "Level import cancelled!",
@@ -633,24 +936,35 @@
     "invite.helpUsage": [
       "Get a link to add KyuBot to your server.```/invite```"
     ],
+    "koth.addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+    "koth.addExp": "User in %s position will earn `%s` experience.",
+    "koth.addRole": "User in %s position will earn %s role.",
     "koth.alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
     "koth.alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
-    "koth.badgeAdded": "Badge with name `%s` will be rewarded to user in %s position.",
     "koth.badgeInvalidName": "Unable to find a badge with the id `%s`.",
     "koth.disabled": "KOTH is already disabled.",
     "koth.enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
-    "koth.expAdded": "User in %s position will earn `%s` experience.",
+    "koth.endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
     "koth.helpDescription": "A temporary leaderboard, which allows the top member to earn different rewards.",
     "koth.helpUsage": [
-      "Start/end koth event.```/koth <start/end> [channel]```",
-      "Set a reward for the top member of the koth leaderbaord.```/koth reward <role>```",
-      "Shows the koth leaderboard for the server.```/koth leaderboard```"
+      [
+        "Start/end koth event.",
+        "```/koth <start/end> [channel]```"
+      ],
+      [
+        "Set a reward for the top member of the koth leaderbaord.",
+        "```/koth reward <role>```"
+      ],
+      [
+        "Shows the koth leaderboard for the server.",
+        "```/koth leaderboard```"
+      ]
     ],
     "koth.noWinners": "Not enough active users in this guild to end KOTH.",
-    "koth.roleAdded": "User in %s position will earn %s role.",
+    "koth.removeInvalid": "Unable to find rewards for %s position.",
+    "koth.removePositionInvalid": "Unable to find %s reward set for %s position.",
+    "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "KOTH starting announcement has been sent to %s.",
-    "koth.started": "KOTH Started",
-    "koth.winners": "KOTH Winners",
     "koth.winnersSent": "Koth winners announcement has been sent to %s.",
     "leaderboard.helpDescription": "Shows the different leaderboards for the server.",
     "leaderboard.helpUsage": [
@@ -671,6 +985,41 @@
     "lootbox.noneLeft": "Seems like you don't have any lootboxes left. Vote to earn more!",
     "lootbox.opened": "%sX lootbox opened!",
     "lootbox.serverDisabled": "Seems like lootboxes are disabled in this server <:KyuSad:948319004869668915>. Ask server admin to **enable lootboxes!!!**",
+    "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
+    "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
+    "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
+    "multiplier.channelRemoveSuccess": "Multiplier for channel %s has been removed.",
+    "multiplier.globalAddSuccess": "Global multiplier has been set to %s.",
+    "multiplier.globalRandomSuccess": "Global multiplier has been set to randomise between %s and %s.",
+    "multiplier.helpDescription": "Set multiplier for channels/roles.",
+    "multiplier.helpUsage": [
+      [
+        "Set multiplier for a text/voice channel.",
+        "```/multiplier set channel <#channel> <0-250> <0-250>```"
+      ],
+      [
+        "Set multiplier for a role in text/voice list.",
+        "```/multiplier set role <role> <0-250> <0-250> <for>```"
+      ],
+      [
+        "Delete multiplier for a text/voice channel.",
+        "```/multiplier delete channel```"
+      ],
+      [
+        "Delete multiplier for a role in text/voice list.",
+        "```/multiplier delete role <from>```"
+      ],
+      [
+        "Shows a list of current multiplier roles and channels.",
+        "```/multiplier show```"
+      ]
+    ],
+    "multiplier.invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
+    "multiplier.invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
+    "multiplier.roleAddSuccess": "Multiplier for role %s has been set to %s.",
+    "multiplier.roleNotIncluded": "Unable to find a multiplier for role %s for %s.",
+    "multiplier.roleRandomSuccess": "Multiplier for role %s has been set to randomise between %s and %s.",
+    "multiplier.roleRemoveSuccess": "Multiplier for role %s has been removed from %s multipliers.",
     "profile.backgroundDefaultSuccess": "Profile background has been set back to default.",
     "profile.backgroundSuccess": "Background has been uploaded to the database.",
     "profile.colorSuccess": "Profile color has been updated to **%s**.",
@@ -683,7 +1032,7 @@
       "Change the background for your rank card.```/profile background <url>```",
       "Change the overlay for your rank card.```/profile opacity <url>```"
     ],
-    "profile.imageInvalid": "Given link is not an image, please provide a valid image link.",
+    "profile.imageInvalid": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
     "profile.isNotColor": "Unable to find the given color '%s'. Please select a color from one of the following colors:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
     "profile.isNotHex": "Color '%s' is not a hex color. Please make sure the color follows a hex color format (#6cffac).",
     "profile.nsfwWarning": "WARNING! NSFW images can result in a ban from our bot.",
@@ -735,12 +1084,12 @@
     "rewards.invalidLevel": "Unable to find a reward set for level `%s`.",
     "rewards.limit": "Too many roles have been set up. Currently only 25 role rewards can be setup.",
     "rewards.notExists": "Unable to find a reward for level %s.",
-    "rewards.removed": "Members will no longer gain a role at level `%s`.",
-    "rewards.replace": "Roles will now be replaced.",
+    "rewards.replaceText": "All text rewards will now be replaced.",
+    "rewards.replaceVoice": "All voice rewards will now be replaced.",
     "rewards.roleAdded": "User will earn %s role when they reach text level %s.",
     "rewards.roleRemoved": "Role reward for level `%s` has been removed from text leveling.",
-    "rewards.stack": "Roles will now be stacked.",
-    "rewards.success": "Members will now gain role %s at level `%s`.",
+    "rewards.stackText": "All text rewards will now be stacked.",
+    "rewards.stackVoice": "All voice rewards will now be stacked.",
     "rewards.voiceBadgeAdded": "Badge with name `%s` will be rewarded to user when they reach voice level %s.",
     "rewards.voiceBadgeRemoved": "Badge reward for level `%s` has been removed from voice leveling.",
     "rewards.voiceExpAdded": "User will earn `%s` experience when they reach voice level %s.",
@@ -768,30 +1117,26 @@
     "support.helpUsage": [
       "Get a link to join the support server.```/support```"
     ],
-    "test.helpDescription": "Test custom announcements",
-    "test.helpUsage": [
-      "Test custom announcements.```/test [level]```"
-    ],
-    "test.levelNotFound": "Unable to find an announcement embed for level `%s`.",
-    "type.helpDescription": "Change settings for where the announcements are sent.",
-    "type.helpUsage": [
-      "Set where announcement messages are sent.```/type set <default/dm//off/rewards>```",
-      "Direct announcements messages to a specific channel.```/type channel <channel>```"
-    ],
-    "type.successChannel": "Announcements channel has been set to **%s**.`",
-    "type.successDefault": "Announcements will now appear in the **channel the user levels up in**.",
-    "type.successDm": "Announcements have been set to **dm**.",
-    "type.successOff": "Announcements have been set to **off**.",
-    "type.successReward": "Announcements will only be sent on levels which **reward** members.",
     "voice.disabled": "Voice exp has been **disabled**.",
     "voice.enabled": "Voice exp has been **enabled**.",
     "voice.helpDescription": "Change settings for voice exp.",
     "voice.helpUsage": [
-      "Blacklist a channel from gaining exp.```/voice blacklist channel <add/remove> <channel>```",
-      "Blacklist a role from gaining exp.```/voice blacklist role <add/remove> <role>```",
-      "Enable or disable voice exp.```/voice setting <enable/disable>```",
-      "Shows the voice leaderboard for the server.```/voice leaderboard```",
-      "Show a list of the currently blacklisted channels/roles.```/voice show```"
+      [
+        "Enable voice leveling system for the server.",
+        "```/voice enable```"
+      ],
+      [
+        "Disable voice leveling system for the server.",
+        "```/voice disable```"
+      ],
+      [
+        "Shows the voice leaderboard for the server.",
+        "```/voice leaderboard```"
+      ],
+      [
+        "Show a list of the currently blacklisted channels/roles.",
+        "```/voice show```"
+      ]
     ],
     "vote.helpDescription": "Get a link to vote for KyuBot",
     "vote.helpUsage": [
@@ -802,11 +1147,18 @@
     "welcome.enable": "Users will now get the role %s upon joining the server.",
     "welcome.helpDescription": "Change settings for when users joins the server.",
     "welcome.helpUsage": [
-      "Set a role for users to gain upon joinging the server.```/welcome role <role>```",
-      "Disable settings for users to gain a role upon joining.```/welcome disable```"
+      [
+        "Set a role for users to gain upon joinging the server.",
+        "```/welcome role <role>```"
+      ],
+      [
+        "Disable settings for users to gain a role upon joining.",
+        "```/welcome disable```"
+      ]
     ]
   },
   "es-ES": {
+    "announce.channelNotFound": "Unable to find the given channel for announcement.",
     "announce.clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
     "announce.clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
     "announce.clearSuccessDisabled": "Announcement messages will no longer to deleted.",
@@ -816,43 +1168,44 @@
       "Habilitar/deshabilitar pings para mensajes de anuncio.",
       "Pruebe el mensaje de anuncio actual."
     ],
-    "announce.messageDefault": "El mensaje de anuncio se ha restablecido al mensaje básico.",
+    "announce.levelupSuccess": "%s has been sent announcement message.",
     "announce.messageSuccess": "El mensaje de anuncio se ha actualizado a: `` `%S```",
     "announce.messageTooLong": "El recuento de personajes máximos es 1250, ya está superado por **%s **.",
-    "announce.pingIncorrect": "Habilitar/deshabilitar pings para mensajes de anuncio.",
     "announce.pingSuccessDisabled": "Los pings de anuncio se han establecido en ** discapacitado **.",
     "announce.pingSuccessEnabled": "El anuncio se ha establecido pings en ** habilitado **.",
     "announce.typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
-    "announce.typeSuccessChannel": "Announcements channel has been set to **%s**.",
+    "announce.typeOff": "Announcements are disabled in this guild.",
+    "announce.typeSuccessChannel": "Announcements will now be sent to %s.",
     "announce.typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
     "announce.typeSuccessDm": "Announcements have been set to **dm**.",
     "announce.typeSuccessOff": "Announcements have been set to **off**.",
     "announce.typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
     "badge.alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
-    "badge.alreadyExists": "A badge with id `%s` already exists. Please enter another name.",
-    "badge.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-    "badge.invalidName": "Unable to find a badge with the id `%s`.",
+    "badge.alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
+    "badge.helpDescription": "Add/remove custom badges from the server.",
+    "badge.helpUsage": [
+      [
+        "Add a new badge to the server.",
+        "```/badge add <name> <url>```"
+      ],
+      [
+        "Delete a current badge from the server.",
+        "```/badge add <name>```"
+      ],
+      [
+        "Show a list of the available badges in this server.",
+        "```/badge show```"
+      ]
+    ],
+    "badge.invalidName": "Unable to find a badge with the ID `%s`.",
     "badge.successAdded": "Badge with name `%s` has been added to this server.",
     "badge.successRemoved": "`%s` badge has been removed from the server.",
-    "blacklist.channelAdded": "Channel **%s ** ha sido lista negra.",
-    "blacklist.channelAlreadyBlacklisted": "%s canal ya está en la lista negra.",
-    "blacklist.channelList": "Canales en la lista negra: `` `%S```",
-    "blacklist.channelNotBlacklisted": "%S El canal no está en la lista negra.",
-    "blacklist.channelRemoved": "El canal **%S ** se ha eliminado de la lista negra.",
     "blacklist.helpDescription": "Canales/roles de lista negra al obtener exp.",
     "blacklist.helpUsage": [
       "Agrega/elimina un canal a Blacklist.'```/Blacklist Channel <add/remove> <nannel> `` ``",
       "Agrega/elimina un papel a la lista negra.'``/Blacklist rol <add/remove> <sol> `` `` `` `` `` `` `` `",
       "Muestra una lista de roles y canales de la lista negra actualmente."
     ],
-    "blacklist.invalidChannelType": "El tipo de canal dado no es válido, asegúrese de que el tipo de canal sea `%S`.",
-    "blacklist.notFound": "No se puede encontrar el rol/canal utilizando la consulta de búsqueda `%S`.Asegúrese de que la consulta dada sea correcta.",
-    "blacklist.roleAdded": "Rol **%s ** ha sido lista negra.",
-    "blacklist.roleAlreadyBlacklisted": "%s ya está en la lista negra.",
-    "blacklist.roleList": "Roles en la lista negra: `` `%S```",
-    "blacklist.roleListEmpty": "No hay roles en la lista negra.",
-    "blacklist.roleNotBlacklisted": "%S El papel no está en la lista negra.",
-    "blacklist.roleRemoved": "Rol **%s ** se ha eliminado de la lista negra.",
     "blacklist.textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
     "blacklist.textChannelIncluded": "Channel %s is **already** in text blacklist.",
     "blacklist.textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
@@ -876,7 +1229,7 @@
     "bug.success": "Gracias por enviar un error.¡Nuestro equipo analizará esto lo antes posible!",
     "common.addKyu": "Agregar kyu",
     "common.clickHere": "Haga clic aquí",
-    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. Please join our [support server](https://kyubot.com/support) to stay up to date.",
+    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
     "common.confirm": "Confirmar",
     "common.decline": "Rechazar",
     "common.docs": "Kyu Docs",
@@ -887,7 +1240,9 @@
     "common.footer": "Escriba `/ayuda %s` para obtener más ayuda.Por ejemplo, /ayuda para ayudar",
     "common.guildPremium": "This feature is only available for premium guilds.\n\nIf you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing, and creating content updates for the bot.\n\n**Premium Perks**\n\n- Customise rank cards for all members\n- Configure global, channel, or role multiplier for text/voice exp\n- Configure cooldown for text/voice exp\n- Disable voting exp booster\n- Enable lootbox events\n- Automatic leaderboard updates in a specific channel\n- Configure server leaderboard as an image\n- Access to music player (Experimental feature)\n- Sneak peaks/Early access to new features\n- Donator badge for rank card\n\n**Dashboard perks**\n\n- Custom vanity url for server leaderboard\n- Custom banner for server leaderboard\n- Join server button on the server leaderboard",
     "common.hierarchyError": "Asegúrese de que el papel de Kyubot esté por encima del %s en la jerarquía de roles.",
+    "common.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
     "common.invite": "Invitar",
+    "common.kyuDashboard": "Kyu Dashboard",
     "common.kyuPremium": "Kyu Premium",
     "common.next": "próximo",
     "common.previous": "Anterior",
@@ -899,6 +1254,90 @@
     "common.variables": "Sets a custom message for announcement messages.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
     "common.vote": "Votar",
     "common.voteForKyu": "Votar por KYU",
+    "config.amount": "Amount of users shown on the leaderboard has been set to %s.",
+    "config.backgroundSuccess": "Background has been uploaded to the database.",
+    "config.colorSuccess": "Profile color has been updated to **%s**.",
+    "config.expboosterDisabled": "Exp booster has been disabled for this server.",
+    "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+    "config.helpDescription": "Configure various settings for the server.",
+    "config.helpUsage": [
+      [
+        "Set if voting expbooster should be enabled/disabled.",
+        "```/config expbooster <true/false>```"
+      ],
+      [
+        "Set an admin role for the server. Members with these roles can config the bot.",
+        "```/config adminrole @role```"
+      ],
+      [
+        "Set the background for the leaderboard image.",
+        "```/config leaderboard background <url>```"
+      ],
+      [
+        "Set the amount of users shown on the leaderboard.",
+        "```/config leaderboard amount <1-10>```"
+      ],
+      [
+        "Set the color for the leaderboard.",
+        "```/config leaderboard color <color>```"
+      ],
+      [
+        "Set if leaderboard should be an embed or an image.",
+        "```/config leaderboard image <setting>```"
+      ],
+      [
+        "Set the opacity for the leaderboard image.",
+        "```/config leaderboard opacity <percentage>```"
+      ],
+      [
+        "Set the overlay for the leaderboard image.",
+        "```/config leaderboard overlay <url>```"
+      ],
+      [
+        "Set the theme for the leaderboard image.",
+        "```/config leaderboard theme <theme>```"
+      ],
+      [
+        "Set the max level users can achieve in this server.",
+        "```/config maxlevel <level>```"
+      ]
+    ],
+    "config.invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
+    "config.opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
+    "config.overlaySuccess": "Background has been uploaded to the database.",
+    "config.setAdminRole": "Users with role %s can now manage the bot in this server.",
+    "config.setMaxlevel": "Max level for the server has been set to %s.",
+    "config.themeSuccess": "Leaderboard image theme has been set to `%s`.",
+    "config.typeDisabled": "Leaderboard will now be sent as an embed.",
+    "config.typeEnabled": "Leaderboard will now be sent as an image.",
+    "cooldown.channelAddSuccess": "Cooldown for channel %s has been set to **%s**.",
+    "cooldown.channelRemoveSuccess": "Channel %s has been **removed** from cooldown.",
+    "cooldown.globalSetSuccess": "Global cooldown for %s has been set to %s.",
+    "cooldown.helpDescription": "Change global cooldown or for channels/roles.",
+    "cooldown.helpUsage": [
+      [
+        "Set cooldown for a text/voice channel.",
+        "```/cooldown add channel <channel> <seconds>```"
+      ],
+      [
+        "Set cooldown for a role in text/voice.",
+        "```/cooldown add role <role> <seconds> <for>```"
+      ],
+      [
+        "Remove cooldown from a text/voice channel.",
+        "```/cooldown remove channel <channel> <from>```"
+      ],
+      [
+        "Remove cooldown role from text/voice.",
+        "```/cooldown remove role <role> <from>```"
+      ],
+      [
+        "Show a list of the currently set cooldowns.",
+        "```/cooldown show```"
+      ]
+    ],
+    "cooldown.roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
+    "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
     "dm.helpDescription": "Habilitar/deshabilitar DMS de Kyubot para anuncios en todos los servidores",
     "dm.helpUsage": [
       "Habilitar/deshabilitar DMS de Kyubot para anuncios en todos los servidores."
@@ -965,31 +1404,12 @@
     "givexp.success": "%s ha recibido **%s ** exp.",
     "givexp.userNotFound": "No se puede encontrar al usuario mencionado, asegúrese de que el usuario proporcionado esté en el gremio.",
     "givexp.userNotPremium": "Esta característica solo está disponible para el donante.Obtenga más información utilizando 'donate'",
-    "goodbye.clearSuccess": "La experiencia de los miembros %s se debe aclarar al salir del servidor.",
-    "goodbye.embedColorIncorrect": "El color dado no es un color hexadecible válido (#6CFFAC).",
-    "goodbye.embedColorSuccess": "El color incrustado para adiós se ha actualizado a **%s **.",
-    "goodbye.embedToggle": "Las incrustaciones han sido **%s ** para adiós.",
+    "goodbye.clearDisabled": "Member will no long lose experience upon leaving the server.",
+    "goodbye.clearEnabled": "Member experience will be cleared upon leaving the server.",
     "goodbye.helpDescription": "Cambie la configuración para cuando los usuarios salgan del gremio.",
     "goodbye.helpUsage": [
       "Cambiar la configuración para que EXP se borrará al salir del usuario."
     ],
-    "goodbye.imageIncorrect": "El enlace dado no es una imagen, proporcione un enlace de imagen válido. Tipos de imágenes actualmente compatibles: JPG | JPEG | PNG | GIF.",
-    "goodbye.imageSuccess": "Adiós la imagen de incrustación se ha actualizado a %s\n\nAl continuar, entiende la imagen que está cargando, sigue los ** [Términos de servicio de Discord] (https://discord.com/terms) **. Cualquier cosa que esté cargada es su responsabilidad y lo responsabilizarán por ello.",
-    "goodbye.messageDefault": "Goodbye Mensaje se ha restablecido al mensaje básico.",
-    "goodbye.messageSuccess": "Adiós el mensaje se ha actualizado a: `` `%S```",
-    "goodbye.messageTooLong": "El recuento de personajes máximos es 1250, ya está superado por **%s **.",
-    "goodbye.pingIncorrect": "Habilitar/deshabilitar pings para mensajes de adiós.",
-    "goodbye.pingSuccess": "Adiós se han establecido pings en **%s **.",
-    "goodbye.titleSuccess": "Adiós El título se ha actualizado a: `` `%S```",
-    "goodbye.titleTooLong": "El recuento de personajes máximos es 256 por el título, usted ha superado el conteo de **%s **.",
-    "goodbye.typeChannelSuccess": "Goodbye Channel se ha establecido en **%s **.",
-    "goodbye.typeDefault": "Adiós ahora aparecerá en el canal ** que el usuario nivela en **.",
-    "goodbye.typeDisabled": "Adiós se han configurado mensajes en ** apagado **.",
-    "goodbye.typeDm": "Adiós se han establecido en ** dm **.",
-    "goodbye.typeInvalidChannel": "Conjuntos donde se envían los mensajes de Goodbye.",
-    "goodbye.typeOff": "Adiós se ha configurado para ** apagado **.",
-    "goodbye.typeReward": "Adiós solo se enviará en niveles que ** recompensa ** miembros.",
-    "goodbye.typeSuccess": "Adiós Los mensajes ahora se enviarán a **%s **.",
     "help.helpDescription": "Información sobre los comandos disponibles",
     "help.helpUsage": [
       "Obtenga información sobre un comando específico."
@@ -997,7 +1417,6 @@
     "help.title": "Menú de ayuda de Kyu",
     "ignore.channelAddExists": "Channel %s ya es ** ** en la lista ignorada.",
     "ignore.channelAddSuccess": "%s ha sido ** agregado ** a la lista ignorada.",
-    "ignore.channelNotExists": "No se puede encontrar el canal proporcionado.",
     "ignore.channelRemoveNotExists": "Channel %s es ** no ** en la lista ignorada.",
     "ignore.channelRemoveSuccess": "Channel %s ha sido ** eliminado ** de la lista Ignore.",
     "ignore.commandAddExists": "El comando `%S` es ** ya ** en la lista ignorada.",
@@ -1029,13 +1448,15 @@
     "invite.helpUsage": [
       "Obtenga un enlace para agregar kyubot a su servidor."
     ],
+    "koth.addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+    "koth.addExp": "User in %s position will earn `%s` experience.",
+    "koth.addRole": "User in %s position will earn %s role.",
     "koth.alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
     "koth.alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
-    "koth.badgeAdded": "Badge with name `%s` will be rewarded to user in %s position.",
     "koth.badgeInvalidName": "Unable to find a badge with the id `%s`.",
     "koth.disabled": "Koth está actualmente deshabilitado en este gremio.Por favor, solicite a los administradores que habiliten Koth.",
     "koth.enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
-    "koth.expAdded": "User in %s position will earn `%s` experience.",
+    "koth.endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
     "koth.helpDescription": "Una tabla de clasificación temporal, que permite al miembro superior ganar diferentes recompensas.",
     "koth.helpUsage": [
       "Start/End Koth Event.````/koth <start/end> [canal] `` `` ``",
@@ -1043,10 +1464,10 @@
       "Muestra la tabla de clasificación de Koth para el servidor."
     ],
     "koth.noWinners": "No hay suficientes usuarios activos en este gremio para terminar con Koth.",
-    "koth.roleAdded": "User in %s position will earn %s role.",
+    "koth.removeInvalid": "Unable to find rewards for %s position.",
+    "koth.removePositionInvalid": "Unable to find %s reward set for %s position.",
+    "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "El anuncio inicial de Koth ha sido enviado a %s.",
-    "koth.started": "Koth comenzó",
-    "koth.winners": "Ganadores de Koth",
     "koth.winnersSent": "El anuncio de los ganadores de Koth ha sido enviado a %s.",
     "leaderboard.helpDescription": "Muestra las diferentes tablas de clasificación para el servidor.",
     "leaderboard.helpUsage": [
@@ -1067,6 +1488,41 @@
     "lootbox.noneLeft": "Parece que no te quedan l sacos.¡Vota para ganar más!",
     "lootbox.opened": "%sx lootbox abierto!",
     "lootbox.serverDisabled": "Parece que los botamentos están deshabilitados en este servidor <: Kyusad: 948319004869668915>.¡PIENDO SERVER Admin para ** Habilitar Lootboxes! **",
+    "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
+    "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
+    "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
+    "multiplier.channelRemoveSuccess": "Multiplier for channel %s has been removed.",
+    "multiplier.globalAddSuccess": "Global multiplier has been set to %s.",
+    "multiplier.globalRandomSuccess": "Global multiplier has been set to randomise between %s and %s.",
+    "multiplier.helpDescription": "Set multiplier for channels/roles.",
+    "multiplier.helpUsage": [
+      [
+        "Set multiplier for a text/voice channel.",
+        "```/multiplier set channel <#channel> <0-250> <0-250>```"
+      ],
+      [
+        "Set multiplier for a role in text/voice list.",
+        "```/multiplier set role <role> <0-250> <0-250> <for>```"
+      ],
+      [
+        "Delete multiplier for a text/voice channel.",
+        "```/multiplier delete channel```"
+      ],
+      [
+        "Delete multiplier for a role in text/voice list.",
+        "```/multiplier delete role <from>```"
+      ],
+      [
+        "Shows a list of current multiplier roles and channels.",
+        "```/multiplier show```"
+      ]
+    ],
+    "multiplier.invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
+    "multiplier.invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
+    "multiplier.roleAddSuccess": "Multiplier for role %s has been set to %s.",
+    "multiplier.roleNotIncluded": "Unable to find a multiplier for role %s for %s.",
+    "multiplier.roleRandomSuccess": "Multiplier for role %s has been set to randomise between %s and %s.",
+    "multiplier.roleRemoveSuccess": "Multiplier for role %s has been removed from %s multipliers.",
     "profile.backgroundDefaultSuccess": "El fondo de perfil se ha establecido en el valor predeterminado.",
     "profile.backgroundSuccess": "Los antecedentes se han cargado en la base de datos.",
     "profile.colorSuccess": "El color de perfil se ha actualizado a **%s **.",
@@ -1131,12 +1587,12 @@
     "rewards.invalidLevel": "Unable to find a reward set for level `%s`.",
     "rewards.limit": "Se han establecido demasiados roles.Actualmente, solo se pueden configurar 30 recompensas de roles.",
     "rewards.notExists": "Incapaz de encontrar una recompensa por nivel %s.",
-    "rewards.removed": "Los miembros ya no obtendrán un papel en el nivel `%S`.",
-    "rewards.replace": "Los roles ahora serán reemplazados.",
+    "rewards.replaceText": "All text rewards will now be replaced.",
+    "rewards.replaceVoice": "All voice rewards will now be replaced.",
     "rewards.roleAdded": "User will earn %s role when they reach text level %s.",
     "rewards.roleRemoved": "Role reward for level `%s` has been removed from text leveling.",
-    "rewards.stack": "Los roles ahora serán apilados.",
-    "rewards.success": "Los miembros ahora obtendrán un rol %s en el nivel ` %S`.",
+    "rewards.stackText": "All text rewards will now be stacked.",
+    "rewards.stackVoice": "All voice rewards will now be stacked.",
     "rewards.voiceBadgeAdded": "Badge with name `%s` will be rewarded to user when they reach voice level %s.",
     "rewards.voiceBadgeRemoved": "Badge reward for level `%s` has been removed from voice leveling.",
     "rewards.voiceExpAdded": "User will earn `%s` experience when they reach voice level %s.",
@@ -1164,21 +1620,6 @@
     "support.helpUsage": [
       "Obtenga un enlace para unirse al servidor de soporte."
     ],
-    "test.helpDescription": "Prueba de anuncios personalizados",
-    "test.helpUsage": [
-      "Pruebe anuncios personalizados.'``/test [nivel] `` `` `` `` `` `` `` `` `` `` `"
-    ],
-    "test.levelNotFound": "Incapaz de encontrar un anuncio incrustado para el nivel `%S`.",
-    "type.helpDescription": "Configuración de cambio para dónde se envían los anuncios.",
-    "type.helpUsage": [
-      "Establecer dónde se envían mensajes de anuncio.",
-      "Mensajes de anuncios directos a un canal específico."
-    ],
-    "type.successChannel": "Anuncios El canal se ha establecido en **%s **. `",
-    "type.successDefault": "Los anuncios ahora aparecerán en el canal ** El usuario nivela en **.",
-    "type.successDm": "Se han establecido anuncios en ** DM **.",
-    "type.successOff": "Se han establecido anuncios en ** OFF **.",
-    "type.successReward": "Los anuncios solo se enviarán en niveles que ** recompensa ** miembros.",
     "voice.disabled": "Voice Exp ha sido ** deshabilitado **.",
     "voice.enabled": "Voice Exp ha sido ** habilitado **.",
     "voice.helpDescription": "Cambiar la configuración para la exp.",
@@ -1201,13 +1642,71 @@
       "Establezca un papel para que los usuarios ganen al unir el servidor.",
       "Desactivar la configuración para que los usuarios obtengan un papel al unirse."
     ],
+    "announce.messageDefault": "El mensaje de anuncio se ha restablecido al mensaje básico.",
+    "announce.pingIncorrect": "Habilitar/deshabilitar pings para mensajes de anuncio.",
     "announce.variables": "Establece un mensaje personalizado para mensajes de anuncio.\n/anunciar mensaje predeterminado```\n__Variables__\n`{user.ping}`: @kyubot\n`{user.tag}`: Kyubot#9767\n`{user.name}`: Kyubot\n`{user.avatar}`: Avatar de usuario\n`{user.id}`: 932319321559015526\n`{user.nick}`: Apodo del usuario\n`{user.exp}`: Experiencia de miembro\n\n`{nivel}`: nivel obtenido\n`{nivel.previous}`: nivel anterior\n`{nivel.previous.EXP}`: Experiencia de nivel anterior\n`{nivel.next}`: siguiente nivel\n`{nivel.next.exp}`: Experiencia en el siguiente nivel\n\n`{recompensa}`:\n`{recompensa.role.name}`: nombre de rol obtenido\n`{recompensa.rolecount}`: Contejo de miembros de rol obtenido\n`{recompensa.rolecount.progess}`: Porcentaje de roles que el usuario tiene de todas las funciones obtenibles\n`{recompensa.previous}`: rol anterior\n`{recompensa.next}`: siguiente rol\n\n`{server.name}`: nombre del servidor\n`{server.id}`: ID de servidor\n`{server.icon}`: icono del servidor\n\n`{canal}`: canal de anuncio\n`{channel.name}`: Nombre del canal de anuncio\n`{Channel.id}`: ID de canal de anuncio\n\n`{fecha}`: fecha actual (<t:%s: f>)",
+    "blacklist.channelAdded": "Channel **%s ** ha sido lista negra.",
+    "blacklist.channelAlreadyBlacklisted": "%s canal ya está en la lista negra.",
+    "blacklist.channelList": "Canales en la lista negra: `` `%S```",
+    "blacklist.channelNotBlacklisted": "%S El canal no está en la lista negra.",
+    "blacklist.channelRemoved": "El canal **%S ** se ha eliminado de la lista negra.",
+    "blacklist.invalidChannelType": "El tipo de canal dado no es válido, asegúrese de que el tipo de canal sea `%S`.",
+    "blacklist.notFound": "No se puede encontrar el rol/canal utilizando la consulta de búsqueda `%S`.Asegúrese de que la consulta dada sea correcta.",
+    "blacklist.roleAdded": "Rol **%s ** ha sido lista negra.",
+    "blacklist.roleAlreadyBlacklisted": "%s ya está en la lista negra.",
+    "blacklist.roleList": "Roles en la lista negra: `` `%S```",
+    "blacklist.roleListEmpty": "No hay roles en la lista negra.",
+    "blacklist.roleNotBlacklisted": "%S El papel no está en la lista negra.",
+    "blacklist.roleRemoved": "Rol **%s ** se ha eliminado de la lista negra.",
     "embed.customiseRemoveInvalidLevel": "La incrustación personalizada no existe para el nivel %s.",
+    "goodbye.clearSuccess": "La experiencia de los miembros %s se debe aclarar al salir del servidor.",
+    "goodbye.embedColorIncorrect": "El color dado no es un color hexadecible válido (#6CFFAC).",
+    "goodbye.embedColorSuccess": "El color incrustado para adiós se ha actualizado a **%s **.",
+    "goodbye.embedToggle": "Las incrustaciones han sido **%s ** para adiós.",
+    "goodbye.imageIncorrect": "El enlace dado no es una imagen, proporcione un enlace de imagen válido. Tipos de imágenes actualmente compatibles: JPG | JPEG | PNG | GIF.",
+    "goodbye.imageSuccess": "Adiós la imagen de incrustación se ha actualizado a %s\n\nAl continuar, entiende la imagen que está cargando, sigue los ** [Términos de servicio de Discord] (https://discord.com/terms) **. Cualquier cosa que esté cargada es su responsabilidad y lo responsabilizarán por ello.",
+    "goodbye.messageDefault": "Goodbye Mensaje se ha restablecido al mensaje básico.",
+    "goodbye.messageSuccess": "Adiós el mensaje se ha actualizado a: `` `%S```",
+    "goodbye.messageTooLong": "El recuento de personajes máximos es 1250, ya está superado por **%s **.",
+    "goodbye.pingIncorrect": "Habilitar/deshabilitar pings para mensajes de adiós.",
+    "goodbye.pingSuccess": "Adiós se han establecido pings en **%s **.",
+    "goodbye.titleSuccess": "Adiós El título se ha actualizado a: `` `%S```",
+    "goodbye.titleTooLong": "El recuento de personajes máximos es 256 por el título, usted ha superado el conteo de **%s **.",
+    "goodbye.typeChannelSuccess": "Goodbye Channel se ha establecido en **%s **.",
+    "goodbye.typeDefault": "Adiós ahora aparecerá en el canal ** que el usuario nivela en **.",
+    "goodbye.typeDisabled": "Adiós se han configurado mensajes en ** apagado **.",
+    "goodbye.typeDm": "Adiós se han establecido en ** dm **.",
+    "goodbye.typeInvalidChannel": "Conjuntos donde se envían los mensajes de Goodbye.",
+    "goodbye.typeOff": "Adiós se ha configurado para ** apagado **.",
+    "goodbye.typeReward": "Adiós solo se enviará en niveles que ** recompensa ** miembros.",
+    "goodbye.typeSuccess": "Adiós Los mensajes ahora se enviarán a **%s **.",
     "goodbye.variables": "Establece un mensaje personalizado para mensajes de anuncio.\n/anunciar mensaje predeterminado```\n__Variables__\n`{user.ping}`: @kyubot\n`{user.tag}`: Kyubot#9767\n`{user.name}`: Kyubot\n`{user.avatar}`: Avatar de usuario\n`{user.id}`: 932319321559015526\n`{user.nick}`: Apodo del usuario\n`{user.exp}`: Experiencia de miembro\n\n`{nivel}`: nivel obtenido\n`{nivel.previous}`: nivel anterior\n`{nivel.previous.EXP}`: Experiencia de nivel anterior\n`{nivel.next}`: siguiente nivel\n`{nivel.next.exp}`: Experiencia en el siguiente nivel\n\n`{recompensa}`:\n`{recompensa.role.name}`: nombre de rol obtenido\n`{recompensa.rolecount}`: Contejo de miembros de rol obtenido\n`{recompensa.rolecount.progess}`: Porcentaje de roles que el usuario tiene de todas las funciones obtenibles\n`{recompensa.previous}`: rol anterior\n`{recompensa.next}`: siguiente rol\n\n`{server.name}`: nombre del servidor\n`{server.id}`: ID de servidor\n`{server.icon}`: icono del servidor\n\n`{canal}`: canal de anuncio\n`{channel.name}`: Nombre del canal de anuncio\n`{Channel.id}`: ID de canal de anuncio\n\n`{fecha}`: fecha actual (<t:%s: f>)",
+    "ignore.channelNotExists": "No se puede encontrar el canal proporcionado.",
     "koth.disable": "Koth ya está deshabilitado.",
     "koth.enable": "¡Koth ha comenzado!¡Reclamar los usuarios de su corona 👑!",
     "koth.enableReward": "¡Koth ha sido iniciado!El miembro superior obtendrá un rol de %S.",
     "koth.rewardAddSuccess": "El ganador de Koth ganará el papel de %en el reinicio de Koth.",
+    "koth.started": "Koth comenzó",
+    "koth.winners": "Ganadores de Koth",
+    "rewards.removed": "Los miembros ya no obtendrán un papel en el nivel `%S`.",
+    "rewards.replace": "Los roles ahora serán reemplazados.",
+    "rewards.stack": "Los roles ahora serán apilados.",
+    "rewards.success": "Los miembros ahora obtendrán un rol %s en el nivel ` %S`.",
+    "test.helpDescription": "Prueba de anuncios personalizados",
+    "test.helpUsage": [
+      "Pruebe anuncios personalizados.'``/test [nivel] `` `` `` `` `` `` `` `` `` `` `"
+    ],
+    "test.levelNotFound": "Incapaz de encontrar un anuncio incrustado para el nivel `%S`.",
+    "type.helpDescription": "Configuración de cambio para dónde se envían los anuncios.",
+    "type.helpUsage": [
+      "Establecer dónde se envían mensajes de anuncio.",
+      "Mensajes de anuncios directos a un canal específico."
+    ],
+    "type.successChannel": "Anuncios El canal se ha establecido en **%s **. `",
+    "type.successDefault": "Los anuncios ahora aparecerán en el canal ** El usuario nivela en **.",
+    "type.successDm": "Se han establecido anuncios en ** DM **.",
+    "type.successOff": "Se han establecido anuncios en ** OFF **.",
+    "type.successReward": "Los anuncios solo se enviarán en niveles que ** recompensa ** miembros.",
     "voice.channelAddSuccess": "Channel %s ha sido ** agregado ** a Blacklist.",
     "voice.channelIncluded": "Channel %s ya está ** listado en negro.",
     "voice.channelNotIncluded": "Channel %s es ** no ** lista negra.",
@@ -1218,6 +1717,7 @@
     "voice.roleRemoveSuccess": "Rol %s ha sido ** eliminado ** de la lista negra."
   },
   "fr": {
+    "announce.channelNotFound": "Unable to find the given channel for announcement.",
     "announce.clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
     "announce.clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
     "announce.clearSuccessDisabled": "Announcement messages will no longer to deleted.",
@@ -1227,43 +1727,44 @@
       "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <setting>```",
       "Teste le message d'annonce actuel.```/announce test```"
     ],
-    "announce.messageDefault": "Le message d'annonce a été réinitialisé au message de base.",
+    "announce.levelupSuccess": "%s has been sent announcement message.",
     "announce.messageSuccess": "Le message d'annonce a été mis à jour vers :```%s```",
     "announce.messageTooLong": "Le nombre maximum de caractères est de 1250, vous avez dépassé le nombre de **%s**.",
-    "announce.pingIncorrect": "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <on/off>```",
     "announce.pingSuccessDisabled": "Les pings d'annonces ont été réglés sur **désactivé**.",
     "announce.pingSuccessEnabled": "Les pings d'annonces ont été réglés sur **activé**.",
     "announce.typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
-    "announce.typeSuccessChannel": "Announcements channel has been set to **%s**.",
+    "announce.typeOff": "Announcements are disabled in this guild.",
+    "announce.typeSuccessChannel": "Announcements will now be sent to %s.",
     "announce.typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
     "announce.typeSuccessDm": "Announcements have been set to **dm**.",
     "announce.typeSuccessOff": "Announcements have been set to **off**.",
     "announce.typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
     "badge.alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
-    "badge.alreadyExists": "A badge with id `%s` already exists. Please enter another name.",
-    "badge.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-    "badge.invalidName": "Unable to find a badge with the id `%s`.",
+    "badge.alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
+    "badge.helpDescription": "Add/remove custom badges from the server.",
+    "badge.helpUsage": [
+      [
+        "Add a new badge to the server.",
+        "```/badge add <name> <url>```"
+      ],
+      [
+        "Delete a current badge from the server.",
+        "```/badge add <name>```"
+      ],
+      [
+        "Show a list of the available badges in this server.",
+        "```/badge show```"
+      ]
+    ],
+    "badge.invalidName": "Unable to find a badge with the ID `%s`.",
     "badge.successAdded": "Badge with name `%s` has been added to this server.",
     "badge.successRemoved": "`%s` badge has been removed from the server.",
-    "blacklist.channelAdded": "Le canal **%s** a été mis en liste noire.",
-    "blacklist.channelAlreadyBlacklisted": "Le canal %s est déjà sur la liste noire.",
-    "blacklist.channelList": "Canaux sur liste noire:```%s```",
-    "blacklist.channelNotBlacklisted": "Le salon %s n'est pas sur liste noire.",
-    "blacklist.channelRemoved": "Le salon **%s** a été retiré de la liste noire.",
     "blacklist.helpDescription": "Liste noire des canaux/rôles en gagnant de l'expérience.",
     "blacklist.helpUsage": [
       "Ajoute/supprime un canal à la liste noire.```/blacklist channel <add/remove> <channel>```",
       "Ajoute/supprime un rôle à la liste noire.```/blacklist role <add/remove> <role>```",
       "Affiche une liste des rôles et salons actuellement sur la liste noire.```/blacklist show```"
     ],
-    "blacklist.invalidChannelType": "Le type de canal donné est invalide, assurez-vous que le type de canal est `%s`.",
-    "blacklist.notFound": "Impossible de trouver le rôle/canal en utilisant la requête de recherche `%s`. Assurez-vous que la requête donnée est correcte.",
-    "blacklist.roleAdded": "Rôle **%s** a été mis sur liste noire.",
-    "blacklist.roleAlreadyBlacklisted": "%s est déjà sur la liste noire.",
-    "blacklist.roleList": "Rôles sur liste noire:```%s```",
-    "blacklist.roleListEmpty": "Il n'y a aucun rôle sur la liste noire.",
-    "blacklist.roleNotBlacklisted": "Le rôle %s n'est pas sur liste noire.",
-    "blacklist.roleRemoved": "Rôle **%s** a été retiré de la liste noire.",
     "blacklist.textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
     "blacklist.textChannelIncluded": "Channel %s is **already** in text blacklist.",
     "blacklist.textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
@@ -1287,7 +1788,7 @@
     "bug.success": "Merci d'avoir envoyé un bug. Notre équipe examinera cela dès que possible!",
     "common.addKyu": "Ajouter Kyu",
     "common.clickHere": "Cliquez ici",
-    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. Please join our [support server](https://kyubot.com/support) to stay up to date.",
+    "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
     "common.confirm": "Valider",
     "common.decline": "Décliner",
     "common.docs": "Kyu Docs",
@@ -1298,7 +1799,9 @@
     "common.footer": "Tapez `/help %s` pour plus d'aide. Par exemple, /help",
     "common.guildPremium": "This feature is only available for premium guilds.\n\nIf you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing, and creating content updates for the bot.\n\n**Premium Perks**\n\n- Customise rank cards for all members\n- Configure global, channel, or role multiplier for text/voice exp\n- Configure cooldown for text/voice exp\n- Disable voting exp booster\n- Enable lootbox events\n- Automatic leaderboard updates in a specific channel\n- Configure server leaderboard as an image\n- Access to music player (Experimental feature)\n- Sneak peaks/Early access to new features\n- Donator badge for rank card\n\n**Dashboard perks**\n\n- Custom vanity url for server leaderboard\n- Custom banner for server leaderboard\n- Join server button on the server leaderboard",
     "common.hierarchyError": "Assurez-vous que le rôle de Kyubot est supérieur à %s dans la hiérarchie des rôles.",
+    "common.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
     "common.invite": "Inviter",
+    "common.kyuDashboard": "Kyu Dashboard",
     "common.kyuPremium": "Kyu Premium",
     "common.next": "Suivant",
     "common.previous": "Précédent",
@@ -1310,6 +1813,90 @@
     "common.variables": "Sets a custom message for announcement messages.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
     "common.vote": "Voter",
     "common.voteForKyu": "Voter pour Kyu",
+    "config.amount": "Amount of users shown on the leaderboard has been set to %s.",
+    "config.backgroundSuccess": "Background has been uploaded to the database.",
+    "config.colorSuccess": "Profile color has been updated to **%s**.",
+    "config.expboosterDisabled": "Exp booster has been disabled for this server.",
+    "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+    "config.helpDescription": "Configure various settings for the server.",
+    "config.helpUsage": [
+      [
+        "Set if voting expbooster should be enabled/disabled.",
+        "```/config expbooster <true/false>```"
+      ],
+      [
+        "Set an admin role for the server. Members with these roles can config the bot.",
+        "```/config adminrole @role```"
+      ],
+      [
+        "Set the background for the leaderboard image.",
+        "```/config leaderboard background <url>```"
+      ],
+      [
+        "Set the amount of users shown on the leaderboard.",
+        "```/config leaderboard amount <1-10>```"
+      ],
+      [
+        "Set the color for the leaderboard.",
+        "```/config leaderboard color <color>```"
+      ],
+      [
+        "Set if leaderboard should be an embed or an image.",
+        "```/config leaderboard image <setting>```"
+      ],
+      [
+        "Set the opacity for the leaderboard image.",
+        "```/config leaderboard opacity <percentage>```"
+      ],
+      [
+        "Set the overlay for the leaderboard image.",
+        "```/config leaderboard overlay <url>```"
+      ],
+      [
+        "Set the theme for the leaderboard image.",
+        "```/config leaderboard theme <theme>```"
+      ],
+      [
+        "Set the max level users can achieve in this server.",
+        "```/config maxlevel <level>```"
+      ]
+    ],
+    "config.invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
+    "config.opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
+    "config.overlaySuccess": "Background has been uploaded to the database.",
+    "config.setAdminRole": "Users with role %s can now manage the bot in this server.",
+    "config.setMaxlevel": "Max level for the server has been set to %s.",
+    "config.themeSuccess": "Leaderboard image theme has been set to `%s`.",
+    "config.typeDisabled": "Leaderboard will now be sent as an embed.",
+    "config.typeEnabled": "Leaderboard will now be sent as an image.",
+    "cooldown.channelAddSuccess": "Cooldown for channel %s has been set to **%s**.",
+    "cooldown.channelRemoveSuccess": "Channel %s has been **removed** from cooldown.",
+    "cooldown.globalSetSuccess": "Global cooldown for %s has been set to %s.",
+    "cooldown.helpDescription": "Change global cooldown or for channels/roles.",
+    "cooldown.helpUsage": [
+      [
+        "Set cooldown for a text/voice channel.",
+        "```/cooldown add channel <channel> <seconds>```"
+      ],
+      [
+        "Set cooldown for a role in text/voice.",
+        "```/cooldown add role <role> <seconds> <for>```"
+      ],
+      [
+        "Remove cooldown from a text/voice channel.",
+        "```/cooldown remove channel <channel> <from>```"
+      ],
+      [
+        "Remove cooldown role from text/voice.",
+        "```/cooldown remove role <role> <from>```"
+      ],
+      [
+        "Show a list of the currently set cooldowns.",
+        "```/cooldown show```"
+      ]
+    ],
+    "cooldown.roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
+    "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
     "dm.helpDescription": "Activer/désactiver les dms de Kyubot pour les annonces sur tous les serveurs",
     "dm.helpUsage": [
       "Activer/désactiver les dms de Kyubot pour les annonces dans tous les serveurs.```/dm <disable/enable>```"
@@ -1376,31 +1963,12 @@
     "givexp.success": "%s a été donné **%s** exp.",
     "givexp.userNotFound": "Impossible de trouver l'utilisateur mentionné, assurez-vous que l'utilisateur fourni est dans la guilde.",
     "givexp.userNotPremium": "Cette fonctionnalité n'est disponible que pour les donateurs. Plus d'informations en utilisant `donate`",
-    "goodbye.clearSuccess": "L'expérience du membre %s est effacée en quittant le serveur.",
-    "goodbye.embedColorIncorrect": "La couleur donnée n'est pas une couleur hexadécimale valide (#6CFFAC).",
-    "goodbye.embedColorSuccess": "La couleur d'intégration au revoir a été mise à jour vers **%s**.",
-    "goodbye.embedToggle": "Les embeds ont été **%s** pour au revoir.",
+    "goodbye.clearDisabled": "Member will no long lose experience upon leaving the server.",
+    "goodbye.clearEnabled": "Member experience will be cleared upon leaving the server.",
     "goodbye.helpDescription": "Modifier les paramètres quand les utilisateurs quittent la guilde.",
     "goodbye.helpUsage": [
       "Changer le paramètre pour que l'exp soit effacé en cas de départ de l'utilisateur.```/adieu clear <on/off>```"
     ],
-    "goodbye.imageIncorrect": "Le lien donné n'est pas une image, veuillez fournir un lien d'image valide. Types d'image actuellement pris en charge: jpg | jpeg | png | gif.",
-    "goodbye.imageSuccess": "L'image intégrée de l'annonce a été mise à jour vers %s\n\nEn continuant, vous comprenez que l'image que vous téléchargez suit les **[Conditions d'utilisation de Discord](https://discord.com/terms)**. Tout ce qui est téléchargé est de votre responsabilité et vous en serez tenu responsable.",
-    "goodbye.messageDefault": "Le message d'au revoir a été réinitialisé au message de base.",
-    "goodbye.messageSuccess": "Le message d'au revoir a été mis à jour vers :```%s```",
-    "goodbye.messageTooLong": "Le nombre maximum de caractères est de 1250, vous avez dépassé le nombre de **%s**.",
-    "goodbye.pingIncorrect": "Activer/désactiver les pings pour les messages de adieu. ```/announce ping <on/off>```",
-    "goodbye.pingSuccess": "Les pings au revoir ont été réglés à **%s**.",
-    "goodbye.titleSuccess": "Le titre d'au revoir a été mis à jour vers :```%s```",
-    "goodbye.titleTooLong": "Le nombre maximum de caractères est de 256 pour le titre, vous avez dépassé le nombre de **%s**.",
-    "goodbye.typeChannelSuccess": "Le canal au revoir a été défini à **%s**.",
-    "goodbye.typeDefault": "Au revoir va maintenant apparaître dans le **salon où l'utilisateur atteint son niveau**.",
-    "goodbye.typeDisabled": "Les messages au revoir ont été mis à **off**.",
-    "goodbye.typeDm": "Au revoir a été défini à **dm**.",
-    "goodbye.typeInvalidChannel": "Définit où les messages au revoir sont envoyés.```/announce type <default/dm/off/reward/#channel>```",
-    "goodbye.typeOff": "Au revoir a été mis à **off**.",
-    "goodbye.typeReward": "Au revoir ne sera envoyé que sur les niveaux que les membres **récompense**.",
-    "goodbye.typeSuccess": "Les messages au revoir seront maintenant envoyés à **%s**.",
     "help.helpDescription": "Informations sur les commandes disponibles",
     "help.helpUsage": [
       "Récupère des informations à propos d'une commande spécifique.```/help [command]```"
@@ -1408,7 +1976,6 @@
     "help.title": "Menu d'aide de Kyu",
     "ignore.channelAddExists": "Le salon %s est **déjà** dans la liste ignorée.",
     "ignore.channelAddSuccess": "%s a été **ajouté** à la liste ignorée.",
-    "ignore.channelNotExists": "Impossible de trouver le canal fourni.",
     "ignore.channelRemoveNotExists": "Le canal %s n'est **pas** dans la liste ignorée.",
     "ignore.channelRemoveSuccess": "Le canal %s a été **supprimé** de la liste des ignorés.",
     "ignore.commandAddExists": "La commande `%s` est **déjà** dans la liste ignorée.",
@@ -1440,13 +2007,15 @@
     "invite.helpUsage": [
       "Obtenez un lien pour ajouter KyuBot à votre serveur.```/invite```"
     ],
+    "koth.addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+    "koth.addExp": "User in %s position will earn `%s` experience.",
+    "koth.addRole": "User in %s position will earn %s role.",
     "koth.alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
     "koth.alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
-    "koth.badgeAdded": "Badge with name `%s` will be rewarded to user in %s position.",
     "koth.badgeInvalidName": "Unable to find a badge with the id `%s`.",
     "koth.disabled": "KOTH est actuellement désactivé dans cette guilde. Veuillez demander aux administrateurs d'activer KOTH.",
     "koth.enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
-    "koth.expAdded": "User in %s position will earn `%s` experience.",
+    "koth.endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
     "koth.helpDescription": "Un classement temporaire, qui permet au membre le plus haut de gagner différentes récompenses.",
     "koth.helpUsage": [
       "Début de l'événement koth.```/koth <start/end> [channel]```",
@@ -1454,10 +2023,10 @@
       "Affiche le classement du koth pour le serveur.```/koth leaderboard```"
     ],
     "koth.noWinners": "Pas assez d'utilisateurs actifs dans cette guilde pour mettre fin à KOTH.",
-    "koth.roleAdded": "User in %s position will earn %s role.",
+    "koth.removeInvalid": "Unable to find rewards for %s position.",
+    "koth.removePositionInvalid": "Unable to find %s reward set for %s position.",
+    "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "L'annonce de démarrage de KOTH a été envoyée à %s.",
-    "koth.started": "KOTH démarré",
-    "koth.winners": "Vainqueurs KOTH",
     "koth.winnersSent": "L'annonce des gagnants de Koth a été envoyée à %s.",
     "leaderboard.helpDescription": "Affiche les différents classements pour le serveur.",
     "leaderboard.helpUsage": [
@@ -1478,6 +2047,41 @@
     "lootbox.noneLeft": "On dirait que vous n'avez plus de lootbox. Votez pour gagner plus!",
     "lootbox.opened": "%sX lootbox ouvert!",
     "lootbox.serverDisabled": "On dirait que les lootbox sont désactivés sur ce serveur <:KyuSad:948319004869668915>. Demandez à l'administrateur du serveur d'**activer lootboxes!!!**",
+    "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
+    "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
+    "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
+    "multiplier.channelRemoveSuccess": "Multiplier for channel %s has been removed.",
+    "multiplier.globalAddSuccess": "Global multiplier has been set to %s.",
+    "multiplier.globalRandomSuccess": "Global multiplier has been set to randomise between %s and %s.",
+    "multiplier.helpDescription": "Set multiplier for channels/roles.",
+    "multiplier.helpUsage": [
+      [
+        "Set multiplier for a text/voice channel.",
+        "```/multiplier set channel <#channel> <0-250> <0-250>```"
+      ],
+      [
+        "Set multiplier for a role in text/voice list.",
+        "```/multiplier set role <role> <0-250> <0-250> <for>```"
+      ],
+      [
+        "Delete multiplier for a text/voice channel.",
+        "```/multiplier delete channel```"
+      ],
+      [
+        "Delete multiplier for a role in text/voice list.",
+        "```/multiplier delete role <from>```"
+      ],
+      [
+        "Shows a list of current multiplier roles and channels.",
+        "```/multiplier show```"
+      ]
+    ],
+    "multiplier.invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
+    "multiplier.invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
+    "multiplier.roleAddSuccess": "Multiplier for role %s has been set to %s.",
+    "multiplier.roleNotIncluded": "Unable to find a multiplier for role %s for %s.",
+    "multiplier.roleRandomSuccess": "Multiplier for role %s has been set to randomise between %s and %s.",
+    "multiplier.roleRemoveSuccess": "Multiplier for role %s has been removed from %s multipliers.",
     "profile.backgroundDefaultSuccess": "L'arrière-plan du profil a été remis à sa valeur par défaut.",
     "profile.backgroundSuccess": "L'arrière-plan a été téléchargé dans la base de données.",
     "profile.colorSuccess": "La couleur du profil a été mise à jour à **%s**.",
@@ -1542,12 +2146,12 @@
     "rewards.invalidLevel": "Unable to find a reward set for level `%s`.",
     "rewards.limit": "Trop de rôles ont été configurés. Actuellement, seulement 30 récompenses de rôle peuvent être installées.",
     "rewards.notExists": "Impossible de trouver une récompense pour le niveau %s.",
-    "rewards.removed": "Les membres ne gagneront plus de rôle au niveau `%s`.",
-    "rewards.replace": "Les rôles vont maintenant être remplacés.",
+    "rewards.replaceText": "All text rewards will now be replaced.",
+    "rewards.replaceVoice": "All voice rewards will now be replaced.",
     "rewards.roleAdded": "User will earn %s role when they reach text level %s.",
     "rewards.roleRemoved": "Role reward for level `%s` has been removed from text leveling.",
-    "rewards.stack": "Les rôles seront maintenant empilés.",
-    "rewards.success": "Les membres gagneront maintenant le rôle %s au niveau `%s`.",
+    "rewards.stackText": "All text rewards will now be stacked.",
+    "rewards.stackVoice": "All voice rewards will now be stacked.",
     "rewards.voiceBadgeAdded": "Badge with name `%s` will be rewarded to user when they reach voice level %s.",
     "rewards.voiceBadgeRemoved": "Badge reward for level `%s` has been removed from voice leveling.",
     "rewards.voiceExpAdded": "User will earn `%s` experience when they reach voice level %s.",
@@ -1575,21 +2179,6 @@
     "support.helpUsage": [
       "Obtenez un lien pour rejoindre le serveur de support.```/support```"
     ],
-    "test.helpDescription": "Tester les annonces personnalisées",
-    "test.helpUsage": [
-      "Testez les annonces personnalisées.```/test [level]```"
-    ],
-    "test.levelNotFound": "Impossible de trouver une annonce intégrée pour le niveau `%s`.",
-    "type.helpDescription": "Modifier les paramètres de l'endroit où les annonces sont envoyées.",
-    "type.helpUsage": [
-      "Définir où les messages d'annonce sont envoyés.```/type set <default/dm//off/rewards>```",
-      "Messages d'annonces directs vers un canal spécifique.```/type channel <channel>```"
-    ],
-    "type.successChannel": "Le salon des annonces a été défini à **%s**.`",
-    "type.successDefault": "Les annonces apparaîtront maintenant dans le **canal où l'utilisateur atteint son niveau**.",
-    "type.successDm": "Les annonces ont été définies à **dm**.",
-    "type.successOff": "Les annonces ont été réglées sur **off**.",
-    "type.successReward": "Les annonces ne seront envoyées que sur les niveaux que les membres **récompense**.",
     "voice.disabled": "L'exp vocal a été **désactivé**.",
     "voice.enabled": "L'exp vocal a été **activé**.",
     "voice.helpDescription": "Modifier les paramètres pour l'exp vocale.",
@@ -1612,13 +2201,71 @@
       "Définissez un rôle pour les utilisateurs à gagner en joignant le serveur.```/welcome role <role>```",
       "Désactiver les paramètres pour que les utilisateurs obtiennent un rôle en rejoignant le serveur.```/welcome disable```"
     ],
+    "announce.messageDefault": "Le message d'annonce a été réinitialisé au message de base.",
+    "announce.pingIncorrect": "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <on/off>```",
     "announce.variables": "Définit un message personnalisé pour les messages d'annonce.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
+    "blacklist.channelAdded": "Le canal **%s** a été mis en liste noire.",
+    "blacklist.channelAlreadyBlacklisted": "Le canal %s est déjà sur la liste noire.",
+    "blacklist.channelList": "Canaux sur liste noire:```%s```",
+    "blacklist.channelNotBlacklisted": "Le salon %s n'est pas sur liste noire.",
+    "blacklist.channelRemoved": "Le salon **%s** a été retiré de la liste noire.",
+    "blacklist.invalidChannelType": "Le type de canal donné est invalide, assurez-vous que le type de canal est `%s`.",
+    "blacklist.notFound": "Impossible de trouver le rôle/canal en utilisant la requête de recherche `%s`. Assurez-vous que la requête donnée est correcte.",
+    "blacklist.roleAdded": "Rôle **%s** a été mis sur liste noire.",
+    "blacklist.roleAlreadyBlacklisted": "%s est déjà sur la liste noire.",
+    "blacklist.roleList": "Rôles sur liste noire:```%s```",
+    "blacklist.roleListEmpty": "Il n'y a aucun rôle sur la liste noire.",
+    "blacklist.roleNotBlacklisted": "Le rôle %s n'est pas sur liste noire.",
+    "blacklist.roleRemoved": "Rôle **%s** a été retiré de la liste noire.",
     "embed.customiseRemoveInvalidLevel": "L'intégration personnalisée n'existe pas pour le niveau %s.",
+    "goodbye.clearSuccess": "L'expérience du membre %s est effacée en quittant le serveur.",
+    "goodbye.embedColorIncorrect": "La couleur donnée n'est pas une couleur hexadécimale valide (#6CFFAC).",
+    "goodbye.embedColorSuccess": "La couleur d'intégration au revoir a été mise à jour vers **%s**.",
+    "goodbye.embedToggle": "Les embeds ont été **%s** pour au revoir.",
+    "goodbye.imageIncorrect": "Le lien donné n'est pas une image, veuillez fournir un lien d'image valide. Types d'image actuellement pris en charge: jpg | jpeg | png | gif.",
+    "goodbye.imageSuccess": "L'image intégrée de l'annonce a été mise à jour vers %s\n\nEn continuant, vous comprenez que l'image que vous téléchargez suit les **[Conditions d'utilisation de Discord](https://discord.com/terms)**. Tout ce qui est téléchargé est de votre responsabilité et vous en serez tenu responsable.",
+    "goodbye.messageDefault": "Le message d'au revoir a été réinitialisé au message de base.",
+    "goodbye.messageSuccess": "Le message d'au revoir a été mis à jour vers :```%s```",
+    "goodbye.messageTooLong": "Le nombre maximum de caractères est de 1250, vous avez dépassé le nombre de **%s**.",
+    "goodbye.pingIncorrect": "Activer/désactiver les pings pour les messages de adieu. ```/announce ping <on/off>```",
+    "goodbye.pingSuccess": "Les pings au revoir ont été réglés à **%s**.",
+    "goodbye.titleSuccess": "Le titre d'au revoir a été mis à jour vers :```%s```",
+    "goodbye.titleTooLong": "Le nombre maximum de caractères est de 256 pour le titre, vous avez dépassé le nombre de **%s**.",
+    "goodbye.typeChannelSuccess": "Le canal au revoir a été défini à **%s**.",
+    "goodbye.typeDefault": "Au revoir va maintenant apparaître dans le **salon où l'utilisateur atteint son niveau**.",
+    "goodbye.typeDisabled": "Les messages au revoir ont été mis à **off**.",
+    "goodbye.typeDm": "Au revoir a été défini à **dm**.",
+    "goodbye.typeInvalidChannel": "Définit où les messages au revoir sont envoyés.```/announce type <default/dm/off/reward/#channel>```",
+    "goodbye.typeOff": "Au revoir a été mis à **off**.",
+    "goodbye.typeReward": "Au revoir ne sera envoyé que sur les niveaux que les membres **récompense**.",
+    "goodbye.typeSuccess": "Les messages au revoir seront maintenant envoyés à **%s**.",
     "goodbye.variables": "Définit un message personnalisé pour les messages d'annonce.```/announce message custom <0>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<1>)",
+    "ignore.channelNotExists": "Impossible de trouver le canal fourni.",
     "koth.disable": "KOTH est déjà désactivé.",
     "koth.enable": "KOTH a commencé! Réclamez vos utilisateurs de couronne 👑!",
     "koth.enableReward": "KOTH a été démarré! Le meilleur membre gagnera %s rôle.",
     "koth.rewardAddSuccess": "Le gagnant de KOTH gagnera %s rôle à la réinitialisation de koth.",
+    "koth.started": "KOTH démarré",
+    "koth.winners": "Vainqueurs KOTH",
+    "rewards.removed": "Les membres ne gagneront plus de rôle au niveau `%s`.",
+    "rewards.replace": "Les rôles vont maintenant être remplacés.",
+    "rewards.stack": "Les rôles seront maintenant empilés.",
+    "rewards.success": "Les membres gagneront maintenant le rôle %s au niveau `%s`.",
+    "test.helpDescription": "Tester les annonces personnalisées",
+    "test.helpUsage": [
+      "Testez les annonces personnalisées.```/test [level]```"
+    ],
+    "test.levelNotFound": "Impossible de trouver une annonce intégrée pour le niveau `%s`.",
+    "type.helpDescription": "Modifier les paramètres de l'endroit où les annonces sont envoyées.",
+    "type.helpUsage": [
+      "Définir où les messages d'annonce sont envoyés.```/type set <default/dm//off/rewards>```",
+      "Messages d'annonces directs vers un canal spécifique.```/type channel <channel>```"
+    ],
+    "type.successChannel": "Le salon des annonces a été défini à **%s**.`",
+    "type.successDefault": "Les annonces apparaîtront maintenant dans le **canal où l'utilisateur atteint son niveau**.",
+    "type.successDm": "Les annonces ont été définies à **dm**.",
+    "type.successOff": "Les annonces ont été réglées sur **off**.",
+    "type.successReward": "Les annonces ne seront envoyées que sur les niveaux que les membres **récompense**.",
     "voice.channelAddSuccess": "Le salon %s a été **ajouté** à la liste noire.",
     "voice.channelIncluded": "Le canal %s est **déjà** sur la liste noire.",
     "voice.channelNotIncluded": "Le canal %s n'est **pas** sur la liste noire.",
