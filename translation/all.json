@@ -252,11 +252,14 @@
     "goodbye.helpUsage": [
       "Ändere die Einstellung, ob die Exp des Mitglieds gelöscht werden sollen, wenn der Server verlassen wird.```/goodbye clear <on/off>```"
     ],
-    "help.helpDescription": "Informationen über die verfügbaren Befehle",
-    "help.helpUsage": [
-      "Erhalte Informationen über einen bestimmten Befehl.```/help [command]```"
-    ],
+    "help.description": "Information about the available commands",
     "help.title": "Kyu's Hilfe Menü",
+    "help.usage": [
+      [
+        "Get information about a specific command.",
+        "```/help [command]```"
+      ]
+    ],
     "ignore.channelAddExists": "Kanal %s **ist bereits** auf der Ignoriert-Liste.",
     "ignore.channelAddSuccess": "%s wurde zur Ignoriert-Liste **hinzugefügt**.",
     "ignore.channelRemoveNotExists": "Kanal %s ist **nicht** in der Ignoriert-Liste.",
@@ -311,6 +314,12 @@
     "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "Koth-Startankündigung wurde in %s gesendet.",
     "koth.winnersSent": "Die Bekanntgabe der Koth-Gewinner wurde in %s gesendet.",
+    "language.helpDescription": "Change the bots default language.",
+    "language.helpUsage": [
+      "Change the bots default language by selecting one of the options.",
+      "```/language <language>```"
+    ],
+    "language.success": "Language has been successfully changed to `%s`.",
     "leaderboard.helpDescription": "Zeigt die verschiedenen Bestenlisten für den Server an.",
     "leaderboard.helpUsage": [
       "Zeigt die Bestenliste für den Server.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
@@ -523,6 +532,10 @@
     "goodbye.typeReward": "Die Abschiedsnachricht wird nur auf Level gesendet, die Mitglieder **belohnen**.",
     "goodbye.typeSuccess": "Abschiedsnachrichten werden jetzt in **%s** gesendet.",
     "goodbye.variables": "Legt eine benutzerdefinierte Nachricht für Level-Up Nachrichten fest.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: Benutzer-Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: Benutzer-Nickname\n`{user.exp}`: Benutzer-Exp\n\n`{level}`: Erreichtes Level\n`{level.previous}`: Vorheriges Level\n`{level.previous.exp}`: Vorherige Level Exp\n`{level.next}`: Nächstes Level\n`{level.next.exp}`: Nächste Level Exp\n\n`{reward}`: Erhaltene Rolle\n`{reward.role.name}`: Erhaltener Rollenname\n`{reward.rolecount}`: Mitgliederanzahl mit der selben Rolle\n`{reward.rolecount.progess}`: Prozent der Rollen, die das Mitglied von allen verfügbaren Rollen hat\n`{reward.previous}`: Vorherige Rolle\n`{reward.next}`: Nächste Rolle\n\n`{server.name}`: Server Name\n`{server.id}`: Server ID\n`{server.icon}`: Server Symbol\n\n`{channel}`: Ankündigungskanal\n`{channel.name}`: Name des Ankündigungskanals\n`{channel.id}`: Ankündigungskanal ID\n\n`{date}`: Aktuelles Datum mit Uhrzeit (<t:%s:F>)",
+    "help.helpDescription": "Informationen über die verfügbaren Befehle",
+    "help.helpUsage": [
+      "Erhalte Informationen über einen bestimmten Befehl.```/help [command]```"
+    ],
     "ignore.channelNotExists": "Der Kanal kann nicht gefunden werden.",
     "koth.disable": "KOTH ist bereits deaktiviert.",
     "koth.enable": "KOTH hat begonnen! Hole Dir die Krone 👑!",
@@ -667,9 +680,10 @@
     "blacklist.voiceRoleRemoveSuccess": "Role %s has been **removed** from voice blacklist.",
     "bug.helpDescription": "Report a bug to developers",
     "bug.helpUsage": [
-      "Report a bug to developers.```/bug```"
+      "Report a bug to developers.",
+      "```/bug <text>```"
     ],
-    "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible!",
+    "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible! If this issue keeps occuring please contact out staff time with ID: %s",
     "common.addKyu": "Add Kyu",
     "common.clickHere": "Click Here",
     "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
@@ -783,7 +797,10 @@
     "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
     "dm.helpDescription": "Enable/disable dms from Kyubot for announcements in all servers",
     "dm.helpUsage": [
-      "Enable/disable dms from Kyubot for announcements in all servers.```/dm <disable/enable>"
+      [
+        "Enable/disable dms from Kyubot for announcements in all servers.",
+        "```/dm <disable/enable>```"
+      ]
     ],
     "dm.updateDisabled": "You will **no longer receive dms** when you level up in any guild.",
     "dm.updateEnabled": "You will **now receive dms** when you level up in any guild.",
@@ -889,11 +906,14 @@
         "```/goodbye clear <on/off>```"
       ]
     ],
-    "help.helpDescription": "Information about the available commands",
-    "help.helpUsage": [
-      "Get information about a specific command.```/help [command]```"
-    ],
+    "help.description": "Information about the available commands",
     "help.title": "Kyu's Help Menu",
+    "help.usage": [
+      [
+        "Get information about a specific command.",
+        "```/help [command]```"
+      ]
+    ],
     "ignore.channelAddExists": "Channel %s is **already** in ignored list.",
     "ignore.channelAddSuccess": "%s has been **added** to the ignored list.",
     "ignore.channelRemoveNotExists": "Channel %s is **not** in ignored list.",
@@ -966,6 +986,12 @@
     "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "KOTH starting announcement has been sent to %s.",
     "koth.winnersSent": "Koth winners announcement has been sent to %s.",
+    "language.helpDescription": "Change the bots default language.",
+    "language.helpUsage": [
+      "Change the bots default language by selecting one of the options.",
+      "```/language <language>```"
+    ],
+    "language.success": "Language has been successfully changed to `%s`.",
     "leaderboard.helpDescription": "Shows the different leaderboards for the server.",
     "leaderboard.helpUsage": [
       "Shows the leaderboard for the server.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
@@ -1142,7 +1168,7 @@
     "vote.helpUsage": [
       "Get a link to vote for KyuBot.```/vote```"
     ],
-    "vote.message": "<:gweensparkles:933110632444723261> **15%** EXP Booster\n:tickets: Lootbox `1x`",
+    "vote.message": "<:gweensparkles:933110632444723261> **15%** EXP Booster\n:tickets: Lootbox `1x`\nRank card: Customise theme",
     "welcome.disable": "Users will no longer get a role upon joining the server.",
     "welcome.enable": "Users will now get the role %s upon joining the server.",
     "welcome.helpDescription": "Change settings for when users joins the server.",
@@ -1410,11 +1436,14 @@
     "goodbye.helpUsage": [
       "Cambiar la configuración para que EXP se borrará al salir del usuario."
     ],
-    "help.helpDescription": "Información sobre los comandos disponibles",
-    "help.helpUsage": [
-      "Obtenga información sobre un comando específico."
-    ],
+    "help.description": "Information about the available commands",
     "help.title": "Menú de ayuda de Kyu",
+    "help.usage": [
+      [
+        "Get information about a specific command.",
+        "```/help [command]```"
+      ]
+    ],
     "ignore.channelAddExists": "Channel %s ya es ** ** en la lista ignorada.",
     "ignore.channelAddSuccess": "%s ha sido ** agregado ** a la lista ignorada.",
     "ignore.channelRemoveNotExists": "Channel %s es ** no ** en la lista ignorada.",
@@ -1469,6 +1498,12 @@
     "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "El anuncio inicial de Koth ha sido enviado a %s.",
     "koth.winnersSent": "El anuncio de los ganadores de Koth ha sido enviado a %s.",
+    "language.helpDescription": "Change the bots default language.",
+    "language.helpUsage": [
+      "Change the bots default language by selecting one of the options.",
+      "```/language <language>```"
+    ],
+    "language.success": "Language has been successfully changed to `%s`.",
     "leaderboard.helpDescription": "Muestra las diferentes tablas de clasificación para el servidor.",
     "leaderboard.helpUsage": [
       "Muestra la tabla de clasificación para el servidor.\n/tabla de clasificación koth\n/Voz de la tabla de clasificación`````````"
@@ -1681,6 +1716,10 @@
     "goodbye.typeReward": "Adiós solo se enviará en niveles que ** recompensa ** miembros.",
     "goodbye.typeSuccess": "Adiós Los mensajes ahora se enviarán a **%s **.",
     "goodbye.variables": "Establece un mensaje personalizado para mensajes de anuncio.\n/anunciar mensaje predeterminado```\n__Variables__\n`{user.ping}`: @kyubot\n`{user.tag}`: Kyubot#9767\n`{user.name}`: Kyubot\n`{user.avatar}`: Avatar de usuario\n`{user.id}`: 932319321559015526\n`{user.nick}`: Apodo del usuario\n`{user.exp}`: Experiencia de miembro\n\n`{nivel}`: nivel obtenido\n`{nivel.previous}`: nivel anterior\n`{nivel.previous.EXP}`: Experiencia de nivel anterior\n`{nivel.next}`: siguiente nivel\n`{nivel.next.exp}`: Experiencia en el siguiente nivel\n\n`{recompensa}`:\n`{recompensa.role.name}`: nombre de rol obtenido\n`{recompensa.rolecount}`: Contejo de miembros de rol obtenido\n`{recompensa.rolecount.progess}`: Porcentaje de roles que el usuario tiene de todas las funciones obtenibles\n`{recompensa.previous}`: rol anterior\n`{recompensa.next}`: siguiente rol\n\n`{server.name}`: nombre del servidor\n`{server.id}`: ID de servidor\n`{server.icon}`: icono del servidor\n\n`{canal}`: canal de anuncio\n`{channel.name}`: Nombre del canal de anuncio\n`{Channel.id}`: ID de canal de anuncio\n\n`{fecha}`: fecha actual (<t:%s: f>)",
+    "help.helpDescription": "Información sobre los comandos disponibles",
+    "help.helpUsage": [
+      "Obtenga información sobre un comando específico."
+    ],
     "ignore.channelNotExists": "No se puede encontrar el canal proporcionado.",
     "koth.disable": "Koth ya está deshabilitado.",
     "koth.enable": "¡Koth ha comenzado!¡Reclamar los usuarios de su corona 👑!",
@@ -1969,11 +2008,14 @@
     "goodbye.helpUsage": [
       "Changer le paramètre pour que l'exp soit effacé en cas de départ de l'utilisateur.```/adieu clear <on/off>```"
     ],
-    "help.helpDescription": "Informations sur les commandes disponibles",
-    "help.helpUsage": [
-      "Récupère des informations à propos d'une commande spécifique.```/help [command]```"
-    ],
+    "help.description": "Information about the available commands",
     "help.title": "Menu d'aide de Kyu",
+    "help.usage": [
+      [
+        "Get information about a specific command.",
+        "```/help [command]```"
+      ]
+    ],
     "ignore.channelAddExists": "Le salon %s est **déjà** dans la liste ignorée.",
     "ignore.channelAddSuccess": "%s a été **ajouté** à la liste ignorée.",
     "ignore.channelRemoveNotExists": "Le canal %s n'est **pas** dans la liste ignorée.",
@@ -2028,6 +2070,12 @@
     "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
     "koth.startSent": "L'annonce de démarrage de KOTH a été envoyée à %s.",
     "koth.winnersSent": "L'annonce des gagnants de Koth a été envoyée à %s.",
+    "language.helpDescription": "Change the bots default language.",
+    "language.helpUsage": [
+      "Change the bots default language by selecting one of the options.",
+      "```/language <language>```"
+    ],
+    "language.success": "Language has been successfully changed to `%s`.",
     "leaderboard.helpDescription": "Affiche les différents classements pour le serveur.",
     "leaderboard.helpUsage": [
       "Affiche le classement du serveur.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
@@ -2240,6 +2288,10 @@
     "goodbye.typeReward": "Au revoir ne sera envoyé que sur les niveaux que les membres **récompense**.",
     "goodbye.typeSuccess": "Les messages au revoir seront maintenant envoyés à **%s**.",
     "goodbye.variables": "Définit un message personnalisé pour les messages d'annonce.```/announce message custom <0>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<1>)",
+    "help.helpDescription": "Informations sur les commandes disponibles",
+    "help.helpUsage": [
+      "Récupère des informations à propos d'une commande spécifique.```/help [command]```"
+    ],
     "ignore.channelNotExists": "Impossible de trouver le canal fourni.",
     "koth.disable": "KOTH est déjà désactivé.",
     "koth.enable": "KOTH a commencé! Réclamez vos utilisateurs de couronne 👑!",
