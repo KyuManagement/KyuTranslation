@@ -1,7 +1,5 @@
 {
   "helpDescription": "Report a bug to developers",
-  "helpUsage": [
-    "Report a bug to developers.```/bug```"
-  ],
-  "success": "Thank you for submitting a bug. Our team will look into this as soon as possible!"
+  "helpUsage": ["Report a bug to developers.", "```/bug <text>```"],
+  "success": "Thank you for submitting a bug. Our team will look into this as soon as possible! If this issue keeps occuring please contact out staff time with ID: %s"
 }
