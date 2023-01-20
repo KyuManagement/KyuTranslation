@@ -1,0 +1,8 @@
+{
+  "helpDescription": "Change the bots default language.",
+  "helpUsage": [
+    "Change the bots default language by selecting one of the options.",
+    "```/language <language>```"
+  ],
+  "success": "Language has been successfully changed to `%s`."
+}
