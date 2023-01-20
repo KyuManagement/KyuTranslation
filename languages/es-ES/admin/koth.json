@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Una tabla de clasificación temporal, que permite al miembro superior ganar diferentes recompensas.",
-  "helpUsage": [
+  "description": "Una tabla de clasificación temporal, que permite al miembro superior ganar diferentes recompensas.",
+  "usage": [
     "Start/End Koth Event.````/koth <start/end> [canal] `` `` ``",
     "Establezca una recompensa para el miembro principal del Koth Leaderbaord.'`` `` `` `` `` `` `` `` `` `` `` `` `` `` ``",
     "Muestra la tabla de clasificación de Koth para el servidor."

@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Set multiplier for channels/roles.",
-  "helpUsage": [
+  "description": "Set multiplier for channels/roles.",
+  "usage": [
     [
       "Set multiplier for a text/voice channel.",
       "```/multiplier set channel <#channel> <0-250> <0-250>```"

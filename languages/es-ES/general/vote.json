@@ -1,7 +1,5 @@
 {
-  "helpDescription": "Obtenga un enlace para votar por Kyubot",
-  "helpUsage": [
-    "Obtenga un enlace para votar por Kyubot."
-  ],
+  "description": "Obtenga un enlace para votar por Kyubot",
+  "usage": ["Obtenga un enlace para votar por Kyubot."],
   "message": "<: gweensparkles: 933110632444723261> ** 15%** Exp Booster\n: boletos: Lootbox `1x`"
 }

@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ouvrez les lootbox pour gagner de l'expérience supplémentaire.",
-  "helpUsage": [
+  "description": "Ouvrez les lootbox pour gagner de l'expérience supplémentaire.",
+  "usage": [
     "Ouvrez un lootbox pour gagner des Exp supplémentaires et d'autres récompenses.```/lootbox open```",
     "Désactiver/activer la possibilité pour les membres d'ouvrir des lootbox (Admins seulement).```/lootbox toggle```",
     "Vérifiez vos statistiques actuelles pour les lootboxes.```/lootbox stats```"

@@ -1,7 +1,10 @@
 {
-  "helpDescription": "Shows the different leaderboards for the server.",
-  "helpUsage": [
-    "Shows the leaderboard for the server.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
+  "description": "Shows the different leaderboards for the server.",
+  "usage": [
+    [
+      "Shows the leaderboard for the server.",
+      "```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
+    ]
   ],
   "kothDisabled": "KOTH is currently disabled in this guild. Please ask admins to enable KOTH.",
   "voiceDisabled": "Voice exp is currently disabled in this guild. Please ask admins to enable voice exp."

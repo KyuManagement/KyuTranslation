@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Establezca el nivel o nivel de un miembro para los miembros que tienen un papel específico.",
-  "helpUsage": [
+  "description": "Establezca el nivel o nivel de un miembro para los miembros que tienen un papel específico.",
+  "usage": [
     "Establezca el miembro en un nivel especificado.'``/SetLevel User <ember> <livele> `` `` `` `` `` `` `` `` `` ``",
     "Nivel de actualización para todos los miembros que tienen un rol específico.'``/setlevel rol <ember> <livel> `` `` `` `` `` `` `` `` `` `` `` `` `` `"
   ],

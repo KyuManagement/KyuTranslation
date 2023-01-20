@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambiar la configuración de los mensajes de anuncio de nivel.",
-  "helpUsage": [
+  "description": "Cambiar la configuración de los mensajes de anuncio de nivel.",
+  "usage": [
     "Cambie el mensaje personalizado o obtenga más información.\n/anunciar mensaje predeterminado\n/anunciar variables de mensaje````",
     "Habilitar/deshabilitar pings para mensajes de anuncio.",
     "Pruebe el mensaje de anuncio actual."

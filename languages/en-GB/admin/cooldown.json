@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Change global cooldown or for channels/roles.",
-  "helpUsage": [
+  "description": "Change global cooldown or for channels/roles.",
+  "usage": [
     [
       "Set cooldown for a text/voice channel.",
       "```/cooldown add channel <channel> <seconds>```"

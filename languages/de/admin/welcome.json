@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen, wenn Mitglieder dem Server beitreten.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen, wenn Mitglieder dem Server beitreten.",
+  "usage": [
     "Lege eine Rolle fest, die Mitglieder erhalten, wenn sie dem Server beitreten.```/welcome role <role>```",
     "Deaktiviere die Einstellung, damit Mitglieder beim Beitritt keine Rolle erhalten.```/welcome disable```"
   ],

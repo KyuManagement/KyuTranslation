@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Eine temporäre Rangliste, die es dem Top-Mitglied ermöglicht, verschiedene Belohnungen zu verdienen.",
-  "helpUsage": [
+  "description": "Eine temporäre Rangliste, die es dem Top-Mitglied ermöglicht, verschiedene Belohnungen zu verdienen.",
+  "usage": [
     "Koth-Event starten/beenden.```/koth <start/end> [channel]```",
     "Lege eine Belohnung für das beste Mitglied der Koth-Rangliste fest.```/koth reward <role>```",
     "Zeigt die Koth-Rangliste für den Server an.```/koth leaderboard```"

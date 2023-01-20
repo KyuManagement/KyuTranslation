@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere das Aussehen deiner Rangkarte.",
-  "helpUsage": [
+  "description": "Ändere das Aussehen deiner Rangkarte.",
+  "usage": [
     "Ändere die Farbe deiner Rangkarte.```/profile color <color>```",
     "Ändere die Transparenz für deine Rangkarte.```/profile opacity <0-100>```",
     "Ändere den Hintergrund Deiner Rangkarte.```/profile background <url>```",

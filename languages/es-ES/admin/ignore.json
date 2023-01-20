@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ignore los canales/comandos cuando se ejecutan.",
-  "helpUsage": [
+  "description": "Ignore los canales/comandos cuando se ejecutan.",
+  "usage": [
     "Agrega/elimina un canal a la lista ignorada.'``/Ignore Channel <add/remo",
     "Agrega/elimina un comando a la lista ignorada.'``/ignorar el comando <add/remo",
     "Muestra una lista de comandos y canales actualmente ignorados."

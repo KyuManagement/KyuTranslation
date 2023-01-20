@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Vérifiez votre rang ou celui d'un autre utilisateur",
-  "helpUsage": [
+  "description": "Vérifiez votre rang ou celui d'un autre utilisateur",
+  "usage": [
     "Vérifiez votre rang ou celui d'un autre utilisateur.```/rank [member] [normal/voice]```"
   ],
   "vote": "Votez pour 15% de boost",

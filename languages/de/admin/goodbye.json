@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen für wenn Mitglieder den Server verlassen.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen für wenn Mitglieder den Server verlassen.",
+  "usage": [
     "Ändere die Einstellung, ob die Exp des Mitglieds gelöscht werden sollen, wenn der Server verlassen wird.```/goodbye clear <on/off>```"
   ],
   "typeSuccess": "Abschiedsnachrichten werden jetzt in **%s** gesendet.",

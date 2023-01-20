@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambie la configuración para cuando los usuarios se unan al servidor.",
-  "helpUsage": [
+  "description": "Cambie la configuración para cuando los usuarios se unan al servidor.",
+  "usage": [
     "Establezca un papel para que los usuarios ganen al unir el servidor.",
     "Desactivar la configuración para que los usuarios obtengan un papel al unirse."
   ],

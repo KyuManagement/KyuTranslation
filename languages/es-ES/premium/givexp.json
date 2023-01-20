@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Recompensa a los usuarios con una cantidad específica de exp.",
-  "helpUsage": [
+  "description": "Recompensa a los usuarios con una cantidad específica de exp.",
+  "usage": [
     "Recompensar a los usuarios con una cantidad específica de exp.````/dedxp <serer> <pp> `` `` `` `` `` `` `` `` `` `` `` `"
   ],
   "userNotPremium": "Esta característica solo está disponible para el donante.Obtenga más información utilizando 'donate'",

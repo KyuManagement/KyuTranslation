@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen, wohin die Level-Up Nachrichten gesendet werden.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen, wohin die Level-Up Nachrichten gesendet werden.",
+  "usage": [
     "Lege fest, wohin Level-Up Nachrichten gesendet werden.```/type set <default/dm//off/rewards>```",
     "Sende Level-Up Nachrichten an einen bestimmten Kanal.```/type channel <channel>```"
   ],

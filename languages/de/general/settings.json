@@ -1,6 +1,4 @@
 {
-  "helpDescription": "",
-  "helpUsage": [
-    "Überprüfe die aktuellen Servereinstellungen.```/settings```"
-  ]
+  "description": "",
+  "usage": ["Überprüfe die aktuellen Servereinstellungen.```/settings```"]
 }

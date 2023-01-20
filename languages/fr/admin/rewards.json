@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres pour les récompenses gagnées lors du niveau vers le haut.",
-  "helpUsage": [
+  "description": "Modifier les paramètres pour les récompenses gagnées lors du niveau vers le haut.",
+  "usage": [
     "Définir le rôle à donner lorsqu'un membre atteint le niveau spécifié.```/rewards add <level> <role>```",
     "Retirer le rôle d'un niveau spécifié.```/rewards remove <level>```",
     "Définissez les rôles à empiler ou à remplacer après avoir gagné un nouveau rôle.```/rewards stack <enable/disable>```",

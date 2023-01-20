@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Zeigt die verschiedenen Bestenlisten für den Server an.",
-  "helpUsage": [
+  "description": "Zeigt die verschiedenen Bestenlisten für den Server an.",
+  "usage": [
     "Zeigt die Bestenliste für den Server.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
   ],
   "kothDisabled": "KOTH ist derzeit auf diesem Server deaktiviert. Bitte die Admins KOTH zu aktivieren.",

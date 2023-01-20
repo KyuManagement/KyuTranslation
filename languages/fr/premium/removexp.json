@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Supprime un nombre d’Exp spécifique à un utilisateur.",
-  "helpUsage": [
+  "description": "Supprime un nombre d’Exp spécifique à un utilisateur.",
+  "usage": [
     "Retirer une quantité spécifique d'exp d'un utilisateur.```/removexp <user> <exp>```"
   ],
   "userNotPremium": "Cette fonctionnalité n'est disponible que pour les donateurs. Plus d'informations en utilisant `donate`",

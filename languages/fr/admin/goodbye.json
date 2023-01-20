@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres quand les utilisateurs quittent la guilde.",
-  "helpUsage": [
+  "description": "Modifier les paramètres quand les utilisateurs quittent la guilde.",
+  "usage": [
     "Changer le paramètre pour que l'exp soit effacé en cas de départ de l'utilisateur.```/adieu clear <on/off>```"
   ],
   "typeSuccess": "Les messages au revoir seront maintenant envoyés à **%s**.",

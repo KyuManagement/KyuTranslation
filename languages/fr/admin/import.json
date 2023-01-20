@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Importer des niveaux de différents autres bots dans Kyubot.",
-  "helpUsage": [
+  "description": "Importer des niveaux de différents autres bots dans Kyubot.",
+  "usage": [
     "Importer des niveaux de différents autres bots dans Kyubot.```/import <AmariBot/Mee6/Tatsu>```"
   ],
   "notFoundMee6": "Impossible de trouver le classement. Veuillez visiter https://mee6.xyz/dashboard/${message.guild.id}/leaderboard et assurez-vous que votre classement est public.",

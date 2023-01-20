@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambiar la configuración para anuncios.",
-  "helpUsage": [
+  "description": "Cambiar la configuración para anuncios.",
+  "usage": [
     "Conjuntos Si los anuncios se envían con incrustaciones o sin .````/Incrementar Toggle <Disable/Enable> [nivel] `` `` `` `` `` `` `` `` `",
     "Habilitar/deshabilitar pings para los mensajes de anuncio.'``/incrustar ping disable/habilitar> [nivel] `` `` ``",
     "Personalice las diferentes secciones de las incrustaciones.\n/incrustar personalizar descripción <put> [nivel]\n/incrustar personalizar imagen <put> [nivel]\n/incrustar personalizar color <input> [nivel] `` `` `` `` `` `` `` `` `` `` `",

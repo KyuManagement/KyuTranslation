@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Changez l'apparence de votre carte de classement.",
-  "helpUsage": [
+  "description": "Changez l'apparence de votre carte de classement.",
+  "usage": [
     "Changez la couleur de votre carte de classement.```/profile color <color>```",
     "Changez l'opacité de votre carte de classement.```/profile opacity <0-100>```",
     "Changez l'arrière-plan de votre carte de classement.```/profile background <url>```",

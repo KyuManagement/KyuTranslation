@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Lege das Level eines Mitglieds oder das Level für Mitglieder fest, die eine bestimmte Rolle haben.",
-  "helpUsage": [
+  "description": "Lege das Level eines Mitglieds oder das Level für Mitglieder fest, die eine bestimmte Rolle haben.",
+  "usage": [
     "Mitglied auf ein bestimmtes Level setzen.```/setlevel user <member> <level>```",
     "Aktualisiere das Level für alle Mitglieder, die eine bestimmte Rolle haben.```/setlevel role <member> <level>```"
   ],

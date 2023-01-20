@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Change settings for level up announcement messages.",
-  "helpUsage": [
+  "description": "Change settings for level up announcement messages.",
+  "usage": [
     [
       "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
       "```/announce clear <30-300>```"

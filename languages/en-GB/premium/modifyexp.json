@@ -1,7 +1,14 @@
 {
-  "helpDescription": "Reward users with a specific amount of exp.",
-  "helpUsage": [
-    "Reward users with a specific amount of exp.```/givexp <user> <exp>```"
+  "description": "Add/remove specific amount of exp from members.",
+  "usage": [
+    [
+      "Reward users with a specific amount of exp.",
+      "```/givexp <user> <exp>```"
+    ],
+    [
+      "Remove a specific amount of exp from a user.",
+      "```/removexp <user> <exp>```"
+    ]
   ],
   "userNotPremium": "This feature is only available for donator. Find out more information using `donate`",
   "inputTooHigh": "Only exp between 1-20,000 can be given at once. Please change exp amount.",

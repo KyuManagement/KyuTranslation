@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Réinitialiser les paramètres ou utilisateurs spécifiques pour le serveur actuel.",
-  "helpUsage": [
+  "description": "Réinitialiser les paramètres ou utilisateurs spécifiques pour le serveur actuel.",
+  "usage": [
     "Réinitialiser les paramètres spécifiques pour le serveur actuel.```/reset user <member>```",
     "Réinitialiser un paramètre spécifique.```/reset settings <option>```"
   ],

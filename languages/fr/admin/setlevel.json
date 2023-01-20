@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Définissez le niveau ou le niveau d'un membre pour ceux qui ont un rôle spécifique.",
-  "helpUsage": [
+  "description": "Définissez le niveau ou le niveau d'un membre pour ceux qui ont un rôle spécifique.",
+  "usage": [
     "Définissez le membre à un niveau spécifié.```/setlevel user <member> <level>```",
     "Mettre à jour le niveau de tous les membres qui ont un rôle spécifique.```/setlevel role <member> <level>```"
   ],

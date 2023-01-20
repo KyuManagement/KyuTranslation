@@ -1,10 +1,8 @@
 {
-  "helpDescription": "Donate to unlock extra features",
-  "helpUsage": [
-    "Find out information about how to donate.```/donate```"
-  ],
+  "description": "Donate to unlock extra features",
+  "usage": [["Find out information about how to donate.", "```/donate```"]],
   "title": "KyuBot Premium",
-  "description": "If you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing and creating content updates for the bot.",
+  "helpDescription": "If you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing and creating content updates for the bot.",
   "fieldName": "Premium Perks",
   "fieldValue": "- Customise rank card background\n- Customise rank card color\n- Customise rank card opacity\n- Give/remove experience from members (requires admin)\n- Lower cooldowns\n- Sneakpeaks to new features"
 }

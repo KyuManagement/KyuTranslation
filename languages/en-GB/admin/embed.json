@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Change settings for announcements.",
-  "helpUsage": [
+  "description": "Change settings for announcements.",
+  "usage": [
     [
       "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
       "```/embed clear <30-300>```"

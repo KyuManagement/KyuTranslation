@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Enable/disable dms from Kyubot for announcements in all servers",
-  "helpUsage": [
+  "description": "Enable/disable dms from Kyubot for announcements in all servers",
+  "usage": [
     [
       "Enable/disable dms from Kyubot for announcements in all servers.",
       "```/dm <disable/enable>```"

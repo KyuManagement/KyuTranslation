@@ -1,10 +1,19 @@
 {
-  "helpDescription": "Change settings for rewards earned upon leveling up.",
-  "helpUsage": [
-    "Set role to be given when a member reaches the specified level.```/rewards add <level> <role>```",
-    "Remove role from be given at a specified level.```/rewards remove <level>```",
-    "Set roles to be stacked or replaced after gaining new role.```/rewards stack <enable/disable>```",
-    "Shows all roles set to levels.```/rewards show```"
+  "description": "Change settings for rewards earned upon leveling up.",
+  "usage": [
+    [
+      "Set role to be given when a member reaches the specified level.",
+      "```/rewards add <level> <role>```"
+    ],
+    [
+      "Remove role from be given at a specified level.",
+      "```/rewards remove <level>```"
+    ],
+    [
+      "Set roles to be stacked or replaced after gaining new role.",
+      "```/rewards stack <enable/disable>```"
+    ],
+    ["Shows all roles set to levels.", "```/rewards show```"]
   ],
 
   "notExists": "Unable to find a reward for level %s.",

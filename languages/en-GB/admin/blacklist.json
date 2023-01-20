@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Blacklist channels/roles from gaining exp.",
-  "helpUsage": [
+  "description": "Blacklist channels/roles from gaining exp.",
+  "usage": [
     [
       "Adds/removes a text channel to the text blacklist.",
       "```/blacklist text channel <add/remove> <channel>```"

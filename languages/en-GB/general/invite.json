@@ -1,6 +1,4 @@
 {
-  "helpDescription": "Get a link to add KyuBot to your server.",
-  "helpUsage": [
-    "Get a link to add KyuBot to your server.```/invite```"
-  ]
+  "description": "Get a link to add KyuBot to your server.",
+  "usage": [["Get a link to add KyuBot to your server.", "```/invite```"]]
 }

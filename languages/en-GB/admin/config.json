@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Configure various settings for the server.",
-  "helpUsage": [
+  "description": "Configure various settings for the server.",
+  "usage": [
     [
       "Set if voting expbooster should be enabled/disabled.",
       "```/config expbooster <true/false>```"

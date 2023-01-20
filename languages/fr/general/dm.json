@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Activer/désactiver les dms de Kyubot pour les annonces sur tous les serveurs",
-  "helpUsage": [
+  "description": "Activer/désactiver les dms de Kyubot pour les annonces sur tous les serveurs",
+  "usage": [
     "Activer/désactiver les dms de Kyubot pour les annonces dans tous les serveurs.```/dm <disable/enable>```"
   ],
   "updateEnabled": "Vous recevrez **maintenant des dms** lorsque vous passerez au niveau supérieur dans n'importe quelle guilde.",

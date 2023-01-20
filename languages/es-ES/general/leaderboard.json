@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Muestra las diferentes tablas de clasificación para el servidor.",
-  "helpUsage": [
+  "description": "Muestra las diferentes tablas de clasificación para el servidor.",
+  "usage": [
     "Muestra la tabla de clasificación para el servidor.\n/tabla de clasificación koth\n/Voz de la tabla de clasificación`````````"
   ],
   "kothDisabled": "Koth está actualmente deshabilitado en este gremio.Por favor solicite a los administradores que habiliten a Koth.",

@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Récompensez les utilisateurs avec un montant d'expérience spécifique.",
-  "helpUsage": [
+  "description": "Récompensez les utilisateurs avec un montant d'expérience spécifique.",
+  "usage": [
     "Récompensez les utilisateurs avec un montant spécifique de exp.```/givexp <user> <exp>```"
   ],
   "userNotPremium": "Cette fonctionnalité n'est disponible que pour les donateurs. Plus d'informations en utilisant `donate`",

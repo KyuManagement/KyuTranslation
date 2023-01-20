@@ -1,8 +1,6 @@
 {
-  "helpDescription": "Faire un don pour débloquer des fonctionnalités supplémentaires",
-  "helpUsage": [
-    "Découvrez comment faire un don.```/donate```"
-  ],
+  "description": "Faire un don pour débloquer des fonctionnalités supplémentaires",
+  "usage": ["Découvrez comment faire un don.```/donate```"],
   "title": "Kyu Premium",
   "description": "Si vous aimez utiliser KyuBot, pensez à faire un don. Les dons vous permettent de débloquer **des fonctionnalités supplémentaires** et de continuer à héberger, à développer et à créer des mises à jour de contenu pour le bot.",
   "fieldName": "Premium Perks",

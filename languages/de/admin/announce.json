@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen für Level-Up Nachrichten.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
+  "usage": [
     "Ändere die Level-Up Nachricht oder bekomme weitere Informationen.```/announce message custom <text>\n/announce message default\n/announce message variables```",
     "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <setting>```",
     "Teste die aktuelle Level-Up Nachricht.```/announce test```"

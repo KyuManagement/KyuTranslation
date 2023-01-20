@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen für Belohnungen, die du beim Levelaufstieg erhältst.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen für Belohnungen, die du beim Levelaufstieg erhältst.",
+  "usage": [
     "Lege die Rolle fest, die vergeben wird, wenn ein Mitglied das angegebene Level erreicht.```/rewards add <level> <role>```",
     "Entfernt die Rolle, die auf einem bestimmten Level vergeben wird.```/rewards remove <level>```",
     "Lege fest, ob Rollen gestapelt oder ersetzt werden, nachdem Mitglieder eine neue Rolle erhalten haben.```/rewards stack <enable/disable>```",

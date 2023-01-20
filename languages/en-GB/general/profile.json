@@ -1,10 +1,16 @@
 {
-  "helpDescription": "Change your rank card appearance.",
-  "helpUsage": [
-    "Change the color for your rank card.```/profile color <color>```",
-    "Change the opacity for your rank card.```/profile opacity <0-100>```",
-    "Change the background for your rank card.```/profile background <url>```",
-    "Change the overlay for your rank card.```/profile opacity <url>```"
+  "description": "Change your rank card appearance.",
+  "usage": [
+    ["Change the color for your rank card.", "```/profile color <color>```"],
+    [
+      "Change the opacity for your rank card.",
+      "```/profile opacity <0-100>```"
+    ],
+    [
+      "Change the background for your rank card.",
+      "```/profile background <url>```"
+    ],
+    ["Change the overlay for your rank card.", "```/profile opacity <url>```"]
   ],
 
   "isNotColor": "Unable to find the given color '%s'. Please select a color from one of the following colors:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",

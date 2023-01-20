@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Füge Kanäle/Rollen zur Blacklist hinzu, um das Verdienen von Exp zu verhindern.",
-  "helpUsage": [
+  "description": "Füge Kanäle/Rollen zur Blacklist hinzu, um das Verdienen von Exp zu verhindern.",
+  "usage": [
     "Fügt einen Kanal zur Blacklist hinzu/entfernt ihn.```/blacklist channel <add/remove> <channel>```",
     "Fügt eine Rolle zur Blacklist hinzu/entfernt sie.```/blacklist role <add/remove> <role>```",
     "Zeigt eine Liste der derzeit auf der Blacklist stehenden Rollen und Kanäle an.```/blacklist show```"

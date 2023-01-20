@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres de l'endroit où les annonces sont envoyées.",
-  "helpUsage": [
+  "description": "Modifier les paramètres de l'endroit où les annonces sont envoyées.",
+  "usage": [
     "Définir où les messages d'annonce sont envoyés.```/type set <default/dm//off/rewards>```",
     "Messages d'annonces directs vers un canal spécifique.```/type channel <channel>```"
   ],

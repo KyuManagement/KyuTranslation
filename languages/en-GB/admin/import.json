@@ -1,7 +1,10 @@
 {
-  "helpDescription": "Import levels from various other bots into Kyubot.",
-  "helpUsage": [
-    "Import levels from various other bots into Kyubot.```/import <AmariBot/Mee6/Tatsu>```"
+  "description": "Import levels from various other bots into Kyubot.",
+  "usage": [
+    [
+      "Import levels from various other bots into Kyubot.",
+      "```/import <AmariBot/Mee6/Tatsu>```"
+    ]
   ],
   "notFoundMee6": "Unable to find leaderboard. Please visit https://mee6.xyz/dashboard/${message.guild.id}/leaderboard and make sure your leaderboard is public.",
   "notFound": "Unable to find leaderboard. Seems like this guild doesn't have any levels in %s.",

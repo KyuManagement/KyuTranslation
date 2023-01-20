@@ -1,9 +1,15 @@
 {
-  "helpDescription": "Open lootboxes to earn extra exp.",
-  "helpUsage": [
-    "Open a lootbox to earn extra exp and other rewards.```/lootbox open```",
-    "Disable/enable ability for members to open lootboxes (Admins only).```/lootbox toggle```",
-    "Check your current statistics for lootboxes.```/lootbox stats```"
+  "description": "Open lootboxes to earn extra exp.",
+  "usage": [
+    [
+      "Open a lootbox to earn extra exp and other rewards.",
+      "```/lootbox open```"
+    ],
+    [
+      "Disable/enable ability for members to open lootboxes (Admins only).",
+      "```/lootbox toggle```"
+    ],
+    ["Check your current statistics for lootboxes.", "```/lootbox stats```"]
   ],
   "enabled": "Lootboxes have now been **enabled*** in this server.",
   "disabled": "Lootboxes have now been **disabled** in this server.",

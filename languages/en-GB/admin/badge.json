@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Add/remove custom badges from the server.",
-  "helpUsage": [
+  "description": "Add/remove custom badges from the server.",
+  "usage": [
     ["Add a new badge to the server.", "```/badge add <name> <url>```"],
     ["Delete a current badge from the server.", "```/badge add <name>```"],
     ["Show a list of the available badges in this server.", "```/badge show```"]

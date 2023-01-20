@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Change settings for when users leave the guild.",
-  "helpUsage": [
+  "description": "Change settings for when users leave the guild.",
+  "usage": [
     [
       "Change setting for exp to be cleared upon user leaving.",
       "```/goodbye clear <on/off>```"

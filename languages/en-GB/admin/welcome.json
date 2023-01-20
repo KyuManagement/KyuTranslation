@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Change settings for when users joins the server.",
-  "helpUsage": [
+  "description": "Change settings for when users joins the server.",
+  "usage": [
     [
       "Set a role for users to gain upon joinging the server.",
       "```/welcome role <role>```"

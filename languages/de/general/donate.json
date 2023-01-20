@@ -1,8 +1,6 @@
 {
-  "helpDescription": "Spende, um zusätzliche Funktionen freizuschalten",
-  "helpUsage": [
-    "Erfahre mehr darüber, wie man spenden kann.```/donate```"
-  ],
+  "description": "Spende, um zusätzliche Funktionen freizuschalten",
+  "usage": ["Erfahre mehr darüber, wie man spenden kann.```/donate```"],
   "title": "KyuBot Premium",
   "description": "Wenn Du KyuBot gerne verwendest, denke bitte über eine Spende nach. Mit einer Spende kannst Du **zusätzliche Funktionen** freischalten und erlauben uns auch weiterhin den Bot zu hosten, zu entwickeln und neuen Inhalt hinzuzufügen.",
   "fieldName": "Premium Inhalte",

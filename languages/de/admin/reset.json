@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Setze bestimmte Mitglieder oder Einstellungen für den aktuellen Server zurück.",
-  "helpUsage": [
+  "description": "Setze bestimmte Mitglieder oder Einstellungen für den aktuellen Server zurück.",
+  "usage": [
     "Exp eines bestimmten Mitglieds zurücksetzen.```/reset user <member>```",
     "Setze eine bestimmte Einstellung zurück.```/reset settings <option>```"
   ],

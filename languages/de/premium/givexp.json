@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Belohne Mitglieder mit einer bestimmten Menge an Exp.",
-  "helpUsage": [
+  "description": "Belohne Mitglieder mit einer bestimmten Menge an Exp.",
+  "usage": [
     "Belohne Mitglieder mit einer bestimmten Menge an Exp.```/givexp <user> <exp>```"
   ],
   "userNotPremium": "Diese Funktion ist nur mit Premium verfügbar. Finde mehr Informationen mit `donate`",

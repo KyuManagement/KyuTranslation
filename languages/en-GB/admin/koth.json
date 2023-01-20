@@ -1,6 +1,6 @@
 {
-  "helpDescription": "A temporary leaderboard, which allows the top member to earn different rewards.",
-  "helpUsage": [
+  "description": "A temporary leaderboard, which allows the top member to earn different rewards.",
+  "usage": [
     ["Start/end koth event.", "```/koth <start/end> [channel]```"],
     [
       "Set a reward for the top member of the koth leaderbaord.",

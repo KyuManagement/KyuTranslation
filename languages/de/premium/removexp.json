@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Entferne eine bestimmte Menge an Exp von einem Mitglied.",
-  "helpUsage": [
+  "description": "Entferne eine bestimmte Menge an Exp von einem Mitglied.",
+  "usage": [
     "Entferne eine bestimmte Menge an Exp von einem Mitglied.```/removexp <user> <exp>```"
   ],
   "userNotPremium": "Diese Funktion ist nur mit Premium verfügbar. Finde mehr Informationen mit `donate`",

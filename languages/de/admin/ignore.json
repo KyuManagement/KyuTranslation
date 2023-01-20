@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Kanäle/Befehle ignorieren, wenn sie ausgeführt werden.",
-  "helpUsage": [
+  "description": "Kanäle/Befehle ignorieren, wenn sie ausgeführt werden.",
+  "usage": [
     "Fügt einen Kanal zur ignorierten Liste hinzu/entfernt ihn.```/ignore channel <add/remove> <channel>```",
     "Fügt einen Befehl zur ignorierten Liste hinzu/entfernt ihn.```/ignore command <add/remove> <command>```",
     "Zeigt eine Liste der derzeit ignorierten Befehle und Kanäle.```/ignore show```"

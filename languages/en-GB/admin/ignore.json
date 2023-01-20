@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ignore channels/commands when they are ran.",
-  "helpUsage": [
+  "description": "Ignore channels/commands when they are ran.",
+  "usage": [
     [
       "Adds/removes a channel to the ignored list.",
       "```/ignore channel <add/remove> <channel>```"

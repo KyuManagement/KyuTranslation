@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambiar la configuración de las recompensas ganadas al subir de nivel.",
-  "helpUsage": [
+  "description": "Cambiar la configuración de las recompensas ganadas al subir de nivel.",
+  "usage": [
     "Establezca el rol que se dará cuando un miembro alcanza el nivel especificado.'```/Rewards Agregar <nivel> <sol> `` ``",
     "Eliminar el rol de ser dado en un nivel especificado.'`` 'Rewards Eliminar <livel> `` `` `` `` `` `` `` ``",
     "Establezca roles para apilar o reemplazar después de obtener un nuevo rol.'```/Rewards Stack <Enlable/Disable> `` ``",

@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambia la apariencia de tu tarjeta de rango.",
-  "helpUsage": [
+  "description": "Cambia la apariencia de tu tarjeta de rango.",
+  "usage": [
     "Cambie el color para su tarjeta de rango.",
     "Cambie la opacidad para su tarjeta de rango.",
     "Cambie los antecedentes de su tarjeta de rango.",

@@ -1,8 +1,11 @@
 {
-  "helpDescription": "Reset specific users or settings for the current server.",
-  "helpUsage": [
-    "Reset specific settings for the current server.```/reset user <member>```",
-    "Reset a specific setting.```/reset settings <option>```"
+  "description": "Reset specific users or settings for the current server.",
+  "usage": [
+    [
+      "Reset specific settings for the current server.",
+      "```/reset user <member>```"
+    ],
+    ["Reset a specific setting.", "```/reset settings <option>```"]
   ],
   "settingsQuestion": "Are you sure you want to delete **ALL** settings?",
   "pointsQuestion": "Are you sure you want to delete **all points**?",

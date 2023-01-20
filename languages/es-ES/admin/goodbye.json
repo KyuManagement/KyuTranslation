@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambie la configuración para cuando los usuarios salgan del gremio.",
-  "helpUsage": [
+  "description": "Cambie la configuración para cuando los usuarios salgan del gremio.",
+  "usage": [
     "Cambiar la configuración para que EXP se borrará al salir del usuario."
   ],
   "typeSuccess": "Adiós Los mensajes ahora se enviarán a **%s **.",

@@ -1,7 +1,5 @@
 {
-  "helpDescription": "Get a link to vote for KyuBot",
-  "helpUsage": [
-    "Get a link to vote for KyuBot.```/vote```"
-  ],
+  "description": "Get a link to vote for KyuBot",
+  "usage": [["Get a link to vote for KyuBot.", "```/vote```"]],
   "message": "<:gweensparkles:933110632444723261> **15%** EXP Booster\n:tickets: Lootbox `1x`\nRank card: Customise theme"
 }

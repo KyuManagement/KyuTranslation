@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Un classement temporaire, qui permet au membre le plus haut de gagner différentes récompenses.",
-  "helpUsage": [
+  "description": "Un classement temporaire, qui permet au membre le plus haut de gagner différentes récompenses.",
+  "usage": [
     "Début de l'événement koth.```/koth <start/end> [channel]```",
     "Définir une récompense pour le membre le plus haut du koth leaderbaord.```/koth récompense <role>```",
     "Affiche le classement du koth pour le serveur.```/koth leaderboard```"

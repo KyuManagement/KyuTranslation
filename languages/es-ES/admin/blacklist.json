@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Canales/roles de lista negra al obtener exp.",
-  "helpUsage": [
+  "description": "Canales/roles de lista negra al obtener exp.",
+  "usage": [
     "Agrega/elimina un canal a Blacklist.'```/Blacklist Channel <add/remove> <nannel> `` ``",
     "Agrega/elimina un papel a la lista negra.'``/Blacklist rol <add/remove> <sol> `` `` `` `` `` `` `` `",
     "Muestra una lista de roles y canales de la lista negra actualmente."

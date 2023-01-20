@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Ändere die Einstellungen für Level-Up Nachrichten.",
-  "helpUsage": [
+  "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
+  "usage": [
     "Legt fest, ob Level-Up Nachrichten mit oder ohne Einbettung gesendet werden.```/embed toggle <disable/enable> [level]```",
     "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/embed ping disable/enable> [level]```",
     "Passe die verschiedene Abschnitte der Einbettung an.```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```",

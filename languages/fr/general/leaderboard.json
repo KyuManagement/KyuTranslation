@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Affiche les différents classements pour le serveur.",
-  "helpUsage": [
+  "description": "Affiche les différents classements pour le serveur.",
+  "usage": [
     "Affiche le classement du serveur.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
   ],
   "kothDisabled": "KOTH est actuellement désactivé dans cette guilde. Veuillez demander aux administrateurs d'activer KOTH.",

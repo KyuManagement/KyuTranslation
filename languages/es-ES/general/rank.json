@@ -1,8 +1,6 @@
 {
-  "helpDescription": "Verifique su rango u otro rango de usuario",
-  "helpUsage": [
-    "Verifique su rango u otro rango de usuario."
-  ],
+  "description": "Verifique su rango u otro rango de usuario",
+  "usage": ["Verifique su rango u otro rango de usuario."],
   "vote": "Votar por el 15% de impulso",
   "isBot": "Incapaz de verificar el rango de un bot."
 }

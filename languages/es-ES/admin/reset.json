@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Restablecer usuarios o configuraciones específicos para el servidor actual.",
-  "helpUsage": [
+  "description": "Restablecer usuarios o configuraciones específicos para el servidor actual.",
+  "usage": [
     "Restablecer configuraciones específicas para el servidor actual.'``/Restablecer usuario <ember> `` `` `` `` `` `` `` `` `` `` ``",
     "Restablecer una configuración específica.'``/Restablecer Configuración <Cection> `` `` `` `` `` `` `` `` ``"
   ],

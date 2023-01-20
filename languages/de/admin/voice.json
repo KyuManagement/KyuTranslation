@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Einstellungen für Sprach-Exp ändern.",
-  "helpUsage": [
+  "description": "Einstellungen für Sprach-Exp ändern.",
+  "usage": [
     "Einen Sprach-Kanal auf die Blacklist setzen, um keine Exp zu erhalten.```/voice blacklist channel <add/remove> <channel>```",
     "Eine Rolle auf die Blacklist setzen, um keine Exp zu erhalten.```/voice blacklist role <add/remove> <role>```",
     "Aktiviere oder deaktiviere Sprach-Exp.```/voice setting <enable/disable>```",

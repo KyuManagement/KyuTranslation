@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres pour les messages d'annonce de niveau supérieur.",
-  "helpUsage": [
+  "description": "Modifier les paramètres pour les messages d'annonce de niveau supérieur.",
+  "usage": [
     "Changez le message personnalisé ou trouvez plus d'informations.```/announce message custom <text>\n/announce message default\n/announce message variables```",
     "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <setting>```",
     "Teste le message d'annonce actuel.```/announce test```"

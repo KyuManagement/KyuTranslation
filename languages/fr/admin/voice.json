@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres pour l'exp vocale.",
-  "helpUsage": [
+  "description": "Modifier les paramètres pour l'exp vocale.",
+  "usage": [
     "Blacklister un salon en gagnant un canal exp.```/voice blacklist <add/remove> <channel>```",
     "Liste noire un rôle en gagnant le rôle exp.```/voice blacklist <add/remove> <role>```",
     "Activer ou désactiver le paramètre vocal.```/voice <enable/disable>```",

@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Cambiar la configuración para la exp.",
-  "helpUsage": [
+  "description": "Cambiar la configuración para la exp.",
+  "usage": [
     "Blacklist Un canal de Gaining Exp.````/Voice Blacklist Channel <add/remove> <nannel> `` ``",
     "Blacklist Un papel de Gaining Exp.````/Voice Blacklist role <add/remove> <sol> `` ``",
     "Habilitar o deshabilitar Voice Exp.````/Configuración de voz <Enlable/Disable> `` `` `` ``",

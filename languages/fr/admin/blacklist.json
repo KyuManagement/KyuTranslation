@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Liste noire des canaux/rôles en gagnant de l'expérience.",
-  "helpUsage": [
+  "description": "Liste noire des canaux/rôles en gagnant de l'expérience.",
+  "usage": [
     "Ajoute/supprime un canal à la liste noire.```/blacklist channel <add/remove> <channel>```",
     "Ajoute/supprime un rôle à la liste noire.```/blacklist role <add/remove> <role>```",
     "Affiche une liste des rôles et salons actuellement sur la liste noire.```/blacklist show```"

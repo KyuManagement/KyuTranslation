@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Modifier les paramètres pour quand les utilisateurs rejoignent le serveur.",
-  "helpUsage": [
+  "description": "Modifier les paramètres pour quand les utilisateurs rejoignent le serveur.",
+  "usage": [
     "Définissez un rôle pour les utilisateurs à gagner en joignant le serveur.```/welcome role <role>```",
     "Désactiver les paramètres pour que les utilisateurs obtiennent un rôle en rejoignant le serveur.```/welcome disable```"
   ],
