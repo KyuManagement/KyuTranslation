@@ -107,9 +107,10 @@
   "blacklist.voiceRoleRemoveSuccess": "Role %s has been **removed** from voice blacklist.",
   "bug.helpDescription": "Report a bug to developers",
   "bug.helpUsage": [
-    "Report a bug to developers.```/bug```"
+    "Report a bug to developers.",
+    "```/bug <text>```"
   ],
-  "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible!",
+  "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible! If this issue keeps occuring please contact out staff time with ID: %s",
   "common.addKyu": "Add Kyu",
   "common.clickHere": "Click Here",
   "common.commandDisabled": "`%s` command is currently disabled, this maybe due to a bug. We are working on getting this fixed as soon as possible, for more information please join our [support server](https://kyubot.com/support).",
@@ -223,7 +224,10 @@
   "cooldown.roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
   "dm.helpDescription": "Enable/disable dms from Kyubot for announcements in all servers",
   "dm.helpUsage": [
-    "Enable/disable dms from Kyubot for announcements in all servers.```/dm <disable/enable>"
+    [
+      "Enable/disable dms from Kyubot for announcements in all servers.",
+      "```/dm <disable/enable>```"
+    ]
   ],
   "dm.updateDisabled": "You will **no longer receive dms** when you level up in any guild.",
   "dm.updateEnabled": "You will **now receive dms** when you level up in any guild.",
@@ -329,11 +333,14 @@
       "```/goodbye clear <on/off>```"
     ]
   ],
-  "help.helpDescription": "Information about the available commands",
-  "help.helpUsage": [
-    "Get information about a specific command.```/help [command]```"
-  ],
+  "help.description": "Information about the available commands",
   "help.title": "Kyu's Help Menu",
+  "help.usage": [
+    [
+      "Get information about a specific command.",
+      "```/help [command]```"
+    ]
+  ],
   "ignore.channelAddExists": "Channel %s is **already** in ignored list.",
   "ignore.channelAddSuccess": "%s has been **added** to the ignored list.",
   "ignore.channelRemoveNotExists": "Channel %s is **not** in ignored list.",
@@ -406,6 +413,12 @@
   "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
   "koth.startSent": "KOTH starting announcement has been sent to %s.",
   "koth.winnersSent": "Koth winners announcement has been sent to %s.",
+  "language.helpDescription": "Change the bots default language.",
+  "language.helpUsage": [
+    "Change the bots default language by selecting one of the options.",
+    "```/language <language>```"
+  ],
+  "language.success": "Language has been successfully changed to `%s`.",
   "leaderboard.helpDescription": "Shows the different leaderboards for the server.",
   "leaderboard.helpUsage": [
     "Shows the leaderboard for the server.```/leaderboard normal\n/leaderboard koth\n/leaderboard voice```"
@@ -582,7 +595,7 @@
   "vote.helpUsage": [
     "Get a link to vote for KyuBot.```/vote```"
   ],
-  "vote.message": "<:gweensparkles:933110632444723261> **15%** EXP Booster\n:tickets: Lootbox `1x`",
+  "vote.message": "<:gweensparkles:933110632444723261> **15%** EXP Booster\n:tickets: Lootbox `1x`\nRank card: Customise theme",
   "welcome.disable": "Users will no longer get a role upon joining the server.",
   "welcome.enable": "Users will now get the role %s upon joining the server.",
   "welcome.helpDescription": "Change settings for when users joins the server.",
