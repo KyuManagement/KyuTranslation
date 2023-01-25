@@ -16,14 +16,26 @@
   "isNotColor": "Unable to find the given color '%s'. Please select a color from one of the following colors:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
   "isNotHex": "Color '%s' is not a hex color. Please make sure the color follows a hex color format (#6cffac).",
   "colorSuccess": "Profile color has been updated to **%s**.",
-  "imageInvalid": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
-  "donatorOnly": "This feature is only available for donator. Find out more information using `/donate`",
+
   "backgroundDefaultSuccess": "Profile background has been set back to default.",
   "backgroundSuccess": "Background has been uploaded to the database.",
+
+  "badgeNotFound": "Unable to find a badge with the id: %s.",
+  "badgeSuccess": "Badge for position %s has been updated to %s for %s rank card.",
+
+  "barSuccess": "Progression bar type has been updated to **%s**.",
+
   "overlayDefaultSuccess": "Profile overlay has been set back to default.",
   "overlaySuccess": "Overlay has been uploaded to the database.",
-  "discordTos": "By continuing you understand the image you are uploading follows the **[Discord's Terms of Service](https://discord.com/terms)**. Anything that is uploaded is your responsibility and you will be held accountable for it.",
-  "nsfwWarning": "WARNING! NSFW images can result in a ban from our bot.",
+
   "opacityTooHigh": "Please make sure the opacity is between 0 and 100.",
-  "opacitySuccess": "Profile opacity has been set to **%s%**."
+  "opacitySuccess": "Profile opacity has been set to **%s%**.",
+
+  "shareFailed": "Please set a background/overlay before trying to share background/overlay with others.",
+  "shareSuccessBoth": "Other user's can now use you both your background and overlay!",
+  "shareSuccessBackground": "Other user's can now use your background!",
+  "shareSuccessOverlay": "Other user's can now use your overlay!",
+  "shareSuccessNone": "User's can no longer user your background or overlay. Access has also been removed from all current users.",
+
+  "themeSuccess": "Theme has been updated to **%s**."
 }

@@ -10,5 +10,6 @@
   "successAdded": "Badge with name `%s` has been added to this server.",
   "invalidName": "Unable to find a badge with the ID `%s`.",
   "successRemoved": "`%s` badge has been removed from the server.",
-  "alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers."
+  "alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
+  "notfound": "Unable to find any badges in this server, please add a badge!"
 }
