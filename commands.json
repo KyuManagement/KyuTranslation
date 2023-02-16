@@ -1,0 +1,573 @@
+[
+  {
+    "name": "announce",
+    "cateory": "admin",
+    "description": "Change settings for level up announcement messages.",
+    "usage": [
+      [
+        "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+        "/announce clear <30-300>"
+      ],
+      [
+        "Set the description for the embed/message.",
+        "/announce custom <text>"
+      ],
+      [
+        "Enable/disable pings for announcement messages.",
+        "/announce ping <enable/disable>"
+      ],
+      [
+        "Test the announce for a specific level or the global announce.",
+        "/announce test <level>"
+      ],
+      [
+        "Set the channel announcements should be sent to.",
+        "/announce type channel #channel"
+      ],
+      [
+        "Set how announcements should be sent when a user levels up.",
+        "/announce type set <default/dm/off/rewards>"
+      ],
+      [
+        "Get a list of variables for announcements.",
+        "/announce variables"
+      ]
+    ]
+  },
+  {
+    "name": "badge",
+    "cateory": "admin",
+    "description": "Add/remove custom badges from the server.",
+    "usage": [
+      [
+        "Add a new badge to the server.",
+        "/badge add <name> <url>"
+      ],
+      [
+        "Delete a current badge from the server.",
+        "/badge add <name>"
+      ],
+      [
+        "Show a list of the available badges in this server.",
+        "/badge show"
+      ]
+    ]
+  },
+  {
+    "name": "blacklist",
+    "cateory": "admin",
+    "description": "Blacklist channels/roles from gaining exp.",
+    "usage": [
+      [
+        "Adds/removes a text channel to the text blacklist.",
+        "/blacklist text channel <add/remove> <channel>"
+      ],
+      [
+        "Adds/removes a role to the text blacklist.",
+        "/blacklist text role <add/remove> <role>"
+      ],
+      [
+        "Adds/removes a voice channel to the voice blacklist.",
+        "/blacklist voice channel <add/remove> <channel>"
+      ],
+      [
+        "Adds/removes a role to the voice blacklist.",
+        "/blacklist voice role <add/remove> <role>"
+      ],
+      [
+        "Shows a list of currently blacklisted roles and channels.",
+        "/blacklist show"
+      ]
+    ]
+  },
+  {
+    "name": "bug",
+    "cateory": "general",
+    "description": "Report a bug to developers",
+    "usage": [
+      [
+        "Report a bug to developers.",
+        "/bug <text>"
+      ]
+    ]
+  },
+  {
+    "name": "config",
+    "cateory": "admin",
+    "description": "Configure various settings for the server.",
+    "usage": [
+      [
+        "Set if voting expbooster should be enabled/disabled.",
+        "/config expbooster <true/false>"
+      ],
+      [
+        "Set an admin role for the server. Members with these roles can config the bot.",
+        "/config adminrole @role"
+      ],
+      [
+        "Set the background for the leaderboard image.",
+        "/config leaderboard background <url>"
+      ],
+      [
+        "Set the amount of users shown on the leaderboard.",
+        "/config leaderboard amount <1-10>"
+      ],
+      [
+        "Set the color for the leaderboard.",
+        "/config leaderboard color <color>"
+      ],
+      [
+        "Set if leaderboard should be an embed or an image.",
+        "/config leaderboard image <setting>"
+      ],
+      [
+        "Set the opacity for the leaderboard image.",
+        "/config leaderboard opacity <percentage>"
+      ],
+      [
+        "Set the overlay for the leaderboard image.",
+        "/config leaderboard overlay <url>"
+      ],
+      [
+        "Set the theme for the leaderboard image.",
+        "/config leaderboard theme <theme>"
+      ],
+      [
+        "Set the max level users can achieve in this server.",
+        "/config maxlevel <level>"
+      ]
+    ]
+  },
+  {
+    "name": "cooldown",
+    "cateory": "admin",
+    "description": "Change global cooldown or for channels/roles.",
+    "usage": [
+      [
+        "Set cooldown for a text/voice channel.",
+        "/cooldown add channel <channel> <seconds>"
+      ],
+      [
+        "Set cooldown for a role in text/voice.",
+        "/cooldown add role <role> <seconds> <for>"
+      ],
+      [
+        "Remove cooldown from a text/voice channel.",
+        "/cooldown remove channel <channel> <from>"
+      ],
+      [
+        "Remove cooldown role from text/voice.",
+        "/cooldown remove role <role> <from>"
+      ],
+      [
+        "Show a list of the currently set cooldowns.",
+        "/cooldown show"
+      ]
+    ]
+  },
+  {
+    "name": "dm",
+    "cateory": "general",
+    "description": "Enable/disable dms from Kyubot for announcements in all servers",
+    "usage": [
+      [
+        "Enable/disable dms from Kyubot for announcements in all servers.",
+        "/dm <disable/enable>"
+      ]
+    ]
+  },
+  {
+    "name": "donate",
+    "cateory": "general",
+    "description": "Donate to unlock extra features",
+    "usage": [
+      [
+        "Find out information about how to donate.",
+        "/donate"
+      ]
+    ]
+  },
+  {
+    "name": "embed",
+    "cateory": "admin",
+    "description": "Change settings for announcements.",
+    "usage": [
+      [
+        "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+        "/embed clear <30-300>"
+      ],
+      [
+        "Create a custom embed for a specific level.",
+        "/embed create <level>"
+      ],
+      [
+        "Customise different sections for the announcement message.",
+        "/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]"
+      ],
+      [
+        "Delete a custom embed for a specific level.",
+        "/embed delete <level>"
+      ],
+      [
+        "Enable/disable pings for announcement messages.",
+        "/embed ping <true/false> <level>"
+      ],
+      [
+        "Test the announce for a specific level or the global announce.",
+        "/embed test <level>"
+      ],
+      [
+        "Set if announcement should be sent as an embed or message.",
+        "/embed toggle <true/false> <level>"
+      ],
+      [
+        "Set the channel announcements should be sent to.",
+        "/embed type channel #channel <level>"
+      ],
+      [
+        "Set how announcements should be sent when a user levels up.",
+        "/embed type set <default/dm/off/rewards> <level>"
+      ],
+      [
+        "Get a list of variables for announcements.",
+        "/embed variables"
+      ]
+    ]
+  },
+  {
+    "name": "goodbye",
+    "cateory": "admin",
+    "description": "Change settings for when users leave the guild.",
+    "usage": [
+      [
+        "Change setting for exp to be cleared upon user leaving.",
+        "/goodbye clear <on/off>"
+      ]
+    ]
+  },
+  {
+    "name": "help",
+    "cateory": "general",
+    "description": "Information about the available commands",
+    "usage": [
+      [
+        "Get information about a specific command.",
+        "/help [command]"
+      ]
+    ]
+  },
+  {
+    "name": "ignore",
+    "cateory": "admin",
+    "description": "Ignore channels/commands when they are ran.",
+    "usage": [
+      [
+        "Adds/removes a channel to the ignored list.",
+        "/ignore channel <add/remove> <channel>"
+      ],
+      [
+        "Adds/removes a command to the ignored list.",
+        "/ignore command <add/remove> <command>"
+      ],
+      [
+        "Shows a list of currently ignored commands and channels.",
+        "/ignore show"
+      ]
+    ]
+  },
+  {
+    "name": "import",
+    "cateory": "admin",
+    "description": "By continuing you understand that **all current member levels will be cleared**. Please select continue to import all levels.",
+    "usage": [
+      [
+        "Import levels from various other bots into Kyubot.",
+        "/import <AmariBot/Mee6/Tatsu>"
+      ]
+    ]
+  },
+  {
+    "name": "invite",
+    "cateory": "general",
+    "description": "Get a link to add KyuBot to your server.",
+    "usage": [
+      [
+        "Get a link to add KyuBot to your server.",
+        "/invite"
+      ]
+    ]
+  },
+  {
+    "name": "koth",
+    "cateory": "admin",
+    "description": "A temporary leaderboard, which allows the top member to earn different rewards.",
+    "usage": [
+      [
+        "Start/end koth event.",
+        "/koth <start/end> [channel]"
+      ],
+      [
+        "Set a reward for the top member of the koth leaderbaord.",
+        "/koth reward <role>"
+      ],
+      [
+        "Shows the koth leaderboard for the server.",
+        "/koth leaderboard"
+      ]
+    ]
+  },
+  {
+    "name": "language",
+    "cateory": "general",
+    "description": "Change the bots default language.",
+    "usage": [
+      [
+        "Change the bots default language by selecting one of the options.",
+        "/language <language>"
+      ]
+    ]
+  },
+  {
+    "name": "leaderboard",
+    "cateory": "general",
+    "description": "Shows the different leaderboards for the server.",
+    "usage": [
+      [
+        "Shows the leaderboard for the server.",
+        "/leaderboard normal\n/leaderboard koth\n/leaderboard voice"
+      ]
+    ]
+  },
+  {
+    "name": "lootbox",
+    "cateory": "general",
+    "description": "Open lootboxes to earn extra exp.",
+    "usage": [
+      [
+        "Open a lootbox to earn extra exp and other rewards.",
+        "/lootbox open"
+      ],
+      [
+        "Disable/enable ability for members to open lootboxes (Admins only).",
+        "/lootbox toggle"
+      ],
+      [
+        "Check your current statistics for lootboxes.",
+        "/lootbox stats"
+      ]
+    ]
+  },
+  {
+    "name": "modifyexp",
+    "cateory": "premium",
+    "description": "Add/remove specific amount of exp from members.",
+    "usage": [
+      [
+        "Reward users with a specific amount of exp.",
+        "/givexp <user> <exp>"
+      ],
+      [
+        "Remove a specific amount of exp from a user.",
+        "/removexp <user> <exp>"
+      ]
+    ]
+  },
+  {
+    "name": "multiplier",
+    "cateory": "admin",
+    "description": "Set multiplier for channels/roles.",
+    "usage": [
+      [
+        "Set multiplier for a text/voice channel.",
+        "/multiplier set channel <#channel> <0-250> <0-250>"
+      ],
+      [
+        "Set multiplier for a role in text/voice list.",
+        "/multiplier set role <role> <0-250> <0-250> <for>"
+      ],
+      [
+        "Delete multiplier for a text/voice channel.",
+        "/multiplier delete channel"
+      ],
+      [
+        "Delete multiplier for a role in text/voice list.",
+        "/multiplier delete role <from>"
+      ],
+      [
+        "Shows a list of current multiplier roles and channels.",
+        "/multiplier show"
+      ]
+    ]
+  },
+  {
+    "name": "profile",
+    "cateory": "general",
+    "description": "Change your rank card appearance.",
+    "usage": [
+      [
+        "Change the color for your rank card.",
+        "/profile color <color>"
+      ],
+      [
+        "Change the opacity for your rank card.",
+        "/profile opacity <0-100>"
+      ],
+      [
+        "Change the background for your rank card.",
+        "/profile background <url>"
+      ],
+      [
+        "Change the overlay for your rank card.",
+        "/profile opacity <url>"
+      ]
+    ]
+  },
+  {
+    "name": "rank",
+    "cateory": "general",
+    "description": "Check your rank or another user's rank",
+    "usage": [
+      [
+        "Check your rank or another user's rank.",
+        "/rank [member] [normal/voice]"
+      ]
+    ]
+  },
+  {
+    "name": "reset",
+    "cateory": "admin",
+    "description": "Reset specific users or settings for the current server.",
+    "usage": [
+      [
+        "Reset specific settings for the current server.",
+        "/reset user <member>"
+      ],
+      [
+        "Reset a specific setting.",
+        "/reset settings <option>"
+      ]
+    ]
+  },
+  {
+    "name": "rewards",
+    "cateory": "admin",
+    "description": "Change settings for rewards earned upon leveling up.",
+    "usage": [
+      [
+        "Set role to be given when a member reaches the specified level.",
+        "/rewards add <level> <role>"
+      ],
+      [
+        "Remove role from be given at a specified level.",
+        "/rewards remove <level>"
+      ],
+      [
+        "Set roles to be stacked or replaced after gaining new role.",
+        "/rewards stack <enable/disable>"
+      ],
+      [
+        "Shows all roles set to levels.",
+        "/rewards show"
+      ]
+    ]
+  },
+  {
+    "name": "setlevel",
+    "cateory": "admin",
+    "description": "Set a member's level or level for member's who have a specific role.",
+    "usage": [
+      [
+        "Set member to a specified level.",
+        "/setlevel user <member> <level>"
+      ],
+      [
+        "Update level for all member who have a specific role.",
+        "/setlevel role <member> <level>"
+      ]
+    ]
+  },
+  {
+    "name": "settings",
+    "cateory": "general",
+    "description": [
+      "Unable to find command description..."
+    ],
+    "usage": [
+      [
+        "Check the current server settings.",
+        "/settings"
+      ]
+    ]
+  },
+  {
+    "name": "stats",
+    "cateory": "general",
+    "description": "Check the current server settings.",
+    "usage": [
+      [
+        "Check the current bot statistics.",
+        "/stats"
+      ]
+    ]
+  },
+  {
+    "name": "support",
+    "cateory": "general",
+    "description": "Get a link to join the support server.",
+    "usage": [
+      [
+        "Get a link to join the support server.",
+        "/support"
+      ]
+    ]
+  },
+  {
+    "name": "voice",
+    "cateory": "admin",
+    "description": "Change settings for voice exp.",
+    "usage": [
+      [
+        "Enable voice leveling system for the server.",
+        "/voice enable"
+      ],
+      [
+        "Disable voice leveling system for the server.",
+        "/voice disable"
+      ],
+      [
+        "Shows the voice leaderboard for the server.",
+        "/voice leaderboard"
+      ],
+      [
+        "Show a list of the currently blacklisted channels/roles.",
+        "/voice show"
+      ]
+    ]
+  },
+  {
+    "name": "vote",
+    "cateory": "general",
+    "description": "Get a link to vote for KyuBot",
+    "usage": [
+      [
+        "Get a link to vote for KyuBot.",
+        "/vote"
+      ]
+    ]
+  },
+  {
+    "name": "welcome",
+    "cateory": "admin",
+    "description": "Change settings for when users joins the server.",
+    "usage": [
+      [
+        "Set a role for users to gain upon joinging the server.",
+        "/welcome role <role>"
+      ],
+      [
+        "Disable settings for users to gain a role upon joining.",
+        "/welcome disable"
+      ]
+    ]
+  }
+]
