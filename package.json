@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "merge": "node ./merge.js",
-    "schema": "node ./schema.js"
+    "schema": "node ./schema.js",
+    "commands:dashboard": "node ./information.js"
   },
   "repository": {
     "type": "git",

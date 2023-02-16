@@ -23,13 +23,13 @@ function orderKeys(obj) {
 const categories = fs.readdirSync(`./languages/en-GB/`);
 const output = {};
 
-categories.forEach((cateogory) => {
+categories.forEach((category) => {
   const files = fs
-    .readdirSync(`./languages/en-GB/${cateogory}/`)
+    .readdirSync(`./languages/en-GB/${category}/`)
     .filter((file) => file.endsWith(".json"));
 
   for (const file of files) {
-    const fileContent = require(`./languages/en-GB/${cateogory}/${file}`);
+    const fileContent = require(`./languages/en-GB/${category}/${file}`);
     const fileKeys = Object.keys(fileContent);
     for (const key of fileKeys) {
       output[`${file.replace(".json", "")}.${key}`] = fileContent[key];
