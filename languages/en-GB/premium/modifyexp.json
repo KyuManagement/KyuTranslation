@@ -10,8 +10,8 @@
       "```/removexp <user> <exp>```"
     ]
   ],
-  "userNotPremium": "This feature is only available for donator. Find out more information using `donate`",
-  "inputTooHigh": "Only exp between 1-20,000 can be given at once. Please change exp amount.",
+  "inputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
   "userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
-  "success": "%s has been given **%s** exp."
+  "successAdd": "%s has been given **%s** exp.",
+  "successRemove": "**%s** exp has been removed from %s."
 }

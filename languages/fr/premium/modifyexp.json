@@ -6,5 +6,6 @@
   "userNotPremium": "Cette fonctionnalité n'est disponible que pour les donateurs. Plus d'informations en utilisant `donate`",
   "inputTooHigh": "Seul le nombre d'Exp entre 1 et 20,000 peut être donné à la fois. Veuillez changer le nombre d'Exp.",
   "userNotFound": "Impossible de trouver l'utilisateur mentionné, assurez-vous que l'utilisateur fourni est dans la guilde.",
-  "success": "%s a été donné **%s** exp."
+  "successAdd": "%s a été donné **%s** exp.",
+  "successRemove": "**%s** Exp a été retiré de %s."
 }
