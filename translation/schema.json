@@ -458,8 +458,9 @@
     ]
   ],
   "modifyexp.description": "Add/remove specific amount of exp from members.",
-  "modifyexp.inputTooHigh": "Only exp between 1-20,000 can be given at once. Please change exp amount.",
-  "modifyexp.success": "%s has been given **%s** exp.",
+  "modifyexp.inputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
+  "modifyexp.successAdd": "%s has been given **%s** exp.",
+  "modifyexp.successRemove": "**%s** exp has been removed from %s.",
   "modifyexp.usage": [
     [
       "Reward users with a specific amount of exp.",
@@ -471,7 +472,6 @@
     ]
   ],
   "modifyexp.userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
-  "modifyexp.userNotPremium": "This feature is only available for donator. Find out more information using `donate`",
   "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
   "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
   "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
