@@ -4,10 +4,10 @@
   "description": "Help KyuBot learn multiple languages!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "commands:dashboard": "node ./information.js",
     "merge": "node ./merge.js",
     "schema": "node ./schema.js",
-    "commands:dashboard": "node ./information.js"
+    "upload": "node ./schema.js && node ./merge.js"
   },
   "repository": {
     "type": "git",
