@@ -8,10 +8,7 @@
         "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
         "/announce clear <30-300>"
       ],
-      [
-        "Set the description for the embed/message.",
-        "/announce custom <text>"
-      ],
+      ["Set the description for the embed/message.", "/announce custom <text>"],
       [
         "Enable/disable pings for announcement messages.",
         "/announce ping <enable/disable>"
@@ -28,10 +25,7 @@
         "Set how announcements should be sent when a user levels up.",
         "/announce type set <default/dm/off/rewards>"
       ],
-      [
-        "Get a list of variables for announcements.",
-        "/announce variables"
-      ]
+      ["Get a list of variables for announcements.", "/announce variables"]
     ]
   },
   {
@@ -39,18 +33,9 @@
     "cateory": "admin",
     "description": "Add/remove custom badges from the server.",
     "usage": [
-      [
-        "Add a new badge to the server.",
-        "/badge add <name> <url>"
-      ],
-      [
-        "Delete a current badge from the server.",
-        "/badge add <name>"
-      ],
-      [
-        "Show a list of the available badges in this server.",
-        "/badge show"
-      ]
+      ["Add a new badge to the server.", "/badge add <name> <url>"],
+      ["Delete a current badge from the server.", "/badge delete <name>"],
+      ["Show a list of the available badges in this server.", "/badge show"]
     ]
   },
   {
@@ -84,12 +69,7 @@
     "name": "bug",
     "cateory": "general",
     "description": "Report a bug to developers",
-    "usage": [
-      [
-        "Report a bug to developers.",
-        "/bug <text>"
-      ]
-    ]
+    "usage": [["Report a bug to developers.", "/bug <text>"]]
   },
   {
     "name": "config",
@@ -159,10 +139,7 @@
         "Remove cooldown role from text/voice.",
         "/cooldown remove role <role> <from>"
       ],
-      [
-        "Show a list of the currently set cooldowns.",
-        "/cooldown show"
-      ]
+      ["Show a list of the currently set cooldowns.", "/cooldown show"]
     ]
   },
   {
@@ -180,12 +157,7 @@
     "name": "donate",
     "cateory": "general",
     "description": "Donate to unlock extra features",
-    "usage": [
-      [
-        "Find out information about how to donate.",
-        "/donate"
-      ]
-    ]
+    "usage": [["Find out information about how to donate.", "/donate"]]
   },
   {
     "name": "embed",
@@ -196,18 +168,12 @@
         "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
         "/embed clear <30-300>"
       ],
-      [
-        "Create a custom embed for a specific level.",
-        "/embed create <level>"
-      ],
+      ["Create a custom embed for a specific level.", "/embed create <level>"],
       [
         "Customise different sections for the announcement message.",
         "/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]"
       ],
-      [
-        "Delete a custom embed for a specific level.",
-        "/embed delete <level>"
-      ],
+      ["Delete a custom embed for a specific level.", "/embed delete <level>"],
       [
         "Enable/disable pings for announcement messages.",
         "/embed ping <true/false> <level>"
@@ -228,10 +194,7 @@
         "Set how announcements should be sent when a user levels up.",
         "/embed type set <default/dm/off/rewards> <level>"
       ],
-      [
-        "Get a list of variables for announcements.",
-        "/embed variables"
-      ]
+      ["Get a list of variables for announcements.", "/embed variables"]
     ]
   },
   {
@@ -249,12 +212,7 @@
     "name": "help",
     "cateory": "general",
     "description": "Information about the available commands",
-    "usage": [
-      [
-        "Get information about a specific command.",
-        "/help [command]"
-      ]
-    ]
+    "usage": [["Get information about a specific command.", "/help [command]"]]
   },
   {
     "name": "ignore",
@@ -290,30 +248,19 @@
     "name": "invite",
     "cateory": "general",
     "description": "Get a link to add KyuBot to your server.",
-    "usage": [
-      [
-        "Get a link to add KyuBot to your server.",
-        "/invite"
-      ]
-    ]
+    "usage": [["Get a link to add KyuBot to your server.", "/invite"]]
   },
   {
     "name": "koth",
     "cateory": "admin",
     "description": "A temporary leaderboard, which allows the top member to earn different rewards.",
     "usage": [
-      [
-        "Start/end koth event.",
-        "/koth <start/end> [channel]"
-      ],
+      ["Start/end koth event.", "/koth <start/end> [channel]"],
       [
         "Set a reward for the top member of the koth leaderbaord.",
         "/koth reward <role>"
       ],
-      [
-        "Shows the koth leaderboard for the server.",
-        "/koth leaderboard"
-      ]
+      ["Shows the koth leaderboard for the server.", "/koth leaderboard"]
     ]
   },
   {
@@ -343,18 +290,12 @@
     "cateory": "general",
     "description": "Open lootboxes to earn extra exp.",
     "usage": [
-      [
-        "Open a lootbox to earn extra exp and other rewards.",
-        "/lootbox open"
-      ],
+      ["Open a lootbox to earn extra exp and other rewards.", "/lootbox open"],
       [
         "Disable/enable ability for members to open lootboxes (Admins only).",
         "/lootbox toggle"
       ],
-      [
-        "Check your current statistics for lootboxes.",
-        "/lootbox stats"
-      ]
+      ["Check your current statistics for lootboxes.", "/lootbox stats"]
     ]
   },
   {
@@ -362,14 +303,8 @@
     "cateory": "premium",
     "description": "Add/remove specific amount of exp from members.",
     "usage": [
-      [
-        "Reward users with a specific amount of exp.",
-        "/givexp <user> <exp>"
-      ],
-      [
-        "Remove a specific amount of exp from a user.",
-        "/removexp <user> <exp>"
-      ]
+      ["Reward users with a specific amount of exp.", "/givexp <user> <exp>"],
+      ["Remove a specific amount of exp from a user.", "/removexp <user> <exp>"]
     ]
   },
   {
@@ -404,22 +339,13 @@
     "cateory": "general",
     "description": "Change your rank card appearance.",
     "usage": [
-      [
-        "Change the color for your rank card.",
-        "/profile color <color>"
-      ],
-      [
-        "Change the opacity for your rank card.",
-        "/profile opacity <0-100>"
-      ],
+      ["Change the color for your rank card.", "/profile color <color>"],
+      ["Change the opacity for your rank card.", "/profile opacity <0-100>"],
       [
         "Change the background for your rank card.",
         "/profile background <url>"
       ],
-      [
-        "Change the overlay for your rank card.",
-        "/profile opacity <url>"
-      ]
+      ["Change the overlay for your rank card.", "/profile opacity <url>"]
     ]
   },
   {
@@ -442,10 +368,7 @@
         "Reset specific settings for the current server.",
         "/reset user <member>"
       ],
-      [
-        "Reset a specific setting.",
-        "/reset settings <option>"
-      ]
+      ["Reset a specific setting.", "/reset settings <option>"]
     ]
   },
   {
@@ -465,10 +388,7 @@
         "Set roles to be stacked or replaced after gaining new role.",
         "/rewards stack <enable/disable>"
       ],
-      [
-        "Shows all roles set to levels.",
-        "/rewards show"
-      ]
+      ["Shows all roles set to levels.", "/rewards show"]
     ]
   },
   {
@@ -476,10 +396,7 @@
     "cateory": "admin",
     "description": "Set a member's level or level for member's who have a specific role.",
     "usage": [
-      [
-        "Set member to a specified level.",
-        "/setlevel user <member> <level>"
-      ],
+      ["Set member to a specified level.", "/setlevel user <member> <level>"],
       [
         "Update level for all member who have a specific role.",
         "/setlevel role <member> <level>"
@@ -489,55 +406,29 @@
   {
     "name": "settings",
     "cateory": "general",
-    "description": [
-      "Unable to find command description..."
-    ],
-    "usage": [
-      [
-        "Check the current server settings.",
-        "/settings"
-      ]
-    ]
+    "description": ["Unable to find command description..."],
+    "usage": [["Check the current server settings.", "/settings"]]
   },
   {
     "name": "stats",
     "cateory": "general",
     "description": "Check the current server settings.",
-    "usage": [
-      [
-        "Check the current bot statistics.",
-        "/stats"
-      ]
-    ]
+    "usage": [["Check the current bot statistics.", "/stats"]]
   },
   {
     "name": "support",
     "cateory": "general",
     "description": "Get a link to join the support server.",
-    "usage": [
-      [
-        "Get a link to join the support server.",
-        "/support"
-      ]
-    ]
+    "usage": [["Get a link to join the support server.", "/support"]]
   },
   {
     "name": "voice",
     "cateory": "admin",
     "description": "Change settings for voice exp.",
     "usage": [
-      [
-        "Enable voice leveling system for the server.",
-        "/voice enable"
-      ],
-      [
-        "Disable voice leveling system for the server.",
-        "/voice disable"
-      ],
-      [
-        "Shows the voice leaderboard for the server.",
-        "/voice leaderboard"
-      ],
+      ["Enable voice leveling system for the server.", "/voice enable"],
+      ["Disable voice leveling system for the server.", "/voice disable"],
+      ["Shows the voice leaderboard for the server.", "/voice leaderboard"],
       [
         "Show a list of the currently blacklisted channels/roles.",
         "/voice show"
@@ -548,12 +439,7 @@
     "name": "vote",
     "cateory": "general",
     "description": "Get a link to vote for KyuBot",
-    "usage": [
-      [
-        "Get a link to vote for KyuBot.",
-        "/vote"
-      ]
-    ]
+    "usage": [["Get a link to vote for KyuBot.", "/vote"]]
   },
   {
     "name": "welcome",

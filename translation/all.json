@@ -36,7 +36,7 @@
       ],
       [
         "Delete a current badge from the server.",
-        "```/badge add <name>```"
+        "```/badge delete <name>```"
       ],
       [
         "Show a list of the available badges in this server.",
@@ -632,7 +632,7 @@
       ],
       [
         "Delete a current badge from the server.",
-        "```/badge add <name>```"
+        "```/badge delete <name>```"
       ],
       [
         "Show a list of the available badges in this server.",
@@ -679,7 +679,7 @@
     "blacklist.voiceRoleNotIncluded": "Role %s is **not** in voice blacklist.",
     "blacklist.voiceRoleRemoveSuccess": "Role %s has been **removed** from voice blacklist.",
     "bug.description": "Report a bug to developers",
-    "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible! If this issue keeps occuring please contact out staff time with ID: %s",
+    "bug.success": "Thank you for submitting a bug. Our team will look into this as soon as possible! If this issue keeps occuring please contact out staff team with ID: %s",
     "bug.usage": [
       [
         "Report a bug to developers.",
@@ -1301,7 +1301,7 @@
       ],
       [
         "Delete a current badge from the server.",
-        "```/badge add <name>```"
+        "```/badge delete <name>```"
       ],
       [
         "Show a list of the available badges in this server.",
@@ -1872,7 +1872,7 @@
       ],
       [
         "Delete a current badge from the server.",
-        "```/badge add <name>```"
+        "```/badge delete <name>```"
       ],
       [
         "Show a list of the available badges in this server.",
