@@ -553,14 +553,16 @@
     ]
   ],
   "rank.vote": "Vote for 15% boost",
+  "reset.all": "Are you sure you want to delete **ALL** settings?",
   "reset.description": "Reset specific users or settings for the current server.",
   "reset.footer": "WARNING! Resetting is non reversible.",
-  "reset.pointsQuestion": "Are you sure you want to delete **all points**?",
-  "reset.pointsSuccess": "**Points** for all members have been reset.",
-  "reset.question": "Are you sure you want to delete **%s** settings?",
-  "reset.settingsQuestion": "Are you sure you want to delete **ALL** settings?",
+  "reset.kothExp": "Are you sure you want to delete **all koth exp**?",
+  "reset.kothExpSuccess": "**Koth exp** for all members have been reset.",
+  "reset.settings": "Are you sure you want to delete **%s** settings?",
   "reset.settingsSuccess": "**%s** settings have been reset",
   "reset.success": "Reset for **%s** settings has been cancelled.",
+  "reset.textExp": "Are you sure you want to delete **all text exp**?",
+  "reset.textExpSuccess": "**Text exp** for all members have been reset.",
   "reset.usage": [
     [
       "Reset specific settings for the current server.",
@@ -571,9 +573,10 @@
       "```/reset settings <option>```"
     ]
   ],
-  "reset.userFailed": "Unable to reset member %s. If this issue keeps occuring please contact my developers.",
-  "reset.userNotFound": "Please input a valid user.",
-  "reset.userSuccess": "Member %s exp has been reset.",
+  "reset.user": "Are you sure you want to delete all user data for %s",
+  "reset.userSuccess": "Data for user %s has been reset.",
+  "reset.voiceExp": "Are you sure you want to delete **all voice exp**?",
+  "reset.voiceExpSuccess": "**Voice exp** for all members have been reset.",
   "rewards.badgeAdded": "Badge with name `%s` will be rewarded to user when they reach text level %s.",
   "rewards.badgeInvalidName": "Unable to find a badge with the id `%s`.",
   "rewards.badgeRemoved": "Badge reward for level `%s` has been removed from text leveling.",
