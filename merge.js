@@ -50,6 +50,6 @@ languages.forEach((direct) => {
 
 fs.writeFileSync(
   `./translation/all.json`,
-  JSON.stringify(output, null, 2),
+  JSON.stringify(output, null, 0),
   "utf-8"
 );
