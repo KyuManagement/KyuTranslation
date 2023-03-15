@@ -1,4 +1,9 @@
 {
-  "description": "Vérifiez les paramètres actuels du serveur.",
-  "usage": ["Vérifiez les statistiques actuelles du bot.```/stats```"]
+  "description": "Vérifiez les paramètres du serveur actuels.",
+  "usage": [
+    [
+      "Vérifiez les statistiques actuelles du bot.",
+      "```/stats```"
+    ]
+  ]
 }

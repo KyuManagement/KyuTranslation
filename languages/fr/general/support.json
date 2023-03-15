@@ -1,6 +1,9 @@
 {
-  "description": "Obtenir un lien pour rejoindre le serveur d'assistance.",
+  "description": "Obtenez un lien pour rejoindre le serveur d'assistance.",
   "usage": [
-    "Obtenez un lien pour rejoindre le serveur de support.```/support```"
+    [
+      "Obtenez un lien pour rejoindre le serveur d'assistance.",
+      "```/support```"
+    ]
   ]
 }

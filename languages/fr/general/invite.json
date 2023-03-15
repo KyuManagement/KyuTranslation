@@ -1,4 +1,9 @@
 {
-  "description": "Obtenez un lien pour ajouter KyuBot à votre serveur.",
-  "usage": ["Obtenez un lien pour ajouter KyuBot à votre serveur.```/invite```"]
+  "description": "Obtenez un lien pour ajouter Kyubot à votre serveur.",
+  "usage": [
+    [
+      "Obtenez un lien pour ajouter Kyubot à votre serveur.",
+      "```/invite```"
+    ]
+  ]
 }

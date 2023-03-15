@@ -1,5 +1,10 @@
 {
   "description": "Signaler un bug aux développeurs",
-  "usage": ["Signaler un bug aux développeurs.```/bug```"],
-  "success": "Merci d'avoir envoyé un bug. Notre équipe examinera cela dès que possible!"
+  "usage": [
+    [
+      "Signaler un bug aux développeurs.",
+      "```/bug <text>```"
+    ]
+  ],
+  "success": "Merci d'avoir soumis un bogue.Notre équipe examinera cela dès que possible!Si ce problème continue de se produire, veuillez contacter notre équipe de personnel avec ID:% S"
 }

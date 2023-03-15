@@ -1,15 +1,49 @@
 {
   "description": "Modifier les paramètres pour les messages d'annonce de niveau supérieur.",
   "usage": [
-    "Changez le message personnalisé ou trouvez plus d'informations.```/announce message custom <text>\n/announce message default\n/announce message variables```",
-    "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <setting>```",
-    "Teste le message d'annonce actuel.```/announce test```"
+    [
+      "Réglez le nombre de secondes à attendre avant de supprimer l'annonce.Réglé sur 0 pour que l'annonce ne soit pas supprimée.",
+      "```/announce clear <30-300>```"
+    ],
+    [
+      "Définissez la description de l'intégration / du message.",
+      "```/announce custom <text>```"
+    ],
+    [
+      "Activer / désactiver les pings pour les messages d'annonce.",
+      "```/announce ping <enable/disable>```"
+    ],
+    [
+      "Testez l'annonce pour un niveau spécifique ou l'annonce mondiale.",
+      "```/announce test <level>```"
+    ],
+    [
+      "Définir les annonces de canal doit être envoyée.",
+      "```/announce type channel #channel```"
+    ],
+    [
+      "Définissez la façon dont les annonces doivent être envoyées lorsqu'un utilisateur nivelle.",
+      "```/announce type set <default/dm/off/rewards>```"
+    ],
+    [
+      "Obtenez une liste de variables pour les annonces.",
+      "```/announce variables```"
+    ]
   ],
-  "messageTooLong": "Le nombre maximum de caractères est de 1250, vous avez dépassé le nombre de **%s**.",
-  "messageSuccess": "Le message d'annonce a été mis à jour vers :```%s```",
-  "messageDefault": "Le message d'annonce a été réinitialisé au message de base.",
-  "pingIncorrect": "Activer/désactiver les pings pour les messages d'annonce.```/announce ping <on/off>```",
-  "variables": "Définit un message personnalisé pour les messages d'annonce.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
-  "pingSuccessEnabled": "Les pings d'annonces ont été réglés sur **activé**.",
-  "pingSuccessDisabled": "Les pings d'annonces ont été réglés sur **désactivé**."
+  "clearAmount": "Assurez-vous que l'annonce de suppression est entre 30 et 300 secondes.",
+  "clearSuccess": "Les messages d'annonce seront désormais supprimés après «% S» secondes.",
+  "clearSuccessDisabled": "Les messages d'annonce ne seront plus supprimés.",
+  "messageTooLong": "Le nombre de caractères maximum est de 1250, vous êtes au-dessus du nombre de **% s **.",
+  "messageSuccess": "Le message d'annonce a été mis à jour pour: `` `% S` '",
+  "pingSuccessEnabled": "Annonce Les pings ont été définis pour ** activé **.",
+  "pingSuccessDisabled": "Annonce Les pings ont été définis sur ** Disabled **.",
+  "typeInvalidOption": "L'option `% S` n'est pas valide.Veuillez sélectionner l'une des options suivantes: DM, désactivé, récompense ou aucune.",
+  "typeSuccessChannel": "Les annonces seront désormais envoyées à% s.",
+  "typeSuccessDefault": "Les annonces apparaîtront désormais dans le canal ** Le niveau de l'utilisateur dans **.",
+  "typeSuccessDm": "Les annonces ont été définies sur ** dm **.",
+  "typeSuccessOff": "Les annonces ont été définies pour ** off **.",
+  "typeSuccessReward": "Les annonces ne seront envoyées qu'aux niveaux qui ** récompensent ** les membres.",
+  "typeOff": "Les annonces sont désactivées dans cette guilde.",
+  "levelupSuccess": "% s a été envoyé un message d'annonce.",
+  "channelNotFound": "Impossible de trouver le canal donné pour l'annonce."
 }

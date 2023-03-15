@@ -1,5 +1,0 @@
-{
-  "description": "Tester les annonces personnalisées",
-  "usage": ["Testez les annonces personnalisées.```/test [level]```"],
-  "levelNotFound": "Impossible de trouver une annonce intégrée pour le niveau `%s`."
-}

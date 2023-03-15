@@ -1,9 +1,15 @@
 {
-  "description": "Modifier les paramètres pour quand les utilisateurs rejoignent le serveur.",
+  "description": "Modifier les paramètres lorsque les utilisateurs rejoignent le serveur.",
   "usage": [
-    "Définissez un rôle pour les utilisateurs à gagner en joignant le serveur.```/welcome role <role>```",
-    "Désactiver les paramètres pour que les utilisateurs obtiennent un rôle en rejoignant le serveur.```/welcome disable```"
+    [
+      "Définissez un rôle pour que les utilisateurs puissent acquérir le jointure du serveur.",
+      "```/welcome role <role>```"
+    ],
+    [
+      "Désactiver les paramètres pour les utilisateurs pour acquérir un rôle lors de l'adhésion.",
+      "```/welcome disable```"
+    ]
   ],
-  "enable": "Les utilisateurs vont maintenant obtenir le rôle %s en rejoignant le serveur.",
-  "disable": "Les utilisateurs ne recevront plus de rôle lorsqu'ils rejoindront le serveur."
+  "enable": "Les utilisateurs obtiendront désormais le rôle% s lors de la rejoindre le serveur.",
+  "disable": "Les utilisateurs n'obtiendront plus de rôle lors de l'adhésion au serveur."
 }

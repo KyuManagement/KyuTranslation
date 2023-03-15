@@ -1,21 +1,41 @@
 {
-  "description": "Liste noire des canaux/rôles en gagnant de l'expérience.",
+  "description": "Channeaux / rôles de liste noire de l'obtention de l'exp.",
   "usage": [
-    "Ajoute/supprime un canal à la liste noire.```/blacklist channel <add/remove> <channel>```",
-    "Ajoute/supprime un rôle à la liste noire.```/blacklist role <add/remove> <role>```",
-    "Affiche une liste des rôles et salons actuellement sur la liste noire.```/blacklist show```"
+    [
+      "Ajoute / supprime un canal de texte à la liste noire de texte.",
+      "```/blacklist text channel <add/remove> <channel>```"
+    ],
+    [
+      "Ajoute / supprime un rôle à la liste noire du texte.",
+      "```/blacklist text role <add/remove> <role>```"
+    ],
+    [
+      "Ajoute / supprime un canal vocal à la liste noire de voix.",
+      "```/blacklist voice channel <add/remove> <channel>```"
+    ],
+    [
+      "Ajoute / supprime un rôle à la liste noire de la voix.",
+      "```/blacklist voice role <add/remove> <role>```"
+    ],
+    [
+      "Affiche une liste de rôles et canaux actuellement mis sur liste noire.",
+      "```/blacklist show```"
+    ]
   ],
-  "invalidChannelType": "Le type de canal donné est invalide, assurez-vous que le type de canal est `%s`.",
-  "channelAlreadyBlacklisted": "Le canal %s est déjà sur la liste noire.",
-  "channelAdded": "Le canal **%s** a été mis en liste noire.",
-  "notFound": "Impossible de trouver le rôle/canal en utilisant la requête de recherche `%s`. Assurez-vous que la requête donnée est correcte.",
-  "channelNotBlacklisted": "Le salon %s n'est pas sur liste noire.",
-  "channelRemoved": "Le salon **%s** a été retiré de la liste noire.",
-  "roleAlreadyBlacklisted": "%s est déjà sur la liste noire.",
-  "roleAdded": "Rôle **%s** a été mis sur liste noire.",
-  "roleRemoved": "Rôle **%s** a été retiré de la liste noire.",
-  "roleNotBlacklisted": "Le rôle %s n'est pas sur liste noire.",
-  "roleList": "Rôles sur liste noire:```%s```",
-  "channelList": "Canaux sur liste noire:```%s```",
-  "roleListEmpty": "Il n'y a aucun rôle sur la liste noire."
+  "textChannelIncluded": "Le canal% s est ** déjà ** dans le texte Blacklist.",
+  "textChannelAddSuccess": "Le canal% S a été ** ajouté ** au texte Blacklist.",
+  "textChannelNotIncluded": "Le canal% s est ** pas ** dans la liste noire de texte.",
+  "textChannelRemoveSuccess": "Le canal% S a été ** supprimé ** de la liste noire du texte.",
+  "textRoleIncluded": "Le rôle% s est ** déjà ** dans la liste noire de texte.",
+  "textRoleAddSuccess": "Le rôle% s a été ** ajouté ** au texte Blacklist.",
+  "textRoleNotIncluded": "Le rôle% s est ** pas ** dans la liste noire de texte.",
+  "textRoleRemoveSuccess": "Le rôle% s a été ** supprimé ** de la liste noire du texte.",
+  "voiceChannelIncluded": "Channel% s est ** déjà ** dans la liste noire de la voix.",
+  "voiceChannelAddSuccess": "Channel% S a été ** ajouté ** pour voix Blacklist.",
+  "voiceChannelNotIncluded": "Le canal% s est ** pas ** dans la liste noire de la voix.",
+  "voiceChannelRemoveSuccess": "Le canal% s a été ** supprimé ** de la liste noire de la voix.",
+  "voiceRoleIncluded": "Le rôle% s est ** déjà ** dans la liste noire de la voix.",
+  "voiceRoleAddSuccess": "Le rôle% s a été ** ajouté ** pour exprimer la liste noire.",
+  "voiceRoleNotIncluded": "Le rôle% s est ** pas ** dans la liste noire de la voix.",
+  "voiceRoleRemoveSuccess": "Le rôle% s a été ** supprimé ** de la liste noire de la voix."
 }

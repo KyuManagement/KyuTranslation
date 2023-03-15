@@ -1,7 +1,10 @@
 {
   "description": "Informations sur les commandes disponibles",
   "usage": [
-    "Récupère des informations à propos d'une commande spécifique.```/help [command]```"
+    [
+      "Obtenez des informations sur une commande spécifique.",
+      "```/help [command]```"
+    ]
   ],
   "title": "Menu d'aide de Kyu"
 }

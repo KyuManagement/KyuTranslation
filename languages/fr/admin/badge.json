@@ -1,1 +1,23 @@
-{}
+{
+  "description": "Ajouter / supprimer les badges personnalisés du serveur.",
+  "usage": [
+    [
+      "Ajoutez un nouveau badge au serveur.",
+      "```/badge add <name> <url>```"
+    ],
+    [
+      "Supprimez un badge actuel du serveur.",
+      "```/badge delete <name>```"
+    ],
+    [
+      "Afficher une liste des badges disponibles dans ce serveur.",
+      "```/badge show```"
+    ]
+  ],
+  "alreadyExists": "Un badge avec ID `% S` existe déjà.Veuillez saisir un autre nom.",
+  "successAdded": "Un badge avec le nom `% s` a été ajouté à ce serveur.",
+  "invalidName": "Impossible de trouver un badge avec l'ID `% S`.",
+  "successRemoved": "Le badge «% S» a été supprimé du serveur.",
+  "alphanumericOnly": "Seuls les caractères alphanumériques sont autorisés pour les noms de badges.Veuillez sélectionner un nom avec des lettres / numéros.",
+  "notfound": "Impossible de trouver des badges dans ce serveur, veuillez ajouter un badge!"
+}

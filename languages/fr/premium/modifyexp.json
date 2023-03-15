@@ -1,11 +1,17 @@
 {
-  "description": "Récompensez les utilisateurs avec un montant d'expérience spécifique.",
+  "description": "Ajouter / supprimer le montant spécifique des EXP des membres.",
   "usage": [
-    "Récompensez les utilisateurs avec un montant spécifique de exp.```/givexp <user> <exp>```"
+    [
+      "Récompensez les utilisateurs avec une quantité spécifique d'EXP.",
+      "```/givexp <user> <exp>```"
+    ],
+    [
+      "Supprimer une quantité spécifique d'EXP d'un utilisateur.",
+      "```/removexp <user> <exp>```"
+    ]
   ],
-  "userNotPremium": "Cette fonctionnalité n'est disponible que pour les donateurs. Plus d'informations en utilisant `donate`",
-  "inputTooHigh": "Seul le nombre d'Exp entre 1 et 20,000 peut être donné à la fois. Veuillez changer le nombre d'Exp.",
-  "userNotFound": "Impossible de trouver l'utilisateur mentionné, assurez-vous que l'utilisateur fourni est dans la guilde.",
-  "successAdd": "%s a été donné **%s** exp.",
-  "successRemove": "**%s** Exp a été retiré de %s."
+  "inputTooHigh": "Seul Exp entre 1 et 10 000 peut être donné en même temps.Veuillez modifier le montant EXP.",
+  "userNotFound": "Incapable de trouver l'utilisateur mentionné, veuillez vous assurer que l'utilisateur fourni est dans la guilde.",
+  "successAdd": "% s a été donné **% s ** exp.",
+  "successRemove": "**% s ** Exp a été supprimé de% s."
 }
