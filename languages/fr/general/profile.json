@@ -18,22 +18,22 @@
       "```/profile opacity <url>```"
     ]
   ],
-  "isNotColor": "Impossible de trouver la couleur donnée «% s».Veuillez sélectionner une couleur parmi l'une des couleurs suivantes: `` `par défaut\nbleu\ngris\nvert\norange\nrose\nviolet\nrouge\nsarcelle\nJaune ''",
-  "isNotHex": "La couleur «% s» n'est pas une couleur hexadécimale.Veuillez vous assurer que la couleur suit un format de couleur hexagonale (# 6CFFAC).",
-  "colorSuccess": "La couleur du profil a été mise à jour pour **% s **.",
+  "isNotColor": "Impossible de trouver la couleur donnée «%s».Veuillez sélectionner une couleur parmi l'une des couleurs suivantes: `` `par défaut\nbleu\ngris\nvert\norange\nrose\nviolet\nrouge\nsarcelle\nJaune ''",
+  "isNotHex": "La couleur «%s» n'est pas une couleur hexadécimale.Veuillez vous assurer que la couleur suit un format de couleur hexagonale (# 6CFFAC).",
+  "colorSuccess": "La couleur du profil a été mise à jour pour **%s **.",
   "backgroundDefaultSuccess": "L'arrière-plan de profil a été recruté par défaut.",
   "backgroundSuccess": "L'arrière-plan a été téléchargé dans la base de données.",
-  "badgeNotFound": "Impossible de trouver un badge avec l'ID:% s.",
-  "badgeSuccess": "Le badge pour la position% S a été mis à jour à% s pour% s carte de classement.",
-  "barSuccess": "Le type de barre de progression a été mis à jour pour **% s **.",
+  "badgeNotFound": "Impossible de trouver un badge avec l'ID:%s.",
+  "badgeSuccess": "Le badge pour la position%s a été mis à jour à%s pour%s carte de classement.",
+  "barSuccess": "Le type de barre de progression a été mis à jour pour **%s **.",
   "overlayDefaultSuccess": "La superposition de profil a été recouverte de défaut.",
   "overlaySuccess": "La superposition a été téléchargée dans la base de données.",
   "opacityTooHigh": "Veuillez vous assurer que l'opacité se situe entre 0 et 100.",
-  "opacitySuccess": "L'opacité de profil a été définie sur **% s% **.",
+  "opacitySuccess": "L'opacité de profil a été définie sur **%s% **.",
   "shareFailed": "Veuillez définir un arrière-plan / superposition avant d'essayer de partager l'arrière-plan / superposition avec d'autres.",
   "shareSuccessBoth": "Les autres utilisateurs peuvent désormais vous utiliser à la fois votre arrière-plan et votre superposition!",
   "shareSuccessBackground": "Les autres utilisateurs peuvent désormais utiliser votre arrière-plan!",
   "shareSuccessOverlay": "Les autres utilisateurs peuvent désormais utiliser votre superposition!",
   "shareSuccessNone": "Les utilisateurs ne peuvent plus utiliser votre arrière-plan ou votre superposition.L'accès a également été supprimé de tous les utilisateurs actuels.",
-  "themeSuccess": "Le thème a été mis à jour pour **% s **."
+  "themeSuccess": "Le thème a été mis à jour pour **%s **."
 }

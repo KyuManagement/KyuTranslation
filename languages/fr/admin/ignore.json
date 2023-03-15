@@ -14,14 +14,14 @@
       "```/ignore show```"
     ]
   ],
-  "channelAddSuccess": "% s a été ** ajouté ** à la liste ignorée.",
-  "channelAddExists": "Le canal% s est ** déjà ** dans la liste ignorée.",
-  "channelRemoveSuccess": "Le canal% s a été ** supprimé ** de la liste d'ignore.",
-  "channelRemoveNotExists": "Le canal% s est ** pas ** dans la liste ignorée.",
-  "commandAddSuccess": "La commande `% s` a été ** ajoutée ** pour ignorer la liste.",
-  "commandNotExists": "La commande `% s` ne peut être trouvée.",
+  "channelAddSuccess": "%s a été ** ajouté ** à la liste ignorée.",
+  "channelAddExists": "Le canal%s est ** déjà ** dans la liste ignorée.",
+  "channelRemoveSuccess": "Le canal%s a été ** supprimé ** de la liste d'ignore.",
+  "channelRemoveNotExists": "Le canal%s est ** pas ** dans la liste ignorée.",
+  "commandAddSuccess": "La commande `%s` a été ** ajoutée ** pour ignorer la liste.",
+  "commandNotExists": "La commande `%s` ne peut être trouvée.",
   "commandInvalid": "Les commandes «Help» et «Ignore» ne peuvent pas être ajoutées pour ignorer la liste.",
-  "commandAddExists": "La commande `% s` est ** déjà ** dans la liste ignorée.",
-  "commandRemoveSuccess": "La commande `% s` a été ** supprimée ** de la liste d'ignore.",
-  "commandRemoveNotExists": "La commande `% s` est ** pas ** dans la liste ignorée."
+  "commandAddExists": "La commande `%s` est ** déjà ** dans la liste ignorée.",
+  "commandRemoveSuccess": "La commande `%s` a été ** supprimée ** de la liste d'ignore.",
+  "commandRemoveNotExists": "La commande `%s` est ** pas ** dans la liste ignorée."
 }

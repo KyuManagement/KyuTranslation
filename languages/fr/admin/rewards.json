@@ -13,10 +13,7 @@
       "Définissez les rôles à empilés ou remplacés après avoir obtenu un nouveau rôle.",
       "```/rewards stack <enable/disable>```"
     ],
-    [
-      "Montre tous les rôles fixés à des niveaux.",
-      "```/rewards show```"
-    ]
+    ["Montre tous les rôles fixés à des niveaux.", "```/rewards show```"]
   ],
   "notExists": "Impossible de trouver une récompense pour le niveau de niveau s.",
   "stackText": "Toutes les récompenses de texte seront désormais empilées.",
@@ -24,18 +21,18 @@
   "stackVoice": "Toutes les récompenses vocales seront désormais empilées.",
   "replaceVoice": "Toutes les récompenses vocales seront désormais remplacées.",
   "limit": "Trop de rôles ont été mis en place.Actuellement, seulement 25 récompenses de rôle peuvent être configurées.",
-  "badgeInvalidName": "Impossible de trouver un badge avec l'ID `% S`.",
-  "voiceBadgeAdded": "Le badge avec le nom `% S` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau vocal% s.",
-  "badgeAdded": "Le badge avec le nom `% S` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau de texte% s.",
-  "invalidLevel": "Impossible de trouver un ensemble de récompense pour le niveau `% S`.",
-  "voiceBadgeRemoved": "La récompense du badge pour le niveau `% S` a été supprimée du nivellement de la voix.",
-  "badgeRemoved": "La récompense du badge pour le niveau `% S` a été supprimée du nivellement du texte.",
-  "voiceExpAdded": "L'utilisateur gagnera l'expérience `% s» lorsqu'ils atteindront le niveau vocal% s.",
-  "expAdded": "L'utilisateur gagnera une expérience `% s» lorsqu'ils atteindront le niveau de texte% s.",
-  "voiceExpRemoved": "La récompense de l'expérience pour le niveau `% S` a été supprimée du nivellement de la voix.",
-  "expRemoved": "La récompense de l'expérience pour le niveau `% S` a été supprimée du nivellement du texte.",
-  "voiceRoleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau vocal% s.",
-  "roleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau de texte% s.",
-  "voiceRoleRemoved": "La récompense des rôles pour le niveau `% S` a été supprimée du nivellement de la voix.",
-  "roleRemoved": "La récompense des rôles pour le niveau `% S` a été supprimée du nivellement du texte."
+  "badgeInvalidName": "Impossible de trouver un badge avec l'ID `%s`.",
+  "voiceBadgeAdded": "Le badge avec le nom `%s` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau vocal%s.",
+  "badgeAdded": "Le badge avec le nom `%s` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau de texte%s.",
+  "invalidLevel": "Impossible de trouver un ensemble de récompense pour le niveau `%s`.",
+  "voiceBadgeRemoved": "La récompense du badge pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "badgeRemoved": "La récompense du badge pour le niveau `%s` a été supprimée du nivellement du texte.",
+  "voiceExpAdded": "L'utilisateur gagnera l'expérience `%s» lorsqu'ils atteindront le niveau vocal%s.",
+  "expAdded": "L'utilisateur gagnera une expérience `%s» lorsqu'ils atteindront le niveau de texte%s.",
+  "voiceExpRemoved": "La récompense de l'expérience pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "expRemoved": "La récompense de l'expérience pour le niveau `%s` a été supprimée du nivellement du texte.",
+  "voiceRoleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau vocal%s.",
+  "roleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau de texte%s.",
+  "voiceRoleRemoved": "La récompense des rôles pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "roleRemoved": "La récompense des rôles pour le niveau `%s` a été supprimée du nivellement du texte."
 }

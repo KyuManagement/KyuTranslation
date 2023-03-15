@@ -5,10 +5,7 @@
       "Réinitialisez les paramètres spécifiques pour le serveur actuel.",
       "```/reset user <member>```"
     ],
-    [
-      "Réinitialisez un paramètre spécifique.",
-      "```/reset settings <option>```"
-    ]
+    ["Réinitialisez un paramètre spécifique.", "```/reset settings <option>```"]
   ],
   "all": "Êtes-vous sûr de vouloir supprimer ** tous les paramètres **?",
   "textExp": "Êtes-vous sûr de vouloir supprimer ** tout le texte exp **?",
@@ -17,10 +14,10 @@
   "kothExpSuccess": "** koth exp ** pour tous les membres ont été réinitialisés.",
   "voiceExp": "Êtes-vous sûr de vouloir supprimer ** toute la voix exp **?",
   "voiceExpSuccess": "** Voice exp ** pour tous les membres ont été réinitialisés.",
-  "settings": "Êtes-vous sûr de vouloir supprimer **% S ** Paramètres?",
-  "settingsSuccess": "**% S ** Les paramètres ont été réinitialisés",
-  "success": "Réinitialiser les paramètres **% s ** a été annulé.",
-  "user": "Êtes-vous sûr de supprimer toutes les données utilisateur pour% s",
-  "userSuccess": "Les données pour l'utilisateur% S ont été réinitialisées.",
+  "settings": "Êtes-vous sûr de vouloir supprimer **%s ** Paramètres?",
+  "settingsSuccess": "**%s ** Les paramètres ont été réinitialisés",
+  "success": "Réinitialiser les paramètres **%s ** a été annulé.",
+  "user": "Êtes-vous sûr de supprimer toutes les données utilisateur pour%s",
+  "userSuccess": "Les données pour l'utilisateur%s ont été réinitialisées.",
   "footer": "AVERTISSEMENT!La réinitialisation n'est pas réversible."
 }

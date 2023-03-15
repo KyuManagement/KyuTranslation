@@ -12,6 +12,6 @@
   ],
   "inputTooHigh": "Seul Exp entre 1 et 10 000 peut être donné en même temps.Veuillez modifier le montant EXP.",
   "userNotFound": "Incapable de trouver l'utilisateur mentionné, veuillez vous assurer que l'utilisateur fourni est dans la guilde.",
-  "successAdd": "% s a été donné **% s ** exp.",
-  "successRemove": "**% s ** Exp a été supprimé de% s."
+  "successAdd": "%s a été donné **%s ** exp.",
+  "successRemove": "**%s ** Exp a été supprimé de%s."
 }

@@ -42,17 +42,17 @@
       "```/config maxlevel <level>```"
     ]
   ],
-  "setAdminRole": "Les utilisateurs avec Role% S peuvent désormais gérer le bot dans ce serveur.",
+  "setAdminRole": "Les utilisateurs avec Role%s peuvent désormais gérer le bot dans ce serveur.",
   "expboosterEnabled": "Exp Booster a été activé pour ce serveur.Les utilisateurs recevront un booster pour le vote.",
   "expboosterDisabled": "Exp Booster a été désactivé pour ce serveur.",
-  "setMaxlevel": "Le niveau maximum du serveur a été défini sur% s.",
-  "amount": "La quantité d'utilisateurs indiqués dans le classement a été définie sur% s.",
+  "setMaxlevel": "Le niveau maximum du serveur a été défini sur%s.",
+  "amount": "La quantité d'utilisateurs indiqués dans le classement a été définie sur%s.",
   "backgroundSuccess": "L'arrière-plan a été téléchargé dans la base de données.",
   "overlaySuccess": "L'arrière-plan a été téléchargé dans la base de données.",
-  "invalidTheme": "Impossible de trouver un thème nommé `% S`.Veuillez sélectionner un thème valide.",
-  "themeSuccess": "Le thème de l'image de classement a été défini sur `% s`.",
-  "opacitySuccess": "L'opacité de l'image de classement a été définie sur «% s%».",
-  "colorSuccess": "La couleur du profil a été mise à jour pour **% s **.",
+  "invalidTheme": "Impossible de trouver un thème nommé `%s`.Veuillez sélectionner un thème valide.",
+  "themeSuccess": "Le thème de l'image de classement a été défini sur `%s`.",
+  "opacitySuccess": "L'opacité de l'image de classement a été définie sur «%s%».",
+  "colorSuccess": "La couleur du profil a été mise à jour pour **%s **.",
   "typeEnabled": "Le classement sera désormais envoyé sous forme d'image.",
   "typeDisabled": "Le classement sera désormais envoyé comme une intégration."
 }

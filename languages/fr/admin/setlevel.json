@@ -11,7 +11,7 @@
     ]
   ],
   "incorrect": "Assurez-vous que le niveau que vous donnez se situe entre 0 et 100.",
-  "success": "Le niveau du membre% S a été fixé à `% s`.",
+  "success": "Le niveau du membre%s a été fixé à `%s`.",
   "noBot": "Impossible de définir le niveau d'un utilisateur de bot.",
-  "roleSuccess": "Les niveaux ont été mis à jour pour tous les membres avec des rôles% s."
+  "roleSuccess": "Les niveaux ont été mis à jour pour tous les membres avec des rôles%s."
 }

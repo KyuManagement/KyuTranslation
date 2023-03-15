@@ -1,4 +1,4 @@
 {
-  "description": "",
+  "description": "Check the current server settings.",
   "usage": [["Check the current server settings.", "```/settings```"]]
 }

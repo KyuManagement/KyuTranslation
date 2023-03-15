@@ -2,7 +2,7 @@
   "description": "Verifique la configuración del servidor actual.",
   "usage": [
     [
-      "",
+      "Verifique la configuración del servidor actual.",
       "```/settings```"
     ]
   ]

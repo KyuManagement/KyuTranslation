@@ -27,6 +27,6 @@
   "variables": "Sets a custom message for announcement messages.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: User Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: User nickname\n`{user.exp}`: Member experience\n\n`{level}`: Obtained level\n`{level.previous}`: Previous level\n`{level.previous.exp}`: Previous level experience\n`{level.next}`: Next Level\n`{level.next.exp}`: Next level experience\n\n`{reward}`: Obtained role\n`{reward.role.name}`: Obtained role name\n`{reward.rolecount}`: Obtained role member count\n`{reward.rolecount.progess}`: Percentage of roles user has from all roles obtainable\n`{reward.previous}`: Previous role\n`{reward.next}`: Next role\n\n`{server.name}`: Server name\n`{server.id}`: Server ID\n`{server.icon}`: Server icon\n\n`{channel}`: Announcement channel\n`{channel.name}`: Announcement channel name\n`{channel.id}`: Announcement channel ID\n\n`{date}`: Current date (<t:%s:F>)",
   "vote": "Vote",
   "voteForKyu": "Vote for Kyu",
-  "ignoredCommand": "Unable to run this command, please ask developers to remove the command from ignore list.",
+  "ignoredCommand": "Unable to run this command, please ask admins to remove the command from ignore list.",
   "adminOnly": "Only admins can run this command, please contact an admin to run this command."
 }

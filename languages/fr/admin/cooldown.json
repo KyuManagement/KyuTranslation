@@ -22,9 +22,9 @@
       "```/cooldown show```"
     ]
   ],
-  "channelAddSuccess": "Le temps de recharge pour Channel% S a été réglé sur **% s **.",
-  "channelRemoveSuccess": "Le canal% S a été ** supprimé ** du temps de recharge.",
-  "roleAddSuccess": "Le temps de recharge pour les% s a été réglé sur% s pour% s.",
-  "roleRemoveSuccess": "Le rôle% s a été ** supprimé ** de% s de temps de recharge.",
-  "globalSetSuccess": "Le temps de recharge mondial pour% s a été fixé à% s."
+  "channelAddSuccess": "Le temps de recharge pour Channel%s a été réglé sur **%s **.",
+  "channelRemoveSuccess": "Le canal%s a été ** supprimé ** du temps de recharge.",
+  "roleAddSuccess": "Le temps de recharge pour les%s a été réglé sur%s pour%s.",
+  "roleRemoveSuccess": "Le rôle%s a été ** supprimé ** de%s de temps de recharge.",
+  "globalSetSuccess": "Le temps de recharge mondial pour%s a été fixé à%s."
 }

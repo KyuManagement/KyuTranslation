@@ -10,6 +10,6 @@
       "```/welcome disable```"
     ]
   ],
-  "enable": "Les utilisateurs obtiendront désormais le rôle% s lors de la rejoindre le serveur.",
+  "enable": "Les utilisateurs obtiendront désormais le rôle%s lors de la rejoindre le serveur.",
   "disable": "Les utilisateurs n'obtiendront plus de rôle lors de l'adhésion au serveur."
 }

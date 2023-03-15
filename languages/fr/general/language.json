@@ -6,5 +6,5 @@
       "```/language <language>```"
     ]
   ],
-  "success": "La langue a été changée avec succès en `% S`."
+  "success": "La langue a été changée avec succès en `%s`."
 }

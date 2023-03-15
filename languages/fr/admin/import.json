@@ -7,10 +7,10 @@
     ]
   ],
   "notFoundMee6": "Impossible de trouver un classement.Veuillez visiter https://mee6.xyz/dashboard/%S/leaderboard et assurez-vous que votre classement est public.",
-  "notFound": "Impossible de trouver un classement.On dirait que cette guilde n'a aucun niveau en% s.",
-  "inProgress": "Les niveaux sont actuellement importés de% s.Une fois importé, vous serez informé.",
-  "alreadyFound": "On dirait que ce serveur a déjà importé le nivellement de `% S`.Si vous souhaitez importer des niveaux à partir d'un autre bot, veuillez contacter notre équipe de personnel.",
+  "notFound": "Impossible de trouver un classement.On dirait que cette guilde n'a aucun niveau en%s.",
+  "inProgress": "Les niveaux sont actuellement importés de%s.Une fois importé, vous serez informé.",
+  "alreadyFound": "On dirait que ce serveur a déjà importé le nivellement de `%s`.Si vous souhaitez importer des niveaux à partir d'un autre bot, veuillez contacter notre équipe de personnel.",
   "confirmation": "En continuant, vous comprenez que ** tous les niveaux de membres actuels seront effacés **.Veuillez sélectionner Continuer à importer tous les niveaux.",
   "cancelled": "Les niveaux d'importation ont été annulés.",
-  "confirmed": "Les niveaux sont importés de `% S`.Pendant que cela se produit, le nivellement sera désactivé dans ce serveur.Vous serez informé lorsque les niveaux ont été importés en% s."
+  "confirmed": "Les niveaux sont importés de `%s`.Pendant que cela se produit, le nivellement sera désactivé dans ce serveur.Vous serez informé lorsque les niveaux ont été importés en%s."
 }

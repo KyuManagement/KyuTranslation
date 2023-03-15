@@ -128,7 +128,7 @@
   "common.footer": "Type `/help %s` for more help. For example, /help help",
   "common.guildPremium": "This feature is only available for premium guilds.\n\nIf you enjoy using KyuBot, please consider donating. Donations allow you to unlock **extra features** and also allow us to keep hosting, developing, and creating content updates for the bot.\n\n**Premium Perks**\n\n- Customise rank cards for all members\n- Configure global, channel, or role multiplier for text/voice exp\n- Configure cooldown for text/voice exp\n- Disable voting exp booster\n- Enable lootbox events\n- Automatic leaderboard updates in a specific channel\n- Configure server leaderboard as an image\n- Access to music player (Experimental feature)\n- Sneak peaks/Early access to new features\n- Donator badge for rank card\n\n**Dashboard perks**\n\n- Custom vanity url for server leaderboard\n- Custom banner for server leaderboard\n- Join server button on the server leaderboard",
   "common.hierarchyError": "Make sure KyuBot's role is above %s in the role hierarchy.",
-  "common.ignoredCommand": "Unable to run this command, please ask developers to remove the command from ignore list.",
+  "common.ignoredCommand": "Unable to run this command, please ask admins to remove the command from ignore list.",
   "common.invalidImageUrl": "Given link is not an image, please provide a valid image link. Image types currently supported: jpg|jpeg|png|gif.",
   "common.invite": "Invite",
   "common.kyuDashboard": "Kyu Dashboard",
@@ -630,7 +630,7 @@
       "```/setlevel role <member> <level>```"
     ]
   ],
-  "settings.description": "",
+  "settings.description": "Check the current server settings.",
   "settings.usage": [
     [
       "Check the current server settings.",
