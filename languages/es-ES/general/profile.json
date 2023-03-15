@@ -1,22 +1,39 @@
 {
   "description": "Cambia la apariencia de tu tarjeta de rango.",
   "usage": [
-    "Cambie el color para su tarjeta de rango.",
-    "Cambie la opacidad para su tarjeta de rango.",
-    "Cambie los antecedentes de su tarjeta de rango.",
-    "Cambie la superposición de su tarjeta de rango."
+    [
+      "Cambie el color para su tarjeta de rango.",
+      "```/profile color <color>```"
+    ],
+    [
+      "Cambie la opacidad para su tarjeta de rango.",
+      "```/profile opacity <0-100>```"
+    ],
+    [
+      "Cambie los antecedentes de su tarjeta de rango.",
+      "```/profile background <url>```"
+    ],
+    [
+      "Cambie la superposición de su tarjeta de rango.",
+      "```/profile opacity <url>```"
+    ]
   ],
-  "isNotColor": "Incapaz de encontrar el color '%s' dado. Seleccione un color de uno de los siguientes colores: `` `predeterminado\nazul\ngris\nverde\nnaranja\nrosado\nvioleta\nrojo\nverde azulado\namarillo````````",
-  "isNotHex": "El color '%s' no es un color hexadecimal. Asegúrese de que el color siga un formato de color hexadecimal (#6CFFAC).",
+  "isNotColor": "Incapaz de encontrar el color '%s' dado.Seleccione un color de uno de los siguientes colores: `` `predeterminado\nazul\ngris\nverde\nnaranja\nrosa\npúrpura\nrojo\nverde azulado\namarillo``````````",
+  "isNotHex": "El color '%s' no es un color hexadecimal.Asegúrese de que el color siga un formato de color hexadecimal (#6cffac).",
   "colorSuccess": "El color de perfil se ha actualizado a **%s **.",
-  "imageInvalid": "El enlace dado no es una imagen, proporcione un enlace de imagen válido.",
-  "donatorOnly": "Esta característica solo está disponible para el donante. Obtenga más información utilizando `/donate`",
   "backgroundDefaultSuccess": "El fondo de perfil se ha establecido en el valor predeterminado.",
-  "backgroundSuccess": "Los antecedentes se han cargado en la base de datos.",
-  "overlayDefaultSuccess": "La superposición de perfil se ha retrasado en el valor predeterminado.",
+  "backgroundSuccess": "Los antecedentes se han cargado a la base de datos.",
+  "badgeNotFound": "No se puede encontrar una insignia con la identificación: %s.",
+  "badgeSuccess": "Insignia para la posición %s se ha actualizado a %s para la tarjeta de rango %s.",
+  "barSuccess": "El tipo de barra de progresión se ha actualizado a **%s **.",
+  "overlayDefaultSuccess": "La superposición de perfil se ha ajustado al valor predeterminado.",
   "overlaySuccess": "Overlay se ha subido a la base de datos.",
-  "discordTos": "Al continuar, entiende la imagen que está cargando, sigue los ** [Términos de servicio de Discord] (https://discord.com/terms) **. Cualquier cosa que esté cargada es su responsabilidad y lo responsabilizarán por ello.",
-  "nsfwWarning": "¡ADVERTENCIA! Las imágenes NSFW pueden resultar en una prohibición de nuestro bot.",
   "opacityTooHigh": "Asegúrese de que la opacidad esté entre 0 y 100.",
-  "opacitySuccess": "La opacidad del perfil se ha establecido en **%s%**."
+  "opacitySuccess": "La opacidad del perfil se ha establecido en **%s%**.",
+  "shareFailed": "Establezca un fondo/superposición antes de intentar compartir fondo/superposición con otros.",
+  "shareSuccessBoth": "¡Otros usuarios ahora pueden usarte tu fondo y superposición!",
+  "shareSuccessBackground": "¡Otros usuarios ahora pueden usar sus antecedentes!",
+  "shareSuccessOverlay": "¡Otros usuarios ahora pueden usar su superposición!",
+  "shareSuccessNone": "Los usuarios ya no pueden usar su experiencia o superposición.El acceso también se ha eliminado de todos los usuarios actuales.",
+  "themeSuccess": "El tema se ha actualizado a **%s **."
 }

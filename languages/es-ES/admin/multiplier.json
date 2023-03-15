@@ -1,1 +1,37 @@
-{}
+{
+  "description": "Establezca multiplicador para canales/roles.",
+  "usage": [
+    [
+      "Establezca multiplicador para un canal de texto/voz.",
+      "```/multiplier set channel <#channel> <0-250> <0-250>```"
+    ],
+    [
+      "Establezca multiplicador para un papel en la lista de texto/voz.",
+      "```/multiplier set role <role> <0-250> <0-250> <for>```"
+    ],
+    [
+      "Eliminar multiplicador para un canal de texto/voz.",
+      "```/multiplier delete channel```"
+    ],
+    [
+      "Elimine el multiplicador para un papel en la lista de texto/voz.",
+      "```/multiplier delete role <from>```"
+    ],
+    [
+      "Muestra una lista de roles y canales multiplicadores actuales.",
+      "```/multiplier show```"
+    ]
+  ],
+  "invalidMinimum": "Asegúrese de que el mínimo sea más de 0, cuando el máximo no esté configurado.",
+  "invalidMaximum": "Asegúrese de que la EXP mínima sea menor que la EXP máxima.",
+  "channelNotIncluded": "No se puede encontrar un multiplicador para el canal %s.",
+  "channelRemoveSuccess": "Se ha eliminado el multiplicador para el canal %s.",
+  "channelRandomSuccess": "El multiplicador para el canal %s se ha establecido al azar entre %sy %s.",
+  "channelAddSuccess": "Multiplicador para el canal %s se ha establecido en %s.",
+  "roleNotIncluded": "No se puede encontrar un multiplicador para el rol %s para %s.",
+  "roleRemoveSuccess": "El multiplicador para el rol %s se ha eliminado de los multiplicadores %s.",
+  "roleRandomSuccess": "Se ha establecido un multiplicador para rol %s al azar entre %sy %s.",
+  "roleAddSuccess": "Multiplicador para el rol %s se ha establecido en %s.",
+  "globalRandomSuccess": "El multiplicador global se ha establecido para aleatorizarse entre %sy %s.",
+  "globalAddSuccess": "Multiplicador global se ha establecido en %s."
+}

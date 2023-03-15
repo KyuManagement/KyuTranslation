@@ -1,13 +1,16 @@
 {
   "description": "Niveles de importación de varios otros bots a Kyubot.",
-  "usage": ["Los niveles de importación de varios otros bots en Kyubot."],
-  "notFoundMee6": "Incapaz de encontrar una tabla de clasificación.Visite https://mee6.xyz/dashboard/${message.guild.id}/leaderboard y asegúrese de que su tabla de clasificación sea pública.",
+  "usage": [
+    [
+      "Niveles de importación de varios otros bots a Kyubot.",
+      "```/import <AmariBot/Mee6/Tatsu>```"
+    ]
+  ],
+  "notFoundMee6": "Incapaz de encontrar una tabla de clasificación.Visite https://mee6.xyz/dashboard/%S/Leaderboard y asegúrese de que su tabla de clasificación sea pública.",
   "notFound": "Incapaz de encontrar una tabla de clasificación.Parece que este gremio no tiene ningún nivel en %s.",
   "inProgress": "Los niveles se están importando actualmente de %s.Una vez importado, será notificado.",
-  "title": "¡Importación de nivel!",
-  "description": "Al continuar, entiende que ** todos los niveles actuales de miembros se borrarán **.Seleccione Continuar importando todos los niveles.",
-  "cancelledTitle": "¡Nivel de importación cancelada!",
-  "cancelledDescription": "Los niveles de importación han sido cancelados.",
-  "confirmedTitle": "¡Comenzó la importación de nivel!",
-  "confirmedDescription": "Los niveles se importan de `%S`.Mientras esto está sucediendo, la nivelación se deshabilitará en este servidor.Se le notificará cuando los niveles se hayan importado en %s."
+  "alreadyFound": "Parece que este servidor ya ha importado la nivelación de `%S`.Si desea importar niveles de otro bot, comuníquese con nuestro equipo de personal.",
+  "confirmation": "Al continuar, entiende que ** todos los niveles actuales de miembros se borrarán **.Seleccione Continuar importando todos los niveles.",
+  "cancelled": "Los niveles de importación han sido cancelados.",
+  "confirmed": "Los niveles se importan de `%S`.Mientras esto está sucediendo, la nivelación se deshabilitará en este servidor.Se le notificará cuando los niveles se hayan importado en %s."
 }

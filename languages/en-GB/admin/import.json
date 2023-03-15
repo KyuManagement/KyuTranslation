@@ -6,13 +6,11 @@
       "```/import <AmariBot/Mee6/Tatsu>```"
     ]
   ],
-  "notFoundMee6": "Unable to find leaderboard. Please visit https://mee6.xyz/dashboard/${message.guild.id}/leaderboard and make sure your leaderboard is public.",
+  "notFoundMee6": "Unable to find leaderboard. Please visit https://mee6.xyz/dashboard/%s/leaderboard and make sure your leaderboard is public.",
   "notFound": "Unable to find leaderboard. Seems like this guild doesn't have any levels in %s.",
   "inProgress": "Levels are currently being imported from %s. Once imported, you will be notified.",
-  "title": "Level import!",
-  "description": "By continuing you understand that **all current member levels will be cleared**. Please select continue to import all levels.",
-  "cancelledTitle": "Level import cancelled!",
-  "cancelledDescription": "Levels import have been cancelled.",
-  "confirmedTitle": "Level import started!",
-  "confirmedDescription": "Levels are being imported from `%s`. While this is happening, leveling will be disabled in this server. You will be notified when levels have been imported in %s."
+  "alreadyFound": "Seems like this server has already imported leveling from `%s`. If you would like to import levels from another bot, please contact our staff team.",
+  "confirmation": "By continuing you understand that **all current member levels will be cleared**. Please select continue to import all levels.",
+  "cancelled": "Levels import have been cancelled.",
+  "confirmed": "Levels are being imported from `%s`. While this is happening, leveling will be disabled in this server. You will be notified when levels have been imported in %s."
 }

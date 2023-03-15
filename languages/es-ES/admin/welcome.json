@@ -1,8 +1,14 @@
 {
   "description": "Cambie la configuración para cuando los usuarios se unan al servidor.",
   "usage": [
-    "Establezca un papel para que los usuarios ganen al unir el servidor.",
-    "Desactivar la configuración para que los usuarios obtengan un papel al unirse."
+    [
+      "Establezca un papel para que los usuarios ganen al unirse al servidor.",
+      "```/welcome role <role>```"
+    ],
+    [
+      "Deshabilitar la configuración para que los usuarios obtengan un papel al unirse.",
+      "```/welcome disable```"
+    ]
   ],
   "enable": "Los usuarios ahora obtendrán el rol %s al unirse al servidor.",
   "disable": "Los usuarios ya no obtendrán un papel al unirse al servidor."

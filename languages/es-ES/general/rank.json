@@ -1,6 +1,11 @@
 {
   "description": "Verifique su rango u otro rango de usuario",
-  "usage": ["Verifique su rango u otro rango de usuario."],
+  "usage": [
+    [
+      "Verifique su rango u otro rango de usuario.",
+      "```/rank [member] [normal/voice]```"
+    ]
+  ],
   "vote": "Votar por el 15% de impulso",
   "isBot": "Incapaz de verificar el rango de un bot."
 }

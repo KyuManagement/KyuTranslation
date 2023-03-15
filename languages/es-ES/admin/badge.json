@@ -1,1 +1,23 @@
-{}
+{
+  "description": "Agregue/elimine las insignias personalizadas del servidor.",
+  "usage": [
+    [
+      "Agregue una nueva insignia al servidor.",
+      "```/badge add <name> <url>```"
+    ],
+    [
+      "Elimine una insignia actual del servidor.",
+      "```/badge delete <name>```"
+    ],
+    [
+      "Muestre una lista de las insignias disponibles en este servidor.",
+      "```/badge show```"
+    ]
+  ],
+  "alreadyExists": "Ya existe una insignia con ID `%S`.Por favor ingrese otro nombre.",
+  "successAdded": "La insignia con el nombre `%S` se ha agregado a este servidor.",
+  "invalidName": "No se puede encontrar una insignia con la identificación `%S`.",
+  "successRemoved": "Se ha eliminado la insignia de `%S` del servidor.",
+  "alphanumericOnly": "Solo los personajes alfanuméricos están permitidos para los nombres de las insignias.Seleccione un nombre con letras/números.",
+  "notfound": "No se puede encontrar ninguna insignia en este servidor, ¡agregue una insignia!"
+}

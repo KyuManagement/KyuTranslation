@@ -1,0 +1,30 @@
+{
+  "description": "Cambiar el tiempo de reutilización global o para canales/roles.",
+  "usage": [
+    [
+      "Establezca el tiempo de reutilización para un canal de texto/voz.",
+      "```/cooldown add channel <channel> <seconds>```"
+    ],
+    [
+      "Establezca el tiempo de reutilización para un papel en texto/voz.",
+      "```/cooldown add role <role> <seconds> <for>```"
+    ],
+    [
+      "Retire el tiempo de reutilización de un canal de texto/voz.",
+      "```/cooldown remove channel <channel> <from>```"
+    ],
+    [
+      "Elimine el papel de enfriamiento del texto/voz.",
+      "```/cooldown remove role <role> <from>```"
+    ],
+    [
+      "Muestre una lista de los enfriamientos actualmente establecidos.",
+      "```/cooldown show```"
+    ]
+  ],
+  "channelAddSuccess": "El enfriamiento para el canal %s se ha establecido en ** %s **.",
+  "channelRemoveSuccess": "Channel %s ha sido ** eliminado ** del enfriamiento.",
+  "roleAddSuccess": "El tiempo de reutilización para el rol %s se ha establecido en %s para %s.",
+  "roleRemoveSuccess": "El rol %s ha sido ** eliminado ** de %s de costa.",
+  "globalSetSuccess": "El tiempo de reutilización global para %s se ha establecido en %s."
+}

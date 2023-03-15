@@ -1,15 +1,41 @@
 {
   "description": "Cambiar la configuración de las recompensas ganadas al subir de nivel.",
   "usage": [
-    "Establezca el rol que se dará cuando un miembro alcanza el nivel especificado.'```/Rewards Agregar <nivel> <sol> `` ``",
-    "Eliminar el rol de ser dado en un nivel especificado.'`` 'Rewards Eliminar <livel> `` `` `` `` `` `` `` ``",
-    "Establezca roles para apilar o reemplazar después de obtener un nuevo rol.'```/Rewards Stack <Enlable/Disable> `` ``",
-    "Muestra todos los roles establecidos en los niveles."
+    [
+      "Establezca el rol que se dará cuando un miembro alcanza el nivel especificado.",
+      "```/rewards add <level> <role>```"
+    ],
+    [
+      "Eliminar el papel de ser dado en un nivel específico.",
+      "```/rewards remove <level>```"
+    ],
+    [
+      "Establezca roles para apilar o reemplazar después de obtener un nuevo rol.",
+      "```/rewards stack <enable/disable>```"
+    ],
+    [
+      "Muestra todos los roles establecidos en niveles.",
+      "```/rewards show```"
+    ]
   ],
-  "success": "Los miembros ahora obtendrán un rol %s en el nivel ` %S`.",
   "notExists": "Incapaz de encontrar una recompensa por nivel %s.",
-  "removed": "Los miembros ya no obtendrán un papel en el nivel `%S`.",
-  "stack": "Los roles ahora serán apilados.",
-  "replace": "Los roles ahora serán reemplazados.",
-  "limit": "Se han establecido demasiados roles.Actualmente, solo se pueden configurar 30 recompensas de roles."
+  "stackText": "Todas las recompensas de texto ahora serán apiladas.",
+  "replaceText": "Todas las recompensas de texto ahora serán reemplazadas.",
+  "stackVoice": "Todas las recompensas de voz ahora serán apiladas.",
+  "replaceVoice": "Todas las recompensas de voz ahora serán reemplazadas.",
+  "limit": "Se han establecido demasiados roles.Actualmente, solo se pueden configurar 25 recompensas de roles.",
+  "badgeInvalidName": "No se puede encontrar una insignia con la identificación `%S`.",
+  "voiceBadgeAdded": "La insignia con el nombre ` %S` será recompensada para el usuario cuando alcancen el nivel de voz %s.",
+  "badgeAdded": "La insignia con el nombre ` %S` será recompensada para el usuario cuando alcancen el nivel de texto %s.",
+  "invalidLevel": "No se puede encontrar una recompensa establecida para el nivel `%S`.",
+  "voiceBadgeRemoved": "La recompensa de la insignia por el nivel `%S` se ha eliminado de la nivelación de voz.",
+  "badgeRemoved": "La recompensa de la insignia por el nivel `%S` se ha eliminado de la nivelación de texto.",
+  "voiceExpAdded": "El usuario obtendrá una experiencia ` %S` cuando alcance el nivel de voz %s.",
+  "expAdded": "El usuario obtendrá una experiencia ` %S` cuando alcance el nivel de texto %s.",
+  "voiceExpRemoved": "La recompensa de experiencia por el nivel `%S` se ha eliminado de la nivelación de voz.",
+  "expRemoved": "La recompensa de experiencia por el nivel `%S` se ha eliminado de la nivelación de texto.",
+  "voiceRoleAdded": "El usuario obtendrá un rol de %s cuando alcance el nivel de voz %s.",
+  "roleAdded": "El usuario obtendrá un rol de %s cuando alcance el nivel de texto %s.",
+  "voiceRoleRemoved": "La recompensa de roles por el nivel `%S` se ha eliminado de la nivelación de voz.",
+  "roleRemoved": "La recompensa de roles por el nivel `%S` se ha eliminado de la nivelación de texto."
 }

@@ -1,15 +1,49 @@
 {
   "description": "Cambiar la configuración de los mensajes de anuncio de nivel.",
   "usage": [
-    "Cambie el mensaje personalizado o obtenga más información.\n/anunciar mensaje predeterminado\n/anunciar variables de mensaje````",
-    "Habilitar/deshabilitar pings para mensajes de anuncio.",
-    "Pruebe el mensaje de anuncio actual."
+    [
+      "Establecer una cantidad de segundos para esperar antes de eliminar el anuncio.Establecer en 0 para el anuncio que no se eliminará.",
+      "```/announce clear <30-300>```"
+    ],
+    [
+      "Establezca la descripción para la incrustación/mensaje.",
+      "```/announce custom <text>```"
+    ],
+    [
+      "Habilitar/deshabilitar pings para mensajes de anuncio.",
+      "```/announce ping <enable/disable>```"
+    ],
+    [
+      "Pruebe el anuncio para un nivel específico o el anuncio global.",
+      "```/announce test <level>```"
+    ],
+    [
+      "Establezca los anuncios del canal a los que se deben enviar.",
+      "```/announce type channel #channel```"
+    ],
+    [
+      "Establezca cómo se deben enviar anuncios cuando un usuario sube de nivel.",
+      "```/announce type set <default/dm/off/rewards>```"
+    ],
+    [
+      "Obtenga una lista de variables para anuncios.",
+      "```/announce variables```"
+    ]
   ],
+  "clearAmount": "Asegúrese de que el anuncio Eliminar el tiempo sea de entre 30 y 300 segundos.",
+  "clearSuccess": "Los mensajes de anuncio ahora se eliminarán después de `%S` segundos.",
+  "clearSuccessDisabled": "Los mensajes de anuncio ya no se eliminarán.",
   "messageTooLong": "El recuento de personajes máximos es 1250, ya está superado por **%s **.",
   "messageSuccess": "El mensaje de anuncio se ha actualizado a: `` `%S```",
-  "messageDefault": "El mensaje de anuncio se ha restablecido al mensaje básico.",
-  "pingIncorrect": "Habilitar/deshabilitar pings para mensajes de anuncio.",
-  "variables": "Establece un mensaje personalizado para mensajes de anuncio.\n/anunciar mensaje predeterminado```\n__Variables__\n`{user.ping}`: @kyubot\n`{user.tag}`: Kyubot#9767\n`{user.name}`: Kyubot\n`{user.avatar}`: Avatar de usuario\n`{user.id}`: 932319321559015526\n`{user.nick}`: Apodo del usuario\n`{user.exp}`: Experiencia de miembro\n\n`{nivel}`: nivel obtenido\n`{nivel.previous}`: nivel anterior\n`{nivel.previous.EXP}`: Experiencia de nivel anterior\n`{nivel.next}`: siguiente nivel\n`{nivel.next.exp}`: Experiencia en el siguiente nivel\n\n`{recompensa}`:\n`{recompensa.role.name}`: nombre de rol obtenido\n`{recompensa.rolecount}`: Contejo de miembros de rol obtenido\n`{recompensa.rolecount.progess}`: Porcentaje de roles que el usuario tiene de todas las funciones obtenibles\n`{recompensa.previous}`: rol anterior\n`{recompensa.next}`: siguiente rol\n\n`{server.name}`: nombre del servidor\n`{server.id}`: ID de servidor\n`{server.icon}`: icono del servidor\n\n`{canal}`: canal de anuncio\n`{channel.name}`: Nombre del canal de anuncio\n`{Channel.id}`: ID de canal de anuncio\n\n`{fecha}`: fecha actual (<t:%s: f>)",
-  "pingSuccessEnabled": "El anuncio se ha establecido pings en ** habilitado **.",
-  "pingSuccessDisabled": "Los pings de anuncio se han establecido en ** discapacitado **."
+  "pingSuccessEnabled": "Los pings de anuncio se han establecido en ** habilitado **.",
+  "pingSuccessDisabled": "Los pings de anuncio se han establecido en ** discapacitado **.",
+  "typeInvalidOption": "La opción `%S` no es válida.Seleccione una de las siguientes opciones: DM, OFF, recompensa o ninguna.",
+  "typeSuccessChannel": "Los anuncios ahora se enviarán a %s.",
+  "typeSuccessDefault": "Los anuncios ahora aparecerán en el canal ** El usuario nivela en **.",
+  "typeSuccessDm": "Se han establecido anuncios en ** DM **.",
+  "typeSuccessOff": "Se han establecido anuncios en ** OFF **.",
+  "typeSuccessReward": "Los anuncios solo se enviarán en niveles que ** recompensa ** miembros.",
+  "typeOff": "Los anuncios están deshabilitados en este gremio.",
+  "levelupSuccess": "Se ha enviado a %s mensaje de anuncio.",
+  "channelNotFound": "No se puede encontrar el canal dado para el anuncio."
 }

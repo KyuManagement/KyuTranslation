@@ -1,20 +1,23 @@
 {
   "description": "Cambiar la configuración para la exp.",
   "usage": [
-    "Blacklist Un canal de Gaining Exp.````/Voice Blacklist Channel <add/remove> <nannel> `` ``",
-    "Blacklist Un papel de Gaining Exp.````/Voice Blacklist role <add/remove> <sol> `` ``",
-    "Habilitar o deshabilitar Voice Exp.````/Configuración de voz <Enlable/Disable> `` `` `` ``",
-    "Muestra la tabla de clasificación de voz para el servidor.",
-    "Muestre una lista de los canales/roles de la lista negra."
+    [
+      "Habilite el sistema de nivelación de voz para el servidor.",
+      "```/voice enable```"
+    ],
+    [
+      "Deshabilitar el sistema de nivelación de voz para el servidor.",
+      "```/voice disable```"
+    ],
+    [
+      "Muestra la tabla de clasificación de voz para el servidor.",
+      "```/voice leaderboard```"
+    ],
+    [
+      "Muestre una lista de los canales/roles de la lista negra actualmente.",
+      "```/voice show```"
+    ]
   ],
   "enabled": "Voice Exp ha sido ** habilitado **.",
-  "disabled": "Voice Exp ha sido ** deshabilitado **.",
-  "channelIncluded": "Channel %s ya está ** listado en negro.",
-  "channelAddSuccess": "Channel %s ha sido ** agregado ** a Blacklist.",
-  "channelRemoveSuccess": "Channel %s ha sido ** eliminado ** de Blacklist.",
-  "channelNotIncluded": "Channel %s es ** no ** lista negra.",
-  "roleIncluded": "Rol %s ya está ** ya ** lista negra.",
-  "roleAddSuccess": "Rol %s ha sido ** agregado ** a la lista negra.",
-  "roleRemoveSuccess": "Rol %s ha sido ** eliminado ** de la lista negra.",
-  "roleNotIncluded": "Rol %s es ** no ** lista negra."
+  "disabled": "Voice Exp ha sido ** deshabilitado **."
 }

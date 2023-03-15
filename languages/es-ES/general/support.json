@@ -1,4 +1,9 @@
 {
   "description": "Obtenga un enlace para unirse al servidor de soporte.",
-  "usage": ["Obtenga un enlace para unirse al servidor de soporte."]
+  "usage": [
+    [
+      "Obtenga un enlace para unirse al servidor de soporte.",
+      "```/support```"
+    ]
+  ]
 }

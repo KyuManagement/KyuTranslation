@@ -1,5 +1,10 @@
 {
   "description": "Información sobre los comandos disponibles",
-  "usage": ["Obtenga información sobre un comando específico."],
+  "usage": [
+    [
+      "Obtenga información sobre un comando específico.",
+      "```/help [command]```"
+    ]
+  ],
   "title": "Menú de ayuda de Kyu"
 }

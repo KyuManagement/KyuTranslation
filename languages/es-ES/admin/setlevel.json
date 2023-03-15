@@ -1,11 +1,17 @@
 {
   "description": "Establezca el nivel o nivel de un miembro para los miembros que tienen un papel específico.",
   "usage": [
-    "Establezca el miembro en un nivel especificado.'``/SetLevel User <ember> <livele> `` `` `` `` `` `` `` `` `` ``",
-    "Nivel de actualización para todos los miembros que tienen un rol específico.'``/setlevel rol <ember> <livel> `` `` `` `` `` `` `` `` `` `` `` `` `` `"
+    [
+      "Establezca el miembro en un nivel específico.",
+      "```/setlevel user <member> <level>```"
+    ],
+    [
+      "ACTUALIZAR NIVEL para todos los miembros que tienen un papel específico.",
+      "```/setlevel role <member> <level>```"
+    ]
   ],
   "incorrect": "Asegúrese de que el nivel que está dando es entre 0 y 100.",
   "success": "El nivel de Member %S se ha establecido en ` %S`.",
   "noBot": "No se puede establecer el nivel de un usuario de BOT.",
-  "roleSuccess": "Los niveles se han actualizado para los miembros de %S."
+  "roleSuccess": "Los niveles se han actualizado para todos los miembros con %sh."
 }

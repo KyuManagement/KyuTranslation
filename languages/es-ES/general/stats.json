@@ -1,4 +1,9 @@
 {
   "description": "Verifique la configuración del servidor actual.",
-  "usage": ["Verifique las estadísticas de BOT actuales.'``/Stats````"]
+  "usage": [
+    [
+      "Verifique las estadísticas de BOT actuales.",
+      "```/stats```"
+    ]
+  ]
 }

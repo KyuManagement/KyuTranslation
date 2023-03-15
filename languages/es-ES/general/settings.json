@@ -1,4 +1,9 @@
 {
   "description": "Verifique la configuración del servidor actual.",
-  "usage": [""]
+  "usage": [
+    [
+      "",
+      "```/settings```"
+    ]
+  ]
 }

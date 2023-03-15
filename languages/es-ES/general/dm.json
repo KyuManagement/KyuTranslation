@@ -1,8 +1,11 @@
 {
   "description": "Habilitar/deshabilitar DMS de Kyubot para anuncios en todos los servidores",
   "usage": [
-    "Habilitar/deshabilitar DMS de Kyubot para anuncios en todos los servidores."
+    [
+      "Habilitar/deshabilitar DMS de Kyubot para anuncios en todos los servidores.",
+      "```/dm <disable/enable>```"
+    ]
   ],
-  "updateEnabled": "Ahora recibirás DMS ** cuando subes de nivel en cualquier gremio.",
+  "updateEnabled": "Ahora recibirá ** DMS ** cuando suba de nivel en cualquier gremio.",
   "updateDisabled": "Ya no recibirá DMS ** cuando suba de nivel en ningún gremio."
 }
