@@ -572,7 +572,7 @@
       "```/reset settings <option>```"
     ]
   ],
-  "reset.user": "Are you sure you want to delete all user data for %s",
+  "reset.user": "Are you sure you want to delete all user data for %s.",
   "reset.userSuccess": "Data for user %s has been reset.",
   "reset.voiceExp": "Are you sure you want to delete **all voice exp**?",
   "reset.voiceExpSuccess": "**Voice exp** for all members have been reset.",

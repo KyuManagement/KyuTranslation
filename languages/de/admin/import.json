@@ -1,15 +1,16 @@
 {
   "description": "Importiere Levels von anderen Bots in Kyubot.",
   "usage": [
-    "Importiere Levels von anderen Bots in Kyubot.```/import <AmariBot/Mee6/Tatsu>```"
+    [
+      "Importiere Levels von anderen Bots in Kyubot.",
+      "```/import <AmariBot/Mee6/Tatsu>```"
+    ]
   ],
   "notFoundMee6": "Rangliste kann nicht gefunden werden. Bitte besuche https://mee6.xyz/dashboard/${message.guild.id}/leaderboard und vergewissere Dich, dass die Rangliste öffentlich ist.",
   "notFound": "Rangliste kann nicht gefunden werden. Scheint, als hätte dieser Server keine Level in %s.",
   "inProgress": "Level werden gerade von %s importiert. Du wirst nach dem Import benachrichtigt.",
-  "title": "Level-Import!",
-  "description": "Wenn Du fortfährst, verstehst Du, dass **alle aktuellen Mitglieds-Level gelöscht werden**. Bitte wählen Weiter, um alle Level zu importieren.",
-  "cancelledTitle": "Level-Import abgebrochen!",
-  "cancelledDescription": "Der Level-Import wurde abgebrochen.",
-  "confirmedTitle": "Level-Import gestartet!",
-  "confirmedDescription": "Level werden von `%s` importiert. Währenddessen wird das Leveln auf diesem Server deaktiviert. Du wirst benachrichtigt, wenn Level in %s importiert wurden."
+  "alreadyFound": "Seems like this server has already imported leveling from `%s`. If you would like to import levels from another bot, please contact our staff team.",
+  "confirmation": "Wenn Du fortfährst, verstehst Du, dass **alle aktuellen Mitglieds-Level gelöscht werden**. Bitte wählen Weiter, um alle Level zu importieren.",
+  "cancelled": "Der Level-Import wurde abgebrochen.",
+  "confirmed": "Level werden von `%s` importiert. Währenddessen wird das Leveln auf diesem Server deaktiviert. Du wirst benachrichtigt, wenn Level in %s importiert wurden."
 }

@@ -6,10 +6,33 @@
     "Lege fest, ob Rollen gestapelt oder ersetzt werden, nachdem Mitglieder eine neue Rolle erhalten haben.```/rewards stack <enable/disable>```",
     "Zeigt alle Rollen an, die auf Level gesetzt sind.```/rewards show```"
   ],
-  "success": "Mitglieder erhalten jetzt die Rolle %s auf Level`%s`.",
   "notExists": "Es kann keine Belohnung für Level %s gefunden werden.",
-  "removed": "Mitglieder erhalten keine Rolle mehr auf Level `%s`.",
-  "stack": "Die Rollen werden nun gestapelt.",
-  "replace": "Rollen werden nun ersetzt.",
-  "limit": "Es wurden zu viele Rollen eingerichtet. Derzeit können nur 30 Rollenbelohnungen eingerichtet werden."
+
+  "stackText": "Die Rollen werden nun gestapelt.",
+  "replaceText": "Rollen werden nun ersetzt.",
+
+  "stackVoice": "All voice rewards will now be stacked.",
+  "replaceVoice": "All voice rewards will now be replaced.",
+
+  "limit": "Es wurden zu viele Rollen eingerichtet. Derzeit können nur 25 Rollenbelohnungen eingerichtet werden.",
+
+  "badgeInvalidName": "Unable to find a badge with the id `%s`.",
+  "voiceBadgeAdded": "Badge with name `%s` will be rewarded to user when they reach voice level %s.",
+  "badgeAdded": "Badge with name `%s` will be rewarded to user when they reach text level %s.",
+
+  "invalidLevel": "Unable to find a reward set for level `%s`.",
+  "voiceBadgeRemoved": "Badge reward for level `%s` has been removed from voice leveling.",
+  "badgeRemoved": "Badge reward for level `%s` has been removed from text leveling.",
+
+  "voiceExpAdded": "User will earn `%s` experience when they reach voice level %s.",
+  "expAdded": "User will earn `%s` experience when they reach text level %s.",
+
+  "voiceExpRemoved": "Experience reward for level `%s` has been removed from voice leveling.",
+  "expRemoved": "Experience reward for level `%s` has been removed from text leveling.",
+
+  "voiceRoleAdded": "User will earn %s role when they reach voice level %s.",
+  "roleAdded": "Mitglieder erhalten jetzt die Rolle %s auf Level`%s`.",
+
+  "voiceRoleRemoved": "Role reward for level `%s` has been removed from voice leveling.",
+  "roleRemoved": "Mitglieder erhalten keine Rolle mehr auf Level `%s`."
 }

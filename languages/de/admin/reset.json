@@ -1,17 +1,27 @@
 {
   "description": "Setze bestimmte Mitglieder oder Einstellungen für den aktuellen Server zurück.",
   "usage": [
-    "Exp eines bestimmten Mitglieds zurücksetzen.```/reset user <member>```",
-    "Setze eine bestimmte Einstellung zurück.```/reset settings <option>```"
+    [
+      "Exp eines bestimmten Mitglieds zurücksetzen.",
+      "```/reset user <member>```"
+    ],
+    [
+      "Setze eine bestimmte Einstellung zurück.",
+      "```/reset settings <option>```"
+    ]
   ],
-  "settingsQuestion": "Möchtest Du wirklich **ALLE** Einstellungen löschen?",
-  "pointsQuestion": "Möchtest Du wirklich **alle Punkte** löschen?",
-  "question": "Möchtest Du die **%s**-Einstellungen wirklich löschen?",
-  "footer": "WARNUNG! Das Zurücksetzen ist nicht umkehrbar.",
-  "pointsSuccess": "**Punkte** für alle Mitglieder wurden zurückgesetzt.",
+
+  "all": "Möchtest Du wirklich **ALLE** Einstellungen löschen?",
+  "textExp": "Are you sure you want to delete **all text exp**?",
+  "textExpSuccess": "**Text exp** for all members have been reset.",
+  "kothExp": "Are you sure you want to delete **all koth exp**?",
+  "kothExpSuccess": "**Koth exp** for all members have been reset.",
+  "voiceExp": "Are you sure you want to delete **all voice exp**?",
+  "voiceExpSuccess": "**Voice exp** for all members have been reset.",
+  "settings": "Are you sure you want to delete **%s** settings?",
   "settingsSuccess": "**%s**-Einstellungen wurden zurückgesetzt",
   "success": "Das Zurücksetzen der **%s**-Einstellungen wurde abgebrochen.",
-  "userNotFound": "Bitte gebe ein gültiges Mitglied ein.",
+  "user": "Are you sure you want to delete all user data for %s.",
   "userSuccess": "Mitglied %s Exp wurden zurückgesetzt.",
-  "userFailed": "Mitglied %s kann nicht zurückgesetzt werden. Wenn dieses Problem weiterhin auftritt, wende Dich bitte an meine Entwickler."
+  "footer": "WARNUNG! Das Zurücksetzen ist nicht umkehrbar."
 }
