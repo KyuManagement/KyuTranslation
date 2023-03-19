@@ -1,68 +1,68 @@
 {
-  "description": "Configure various settings for the server.",
+  "description": "Konfiguriere verschiedene Einstellungen für den Server.",
   "usage": [
     [
-      "Set if voting expbooster should be enabled/disabled.",
+      "Stelle ein, ob der Voting Exp-Booster aktiviert/deaktiviert werden soll.",
       "```/config expbooster <true/false>```"
     ],
     [
-      "Set an admin role for the server. Members with these roles can config the bot.",
+      "Lege eine Adminrolle für den Server fest. Mitglieder mit dieser Rolle können den Bot konfigurieren.",
       "```/config adminrole @role```"
     ],
     [
-      "Set the background for the leaderboard image.",
+      "Lege den Hintergrund für das Ranglisten-Bild fest.",
       "```/config leaderboard background <url>```"
     ],
     [
-      "Set the amount of users shown on the leaderboard.",
+      "Lege die Anzahl der Mitglieder fest, die auf der Rangliste angezeigt werden.",
       "```/config leaderboard amount <1-10>```"
     ],
     [
-      "Set the color for the leaderboard.",
+      "Lege die Farbe für die Rangliste fest.",
       "```/config leaderboard color <color>```"
     ],
     [
-      "Set if leaderboard should be an embed or an image.",
+      "Lege fest, ob die Rangliste eine Einbettung oder ein Bild sein soll.",
       "```/config leaderboard image <setting>```"
     ],
     [
-      "Set the opacity for the leaderboard image.",
+      "Lege die Deckkraft für das Ranglisten-Bild fest.",
       "```/config leaderboard opacity <percentage>```"
     ],
     [
-      "Set the overlay for the leaderboard image.",
+      "Lege das Overlay für das Ranglisten-Bild fest.",
       "```/config leaderboard overlay <url>```"
     ],
     [
-      "Set the theme for the leaderboard image.",
+      "Lege das Thema für das Bild der Rangliste fest.",
       "```/config leaderboard theme <theme>```"
     ],
     [
-      "Set the max level users can achieve in this server.",
+      "Lege das maximale Level fest, die Mitglieder auf diesem Server erreichen können.",
       "```/config maxlevel <level>```"
     ]
   ],
 
-  "setAdminRole": "Users with role %s can now manage the bot in this server.",
+  "setAdminRole": "Mitglieder mit der Rolle %s können den Bot jetzt auf diesem Server verwalten.",
 
-  "expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
-  "expboosterDisabled": "Exp booster has been disabled for this server.",
+  "expboosterEnabled": "Exp-Booster wurde für diesen Server aktiviert. Mitglieder erhalten einen Booster für das Abstimmen.",
+  "expboosterDisabled": "Der Exp-Booster wurde für diesen Server deaktiviert.",
 
-  "setMaxlevel": "Max level for the server has been set to %s.",
+  "setMaxlevel": "Das maximale Level für den Server wurde auf %s gesetzt.",
 
-  "amount": "Amount of users shown on the leaderboard has been set to %s.",
+  "amount": "Die Anzahl der auf der Rangliste angezeigten Mitglieder wurde auf %s gesetzt.",
 
-  "backgroundSuccess": "Background has been uploaded to the database.",
+  "backgroundSuccess": "Hintergrund wurde in die Datenbank hochgeladen.",
 
-  "overlaySuccess": "Background has been uploaded to the database.",
+  "overlaySuccess": "Overlay wurde in die Datenbank hochgeladen.",
 
-  "invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
-  "themeSuccess": "Leaderboard image theme has been set to `%s`.",
+  "invalidTheme": "Kann das Thema namens `%s` nicht finden. Bitte wähle ein gültiges Thema aus.",
+  "themeSuccess": "Das Ranglisten-Bilddesign wurde auf `%s` gesetzt.",
 
-  "opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
+  "opacitySuccess": "Die Deckkraft des Ranglisten-Bildes wurde auf `%s%` gesetzt.",
 
-  "colorSuccess": "Profile color has been updated to **%s**.",
+  "colorSuccess": "Die Farbe der Rangliste wurde auf **%s** aktualisiert.",
 
-  "typeEnabled": "Leaderboard will now be sent as an image.",
-  "typeDisabled": "Leaderboard will now be sent as an embed."
+  "typeEnabled": "Die Rangliste wird ab jetzt als Bild gesendet.",
+  "typeDisabled": "Die Rangliste wird ab jetzt als Einbettung gesendet."
 }

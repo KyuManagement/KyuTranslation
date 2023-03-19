@@ -6,7 +6,7 @@
       "```/config expbooster <true/false>```"
     ],
     [
-      "Set an admin role for the server. Members with these roles can config the bot.",
+      "Set an admin role for the server. Members with this role can config the bot.",
       "```/config adminrole @role```"
     ],
     [
@@ -45,7 +45,7 @@
 
   "setAdminRole": "Users with role %s can now manage the bot in this server.",
 
-  "expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+  "expboosterEnabled": "Exp booster has been enabled for this server. Users will receive a booster for voting.",
   "expboosterDisabled": "Exp booster has been disabled for this server.",
 
   "setMaxlevel": "Max level for the server has been set to %s.",
@@ -54,14 +54,14 @@
 
   "backgroundSuccess": "Background has been uploaded to the database.",
 
-  "overlaySuccess": "Background has been uploaded to the database.",
+  "overlaySuccess": "Overlay has been uploaded to the database.",
 
   "invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
   "themeSuccess": "Leaderboard image theme has been set to `%s`.",
 
   "opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
 
-  "colorSuccess": "Profile color has been updated to **%s**.",
+  "colorSuccess": "Leaderboard color has been updated to **%s**.",
 
   "typeEnabled": "Leaderboard will now be sent as an image.",
   "typeDisabled": "Leaderboard will now be sent as an embed."
