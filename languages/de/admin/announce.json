@@ -2,11 +2,11 @@
   "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
   "usage": [
     [
-      "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+      "Lege die Wartezeit in Sekunden fest, bevor die Level-Up Nachricht gelöscht wird. Auf 0 setzen, damit die Ansage nicht gelöscht wird.",
       "```/announce clear <30-300>```"
     ],
     [
-      "Set the description for the embed/message.",
+      "Lege die Beschreibung für die Einbettung/Nachricht fest.",
       "```/announce custom <text>```"
     ],
     [
@@ -22,12 +22,12 @@
       "Lege fest, wohin Level-Up Nachrichten gesendet werden.",
       "```/announce type set <default/dm/off/rewards>```"
     ],
-    ["Get a list of variables for announcements.", "```/announce variables```"]
+    ["Rufe eine Liste von Variablen für Level-Up Nachrichten ab.", "```/announce variables```"]
   ],
 
-  "clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
-  "clearSuccess": "Announcement messages will now be deleted after `%s` seconds.",
-  "clearSuccessDisabled": "Announcement messages will no longer to deleted.",
+  "clearAmount": "Stelle sicher, dass die Löschzeit für Level-Up Nachrichten zwischen 30 und 300 Sekunden liegt.",
+  "clearSuccess": "Level-Up Nachrichten werden nun nach `%s` Sekunden gelöscht.",
+  "clearSuccessDisabled": "Level-Up Nachrichten werden nicht mehr gelöscht.",
 
   "messageTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
   "messageSuccess": "Level-Up Nachricht wurde geändert zu:```%s```",
@@ -36,14 +36,14 @@
   "pingSuccessEnabled": "Level-Up Erwähnungen wurden **aktiviert**.",
   "pingSuccessDisabled": "Level-Up Erwähnungen wurden **deaktiviert**.",
 
-  "typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
+  "typeInvalidOption": "Option `%s` ist ungültig. Bitte wähle eine der folgenden Optionen aus: dm, off, reward, oder none.",
   "typeSuccessChannel": "Der Level-Up Kanal wurde auf **%s** eingestellt.`",
   "typeSuccessDefault": "Die Level-Up Nachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
   "typeSuccessDm": "Level-Up Nachrichten werden nun als **Direktnachricht** gesendet.",
   "typeSuccessOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
   "typeSuccessReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
 
-  "typeOff": "Announcements are disabled in this guild.",
-  "levelupSuccess": "%s has been sent announcement message.",
-  "channelNotFound": "Unable to find the given channel for announcement."
+  "typeOff": "Level-Up Nachrichten sind in diesem Server deaktiviert.",
+  "levelupSuccess": "%s wurde eine Level-Up Nachricht gesendet.",
+  "channelNotFound": "Der angegebene Kanal für die Level-Up Nachricht kann nicht gefunden werden."
 }

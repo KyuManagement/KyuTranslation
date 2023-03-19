@@ -2,19 +2,19 @@
   "description": "Füge Kanäle/Rollen zur Blacklist hinzu, um das Verdienen von Exp zu verhindern.",
   "usage": [
     [
-      "Adds/removes a text channel to the text blacklist.",
+      "Fügt einen Textkanal zur Text-Blacklist hinzu/entfernt ihn.",
       "```/blacklist text channel <add/remove> <channel>```"
     ],
     [
-      "Adds/removes a role to the text blacklist.",
+      "Fügt eine Rolle zur Text-Blacklist hinzu/entfernt sie.",
       "```/blacklist text role <add/remove> <role>```"
     ],
     [
-      "Adds/removes a voice channel to the voice blacklist.",
+      "Fügt einen Sprachkanal zur Sprach-Blacklist hinzu/entfernt ihn.",
       "```/blacklist voice channel <add/remove> <channel>```"
     ],
     [
-      "Adds/removes a role to the voice blacklist.",
+      "Fügt eine Rolle zur Sprach-Blacklist hinzu/entfernt sie.",
       "```/blacklist voice role <add/remove> <role>```"
     ],
     [
@@ -23,23 +23,23 @@
     ]
   ],
 
-  "textChannelIncluded": "Channel %s is **already** in text blacklist.",
-  "textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
-  "textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
-  "textChannelRemoveSuccess": "Channel %s has been **removed** from text blacklist.",
+  "textChannelIncluded": "Kanal %s **ist bereits** in der Text-Blacklist.",
+  "textChannelAddSuccess": "Kanal %s wurde zur Text-Blacklist **hinzugefügt**.",
+  "textChannelNotIncluded": "Kanal %s ist **nicht** in der Text-Blacklist.",
+  "textChannelRemoveSuccess": "Kanal %s wurde von der Text-Blacklist **entfernt**.",
 
-  "textRoleIncluded": "Role %s is **already** in text blacklist.",
-  "textRoleAddSuccess": "Role %s has been **added** to text blacklist.",
-  "textRoleNotIncluded": "Role %s is **not** in text blacklist.",
-  "textRoleRemoveSuccess": "Role %s has been **removed** from text blacklist.",
+  "textRoleIncluded": "Rolle %s **ist bereits** in der Text-Blacklist.",
+  "textRoleAddSuccess": "Rolle %s wurde zur Text-Blacklist **hinzugefügt**.",
+  "textRoleNotIncluded": "Rolle %s ist **nicht** in der Text-Blacklist.",
+  "textRoleRemoveSuccess": "Rolle %s wurde von der Text-Blacklist **entfernt**.",
 
-  "voiceChannelIncluded": "Channel %s is **already** in voice blacklist.",
-  "voiceChannelAddSuccess": "Channel %s has been **added** to voice blacklist.",
-  "voiceChannelNotIncluded": "Channel %s is **not** in voice blacklist.",
-  "voiceChannelRemoveSuccess": "Channel %s has been **removed** from voice blacklist.",
+  "voiceChannelIncluded": "Kanal %s **ist bereits** in der Sprach-Blacklist.",
+  "voiceChannelAddSuccess": "Kanal %s wurde zur Sprach-Blacklist **hinzugefügt**.",
+  "voiceChannelNotIncluded": "Kanal %s ist **nicht** in der Sprach-Blacklist.",
+  "voiceChannelRemoveSuccess": "Kanal %s wurde von der Sprach-Blacklist **entfernt**.",
 
-  "voiceRoleIncluded": "Role %s is **already** in voice blacklist.",
-  "voiceRoleAddSuccess": "Role %s has been **added** to voice blacklist.",
-  "voiceRoleNotIncluded": "Role %s is **not** in voice blacklist.",
-  "voiceRoleRemoveSuccess": "Role %s has been **removed** from voice blacklist."
+  "voiceRoleIncluded": "Rolle %s **ist bereits** in der Sprach-Blacklist.",
+  "voiceRoleAddSuccess": "Rolle %s wurde zur Sprach-Blacklist **hinzugefügt**.",
+  "voiceRoleNotIncluded": "Rolle %s ist **nicht** in der Sprach-Blacklist.",
+  "voiceRoleRemoveSuccess": "Rolle %s wurde von der Sprach-Blacklist **entfernt**."
 }

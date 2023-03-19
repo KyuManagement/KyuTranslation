@@ -1,15 +1,15 @@
 {
-  "description": "Add/remove custom badges from the server.",
+  "description": "Hinzufügen/Entfernen von benutzerdefinierten Abzeichen zum Server.",
   "usage": [
-    ["Add a new badge to the server.", "```/badge add <name> <url>```"],
-    ["Delete a current badge from the server.", "```/badge delete <name>```"],
-    ["Show a list of the available badges in this server.", "```/badge show```"]
+    ["Füge dem Server ein neues Abzeichen hinzu.", "```/badge add <name> <url>```"],
+    ["Lösche ein aktuelles Abzeichen vom Server.", "```/badge delete <name>```"],
+    ["Zeigt eine Liste der verfügbaren Abzeichen auf diesem Server an.", "```/badge show```"]
   ],
 
-  "alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
-  "successAdded": "Badge with name `%s` has been added to this server.",
-  "invalidName": "Unable to find a badge with the ID `%s`.",
-  "successRemoved": "`%s` badge has been removed from the server.",
-  "alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
-  "notfound": "Unable to find any badges in this server, please add a badge!"
+  "alreadyExists": "Ein Abzeichen mit der ID „%s“ existiert bereits. Bitte gebe einen anderen Namen ein.",
+  "successAdded": "Abzeichen mit dem Namen `%s` wurde zu diesem Server hinzugefügt.",
+  "invalidName": "Abzeichen mit der ID „%s“ kann nicht gefunden werden.",
+  "successRemoved": "Abzeichen `%s` wurde vom Server entfernt.",
+  "alphanumericOnly": "Für Abzeichen-Namen sind nur alphanumerische Zeichen zulässig. Bitte wähle einen Namen mit Buchstaben/Zahlen aus.",
+  "notfound": "Auf diesem Server können keine Abzeichen gefunden werden, bitte füge ein Abzeichen hinzu!"
 }
