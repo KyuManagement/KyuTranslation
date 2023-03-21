@@ -145,13 +145,13 @@
   "common.voteForKyu": "Vote for Kyu",
   "config.amount": "Amount of users shown on the leaderboard has been set to %s.",
   "config.backgroundSuccess": "Background has been uploaded to the database.",
-  "config.colorSuccess": "Profile color has been updated to **%s**.",
+  "config.colorSuccess": "Leaderboard color has been updated to **%s**.",
   "config.description": "Configure various settings for the server.",
   "config.expboosterDisabled": "Exp booster has been disabled for this server.",
-  "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receieve a booster for voting.",
+  "config.expboosterEnabled": "Exp booster has been enabled for this server. Users will receive a booster for voting.",
   "config.invalidTheme": "Cannot find a theme named `%s`. Please select a valid theme.",
   "config.opacitySuccess": "Leaderboard image opacity has been set to `%s%`.",
-  "config.overlaySuccess": "Background has been uploaded to the database.",
+  "config.overlaySuccess": "Overlay has been uploaded to the database.",
   "config.setAdminRole": "Users with role %s can now manage the bot in this server.",
   "config.setMaxlevel": "Max level for the server has been set to %s.",
   "config.themeSuccess": "Leaderboard image theme has been set to `%s`.",
@@ -163,7 +163,7 @@
       "```/config expbooster <true/false>```"
     ],
     [
-      "Set an admin role for the server. Members with these roles can config the bot.",
+      "Set an admin role for the server. Members with this role can config the bot.",
       "```/config adminrole @role```"
     ],
     [
