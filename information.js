@@ -13,8 +13,12 @@ categories.forEach((category) => {
 
     if (category !== "common") {
       output.push({
-        name: file.replace(".json", ""),
-        cateory: category,
+        name:
+          file.replace(".json", "").charAt(0).toUpperCase() +
+          file.replace(".json", "").slice(1),
+        category:
+          category.replace(".json", "").charAt(0).toUpperCase() +
+          category.replace(".json", "").slice(1),
         description: fileContent["description"] || [
           "Unable to find command description...",
         ],
