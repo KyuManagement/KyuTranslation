@@ -2,7 +2,7 @@
   "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
   "usage": [
     [
-      "Set amount of seconds to wait before deleting announcement. Set to 0 for announcement not to be deleted.",
+      "Lege die Wartezeit in Sekunden fest, bevor die Level-Up Nachricht gelöscht wird. Auf 0 setzen, damit die Ansage nicht gelöscht wird.",
       "```/embed clear <30-300>```"
     ],
     [
@@ -27,15 +27,15 @@
       "```/embed toggle <disable/enable> [level]```"
     ],
     [
-      "Set the channel announcements should be sent to.",
+      "Stelle den Kanal ein, an den die Level-Up Nachrichten gesendet werden sollen.",
       "```/embed type channel #channel <level>```"
     ],
     [
-      "Set how announcements should be sent when a user levels up.",
+      "Lege fest, wie Level-Up Nachrichten gesendet werden sollen, wenn ein Mitglied aufsteigt.",
       "```/embed type set <default/dm/off/rewards> <level>```"
     ],
     [
-      "Erhalte eine Liste aller verfügbaren Variablen für KyuBot.",
+      "Erhalte eine Liste aller verfügbaren Variablen für Level-Up Nachrichten.",
       "```/embed variables```"
     ]
   ],
@@ -58,9 +58,9 @@
   "colorInvalid": "Farbe %s ist keine gültige Farbe. Bitte wähle eine Farbe aus einer der folgenden Farben aus:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
   "colorUpdated": "Die Farbe der Einbettung für die Level-Up Nachricht wurde auf **%s** aktualisiert.",
 
-  "clearAmount": "Make sure announcement delete time is between 30-300 seconds.",
-  "clearSuccess": "Announcement messages for level %s will now be deleted after `%s` seconds.",
-  "clearSuccessDisabled": "Announcement messages for level %s will no longer to deleted.",
+  "clearAmount": "Stelle sicher, dass die Löschzeit für Level-Up Nachrichten zwischen 30 und 300 Sekunden liegt.",
+  "clearSuccess": "Level-Up Nachrichten für Level %s werden nun nach `%s` Sekunden gelöscht.",
+  "clearSuccessDisabled": "Level-Up Nachrichten für Level %s werden nicht mehr gelöscht.",
 
   "customiseInvalidSection": "%s kann nicht bearbeitet werden, aktuelle Abschnitte, die bearbeitet werden können, sind: `Titel, Beschreibung, Bild, Farbe`.",
   "customiseAddInvalidLevel": "Die Level-Up Nachricht für Level %s kann nicht eingestellt werden. Bitte stelle sicher, dass das Level eine ganze Zahl ist.",
@@ -70,19 +70,19 @@
   "customiseRemoveNotExists": "Es existiert keine Level-Up Nachricht für Level %s.",
   "customiseRemoveSuccess": "Level-Up Nachricht wurde von Level %s entfernt.",
 
-  "typeChannel": "Announcements channel has been set to **%s** for level %s.",
-  "typeGlobalChannel": "Announcements channel has been set to **%s** for global announcements.",
-  "typeInvalidOption": "Option `%s` is invalid. Please select one of the following options: dm, off, reward, or none.",
+  "typeChannel": "Der Level-Up Kanal wurde für Level %s auf **%s** gesetzt.",
+  "typeGlobalChannel": "Der Level-Up Kanal wurde für globale Ankündigungen auf **%s** gesetzt.",
+  "typeInvalidOption": "Option `%s` ist ungültig. Bitte wähle eine der folgenden Optionen aus: dm, off, reward oder none.",
 
-  "typeSuccessDefault": "Announcements will now appear in the **channel the user levels up in**.",
-  "typeSuccessDm": "Announcements have been set to **dm**.",
-  "typeSuccessOff": "Announcements have been set to **off**.",
-  "typeSuccessReward": "Announcements will only be sent on levels which **reward** members.",
+  "typeSuccessDefault": "Level-Up Nachrichten erscheinen jetzt in dem **Kanal, in dem der Benutzer aufsteigt**.",
+  "typeSuccessDm": "Level-Up Nachrichten wurden auf **pn** gesetzt.",
+  "typeSuccessOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
+  "typeSuccessReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
 
-  "typeSuccessGlobalDefault": "Announcements will now appear in the **channel the user levels up in** for level %s.",
-  "typeSuccessGlobalDm": "Announcements have been set to **dm** for level %s.",
-  "typeSuccessGlobalOff": "Announcements have been set to **off** for level %s.",
-  "typeSuccessGlobalReward": "Announcements will only be sent on levels which **reward** members for level %s.",
+  "typeSuccessGlobalDefault": "Level-Up Nachrichten erscheinen jetzt in dem **Kanal, in dem der Benutzer aufsteigt** für Level %s.",
+  "typeSuccessGlobalDm": "Level-Up Nachrichten wurden für Level %s auf **pn** gesetzt.",
+  "typeSuccessGlobalOff": "Level-Up Nachrichten wurden für Level %s auf **aus** gestellt.",
+  "typeSuccessGlobalReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder für Level %s **belohnen**.",
 
   "notFound": "Einbettung für Level %s konnte nicht gefunden werden."
 }

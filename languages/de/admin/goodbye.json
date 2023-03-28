@@ -6,6 +6,6 @@
       "```/goodbye clear <on/off>```"
     ]
   ],
-  "clearEnabled": "Member experience will be cleared upon leaving the server.",
-  "clearDisabled": "Member will no long lose experience upon leaving the server."
+  "clearEnabled": "Die Exp der Mitglieder wird beim Verlassen des Servers gelöscht.",
+  "clearDisabled": "Das Mitglied verliert keine Exp mehr, wenn es den Server verlässt."
 }
