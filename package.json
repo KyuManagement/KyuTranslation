@@ -1,6 +1,6 @@
 {
   "name": "kyutranslation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Help KyuBot learn multiple languages!",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/KyuMangement/KyuTranslation/issues"
   },
-  "homepage": "https://github.com/KyuMangement/KyuTranslation#readme"
+  "homepage": "https://github.com/KyuMangement/KyuTranslation#readme",
+  "dependencies": {
+    "translate-google": "^1.5.0"
+  }
 }
