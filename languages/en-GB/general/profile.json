@@ -1,16 +1,21 @@
 {
   "description": "Change your rank card appearance.",
   "usage": [
+    [
+      "Change the background for your rank card.",
+      "```/profile background <url>```"
+    ],
+    [
+      "Set the badge for a specific position for your rank card",
+      "```/profile badge <position> <badge id>```"
+    ],
     ["Change the color for your rank card.", "```/profile color <color>```"],
     [
       "Change the opacity for your rank card.",
       "```/profile opacity <0-100>```"
     ],
-    [
-      "Change the background for your rank card.",
-      "```/profile background <url>```"
-    ],
     ["Change the overlay for your rank card.", "```/profile overlay <url>```"],
+    ["Change the theme for your rank card.", "```/profile theme <theme>```"],
     [
       "Profile background, badge and overlay can be reset by setting url as \"none\".",
       "** **"
