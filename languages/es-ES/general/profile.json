@@ -15,7 +15,7 @@
     ],
     [
       "Cambie la superposición de su tarjeta de rango.",
-      "```/profile opacity <url>```"
+      "```/profile overlay <url>```"
     ]
   ],
   "isNotColor": "Incapaz de encontrar el color '%s' dado.Seleccione un color de uno de los siguientes colores: `` `predeterminado\nazul\ngris\nverde\nnaranja\nrosa\npúrpura\nrojo\nverde azulado\namarillo``````````",

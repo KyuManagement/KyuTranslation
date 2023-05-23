@@ -15,7 +15,7 @@
     ],
     [
       "Changez la superposition de votre carte de rang.",
-      "```/profile opacity <url>```"
+      "```/profile overlay <url>```"
     ]
   ],
   "isNotColor": "Impossible de trouver la couleur donnée «%s».Veuillez sélectionner une couleur parmi l'une des couleurs suivantes: `` `par défaut\nbleu\ngris\nvert\norange\nrose\nviolet\nrouge\nsarcelle\nJaune ''",

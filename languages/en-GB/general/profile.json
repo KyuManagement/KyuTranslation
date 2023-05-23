@@ -10,7 +10,11 @@
       "Change the background for your rank card.",
       "```/profile background <url>```"
     ],
-    ["Change the overlay for your rank card.", "```/profile opacity <url>```"]
+    ["Change the overlay for your rank card.", "```/profile overlay <url>```"],
+    [
+      "Profile background, badge and overlay can be reset by setting url as \"none\".",
+      "** **"
+    ]
   ],
 
   "isNotColor": "Unable to find the given color '%s'. Please select a color from one of the following colors:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",

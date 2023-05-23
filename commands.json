@@ -418,7 +418,7 @@
       ],
       [
         "Change the overlay for your rank card.",
-        "/profile opacity <url>"
+        "/profile overlay <url>"
       ]
     ]
   },

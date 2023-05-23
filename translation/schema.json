@@ -540,7 +540,11 @@
     ],
     [
       "Change the overlay for your rank card.",
-      "```/profile opacity <url>```"
+      "```/profile overlay <url>```"
+    ],
+    [
+      "Profile background, badge and overlay can be reset by setting url as \"none\".",
+      "** **"
     ]
   ],
   "rank.description": "Check your rank or another user's rank",
