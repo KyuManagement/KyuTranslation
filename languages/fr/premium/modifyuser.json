@@ -1,0 +1,25 @@
+{
+  "description": "Ajouter / supprimer le montant spécifique des EXP des membres.",
+  "usage": [
+    [
+      "Récompensez les utilisateurs avec une quantité spécifique d'EXP.",
+      "```/modifyuser exp add <user> <exp> <for>```"
+    ],
+    [
+      "Supprimer une quantité spécifique d'EXP d'un utilisateur.",
+      "```/modifyuser exp remove <user> <exp> <for>```"
+    ],
+    [
+      "Add badge to a specific user.",
+      "```/modifyuser badge add <user> <badgeId>```"
+    ],
+    [
+      "Remove badge from a specific user.",
+      "```/modifyuser badge remove <user> <badgeId>```"
+    ]
+  ],
+  "expInputTooHigh": "Seul Exp entre 1 et 10 000 peut être donné en même temps.Veuillez modifier le montant EXP.",
+  "userNotFound": "Incapable de trouver l'utilisateur mentionné, veuillez vous assurer que l'utilisateur fourni est dans la guilde.",
+  "successExpAdd": "%s a été donné **%s** exp.",
+  "successExpRemove": "**%s** Exp a été supprimé de%s."
+}

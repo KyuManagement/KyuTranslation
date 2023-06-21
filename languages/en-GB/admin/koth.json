@@ -17,6 +17,8 @@
   "noWinners": "Not enough active users in this guild to end KOTH.",
   "winnersSent": "Koth winners announcement has been sent to %s.",
 
+  "rewardType": "Reward type has been updated to `%s`.",
+
   "disabled": "KOTH is already disabled.",
   "alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
 

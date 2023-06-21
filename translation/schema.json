@@ -401,6 +401,7 @@
   "koth.removeInvalid": "Unable to find rewards for %s position.",
   "koth.removePositionInvalid": "Unable to find %s reward set for %s position.",
   "koth.removeSuccess": "Koth %s reward for %s position has been removed.",
+  "koth.rewardType": "Reward type has been updated to `%s`.",
   "koth.startSent": "KOTH starting announcement has been sent to %s.",
   "koth.usage": [
     [
@@ -456,21 +457,32 @@
       "```/lootbox stats```"
     ]
   ],
-  "modifyexp.description": "Add/remove specific amount of exp from members.",
-  "modifyexp.inputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
-  "modifyexp.successAdd": "%s has been given **%s** exp.",
-  "modifyexp.successRemove": "**%s** exp has been removed from %s.",
-  "modifyexp.usage": [
+  "modifyuser.badgeNotFound": "Unable to find a badge with the id: %s.",
+  "modifyuser.description": "Add or remove exp or badge from a specific user.",
+  "modifyuser.expInputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
+  "modifyuser.successBadgeAdd": "%s has been given badge **%s**.",
+  "modifyuser.successBadgeRemove": "Badge **%s** has been removed from %s.",
+  "modifyuser.successExpAdd": "%s has been given **%s** exp.",
+  "modifyuser.successExpRemove": "**%s** exp has been removed from %s.",
+  "modifyuser.usage": [
     [
-      "Reward users with a specific amount of exp.",
-      "```/givexp <user> <exp>```"
+      "Add exp to a specific user.",
+      "```/modifyuser exp add <user> <exp> <for>```"
     ],
     [
-      "Remove a specific amount of exp from a user.",
-      "```/removexp <user> <exp>```"
+      "Remove exp from a specific user.",
+      "```/modifyuser exp remove <user> <exp> <for>```"
+    ],
+    [
+      "Add badge to a specific user.",
+      "```/modifyuser badge add <user> <badgeId>```"
+    ],
+    [
+      "Remove badge from a specific user.",
+      "```/modifyuser badge remove <user> <badgeId>```"
     ]
   ],
-  "modifyexp.userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
+  "modifyuser.userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
   "multiplier.channelAddSuccess": "Multiplier for channel %s has been set to %s.",
   "multiplier.channelNotIncluded": "Unable to find a multiplier for channel %s.",
   "multiplier.channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
