@@ -1,15 +1,49 @@
 {
-  "helpDescription": "Ändere die Einstellungen für Level-Up Nachrichten.",
-  "helpUsage": [
-    "Ändere die Level-Up Nachricht oder bekomme weitere Informationen.```/announce message custom <text>\n/announce message default\n/announce message variables```",
-    "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <setting>```",
-    "Teste die aktuelle Level-Up Nachricht.```/announce test```"
+  "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
+  "usage": [
+    [
+      "Lege die Wartezeit in Sekunden fest, bevor die Level-Up Nachricht gelöscht wird. Auf 0 setzen, damit die Ansage nicht gelöscht wird.",
+      "```/announce clear <30-300>```"
+    ],
+    [
+      "Lege die Beschreibung für die Einbettung/Nachricht fest.",
+      "```/announce custom <text>```"
+    ],
+    [
+      "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.",
+      "```/announce ping <enable/disable>```"
+    ],
+    ["Teste Level-Up Nachrichten.", "```/announce test <level>```"],
+    [
+      "Sende Level-Up Nachrichten an einen bestimmten Kanal.",
+      "```/announce type channel #channel```"
+    ],
+    [
+      "Lege fest, wohin Level-Up Nachrichten gesendet werden.",
+      "```/announce type set <default/dm/off/rewards>```"
+    ],
+    ["Rufe eine Liste von Variablen für Level-Up Nachrichten ab.", "```/announce variables```"]
   ],
+
+  "clearAmount": "Stelle sicher, dass die Löschzeit für Level-Up Nachrichten zwischen 30 und 300 Sekunden liegt.",
+  "clearSuccess": "Level-Up Nachrichten werden nun nach `%s` Sekunden gelöscht.",
+  "clearSuccessDisabled": "Level-Up Nachrichten werden nicht mehr gelöscht.",
+
   "messageTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
   "messageSuccess": "Level-Up Nachricht wurde geändert zu:```%s```",
   "messageDefault": "Die Level-Up Nachricht wurde zurückgesetzt.",
-  "pingIncorrect": "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/announce ping <on/off>```",
-  "variables": "Legt eine benutzerdefinierte Nachricht für Level-Up Nachrichten fest.```/announce message custom <text>\n/announce message default```\n__Variables__\n`{user.ping}`: @KyuBot\n`{user.tag}`: KyuBot#9767\n`{user.name}`: KyuBot\n`{user.avatar}`: Benutzer-Avatar\n`{user.id}`: 932319321559015526\n`{user.nick}`: Benutzer-Nickname\n`{user.exp}`: Benutzer-Exp\n\n`{level}`: Erreichtes Level\n`{level.previous}`: Vorheriges Level\n`{level.previous.exp}`: Vorherige Level Exp\n`{level.next}`: Nächstes Level\n`{level.next.exp}`: Nächste Level Exp\n\n`{reward}`: Erhaltene Rolle\n`{reward.role.name}`: Erhaltener Rollenname\n`{reward.rolecount}`: Mitgliederanzahl mit der selben Rolle\n`{reward.rolecount.progess}`: Prozent der Rollen, die das Mitglied von allen verfügbaren Rollen hat\n`{reward.previous}`: Vorherige Rolle\n`{reward.next}`: Nächste Rolle\n\n`{server.name}`: Server Name\n`{server.id}`: Server ID\n`{server.icon}`: Server Symbol\n\n`{channel}`: Ankündigungskanal\n`{channel.name}`: Name des Ankündigungskanals\n`{channel.id}`: Ankündigungskanal ID\n\n`{date}`: Aktuelles Datum mit Uhrzeit (<t:%s:F>)",
+
   "pingSuccessEnabled": "Level-Up Erwähnungen wurden **aktiviert**.",
-  "pingSuccessDisabled": "Level-Up Erwähnungen wurden **deaktiviert**."
+  "pingSuccessDisabled": "Level-Up Erwähnungen wurden **deaktiviert**.",
+
+  "typeInvalidOption": "Option `%s` ist ungültig. Bitte wähle eine der folgenden Optionen aus: dm, off, reward, oder none.",
+  "typeSuccessChannel": "Der Level-Up Kanal wurde auf **%s** eingestellt.`",
+  "typeSuccessDefault": "Die Level-Up Nachricht erscheint jetzt im **Kanal, in dem der Benutzer aufsteigt**.",
+  "typeSuccessDm": "Level-Up Nachrichten werden nun als **Direktnachricht** gesendet.",
+  "typeSuccessOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
+  "typeSuccessReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
+
+  "typeOff": "Level-Up Nachrichten sind in diesem Server deaktiviert.",
+  "levelupSuccess": "%s wurde eine Level-Up Nachricht gesendet.",
+  "channelNotFound": "Der angegebene Kanal für die Level-Up Nachricht kann nicht gefunden werden."
 }

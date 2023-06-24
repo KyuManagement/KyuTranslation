@@ -1,20 +1,23 @@
 {
-  "helpDescription": "Modifier les paramètres pour l'exp vocale.",
-  "helpUsage": [
-    "Blacklister un salon en gagnant un canal exp.```/voice blacklist <add/remove> <channel>```",
-    "Liste noire un rôle en gagnant le rôle exp.```/voice blacklist <add/remove> <role>```",
-    "Activer ou désactiver le paramètre vocal.```/voice <enable/disable>```",
-    "Affiche le classement vocal pour le serveur.```/voice leaderboard```",
-    "Afficher une liste des salons / rôles actuellement sur la liste noire.```/voice show```"
+  "description": "Modifier les paramètres de la voix exp.",
+  "usage": [
+    [
+      "Activez le système de nivellement vocal pour le serveur.",
+      "```/voice enable```"
+    ],
+    [
+      "Désactiver le système de nivellement vocal pour le serveur.",
+      "```/voice disable```"
+    ],
+    [
+      "Affiche le classement vocal du serveur.",
+      "```/voice leaderboard```"
+    ],
+    [
+      "Affichez une liste des canaux / rôles actuellement mis sur liste noire.",
+      "```/voice show```"
+    ]
   ],
-  "enabled": "L'exp vocal a été **activé**.",
-  "disabled": "L'exp vocal a été **désactivé**.",
-  "channelIncluded": "Le canal %s est **déjà** sur la liste noire.",
-  "channelAddSuccess": "Le salon %s a été **ajouté** à la liste noire.",
-  "channelRemoveSuccess": "Le canal %s a été **supprimé** de la liste noire.",
-  "channelNotIncluded": "Le canal %s n'est **pas** sur la liste noire.",
-  "roleIncluded": "Le rôle %s est **déjà** sur la liste noire.",
-  "roleAddSuccess": "Le rôle %s a été **ajouté** à la liste noire.",
-  "roleRemoveSuccess": "Le rôle %s a été **supprimé** de la liste noire.",
-  "roleNotIncluded": "Le rôle %s n'est **pas** sur liste noire."
+  "enabled": "Voice Exp a été ** activé **.",
+  "disabled": "Voice Exp a été ** désactivé **."
 }

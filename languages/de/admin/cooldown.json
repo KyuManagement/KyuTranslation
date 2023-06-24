@@ -1,0 +1,30 @@
+{
+  "description": "Ändere die globale Abklingzeit oder für Kanäle/Rollen.",
+  "usage": [
+    [
+      "Stelle die Abklingzeit für einen Text-/Sprachkanal ein.",
+      "```/cooldown add channel <channel> <seconds>```"
+    ],
+    [
+      "Stelle die Abklingzeit für eine Rolle in Text/Sprache ein.",
+      "```/cooldown add role <role> <seconds> <for>```"
+    ],
+    [
+      "Abklingzeit von einem Text-/Sprachkanal entfernen.",
+      "```/cooldown remove channel <channel> <from>```"
+    ],
+    [
+      "Abklingzeit von einer Rolle aus Text/Sprache entfernen.",
+      "```/cooldown remove role <role> <from>```"
+    ],
+    ["Zeigt eine Liste der aktuell eingestellten Abklingzeiten an.", "```/cooldown show```"]
+  ],
+
+  "channelAddSuccess": "Abklingzeit für Kanal %s wurde auf **%s** gesetzt.",
+  "channelRemoveSuccess": "Kanal %s wurde aus der Abklingzeit-Liste **entfernt**.",
+
+  "roleAddSuccess": "Abklingzeit für Rolle %s wurde für %s auf %s gesetzt.",
+  "roleRemoveSuccess": "Die Rolle %s wurde aus der Abklingzeit von %s **entfernt**.",
+
+  "globalSetSuccess": "Die globale Abklingzeit für %s wurde auf %s gesetzt."
+}

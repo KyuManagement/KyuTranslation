@@ -1,6 +1,9 @@
 {
-  "helpDescription": "",
-  "helpUsage": [
-    "Vérifiez les paramètres actuels du serveur.```/settings```"
+  "description": "Vérifiez les paramètres du serveur actuels.",
+  "usage": [
+    [
+      "Vérifiez les paramètres du serveur actuels.",
+      "```/settings```"
+    ]
   ]
 }

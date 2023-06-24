@@ -1,7 +1,5 @@
 {
-  "helpDescription": "Teste Level-Up Nachrichten",
-  "helpUsage": [
-    "Teste Level-Up Nachrichten.```/test [level]```"
-  ],
+  "description": "Teste Level-Up Nachrichten",
+  "usage": ["Teste Level-Up Nachrichten.```/test [level]```"],
   "levelNotFound": "Es kann keine eingebettete Level-Up Nachricht für Level `%s` gefunden werden."
 }

@@ -1,11 +1,17 @@
 {
-  "helpDescription": "Set a member's level or level for member's who have a specific role.",
-  "helpUsage": [
-    "Set member to a specified level.```/setlevel user <member> <level>```",
-    "Update level for all member who have a specific role.```/setlevel role <member> <level>```"
+  "description": "Set a member's level or level for member's who have a specific role.",
+  "usage": [
+    [
+      "Set member to a specified level.",
+      "```/setlevel user <member> <level>```"
+    ],
+    [
+      "Update level for all member who have a specific role.",
+      "```/setlevel role <member> <level>```"
+    ]
   ],
   "incorrect": "Make sure the level you are giving is between 0 and 100.",
   "success": "Member %s level has been set to `%s`.",
   "noBot": "Unable to set the level of a bot user.",
-  "roleSuccess": "Levels have been updated for %s members."
+  "roleSuccess": "Levels have been updated for all members with role %s."
 }

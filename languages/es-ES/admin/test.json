@@ -1,7 +1,0 @@
-{
-  "helpDescription": "Prueba de anuncios personalizados",
-  "helpUsage": [
-    "Pruebe anuncios personalizados.'``/test [nivel] `` `` `` `` `` `` `` `` `` `` `"
-  ],
-  "levelNotFound": "Incapaz de encontrar un anuncio incrustado para el nivel `%S`."
-}

@@ -1,18 +1,31 @@
 {
-  "helpDescription": "Eine temporäre Rangliste, die es dem Top-Mitglied ermöglicht, verschiedene Belohnungen zu verdienen.",
-  "helpUsage": [
-    "Koth-Event starten/beenden.```/koth <start/end> [channel]```",
-    "Lege eine Belohnung für das beste Mitglied der Koth-Rangliste fest.```/koth reward <role>```",
-    "Zeigt die Koth-Rangliste für den Server an.```/koth leaderboard```"
+  "description": "Eine temporäre Rangliste, die es dem Top-Mitglied ermöglicht, verschiedene Belohnungen zu verdienen.",
+  "usage": [
+    ["Koth-Event starten/beenden.", "```/koth <start/end> [channel]```"],
+    [
+      "Lege eine Belohnung für das beste Mitglied der Koth-Rangliste fest.",
+      "```/koth reward <role>```"
+    ],
+    ["Zeigt die Koth-Rangliste für den Server an.", "```/koth leaderboard```"]
   ],
-  "enable": "KOTH hat begonnen! Hole Dir die Krone 👑!",
-  "enableReward": "KOTH wurde gestartet! Top-Mitglied erhält die Rolle %s.",
-  "disable": "KOTH ist bereits deaktiviert.",
-  "rewardAddSuccess": "Der Koth-Gewinner erhält Rolle %s beim Zurücksetzen von Koth.",
-  "winners": "Koth-Gewinner",
-  "started": "Koth hat begonnen",
-  "noWinners": "Es gibt nicht genug aktive Mitglieder in diesem Server, um Koth zu beenden.",
-  "winnersSent": "Die Bekanntgabe der Koth-Gewinner wurde in %s gesendet.",
-  "startSent": "Koth-Startankündigung wurde in %s gesendet.",
-  "disabled": "Koth ist derzeit auf diesem Server deaktiviert. Bitte die Admins Koth zu aktivieren."
+
+  "alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
+  "enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
+  "startSent": "KOTH starting announcement has been sent to %s.",
+  "endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
+
+  "noWinners": "Not enough active users in this guild to end KOTH.",
+  "winnersSent": "Koth winners announcement has been sent to %s.",
+
+  "disabled": "KOTH is already disabled.",
+  "alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
+
+  "badgeInvalidName": "Unable to find a badge with the id `%s`.",
+  "addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
+  "addExp": "User in %s position will earn `%s` experience.",
+  "addRole": "User in %s position will earn %s role.",
+
+  "removeSuccess": "Koth %s reward for %s position has been removed.",
+  "removeInvalid": "Unable to find rewards for %s position.",
+  "removePositionInvalid": "Unable to find %s reward set for %s position."
 }

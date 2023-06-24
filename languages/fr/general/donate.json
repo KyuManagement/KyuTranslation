@@ -1,10 +1,13 @@
 {
-  "helpDescription": "Faire un don pour débloquer des fonctionnalités supplémentaires",
-  "helpUsage": [
-    "Découvrez comment faire un don.```/donate```"
+  "description": "Faire un don pour déverrouiller des fonctionnalités supplémentaires",
+  "usage": [
+    [
+      "Découvrez des informations sur la façon de faire un don.",
+      "```/donate```"
+    ]
   ],
-  "title": "Kyu Premium",
-  "description": "Si vous aimez utiliser KyuBot, pensez à faire un don. Les dons vous permettent de débloquer **des fonctionnalités supplémentaires** et de continuer à héberger, à développer et à créer des mises à jour de contenu pour le bot.",
-  "fieldName": "Premium Perks",
-  "fieldValue": "- Personnaliser l'arrière-plan de la carte de rang\n- Personnaliser la couleur de la carte de rang\n- Personnaliser l'opacité de la carte de rang\n- Donnez/retirer de l'expérience aux membres (nécessite un administrateur)\n- Réduire les temps de recharge\n- Sneakpeaks aux nouvelles fonctionnalités"
+  "title": "Kyubot Premium",
+  "helpDescription": "Si vous aimez utiliser Kyubot, veuillez envisager de faire un don.Les dons vous permettent de déverrouiller ** des fonctionnalités supplémentaires ** et nous permettent également de continuer à héberger, développer et créer des mises à jour de contenu pour le bot.",
+  "fieldName": "Avantages premium",
+  "fieldValue": "- Personnaliser le fond de la carte de rang\n- Personnaliser la couleur de la carte de rang\n- Personnaliser l'opacité de la carte de rang\n- Donner / supprimer l'expérience des membres (nécessite l'administrateur)\n- Corbanquers inférieurs\n- Sneakpeaks à de nouvelles fonctionnalités"
 }

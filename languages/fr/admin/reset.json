@@ -1,17 +1,23 @@
 {
-  "helpDescription": "Réinitialiser les paramètres ou utilisateurs spécifiques pour le serveur actuel.",
-  "helpUsage": [
-    "Réinitialiser les paramètres spécifiques pour le serveur actuel.```/reset user <member>```",
-    "Réinitialiser un paramètre spécifique.```/reset settings <option>```"
+  "description": "Réinitialisez des utilisateurs ou des paramètres spécifiques pour le serveur actuel.",
+  "usage": [
+    [
+      "Réinitialisez les paramètres spécifiques pour le serveur actuel.",
+      "```/reset user <member>```"
+    ],
+    ["Réinitialisez un paramètre spécifique.", "```/reset settings <option>```"]
   ],
-  "settingsQuestion": "Êtes-vous sûr de vouloir supprimer **TOUS** les paramètres** ?",
-  "pointsQuestion": "Êtes-vous sûr de vouloir supprimer **tous les points** ?",
-  "question": "Êtes-vous sûr de vouloir supprimer les paramètres de **%s** ?",
-  "footer": "AVERTISSEMENT ! La réinitialisation n'est pas réversible.",
-  "pointsSuccess": "**Points** pour tous les membres ont été réinitialisés.",
-  "settingsSuccess": "**%s** Les paramètres ont été réinitialisés",
-  "success": "La réinitialisation des paramètres de **%s** a été annulée.",
-  "userNotFound": "Veuillez entrer un utilisateur valide.",
-  "userSuccess": "Le membre %s Exp a été réinitialisé.",
-  "userFailed": "Impossible de réinitialiser le membre %s. Si ce problème continue de se produire, veuillez contacter mes développeurs."
+  "all": "Êtes-vous sûr de vouloir supprimer ** tous les paramètres **?",
+  "textExp": "Êtes-vous sûr de vouloir supprimer ** tout le texte exp **?",
+  "textExpSuccess": "** Texte exp ** pour tous les membres ont été réinitialisés.",
+  "kothExp": "Êtes-vous sûr de vouloir supprimer ** tous les koth exp **?",
+  "kothExpSuccess": "** koth exp ** pour tous les membres ont été réinitialisés.",
+  "voiceExp": "Êtes-vous sûr de vouloir supprimer ** toute la voix exp **?",
+  "voiceExpSuccess": "** Voice exp ** pour tous les membres ont été réinitialisés.",
+  "settings": "Êtes-vous sûr de vouloir supprimer **%s ** Paramètres?",
+  "settingsSuccess": "**%s ** Les paramètres ont été réinitialisés",
+  "success": "Réinitialiser les paramètres **%s ** a été annulé.",
+  "user": "Êtes-vous sûr de supprimer toutes les données utilisateur pour%s",
+  "userSuccess": "Les données pour l'utilisateur%s ont été réinitialisées.",
+  "footer": "AVERTISSEMENT!La réinitialisation n'est pas réversible."
 }

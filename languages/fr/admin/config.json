@@ -1,0 +1,58 @@
+{
+  "description": "Configurez divers paramètres pour le serveur.",
+  "usage": [
+    [
+      "Définir si le vote Expbooster doit être activé / désactivé.",
+      "```/config expbooster <true/false>```"
+    ],
+    [
+      "Définissez un rôle d'administration pour le serveur.Les membres avec ces rôles peuvent configurer le bot.",
+      "```/config adminrole @role```"
+    ],
+    [
+      "Définissez l'arrière-plan de l'image de classement.",
+      "```/config leaderboard background <url>```"
+    ],
+    [
+      "Définissez la quantité d'utilisateurs indiqués dans le classement.",
+      "```/config leaderboard amount <1-10>```"
+    ],
+    [
+      "Réglez la couleur pour le classement.",
+      "```/config leaderboard color <color>```"
+    ],
+    [
+      "Définir si le classement doit être une intégration ou une image.",
+      "```/config leaderboard image <setting>```"
+    ],
+    [
+      "Définissez l'opacité de l'image de classement.",
+      "```/config leaderboard opacity <percentage>```"
+    ],
+    [
+      "Définissez la superposition de l'image de classement.",
+      "```/config leaderboard overlay <url>```"
+    ],
+    [
+      "Définissez le thème de l'image de classement.",
+      "```/config leaderboard theme <theme>```"
+    ],
+    [
+      "Définir le niveau maximal que les utilisateurs peuvent atteindre dans ce serveur.",
+      "```/config maxlevel <level>```"
+    ]
+  ],
+  "setAdminRole": "Les utilisateurs avec Role%s peuvent désormais gérer le bot dans ce serveur.",
+  "expboosterEnabled": "Exp Booster a été activé pour ce serveur.Les utilisateurs recevront un booster pour le vote.",
+  "expboosterDisabled": "Exp Booster a été désactivé pour ce serveur.",
+  "setMaxlevel": "Le niveau maximum du serveur a été défini sur%s.",
+  "amount": "La quantité d'utilisateurs indiqués dans le classement a été définie sur%s.",
+  "backgroundSuccess": "L'arrière-plan a été téléchargé dans la base de données.",
+  "overlaySuccess": "L'arrière-plan a été téléchargé dans la base de données.",
+  "invalidTheme": "Impossible de trouver un thème nommé `%s`.Veuillez sélectionner un thème valide.",
+  "themeSuccess": "Le thème de l'image de classement a été défini sur `%s`.",
+  "opacitySuccess": "L'opacité de l'image de classement a été définie sur «%s%».",
+  "colorSuccess": "La couleur du profil a été mise à jour pour **%s **.",
+  "typeEnabled": "Le classement sera désormais envoyé sous forme d'image.",
+  "typeDisabled": "Le classement sera désormais envoyé comme une intégration."
+}

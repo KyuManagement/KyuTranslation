@@ -1,18 +1,32 @@
 {
-  "helpDescription": "Una tabla de clasificación temporal, que permite al miembro superior ganar diferentes recompensas.",
-  "helpUsage": [
-    "Start/End Koth Event.````/koth <start/end> [canal] `` `` ``",
-    "Establezca una recompensa para el miembro principal del Koth Leaderbaord.'`` `` `` `` `` `` `` `` `` `` `` `` `` `` ``",
-    "Muestra la tabla de clasificación de Koth para el servidor."
+  "description": "Una tabla de clasificación temporal, que permite al miembro superior ganar diferentes recompensas.",
+  "usage": [
+    [
+      "Evento de inicio/finalización de Koth.",
+      "```/koth <start/end> [channel]```"
+    ],
+    [
+      "Establezca una recompensa para el miembro superior del Koth LeaderBaord.",
+      "```/koth reward <role>```"
+    ],
+    [
+      "Muestra la tabla de clasificación de Koth para el servidor.",
+      "```/koth leaderboard```"
+    ]
   ],
-  "enable": "¡Koth ha comenzado!¡Reclamar los usuarios de su corona 👑!",
-  "enableReward": "¡Koth ha sido iniciado!El miembro superior obtendrá un rol de %S.",
-  "disable": "Koth ya está deshabilitado.",
-  "rewardAddSuccess": "El ganador de Koth ganará el papel de %en el reinicio de Koth.",
-  "winners": "Ganadores de Koth",
-  "started": "Koth comenzó",
+  "alreadyEnabled": "Koth ya está en progreso.Por favor, finalice el Koth actual para comenzar otro concurso.",
+  "enabled": "¡Koth ha comenzado!¡Reclama tu corona 👑 siendo la más activa!",
+  "startSent": "El anuncio inicial de Koth ha sido enviado a %s.",
+  "endConfirm": "¿Estás seguro de que quieres terminar con Koth?¡Al confirmar que entiende que esto es irreversible!",
   "noWinners": "No hay suficientes usuarios activos en este gremio para terminar con Koth.",
   "winnersSent": "El anuncio de los ganadores de Koth ha sido enviado a %s.",
-  "startSent": "El anuncio inicial de Koth ha sido enviado a %s.",
-  "disabled": "Koth está actualmente deshabilitado en este gremio.Por favor, solicite a los administradores que habiliten Koth."
+  "disabled": "Koth ya está deshabilitado.",
+  "alreadyDisabled": "Koth está actualmente deshabilitado en este gremio.Por favor, solicite a los administradores que habiliten Koth.",
+  "badgeInvalidName": "No se puede encontrar una insignia con la identificación `%S`.",
+  "addBadge": "La insignia con el nombre ` %S` será recompensada al usuario en posición %S.",
+  "addExp": "La posición del usuario en %S obtendrá una experiencia ` %S`.",
+  "addRole": "El usuario en posición de %s ganará un rol de %s.",
+  "removeSuccess": "Se ha eliminado la recompensa de Koth %s por %S.",
+  "removeInvalid": "No se puede encontrar recompensas para la posición %s.",
+  "removePositionInvalid": "No se puede encontrar %s de recompensa establecido para la posición %s."
 }

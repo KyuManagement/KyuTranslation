@@ -1,21 +1,45 @@
 {
-  "helpDescription": "Blacklist channels/roles from gaining exp.",
-  "helpUsage": [
-    "Adds/removes a channel to the blacklist.```/blacklist channel <add/remove> <channel>```",
-    "Adds/removes a role to the blacklist.```/blacklist role <add/remove> <role>```",
-    "Shows a list of currently blacklisted roles and channels.```/blacklist show```"
+  "description": "Blacklist channels/roles from gaining exp.",
+  "usage": [
+    [
+      "Adds/removes a text channel to the text blacklist.",
+      "```/blacklist text channel <add/remove> <channel>```"
+    ],
+    [
+      "Adds/removes a role to the text blacklist.",
+      "```/blacklist text role <add/remove> <role>```"
+    ],
+    [
+      "Adds/removes a voice channel to the voice blacklist.",
+      "```/blacklist voice channel <add/remove> <channel>```"
+    ],
+    [
+      "Adds/removes a role to the voice blacklist.",
+      "```/blacklist voice role <add/remove> <role>```"
+    ],
+    [
+      "Shows a list of currently blacklisted roles and channels.",
+      "```/blacklist show```"
+    ]
   ],
-  "invalidChannelType": "Given channel type is invalid, please make sure channel type is `%s`.",
-  "channelAlreadyBlacklisted": "%s channel is already blacklisted.",
-  "channelAdded": "Channel **%s** has been blacklisted.",
-  "notFound": "Unable to find role/channel using search query `%s`. Make sure the given query is correct.",
-  "channelNotBlacklisted": "%s channel is not blacklisted.",
-  "channelRemoved": "Channel **%s** has been removed from the blacklist.",
-  "roleAlreadyBlacklisted": "%s is already blacklisted.",
-  "roleAdded": "Role **%s** has been blacklisted.",
-  "roleRemoved": "Role **%s** has been removed from the blacklist.",
-  "roleNotBlacklisted": "%s role is not blacklisted.",
-  "roleList": "Blacklisted roles:```%s```",
-  "channelList": "Blacklisted channels:```%s```",
-  "roleListEmpty": "There are no blacklisted roles."
+
+  "textChannelIncluded": "Channel %s is **already** in text blacklist.",
+  "textChannelAddSuccess": "Channel %s has been **added** to text blacklist.",
+  "textChannelNotIncluded": "Channel %s is **not** in text blacklist.",
+  "textChannelRemoveSuccess": "Channel %s has been **removed** from text blacklist.",
+
+  "textRoleIncluded": "Role %s is **already** in text blacklist.",
+  "textRoleAddSuccess": "Role %s has been **added** to text blacklist.",
+  "textRoleNotIncluded": "Role %s is **not** in text blacklist.",
+  "textRoleRemoveSuccess": "Role %s has been **removed** from text blacklist.",
+
+  "voiceChannelIncluded": "Channel %s is **already** in voice blacklist.",
+  "voiceChannelAddSuccess": "Channel %s has been **added** to voice blacklist.",
+  "voiceChannelNotIncluded": "Channel %s is **not** in voice blacklist.",
+  "voiceChannelRemoveSuccess": "Channel %s has been **removed** from voice blacklist.",
+
+  "voiceRoleIncluded": "Role %s is **already** in voice blacklist.",
+  "voiceRoleAddSuccess": "Role %s has been **added** to voice blacklist.",
+  "voiceRoleNotIncluded": "Role %s is **not** in voice blacklist.",
+  "voiceRoleRemoveSuccess": "Role %s has been **removed** from voice blacklist."
 }

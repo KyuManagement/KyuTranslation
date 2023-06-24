@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Aktiviere/deaktiviere Direktnachrichten von KyuBot für Level-Up Nachrichten auf allen Servern",
-  "helpUsage": [
+  "description": "Aktiviere/deaktiviere Direktnachrichten von KyuBot für Level-Up Nachrichten auf allen Servern",
+  "usage": [
     "Aktiviere/deaktiviere Direktnachrichten von KyuBot für Level-Up Nachrichten auf allen Servern.```/dm <disable/enable>```"
   ],
   "updateEnabled": "Du wirst **Direktnachrichten erhalten** wenn Du in irgendeinem Server auflevelst.",

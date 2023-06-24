@@ -1,7 +1,5 @@
 {
-  "helpDescription": "Erhalte einen Link, um für KyuBot zu stimmen",
-  "helpUsage": [
-    "Erhalte einen Link, um für KyuBot zu stimmen.```/vote```"
-  ],
+  "description": "Erhalte einen Link, um für KyuBot zu stimmen",
+  "usage": ["Erhalte einen Link, um für KyuBot zu stimmen.```/vote```"],
   "message": "<:gweensparkles:933110632444723261> **15%** Exp Booster\n:tickets: Lootbox `1x`"
 }

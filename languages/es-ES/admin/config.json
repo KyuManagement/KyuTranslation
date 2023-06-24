@@ -1,0 +1,58 @@
+{
+  "description": "Configurar varias configuraciones para el servidor.",
+  "usage": [
+    [
+      "Establecer si Voting Exbooster debe estar habilitado/deshabilitado.",
+      "```/config expbooster <true/false>```"
+    ],
+    [
+      "Establezca un rol de administrador para el servidor.Los miembros con estos roles pueden configurar el bot.",
+      "```/config adminrole @role```"
+    ],
+    [
+      "Establezca el fondo para la imagen de la tabla de clasificación.",
+      "```/config leaderboard background <url>```"
+    ],
+    [
+      "Establezca la cantidad de usuarios que se muestran en la tabla de clasificación.",
+      "```/config leaderboard amount <1-10>```"
+    ],
+    [
+      "Establezca el color para la tabla de clasificación.",
+      "```/config leaderboard color <color>```"
+    ],
+    [
+      "Establecido si la tabla de clasificación debe ser una incrustación o una imagen.",
+      "```/config leaderboard image <setting>```"
+    ],
+    [
+      "Establezca la opacidad para la imagen de la tabla de clasificación.",
+      "```/config leaderboard opacity <percentage>```"
+    ],
+    [
+      "Establezca la superposición de la imagen de la tabla de clasificación.",
+      "```/config leaderboard overlay <url>```"
+    ],
+    [
+      "Establezca el tema para la imagen de la tabla de clasificación.",
+      "```/config leaderboard theme <theme>```"
+    ],
+    [
+      "Establezca el nivel máximo que los usuarios pueden lograr en este servidor.",
+      "```/config maxlevel <level>```"
+    ]
+  ],
+  "setAdminRole": "Los usuarios con rol %s ahora pueden administrar el bot en este servidor.",
+  "expboosterEnabled": "Exp Booster ha sido habilitado para este servidor.Los usuarios recibirán un refuerzo para votar.",
+  "expboosterDisabled": "Exp Booster ha sido deshabilitado para este servidor.",
+  "setMaxlevel": "El nivel máximo para el servidor se ha establecido en %s.",
+  "amount": "La cantidad de usuarios que se muestran en la tabla de clasificación se ha establecido en %s.",
+  "backgroundSuccess": "Los antecedentes se han cargado a la base de datos.",
+  "overlaySuccess": "Los antecedentes se han cargado a la base de datos.",
+  "invalidTheme": "No puedo encontrar un tema llamado `%S`.Seleccione un tema válido.",
+  "themeSuccess": "El tema de la imagen de la tabla de clasificación se ha establecido en `%S`.",
+  "opacitySuccess": "La opacidad de la imagen de la tabla de clasificación se ha establecido en `%s%`.",
+  "colorSuccess": "El color de perfil se ha actualizado a **%s **.",
+  "typeEnabled": "La tabla de clasificación ahora se enviará como una imagen.",
+  "typeDisabled": "La tabla de clasificación ahora se enviará como una incrustación."
+}

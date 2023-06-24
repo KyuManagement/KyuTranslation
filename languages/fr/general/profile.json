@@ -1,22 +1,39 @@
 {
-  "helpDescription": "Changez l'apparence de votre carte de classement.",
-  "helpUsage": [
-    "Changez la couleur de votre carte de classement.```/profile color <color>```",
-    "Changez l'opacité de votre carte de classement.```/profile opacity <0-100>```",
-    "Changez l'arrière-plan de votre carte de classement.```/profile background <url>```",
-    "Changez l'overlay pour votre carte de classement.```/profile opacity <url>```"
+  "description": "Changez l'apparence de votre carte de rang.",
+  "usage": [
+    [
+      "Changez la couleur de votre carte de rang.",
+      "```/profile color <color>```"
+    ],
+    [
+      "Changez l'opacité de votre carte de rang.",
+      "```/profile opacity <0-100>```"
+    ],
+    [
+      "Changez l'arrière-plan de votre carte de rang.",
+      "```/profile background <url>```"
+    ],
+    [
+      "Changez la superposition de votre carte de rang.",
+      "```/profile overlay <url>```"
+    ]
   ],
-  "isNotColor": "La couleur %s n'est pas valide. Veuillez sélectionner une couleur parmi les couleurs suivantes : ```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
-  "isNotHex": "La couleur '%s' n'est pas une couleur hexadécimale. Assurez-vous que la couleur suit un format de couleur hexadécimal (#6cffac).",
-  "colorSuccess": "La couleur du profil a été mise à jour à **%s**.",
-  "imageInvalid": "Le lien donné n'est pas une image, veuillez fournir un lien d'image valide.",
-  "donatorOnly": "Cette fonctionnalité est uniquement disponible pour les donateurs. Plus d'informations en utilisant `/donate`",
-  "backgroundDefaultSuccess": "L'arrière-plan du profil a été remis à sa valeur par défaut.",
+  "isNotColor": "Impossible de trouver la couleur donnée «%s».Veuillez sélectionner une couleur parmi l'une des couleurs suivantes: `` `par défaut\nbleu\ngris\nvert\norange\nrose\nviolet\nrouge\nsarcelle\nJaune ''",
+  "isNotHex": "La couleur «%s» n'est pas une couleur hexadécimale.Veuillez vous assurer que la couleur suit un format de couleur hexagonale (# 6CFFAC).",
+  "colorSuccess": "La couleur du profil a été mise à jour pour **%s **.",
+  "backgroundDefaultSuccess": "L'arrière-plan de profil a été recruté par défaut.",
   "backgroundSuccess": "L'arrière-plan a été téléchargé dans la base de données.",
-  "overlayDefaultSuccess": "L'overlay du profil a été réinitialisé à la valeur par défaut.",
+  "badgeNotFound": "Impossible de trouver un badge avec l'ID:%s.",
+  "badgeSuccess": "Le badge pour la position%s a été mis à jour à%s pour%s carte de classement.",
+  "barSuccess": "Le type de barre de progression a été mis à jour pour **%s **.",
+  "overlayDefaultSuccess": "La superposition de profil a été recouverte de défaut.",
   "overlaySuccess": "La superposition a été téléchargée dans la base de données.",
-  "discordTos": "L'image intégrée de l'annonce a été mise à jour vers En continuant, vous comprenez que l'image que vous téléchargez suit les **[Conditions d'utilisation de Discord](https://discord.com/terms)**. Tout ce qui est téléchargé est de votre responsabilité et vous en serez tenu responsable.",
-  "nsfwWarning": "AVERTISSEMENT ! Les images NSFW peuvent entraîner un bannissement de notre bot.",
-  "opacityTooHigh": "Veuillez vous assurer que l'opacité est comprise entre 0 et 100.",
-  "opacitySuccess": "L'opacité du profil a été définie à **%s%**."
+  "opacityTooHigh": "Veuillez vous assurer que l'opacité se situe entre 0 et 100.",
+  "opacitySuccess": "L'opacité de profil a été définie sur **%s% **.",
+  "shareFailed": "Veuillez définir un arrière-plan / superposition avant d'essayer de partager l'arrière-plan / superposition avec d'autres.",
+  "shareSuccessBoth": "Les autres utilisateurs peuvent désormais vous utiliser à la fois votre arrière-plan et votre superposition!",
+  "shareSuccessBackground": "Les autres utilisateurs peuvent désormais utiliser votre arrière-plan!",
+  "shareSuccessOverlay": "Les autres utilisateurs peuvent désormais utiliser votre superposition!",
+  "shareSuccessNone": "Les utilisateurs ne peuvent plus utiliser votre arrière-plan ou votre superposition.L'accès a également été supprimé de tous les utilisateurs actuels.",
+  "themeSuccess": "Le thème a été mis à jour pour **%s **."
 }

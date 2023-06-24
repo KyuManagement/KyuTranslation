@@ -1,33 +1,79 @@
 {
-  "helpDescription": "Modifier les paramètres pour les annonces.",
-  "helpUsage": [
-    "Définit si les annonces sont envoyées avec des embeds ou sans.```/embed toggle <disable/enable> [level]```",
-    "Activer/désactiver les pings pour les messages d'annonce.```/embed ping <disable/enable> [level]```",
-    "Personnalisez les différentes sections des embeds intégrés. ``/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```",
-    "Ajoute un embed pour un niveau spécifique.```/embed add <level>```",
-    "Enlever un embed pour un niveau spécifique.```/embed remove <level>```",
-    "Teste le message d'annonce actuel.```/embed test [level]```",
-    "Récupère une liste de toutes les variables disponibles pour KyuBot.```/embed variables```"
+  "description": "Modifier les paramètres des annonces.",
+  "usage": [
+    [
+      "Réglez le nombre de secondes à attendre avant de supprimer l'annonce.Réglé sur 0 pour que l'annonce ne soit pas supprimée.",
+      "```/embed clear <30-300>```"
+    ],
+    [
+      "Créez une intégration personnalisée pour un niveau spécifique.",
+      "```/embed create <level>```"
+    ],
+    [
+      "Personnalisez différentes sections pour le message d'annonce.",
+      "```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```"
+    ],
+    [
+      "Supprimez une intégration personnalisée pour un niveau spécifique.",
+      "```/embed delete <level>```"
+    ],
+    [
+      "Activer / désactiver les pings pour les messages d'annonce.",
+      "```/embed ping <true/false> <level>```"
+    ],
+    [
+      "Testez l'annonce pour un niveau spécifique ou l'annonce mondiale.",
+      "```/embed test <level>```"
+    ],
+    [
+      "Définir si l'annonce doit être envoyée sous forme d'intégration ou de message.",
+      "```/embed toggle <true/false> <level>```"
+    ],
+    [
+      "Définir les annonces de canal doit être envoyée.",
+      "```/embed type channel #channel <level>```"
+    ],
+    [
+      "Définissez la façon dont les annonces doivent être envoyées lorsqu'un utilisateur nivelle.",
+      "```/embed type set <default/dm/off/rewards> <level>```"
+    ],
+    [
+      "Obtenez une liste de variables pour les annonces.",
+      "```/embed variables```"
+    ]
   ],
-  "toggleEnabled": "Les embeds ont été **activés** pour les annonces.",
-  "toggleDisabled": "Les embeds ont été **désactivés** pour les annonces.",
-  "pingEnabled": "Les Pings ont été **activés** pour les annonces.",
-  "pingDisabled": "Les Pings ont été **désactivés** pour les annonces.",
-  "titleTooLong": "Le nombre maximum de caractères est de 100 pour le titre, vous avez dépassé le nombre de **%s**.",
-  "titleUpdated": "Le titre de l'annonce a été mis à jour vers :```%s```",
-  "descriptionTooLong": "Le nombre maximum de caractères est de 1250, vous avez dépassé le nombre de **%s**.",
-  "descriptionUpdated": "Le message d'annonce a été mis à jour vers :```%s```",
-  "imageInvalid": "Le lien donné n'est pas une image, veuillez fournir un lien d'image valide. Types d'image actuellement pris en charge: jpg | jpeg | png | gif.",
-  "imageUpdated": "L'image intégrée de l'annonce a été mise à jour vers %s\n\nEn continuant, vous comprenez que l'image que vous téléchargez suit les **[Conditions d'utilisation de Discord](https://discord.com/terms)**. Tout ce qui est téléchargé est de votre responsabilité et vous en serez tenu responsable.",
-  "colorInvalid": "La couleur %s n'est pas valide. Veuillez sélectionner une couleur parmi les couleurs suivantes : ```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
-  "colorUpdated": "La couleur d'intégration de l'annonce a été mise à jour vers **%s**.",
-  "customiseInvalidSection": "Impossible d'éditer %s, les sections actuelles qui peuvent être modifiées sont : `titre, description, image, couleur`.",
-  "customiseAddInvalidLevel": "Impossible de définir l'annonce pour le niveau %s. Assurez-vous que le niveau est un entier.",
-  "customiseAddAlreadyExists": "L'annonce existe déjà pour le niveau %s. Veuillez supprimer/modifier le contenu actuel.",
-  "customiseAddMaxReached": "Vous avez atteint le nombre maximum de 10 embeds personnalisés. Veuillez supprimer un embed, avant d'ajouter un nouvel emed pour le niveau %s",
-  "customiseAddSuccess": "L'intégration personnalisée a été ajoutée pour le niveau %s.",
-  "customiseRemoveInvalidLevel": "L'intégration personnalisée n'existe pas pour le niveau %s.",
-  "customiseRemoveNotExists": "L'intégration personnalisée n'existe pas pour le niveau %s.",
-  "customiseRemoveSuccess": "L'intégration personnalisée a été supprimée pour le niveau %s.",
-  "notFound": "Impossible de trouver l'intégration pour le niveau %s."
+  "toggleEnabled": "Les intégres ont été ** activés ** pour les annonces.",
+  "toggleDisabled": "Les intégres ont été ** désactivés ** pour les annonces et seront envoyés sous forme de messages texte.",
+  "pingEnabled": "Les pings ont été ** activés ** pour les annonces.",
+  "pingDisabled": "Les pings ont été ** désactivés ** pour les annonces.",
+  "titleTooLong": "Le nombre de caractères max est de 100 pour le titre, vous êtes au-dessus du nombre de **%s **.",
+  "titleUpdated": "Le titre d'annonce a été mis à jour pour: `` `%s` '",
+  "descriptionTooLong": "Le nombre de caractères maximum est de 1250, vous êtes au-dessus du nombre de **%s **.",
+  "descriptionUpdated": "Le message d'annonce a été mis à jour pour: `` `%s` '",
+  "imageInvalid": "Le lien étant donné n'est pas une image, veuillez fournir un lien d'image valide.Types d'images actuellement pris en charge: JPG |JPEG |PNG |gif.",
+  "imageUpdated": "L'image d'intégration d'annonce a été mise à jour à%s\n\nEn continuant, vous comprenez l'image que vous téléchargez suit les termes d'utilisation de ** [Discord] (https://discord.com/terms) **.Tout ce qui est téléchargé est votre responsabilité et vous en serez tenu responsable.",
+  "colorInvalid": "La couleur%s n'est pas une couleur valide.Veuillez sélectionner une couleur parmi l'une des couleurs suivantes: `` `par défaut\nbleu\ngris\nvert\norange\nrose\nviolet\nrouge\nsarcelle\nJaune ''",
+  "colorUpdated": "La couleur de l'intégration pour l'annulation a été mise à jour pour **%s **.",
+  "clearAmount": "Assurez-vous que l'annonce de suppression est entre 30 et 300 secondes.",
+  "clearSuccess": "Les messages d'annonce pour le niveau%s seront désormais supprimés après `%s» secondes.",
+  "clearSuccessDisabled": "Les messages d'annonce pour le niveau%s ne seront plus supprimés.",
+  "customiseInvalidSection": "Incapable de modifier%s, les sections actuelles qui peuvent être modifiées sont: «Titre, Description, Image, Color».",
+  "customiseAddInvalidLevel": "Impossible de définir l'annonce pour le niveau%s.Veuillez vous assurer que le niveau est un entier.",
+  "customiseAddAlreadyExists": "L'annonce existe déjà pour le niveau%s.Veuillez supprimer / modifier l'intégration actuelle.",
+  "customiseAddMaxReached": "Vous avez atteint la quantité maximale de 10 intégres personnalisées.Veuillez supprimer une intégration, avant d'ajouter une nouvelle intégration pour le niveau `%s`.\n\nBesoin de plus d'intégration?Découvrez nos [Guild Premium Plans] (https://kyubot.com/premium).",
+  "customiseAddSuccess": "Une intégration personnalisée a été ajoutée pour le niveau%s.",
+  "customiseRemoveNotExists": "L'intégration personnalisée n'existe pas pour le niveau%s.",
+  "customiseRemoveSuccess": "L'intégration personnalisée a été supprimée pour le niveau%s.",
+  "typeChannel": "Le canal d'annonces a été défini sur **%s ** pour le niveau%s.",
+  "typeGlobalChannel": "Annonces Le canal a été réglé sur **%s ** pour les annonces mondiales.",
+  "typeInvalidOption": "L'option `%s` n'est pas valide.Veuillez sélectionner l'une des options suivantes: DM, désactivé, récompense ou aucune.",
+  "typeSuccessDefault": "Les annonces apparaîtront désormais dans le canal ** Le niveau de l'utilisateur dans **.",
+  "typeSuccessDm": "Les annonces ont été définies sur ** dm **.",
+  "typeSuccessOff": "Les annonces ont été définies pour ** off **.",
+  "typeSuccessReward": "Les annonces ne seront envoyées qu'aux niveaux qui ** récompensent ** les membres.",
+  "typeSuccessGlobalDefault": "Les annonces apparaîtront désormais dans le canal ** que l'utilisateur nivelle dans ** pour le niveau%s.",
+  "typeSuccessGlobalDm": "Les annonces ont été définies sur ** dm ** pour le niveau%s.",
+  "typeSuccessGlobalOff": "Les annonces ont été définies pour ** off ** pour le niveau%s.",
+  "typeSuccessGlobalReward": "Les annonces ne seront envoyées qu'aux niveaux qui ** récompensent ** les membres pour le niveau%s.",
+  "notFound": "Impossible de trouver une intégration pour le niveau de niveau s."
 }

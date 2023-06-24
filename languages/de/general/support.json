@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Erhalte einen Link, um dem Support-Server beizutreten.",
-  "helpUsage": [
+  "description": "Erhalte einen Link, um dem Support-Server beizutreten.",
+  "usage": [
     "Erhalte einen Link, um dem Support-Server beizutreten.```/support```"
   ]
 }

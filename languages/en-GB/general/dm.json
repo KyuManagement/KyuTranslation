@@ -1,7 +1,10 @@
 {
-  "helpDescription": "Enable/disable dms from Kyubot for announcements in all servers",
-  "helpUsage": [
-    "Enable/disable dms from Kyubot for announcements in all servers.```/dm <disable/enable>"
+  "description": "Enable/disable dms from Kyubot for announcements in all servers",
+  "usage": [
+    [
+      "Enable/disable dms from Kyubot for announcements in all servers.",
+      "```/dm <disable/enable>```"
+    ]
   ],
   "updateEnabled": "You will **now receive dms** when you level up in any guild.",
   "updateDisabled": "You will **no longer receive dms** when you level up in any guild."

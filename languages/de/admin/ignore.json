@@ -1,15 +1,25 @@
 {
-  "helpDescription": "Kanäle/Befehle ignorieren, wenn sie ausgeführt werden.",
-  "helpUsage": [
-    "Fügt einen Kanal zur ignorierten Liste hinzu/entfernt ihn.```/ignore channel <add/remove> <channel>```",
-    "Fügt einen Befehl zur ignorierten Liste hinzu/entfernt ihn.```/ignore command <add/remove> <command>```",
-    "Zeigt eine Liste der derzeit ignorierten Befehle und Kanäle.```/ignore show```"
+  "description": "Kanäle/Befehle ignorieren, wenn sie ausgeführt werden.",
+  "usage": [
+    [
+      "Fügt einen Kanal zur ignorierten Liste hinzu/entfernt ihn.",
+      "```/ignore channel <add/remove> <channel>```"
+    ],
+    [
+      "Fügt einen Befehl zur ignorierten Liste hinzu/entfernt ihn.",
+      "```/ignore command <add/remove> <command>```"
+    ],
+    [
+      "Zeigt eine Liste der derzeit ignorierten Befehle und Kanäle.",
+      "```/ignore show```"
+    ]
   ],
+
   "channelAddSuccess": "%s wurde zur Ignoriert-Liste **hinzugefügt**.",
-  "channelNotExists": "Der Kanal kann nicht gefunden werden.",
   "channelAddExists": "Kanal %s **ist bereits** auf der Ignoriert-Liste.",
   "channelRemoveSuccess": "Kanal %s wurde aus der Ignoriert-Liste **entfernt**.",
   "channelRemoveNotExists": "Kanal %s ist **nicht** in der Ignoriert-Liste.",
+
   "commandAddSuccess": "Befehl `%s` wurde zur Ignoriert-Liste **hinzugefügt**.",
   "commandNotExists": "Befehl `%s` kann nicht gefunden werden.",
   "commandInvalid": "Die Befehle „help“ und „ignore“ können nicht zur Ignoriert-Liste hinzugefügt werden.",

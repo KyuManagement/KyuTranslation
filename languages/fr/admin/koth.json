@@ -1,18 +1,26 @@
 {
-  "helpDescription": "Un classement temporaire, qui permet au membre le plus haut de gagner différentes récompenses.",
-  "helpUsage": [
-    "Début de l'événement koth.```/koth <start/end> [channel]```",
-    "Définir une récompense pour le membre le plus haut du koth leaderbaord.```/koth récompense <role>```",
-    "Affiche le classement du koth pour le serveur.```/koth leaderboard```"
+  "description": "Un classement temporaire, qui permet au membre supérieur de gagner des récompenses différentes.",
+  "usage": [
+    ["Événement de démarrage / fin Koth.", "```/koth <start/end> [channel]```"],
+    [
+      "Fixez une récompense pour le membre supérieur de la Koth Leaderbaord.",
+      "```/koth reward <role>```"
+    ],
+    ["Affiche le classement Koth pour le serveur.", "```/koth leaderboard```"]
   ],
-  "enable": "KOTH a commencé! Réclamez vos utilisateurs de couronne 👑!",
-  "enableReward": "KOTH a été démarré! Le meilleur membre gagnera %s rôle.",
-  "disable": "KOTH est déjà désactivé.",
-  "rewardAddSuccess": "Le gagnant de KOTH gagnera %s rôle à la réinitialisation de koth.",
-  "winners": "Vainqueurs KOTH",
-  "started": "KOTH démarré",
-  "noWinners": "Pas assez d'utilisateurs actifs dans cette guilde pour mettre fin à KOTH.",
-  "winnersSent": "L'annonce des gagnants de Koth a été envoyée à %s.",
-  "startSent": "L'annonce de démarrage de KOTH a été envoyée à %s.",
-  "disabled": "KOTH est actuellement désactivé dans cette guilde. Veuillez demander aux administrateurs d'activer KOTH."
+  "alreadyEnabled": "Koth est déjà en cours.Veuillez mettre fin au Koth actuel pour commencer un autre concours.",
+  "enabled": "Koth a commencé!Réclamez votre couronne 👑 en étant le plus actif!",
+  "startSent": "L'annonce de départ de Koth a été envoyée à%s.",
+  "endConfirm": "Êtes-vous sûr de vouloir mettre fin à Koth?En confirmant que vous comprenez que c'est irréversible!",
+  "noWinners": "Pas assez d'utilisateurs actifs dans cette guilde pour mettre fin à Koth.",
+  "winnersSent": "L'annonce des gagnants de Koth a été envoyée à%s.",
+  "disabled": "Koth est déjà désactivé.",
+  "alreadyDisabled": "Koth est actuellement désactivé dans cette guilde.Veuillez demander à l'administrateur d'activer Koth.",
+  "badgeInvalidName": "Impossible de trouver un badge avec l'ID `%s`.",
+  "addBadge": "Le badge avec le nom `%s` sera récompensé à l'utilisateur en position%s.",
+  "addExp": "L'utilisateur en position%s gagnera l'expérience de «%s».",
+  "addRole": "L'utilisateur en position%s gagnera%s le rôle.",
+  "removeSuccess": "La récompense de Koth%s pour%s la position a été supprimée.",
+  "removeInvalid": "Impossible de trouver des récompenses pour%s Position.",
+  "removePositionInvalid": "Impossible de trouver%s récompense Set pour%s Position."
 }

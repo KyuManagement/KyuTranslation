@@ -1,15 +1,38 @@
 {
-  "helpDescription": "Modifier les paramètres pour les récompenses gagnées lors du niveau vers le haut.",
-  "helpUsage": [
-    "Définir le rôle à donner lorsqu'un membre atteint le niveau spécifié.```/rewards add <level> <role>```",
-    "Retirer le rôle d'un niveau spécifié.```/rewards remove <level>```",
-    "Définissez les rôles à empiler ou à remplacer après avoir gagné un nouveau rôle.```/rewards stack <enable/disable>```",
-    "Affiche tous les rôles définis en niveaux.```/rewards show```"
+  "description": "Modifier les paramètres pour les récompenses gagnées lors de la mise à niveau.",
+  "usage": [
+    [
+      "Définissez le rôle à donner lorsqu'un membre atteint le niveau spécifié.",
+      "```/rewards add <level> <role>```"
+    ],
+    [
+      "Retirez le rôle de être donné à un niveau spécifié.",
+      "```/rewards remove <level>```"
+    ],
+    [
+      "Définissez les rôles à empilés ou remplacés après avoir obtenu un nouveau rôle.",
+      "```/rewards stack <enable/disable>```"
+    ],
+    ["Montre tous les rôles fixés à des niveaux.", "```/rewards show```"]
   ],
-  "success": "Les membres gagneront maintenant le rôle %s au niveau `%s`.",
-  "notExists": "Impossible de trouver une récompense pour le niveau %s.",
-  "removed": "Les membres ne gagneront plus de rôle au niveau `%s`.",
-  "stack": "Les rôles seront maintenant empilés.",
-  "replace": "Les rôles vont maintenant être remplacés.",
-  "limit": "Trop de rôles ont été configurés. Actuellement, seulement 30 récompenses de rôle peuvent être installées."
+  "notExists": "Impossible de trouver une récompense pour le niveau de niveau s.",
+  "stackText": "Toutes les récompenses de texte seront désormais empilées.",
+  "replaceText": "Toutes les récompenses de texte seront désormais remplacées.",
+  "stackVoice": "Toutes les récompenses vocales seront désormais empilées.",
+  "replaceVoice": "Toutes les récompenses vocales seront désormais remplacées.",
+  "limit": "Trop de rôles ont été mis en place.Actuellement, seulement 25 récompenses de rôle peuvent être configurées.",
+  "badgeInvalidName": "Impossible de trouver un badge avec l'ID `%s`.",
+  "voiceBadgeAdded": "Le badge avec le nom `%s` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau vocal%s.",
+  "badgeAdded": "Le badge avec le nom `%s` sera récompensé à l'utilisateur lorsqu'ils atteignent le niveau de texte%s.",
+  "invalidLevel": "Impossible de trouver un ensemble de récompense pour le niveau `%s`.",
+  "voiceBadgeRemoved": "La récompense du badge pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "badgeRemoved": "La récompense du badge pour le niveau `%s` a été supprimée du nivellement du texte.",
+  "voiceExpAdded": "L'utilisateur gagnera l'expérience `%s» lorsqu'ils atteindront le niveau vocal%s.",
+  "expAdded": "L'utilisateur gagnera une expérience `%s» lorsqu'ils atteindront le niveau de texte%s.",
+  "voiceExpRemoved": "La récompense de l'expérience pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "expRemoved": "La récompense de l'expérience pour le niveau `%s` a été supprimée du nivellement du texte.",
+  "voiceRoleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau vocal%s.",
+  "roleAdded": "L'utilisateur gagnera un rôle de% lorsqu'ils atteindront le niveau de texte%s.",
+  "voiceRoleRemoved": "La récompense des rôles pour le niveau `%s` a été supprimée du nivellement de la voix.",
+  "roleRemoved": "La récompense des rôles pour le niveau `%s` a été supprimée du nivellement du texte."
 }

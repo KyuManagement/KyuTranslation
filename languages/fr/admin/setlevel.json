@@ -1,11 +1,17 @@
 {
-  "helpDescription": "Définissez le niveau ou le niveau d'un membre pour ceux qui ont un rôle spécifique.",
-  "helpUsage": [
-    "Définissez le membre à un niveau spécifié.```/setlevel user <member> <level>```",
-    "Mettre à jour le niveau de tous les membres qui ont un rôle spécifique.```/setlevel role <member> <level>```"
+  "description": "Définissez le niveau ou le niveau d'un membre pour les membres qui ont un rôle spécifique.",
+  "usage": [
+    [
+      "Définissez le membre à un niveau spécifié.",
+      "```/setlevel user <member> <level>```"
+    ],
+    [
+      "Niveau de mise à jour pour tous les membres qui ont un rôle spécifique.",
+      "```/setlevel role <member> <level>```"
+    ]
   ],
-  "incorrect": "Assurez-vous que le niveau que vous donnez est compris entre 0 et 100.",
-  "success": "Le niveau du membre %s a été défini à `%s`.",
-  "noBot": "Impossible de définir le niveau d'un utilisateur bot.",
-  "roleSuccess": "Les niveaux ont été mis à jour pour %s membres."
+  "incorrect": "Assurez-vous que le niveau que vous donnez se situe entre 0 et 100.",
+  "success": "Le niveau du membre%s a été fixé à `%s`.",
+  "noBot": "Impossible de définir le niveau d'un utilisateur de bot.",
+  "roleSuccess": "Les niveaux ont été mis à jour pour tous les membres avec des rôles%s."
 }

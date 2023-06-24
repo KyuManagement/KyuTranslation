@@ -1,6 +1,4 @@
 {
-  "helpDescription": "",
-  "helpUsage": [
-    "Check the current server settings.```/settings```"
-  ]
+  "description": "Check the current server settings.",
+  "usage": [["Check the current server settings.", "```/settings```"]]
 }

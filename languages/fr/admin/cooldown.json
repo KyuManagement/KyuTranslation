@@ -1,0 +1,30 @@
+{
+  "description": "Changer le temps de recharge mondial ou pour les canaux / rôles.",
+  "usage": [
+    [
+      "Définissez le temps de recharge pour un canal texte / vocal.",
+      "```/cooldown add channel <channel> <seconds>```"
+    ],
+    [
+      "Définissez le temps de recharge pour un rôle dans le texte / la voix.",
+      "```/cooldown add role <role> <seconds> <for>```"
+    ],
+    [
+      "Supprimez le temps de recharge d'un canal de texte / vocal.",
+      "```/cooldown remove channel <channel> <from>```"
+    ],
+    [
+      "Supprimez le rôle de recharge du texte / de la voix.",
+      "```/cooldown remove role <role> <from>```"
+    ],
+    [
+      "Affichez une liste des recharges actuellement définies.",
+      "```/cooldown show```"
+    ]
+  ],
+  "channelAddSuccess": "Le temps de recharge pour Channel%s a été réglé sur **%s **.",
+  "channelRemoveSuccess": "Le canal%s a été ** supprimé ** du temps de recharge.",
+  "roleAddSuccess": "Le temps de recharge pour les%s a été réglé sur%s pour%s.",
+  "roleRemoveSuccess": "Le rôle%s a été ** supprimé ** de%s de temps de recharge.",
+  "globalSetSuccess": "Le temps de recharge mondial pour%s a été fixé à%s."
+}

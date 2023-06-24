@@ -1,1 +1,15 @@
-{}
+{
+  "description": "Add/remove custom badges from the server.",
+  "usage": [
+    ["Add a new badge to the server.", "```/badge add <name> <url>```"],
+    ["Delete a current badge from the server.", "```/badge delete <name>```"],
+    ["Show a list of the available badges in this server.", "```/badge show```"]
+  ],
+
+  "alreadyExists": "A badge with ID `%s` already exists. Please enter another name.",
+  "successAdded": "Badge with name `%s` has been added to this server.",
+  "invalidName": "Unable to find a badge with the ID `%s`.",
+  "successRemoved": "`%s` badge has been removed from the server.",
+  "alphanumericOnly": "Only alphanumeric characters are allowed for badge names. Please select a name with letters/numbers.",
+  "notfound": "Unable to find any badges in this server, please add a badge!"
+}

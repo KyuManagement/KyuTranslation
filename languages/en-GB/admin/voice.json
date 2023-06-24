@@ -1,20 +1,14 @@
 {
-  "helpDescription": "Change settings for voice exp.",
-  "helpUsage": [
-    "Blacklist a channel from gaining exp.```/voice blacklist channel <add/remove> <channel>```",
-    "Blacklist a role from gaining exp.```/voice blacklist role <add/remove> <role>```",
-    "Enable or disable voice exp.```/voice setting <enable/disable>```",
-    "Shows the voice leaderboard for the server.```/voice leaderboard```",
-    "Show a list of the currently blacklisted channels/roles.```/voice show```"
+  "description": "Change settings for voice exp.",
+  "usage": [
+    ["Enable voice leveling system for the server.", "```/voice enable```"],
+    ["Disable voice leveling system for the server.", "```/voice disable```"],
+    ["Shows the voice leaderboard for the server.", "```/voice leaderboard```"],
+    [
+      "Show a list of the currently blacklisted channels/roles.",
+      "```/voice show```"
+    ]
   ],
   "enabled": "Voice exp has been **enabled**.",
-  "disabled": "Voice exp has been **disabled**.",
-  "channelIncluded": "Channel %s is **already** blacklisted.",
-  "channelAddSuccess": "Channel %s has been **added** to blacklist.",
-  "channelRemoveSuccess": "Channel %s has been **removed** from blacklist.",
-  "channelNotIncluded": "Channel %s is **not** blacklisted.",
-  "roleIncluded": "Role %s is **already** blacklisted.",
-  "roleAddSuccess": "Role %s has been **added** to blacklist.",
-  "roleRemoveSuccess": "Role %s has been **removed** from blacklist.",
-  "roleNotIncluded": "Role %s is **not** blacklisted."
+  "disabled": "Voice exp has been **disabled**."
 }

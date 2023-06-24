@@ -1,11 +1,26 @@
 {
-  "helpDescription": "Einstellungen für Sprach-Exp ändern.",
-  "helpUsage": [
-    "Einen Sprach-Kanal auf die Blacklist setzen, um keine Exp zu erhalten.```/voice blacklist channel <add/remove> <channel>```",
-    "Eine Rolle auf die Blacklist setzen, um keine Exp zu erhalten.```/voice blacklist role <add/remove> <role>```",
-    "Aktiviere oder deaktiviere Sprach-Exp.```/voice setting <enable/disable>```",
-    "Zeigt die Sprach-Rangliste für den Server an.```/voice leaderboard```",
-    "Zeigt eine Liste der aktuell auf der Blacklist stehenden Kanäle/Rollen an.```/voice show```"
+  "description": "Einstellungen für Sprach-Exp ändern.",
+  "usage": [
+    [
+      "Einen Sprach-Kanal auf die Blacklist setzen, um keine Exp zu erhalten.",
+      "```/voice blacklist channel <add/remove> <channel>```"
+    ],
+    [
+      "Eine Rolle auf die Blacklist setzen, um keine Exp zu erhalten.",
+      "```/voice blacklist role <add/remove> <role>```"
+    ],
+    [
+      "Aktiviere oder deaktiviere Sprach-Exp.",
+      "```/voice setting <enable/disable>```"
+    ],
+    [
+      "Zeigt die Sprach-Rangliste für den Server an.",
+      "```/voice leaderboard```"
+    ],
+    [
+      "Zeigt eine Liste der aktuell auf der Blacklist stehenden Kanäle/Rollen an.",
+      "```/voice show```"
+    ]
   ],
   "enabled": "Sprach-Exp wurde **aktiviert**.",
   "disabled": "Sprach-Exp wurde **deaktiviert**.",

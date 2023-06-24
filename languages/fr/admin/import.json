@@ -1,15 +1,16 @@
 {
-  "helpDescription": "Importer des niveaux de différents autres bots dans Kyubot.",
-  "helpUsage": [
-    "Importer des niveaux de différents autres bots dans Kyubot.```/import <AmariBot/Mee6/Tatsu>```"
+  "description": "Les niveaux d'importation de divers autres bots dans Kyubot.",
+  "usage": [
+    [
+      "Les niveaux d'importation de divers autres bots dans Kyubot.",
+      "```/import <AmariBot/Mee6/Tatsu>```"
+    ]
   ],
-  "notFoundMee6": "Impossible de trouver le classement. Veuillez visiter https://mee6.xyz/dashboard/${message.guild.id}/leaderboard et assurez-vous que votre classement est public.",
-  "notFound": "Impossible de trouver le classement. Il semble que cette guilde n'ait aucun niveau dans %s.",
-  "inProgress": "Les niveaux sont actuellement en cours d'importation depuis %s. Une fois importés, vous serez notifié.",
-  "title": "Importation de niveaux!",
-  "description": "En continuant, vous comprenez que **tous les niveaux de membres actuels seront supprimés**. Veuillez sélectionner continuer à importer tous les niveaux.",
-  "cancelledTitle": "Importation de niveau annulée !",
-  "cancelledDescription": "L'importation des niveaux a été annulée.",
-  "confirmedTitle": "L'importation de niveau a commencé !",
-  "confirmedDescription": "Les niveaux sont en cours d'importation depuis `%s`. Pendant que cela se produit, le leveling sera désactivé sur ce serveur. Vous serez averti lorsque les niveaux auront été importés dans %s."
+  "notFoundMee6": "Impossible de trouver un classement.Veuillez visiter https://mee6.xyz/dashboard/%S/leaderboard et assurez-vous que votre classement est public.",
+  "notFound": "Impossible de trouver un classement.On dirait que cette guilde n'a aucun niveau en%s.",
+  "inProgress": "Les niveaux sont actuellement importés de%s.Une fois importé, vous serez informé.",
+  "alreadyFound": "On dirait que ce serveur a déjà importé le nivellement de `%s`.Si vous souhaitez importer des niveaux à partir d'un autre bot, veuillez contacter notre équipe de personnel.",
+  "confirmation": "En continuant, vous comprenez que ** tous les niveaux de membres actuels seront effacés **.Veuillez sélectionner Continuer à importer tous les niveaux.",
+  "cancelled": "Les niveaux d'importation ont été annulés.",
+  "confirmed": "Les niveaux sont importés de `%s`.Pendant que cela se produit, le nivellement sera désactivé dans ce serveur.Vous serez informé lorsque les niveaux ont été importés en%s."
 }

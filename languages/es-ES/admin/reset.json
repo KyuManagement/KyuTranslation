@@ -1,17 +1,26 @@
 {
-  "helpDescription": "Restablecer usuarios o configuraciones específicos para el servidor actual.",
-  "helpUsage": [
-    "Restablecer configuraciones específicas para el servidor actual.'``/Restablecer usuario <ember> `` `` `` `` `` `` `` `` `` `` ``",
-    "Restablecer una configuración específica.'``/Restablecer Configuración <Cection> `` `` `` `` `` `` `` `` ``"
+  "description": "Restablecer usuarios o configuraciones específicos para el servidor actual.",
+  "usage": [
+    [
+      "Restablecer la configuración específica para el servidor actual.",
+      "```/reset user <member>```"
+    ],
+    [
+      "Restablecer una configuración específica.",
+      "```/reset settings <option>```"
+    ]
   ],
-  "settingsQuestion": "¿Estás seguro de que quieres eliminar ** todas las configuraciones **?",
-  "pointsQuestion": "¿Estás seguro de que quieres eliminar ** todos los puntos **?",
-  "question": "¿Estás seguro de que quieres eliminar la configuración **%s **?",
-  "footer": "¡ADVERTENCIA!El restablecimiento no es reversible.",
-  "pointsSuccess": "** Puntos ** Para todos los miembros se han restablecido.",
+  "all": "¿Estás seguro de que quieres eliminar ** todas las configuraciones **?",
+  "textExp": "¿Estás seguro de que quieres eliminar ** todo el texto exp **?",
+  "textExpSuccess": "** Se han restablecido el texto de texto ** para todos los miembros.",
+  "kothExp": "¿Estás seguro de que quieres eliminar ** Todos Koth Exp **?",
+  "kothExpSuccess": "** Koth Exp ** Para todos los miembros se han restablecido.",
+  "voiceExp": "¿Estás seguro de que quieres eliminar ** todas las expectativas de voz **?",
+  "voiceExpSuccess": "** Voz exp ** para todos los miembros se han restablecido.",
+  "settings": "¿Estás seguro de que quieres eliminar la configuración **%s **?",
   "settingsSuccess": "**%S ** se han restablecido la configuración",
-  "success": "El reinicio para la configuración **%s ** ha sido cancelada.",
-  "userNotFound": "Ingrese a un usuario válido.",
-  "userSuccess": "Miembro %S Exp ha sido reiniciado.",
-  "userFailed": "No se puede restablecer el miembro %s.Si este problema sigue ocurriendo, comuníquese con mis desarrolladores."
+  "success": "El reinicio de la configuración **%s ** ha sido cancelada.",
+  "user": "¿Está seguro de que desea eliminar todos los datos del usuario para %s?",
+  "userSuccess": "Los datos para el usuario %s se han restablecido.",
+  "footer": "¡ADVERTENCIA!El restablecimiento no es reversible."
 }

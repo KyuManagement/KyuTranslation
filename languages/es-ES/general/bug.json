@@ -1,7 +1,10 @@
 {
-  "helpDescription": "Informar un error a los desarrolladores",
-  "helpUsage": [
-    "Informe un error a los desarrolladores."
+  "description": "Informar un error a los desarrolladores",
+  "usage": [
+    [
+      "Informe un error a los desarrolladores.",
+      "```/bug <text>```"
+    ]
   ],
-  "success": "Gracias por enviar un error.¡Nuestro equipo analizará esto lo antes posible!"
+  "success": "Gracias por enviar un error.¡Nuestro equipo analizará esto lo antes posible!Si este problema sigue ocurriendo, comuníquese con nuestro equipo de personal con ID: %S"
 }

@@ -1,7 +1,10 @@
 {
-  "helpDescription": "Vérifiez votre rang ou celui d'un autre utilisateur",
-  "helpUsage": [
-    "Vérifiez votre rang ou celui d'un autre utilisateur.```/rank [member] [normal/voice]```"
+  "description": "Vérifiez votre rang ou le rang d'un autre utilisateur",
+  "usage": [
+    [
+      "Vérifiez votre rang ou le rang d'un autre utilisateur.",
+      "```/rank [member] [normal/voice]```"
+    ]
   ],
   "vote": "Votez pour 15% de boost",
   "isBot": "Impossible de vérifier le rang d'un bot."

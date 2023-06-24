@@ -1,19 +1,27 @@
 {
-  "helpDescription": "Ignore los canales/comandos cuando se ejecutan.",
-  "helpUsage": [
-    "Agrega/elimina un canal a la lista ignorada.'``/Ignore Channel <add/remo",
-    "Agrega/elimina un comando a la lista ignorada.'``/ignorar el comando <add/remo",
-    "Muestra una lista de comandos y canales actualmente ignorados."
+  "description": "Ignore los canales/comandos cuando se ejecutan.",
+  "usage": [
+    [
+      "Agrega/elimina un canal a la lista ignorada.",
+      "```/ignore channel <add/remove> <channel>```"
+    ],
+    [
+      "Agrega/elimina un comando a la lista ignorada.",
+      "```/ignore command <add/remove> <command>```"
+    ],
+    [
+      "Muestra una lista de comandos y canales actualmente ignorados.",
+      "```/ignore show```"
+    ]
   ],
   "channelAddSuccess": "%s ha sido ** agregado ** a la lista ignorada.",
-  "channelNotExists": "No se puede encontrar el canal proporcionado.",
-  "channelAddExists": "Channel %s ya es ** ** en la lista ignorada.",
+  "channelAddExists": "Channel %S ya es ** ** en la lista ignorada.",
   "channelRemoveSuccess": "Channel %s ha sido ** eliminado ** de la lista Ignore.",
   "channelRemoveNotExists": "Channel %s es ** no ** en la lista ignorada.",
   "commandAddSuccess": "El comando `%S` ha sido ** agregado ** para ignorar la lista.",
   "commandNotExists": "El comando `%S` no se puede encontrar.",
-  "commandInvalid": "Los comandos `ayuda` y 'ignorar` no se pueden agregar para ignorar la lista.",
-  "commandAddExists": "El comando `%S` es ** ya ** en la lista ignorada.",
+  "commandInvalid": "No se pueden agregar los comandos `ayuda` y 'ignorar` para ignorar la lista.",
+  "commandAddExists": "El comando `%S` está ** ya ** en la lista ignorada.",
   "commandRemoveSuccess": "El comando `%S` ha sido ** eliminado ** de la lista Ignore.",
   "commandRemoveNotExists": "El comando `%S` es ** no ** en la lista ignorada."
 }

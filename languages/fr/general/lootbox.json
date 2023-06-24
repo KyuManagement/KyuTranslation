@@ -1,15 +1,24 @@
 {
-  "helpDescription": "Ouvrez les lootbox pour gagner de l'expérience supplémentaire.",
-  "helpUsage": [
-    "Ouvrez un lootbox pour gagner des Exp supplémentaires et d'autres récompenses.```/lootbox open```",
-    "Désactiver/activer la possibilité pour les membres d'ouvrir des lootbox (Admins seulement).```/lootbox toggle```",
-    "Vérifiez vos statistiques actuelles pour les lootboxes.```/lootbox stats```"
+  "description": "Ouvrez des lotbox pour gagner un EXP supplémentaire.",
+  "usage": [
+    [
+      "Ouvrez un lootbox pour gagner des EXP supplémentaires et d'autres récompenses.",
+      "```/lootbox open```"
+    ],
+    [
+      "Désactiver / activer la capacité pour les membres d'ouvrir des lotbox (administrateurs uniquement).",
+      "```/lootbox toggle```"
+    ],
+    [
+      "Vérifiez vos statistiques actuelles pour les lootbox.",
+      "```/lootbox stats```"
+    ]
   ],
-  "enabled": "Les Lootbox ont maintenant été **activés*** sur ce serveur.",
-  "disabled": "Les Lootbox ont été **désactivés** sur ce serveur.",
-  "serverDisabled": "On dirait que les lootbox sont désactivés sur ce serveur <:KyuSad:948319004869668915>. Demandez à l'administrateur du serveur d'**activer lootboxes!!!**",
-  "max": "Vous avez ouvert le nombre maximum de butins sur ce serveur pour la semaine. Vous pouvez ouvrir plus de butins après %s.",
-  "noneLeft": "On dirait que vous n'avez plus de lootbox. Votez pour gagner plus!",
-  "exp": "Gagné `%s` <:gweensparkles:933110632444723261> EXP à partir de lootbox.",
-  "opened": "%sX lootbox ouvert!"
+  "enabled": "Les Lootbox ont maintenant été ** activés *** dans ce serveur.",
+  "disabled": "Les Lootbox ont maintenant été ** désactivés ** dans ce serveur.",
+  "serverDisabled": "On dirait que les liotbox sont désactivés dans ce serveur <: kyusad: 948319004869668915>.Demandez à l'administrateur du serveur pour ** activer les lotbox !!! **",
+  "max": "Vous avez ouvert la quantité maximale de butin dans ce serveur pour la semaine.Vous pouvez ouvrir plus de lootbox après%s.",
+  "noneLeft": "On dirait qu'il ne vous reste plus de butin.Votez pour gagner plus!",
+  "exp": "Géré `%s` <: gweensparkles: 933110632444723261> EXP de Lootbox.",
+  "opened": "%sX Lootbox a ouvert!"
 }

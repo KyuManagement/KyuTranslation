@@ -1,17 +1,23 @@
 {
-  "helpDescription": "Reset specific users or settings for the current server.",
-  "helpUsage": [
-    "Reset specific settings for the current server.```/reset user <member>```",
-    "Reset a specific setting.```/reset settings <option>```"
+  "description": "Reset specific users or settings for the current server.",
+  "usage": [
+    [
+      "Reset specific settings for the current server.",
+      "```/reset user <member>```"
+    ],
+    ["Reset a specific setting.", "```/reset settings <option>```"]
   ],
-  "settingsQuestion": "Are you sure you want to delete **ALL** settings?",
-  "pointsQuestion": "Are you sure you want to delete **all points**?",
-  "question": "Are you sure you want to delete **%s** settings?",
-  "footer": "WARNING! Resetting is non reversible.",
-  "pointsSuccess": "**Points** for all members have been reset.",
+  "all": "Are you sure you want to delete **ALL** settings?",
+  "textExp": "Are you sure you want to delete **all text exp**?",
+  "textExpSuccess": "**Text exp** for all members have been reset.",
+  "kothExp": "Are you sure you want to delete **all koth exp**?",
+  "kothExpSuccess": "**Koth exp** for all members have been reset.",
+  "voiceExp": "Are you sure you want to delete **all voice exp**?",
+  "voiceExpSuccess": "**Voice exp** for all members have been reset.",
+  "settings": "Are you sure you want to delete **%s** settings?",
   "settingsSuccess": "**%s** settings have been reset",
   "success": "Reset for **%s** settings has been cancelled.",
-  "userNotFound": "Please input a valid user.",
-  "userSuccess": "Member %s exp has been reset.",
-  "userFailed": "Unable to reset member %s. If this issue keeps occuring please contact my developers."
+  "user": "Are you sure you want to delete all user data for %s.",
+  "userSuccess": "Data for user %s has been reset.",
+  "footer": "WARNING! Resetting is non reversible."
 }

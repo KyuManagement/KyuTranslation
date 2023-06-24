@@ -1,1 +1,15 @@
-{}
+{
+  "description": "Hinzufügen/Entfernen von benutzerdefinierten Abzeichen zum Server.",
+  "usage": [
+    ["Füge dem Server ein neues Abzeichen hinzu.", "```/badge add <name> <url>```"],
+    ["Lösche ein aktuelles Abzeichen vom Server.", "```/badge delete <name>```"],
+    ["Zeigt eine Liste der verfügbaren Abzeichen auf diesem Server an.", "```/badge show```"]
+  ],
+
+  "alreadyExists": "Ein Abzeichen mit der ID „%s“ existiert bereits. Bitte gebe einen anderen Namen ein.",
+  "successAdded": "Abzeichen mit dem Namen `%s` wurde zu diesem Server hinzugefügt.",
+  "invalidName": "Abzeichen mit der ID „%s“ kann nicht gefunden werden.",
+  "successRemoved": "Abzeichen `%s` wurde vom Server entfernt.",
+  "alphanumericOnly": "Für Abzeichen-Namen sind nur alphanumerische Zeichen zulässig. Bitte wähle einen Namen mit Buchstaben/Zahlen aus.",
+  "notfound": "Auf diesem Server können keine Abzeichen gefunden werden, bitte füge ein Abzeichen hinzu!"
+}

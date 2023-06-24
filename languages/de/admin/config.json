@@ -1,0 +1,68 @@
+{
+  "description": "Konfiguriere verschiedene Einstellungen für den Server.",
+  "usage": [
+    [
+      "Stelle ein, ob der Voting Exp-Booster aktiviert/deaktiviert werden soll.",
+      "```/config expbooster <true/false>```"
+    ],
+    [
+      "Lege eine Adminrolle für den Server fest. Mitglieder mit dieser Rolle können den Bot konfigurieren.",
+      "```/config adminrole @role```"
+    ],
+    [
+      "Lege den Hintergrund für das Ranglisten-Bild fest.",
+      "```/config leaderboard background <url>```"
+    ],
+    [
+      "Lege die Anzahl der Mitglieder fest, die auf der Rangliste angezeigt werden.",
+      "```/config leaderboard amount <1-10>```"
+    ],
+    [
+      "Lege die Farbe für die Rangliste fest.",
+      "```/config leaderboard color <color>```"
+    ],
+    [
+      "Lege fest, ob die Rangliste eine Einbettung oder ein Bild sein soll.",
+      "```/config leaderboard image <setting>```"
+    ],
+    [
+      "Lege die Deckkraft für das Ranglisten-Bild fest.",
+      "```/config leaderboard opacity <percentage>```"
+    ],
+    [
+      "Lege das Overlay für das Ranglisten-Bild fest.",
+      "```/config leaderboard overlay <url>```"
+    ],
+    [
+      "Lege das Thema für das Bild der Rangliste fest.",
+      "```/config leaderboard theme <theme>```"
+    ],
+    [
+      "Lege das maximale Level fest, die Mitglieder auf diesem Server erreichen können.",
+      "```/config maxlevel <level>```"
+    ]
+  ],
+
+  "setAdminRole": "Mitglieder mit der Rolle %s können den Bot jetzt auf diesem Server verwalten.",
+
+  "expboosterEnabled": "Exp-Booster wurde für diesen Server aktiviert. Mitglieder erhalten einen Booster für das Abstimmen.",
+  "expboosterDisabled": "Der Exp-Booster wurde für diesen Server deaktiviert.",
+
+  "setMaxlevel": "Das maximale Level für den Server wurde auf %s gesetzt.",
+
+  "amount": "Die Anzahl der auf der Rangliste angezeigten Mitglieder wurde auf %s gesetzt.",
+
+  "backgroundSuccess": "Hintergrund wurde in die Datenbank hochgeladen.",
+
+  "overlaySuccess": "Overlay wurde in die Datenbank hochgeladen.",
+
+  "invalidTheme": "Kann das Thema namens `%s` nicht finden. Bitte wähle ein gültiges Thema aus.",
+  "themeSuccess": "Das Ranglisten-Bilddesign wurde auf `%s` gesetzt.",
+
+  "opacitySuccess": "Die Deckkraft des Ranglisten-Bildes wurde auf `%s%` gesetzt.",
+
+  "colorSuccess": "Die Farbe der Rangliste wurde auf **%s** aktualisiert.",
+
+  "typeEnabled": "Die Rangliste wird ab jetzt als Bild gesendet.",
+  "typeDisabled": "Die Rangliste wird ab jetzt als Einbettung gesendet."
+}

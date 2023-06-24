@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Informationen über die verfügbaren Befehle",
-  "helpUsage": [
+  "description": "Informationen über die verfügbaren Befehle",
+  "usage": [
     "Erhalte Informationen über einen bestimmten Befehl.```/help [command]```"
   ],
   "title": "Kyu's Hilfe Menü"

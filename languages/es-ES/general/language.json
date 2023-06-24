@@ -1,0 +1,10 @@
+{
+  "description": "Cambie el lenguaje predeterminado de los bots.",
+  "usage": [
+    [
+      "Cambie el idioma predeterminado de BOTS seleccionando una de las opciones.",
+      "```/language <language>```"
+    ]
+  ],
+  "success": "El lenguaje se ha cambiado con éxito a `%S`."
+}

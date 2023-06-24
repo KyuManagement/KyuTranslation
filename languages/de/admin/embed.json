@@ -1,33 +1,88 @@
 {
-  "helpDescription": "Ändere die Einstellungen für Level-Up Nachrichten.",
-  "helpUsage": [
-    "Legt fest, ob Level-Up Nachrichten mit oder ohne Einbettung gesendet werden.```/embed toggle <disable/enable> [level]```",
-    "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.```/embed ping disable/enable> [level]```",
-    "Passe die verschiedene Abschnitte der Einbettung an.```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```",
-    "Füge eine Einbettung für ein bestimmtes Level hinzu.```/embed add <level>```",
-    "Entferne eine Einbettung für ein bestimmtes Level.```/embed remove <level>```",
-    "Teste die aktuelle Level-Up Nachricht.```/embed test [level]```",
-    "Erhalte eine Liste aller verfügbaren Variablen für KyuBot.```/embed variables```"
+  "description": "Ändere die Einstellungen für Level-Up Nachrichten.",
+  "usage": [
+    [
+      "Lege die Wartezeit in Sekunden fest, bevor die Level-Up Nachricht gelöscht wird. Auf 0 setzen, damit die Ansage nicht gelöscht wird.",
+      "```/embed clear <30-300>```"
+    ],
+    [
+      "Füge eine Einbettung für ein bestimmtes Level hinzu.",
+      "```/embed create <level>```"
+    ],
+    [
+      "Passe die verschiedene Abschnitte der Einbettung an.",
+      "```/embed customise title <input> [level]\n/embed customise description <input> [level]\n/embed customise image <input> [level]\n/embed customise color <input> [level]```"
+    ],
+    [
+      "Entferne eine Einbettung für ein bestimmtes Level.",
+      "```/embed delete <level>```"
+    ],
+    [
+      "Erwähnungen für Level-Up Nachrichten aktivieren/deaktivieren.",
+      "```/embed ping disable/enable> [level]```"
+    ],
+    ["Teste die aktuelle Level-Up Nachricht.", "```/embed test [level]```"],
+    [
+      "Legt fest, ob Level-Up Nachrichten mit oder ohne Einbettung gesendet werden.",
+      "```/embed toggle <disable/enable> [level]```"
+    ],
+    [
+      "Stelle den Kanal ein, an den die Level-Up Nachrichten gesendet werden sollen.",
+      "```/embed type channel #channel <level>```"
+    ],
+    [
+      "Lege fest, wie Level-Up Nachrichten gesendet werden sollen, wenn ein Mitglied aufsteigt.",
+      "```/embed type set <default/dm/off/rewards> <level>```"
+    ],
+    [
+      "Erhalte eine Liste aller verfügbaren Variablen für Level-Up Nachrichten.",
+      "```/embed variables```"
+    ]
   ],
+
   "toggleEnabled": "Einbettungen wurden für Level-Up Nachrichten **aktiviert**.",
   "toggleDisabled": "Einbettungen wurden für Level-Up Nachrichten **deaktiviert**.",
+
   "pingEnabled": "Erwähnungen wurden für Level-Up Nachrichten **aktiviert**.",
   "pingDisabled": "Erwähnungen wurden für Level-Up Nachrichten **deaktiviert**.",
+
   "titleTooLong": "Die maximale Zeichenanzahl für den Titel beträgt 100, Du hast die Anzahl um **%s** überschritten.",
   "titleUpdated": "Der Titel der Level-Up Nachricht wurde aktualisiert auf:```%s```",
+
   "descriptionTooLong": "Die maximale Zeichenanzahl beträgt 1250, Du hast die Anzahl um **%s** überschritten.",
   "descriptionUpdated": "Level-Up Nachricht wurde geändert zu:```%s```",
+
   "imageInvalid": "Der angegebene Link ist kein Bild, bitte gib einen gültigen Bildlink an. Diese Bildtypen werden derzeit unterstützt: jpg | jpeg | png | gif.",
   "imageUpdated": "Das eingebettete Bild der Ankündigung wurde aktualisiert auf zu %s\n\nWenn Du fortfährst, erklärst Du dich damit einverstanden, dass das von Dir hochgeladene Bild den **[Nutzungsbedingungen von Discord](https://discord.com/terms)** entspricht. Alles, was hochgeladen wird, liegt in Deiner Verantwortung und Du werden dafür zur Verantwortung gezogen.",
+
   "colorInvalid": "Farbe %s ist keine gültige Farbe. Bitte wähle eine Farbe aus einer der folgenden Farben aus:```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
   "colorUpdated": "Die Farbe der Einbettung für die Level-Up Nachricht wurde auf **%s** aktualisiert.",
+
+  "clearAmount": "Stelle sicher, dass die Löschzeit für Level-Up Nachrichten zwischen 30 und 300 Sekunden liegt.",
+  "clearSuccess": "Level-Up Nachrichten für Level %s werden nun nach `%s` Sekunden gelöscht.",
+  "clearSuccessDisabled": "Level-Up Nachrichten für Level %s werden nicht mehr gelöscht.",
+
   "customiseInvalidSection": "%s kann nicht bearbeitet werden, aktuelle Abschnitte, die bearbeitet werden können, sind: `Titel, Beschreibung, Bild, Farbe`.",
   "customiseAddInvalidLevel": "Die Level-Up Nachricht für Level %s kann nicht eingestellt werden. Bitte stelle sicher, dass das Level eine ganze Zahl ist.",
   "customiseAddAlreadyExists": "Eine Level-Up Nachricht für Level %s existiert bereits. Bitte entferne/bearbeite die aktuelle Einbettung.",
   "customiseAddMaxReached": "Du hast die maximale Anzahl von 10 benutzerdefinierten Einbettungen erreicht. Bitte lösche eine Einbettung, bevor Du eine neue Einbettung für Level %s hinzufügst",
   "customiseAddSuccess": "Level-Up Nachricht wurde für Level %s hinzugefügt.",
-  "customiseRemoveInvalidLevel": "Es existiert keine Level-Up Nachricht für Level %s.",
   "customiseRemoveNotExists": "Es existiert keine Level-Up Nachricht für Level %s.",
   "customiseRemoveSuccess": "Level-Up Nachricht wurde von Level %s entfernt.",
+
+  "typeChannel": "Der Level-Up Kanal wurde für Level %s auf **%s** gesetzt.",
+  "typeGlobalChannel": "Der Level-Up Kanal wurde für globale Ankündigungen auf **%s** gesetzt.",
+  "typeInvalidOption": "Option `%s` ist ungültig. Bitte wähle eine der folgenden Optionen aus: dm, off, reward oder none.",
+
+  "typeSuccessDefault": "Level-Up Nachrichten erscheinen jetzt in dem **Kanal, in dem der Benutzer aufsteigt**.",
+  "typeSuccessDm": "Level-Up Nachrichten wurden auf **pn** gesetzt.",
+  "typeSuccessOff": "Level-Up Nachrichten wurden auf **aus** gestellt.",
+  "typeSuccessReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder **belohnen**.",
+
+  "typeSuccessGlobalDefault": "Level-Up Nachrichten erscheinen jetzt in dem **Kanal, in dem der Benutzer aufsteigt** für Level %s.",
+  "typeSuccessGlobalDm": "Level-Up Nachrichten wurden für Level %s auf **pn** gesetzt.",
+  "typeSuccessGlobalOff": "Level-Up Nachrichten wurden für Level %s auf **aus** gestellt.",
+  "typeSuccessGlobalReward": "Level-Up Nachrichten werden nur auf Level gesendet, die Mitglieder für Level %s **belohnen**.",
+
   "notFound": "Einbettung für Level %s konnte nicht gefunden werden."
 }

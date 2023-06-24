@@ -1,7 +1,7 @@
 {
-  "helpDescription": "Information about the available commands",
-  "helpUsage": [
-    "Get information about a specific command.```/help [command]```"
+  "description": "Information about the available commands",
+  "usage": [
+    ["Get information about a specific command.", "```/help [command]```"]
   ],
   "title": "Kyu's Help Menu"
 }

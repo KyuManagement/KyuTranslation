@@ -1,6 +1,6 @@
 {
-  "helpDescription": "Überprüfe Deinen Rang oder den Rang eines anderen Mitglieds",
-  "helpUsage": [
+  "description": "Überprüfe Deinen Rang oder den Rang eines anderen Mitglieds",
+  "usage": [
     "Überprüfe Deinen Rang oder den Rang eines anderen Mitglieds.```/rank [member] [normal/voice]```"
   ],
   "vote": "Stimme ab für einen 15% Boost",

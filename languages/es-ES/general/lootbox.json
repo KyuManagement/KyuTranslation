@@ -1,15 +1,24 @@
 {
-  "helpDescription": "Abra lootboxes para ganar exp.",
-  "helpUsage": [
-    "Abra un Lootbox para ganar una exp y otras recompensas adicionales.",
-    "Desactivar/habilitar la capacidad de los miembros para abrir Lootboxes (solo administradores) .````/lootbox toggle````````",
-    "Consulte sus estadísticas actuales de lootboxes."
+  "description": "Abra lootboxes para ganar una exp.",
+  "usage": [
+    [
+      "Abra un botín para ganar una EXP adicional y otras recompensas.",
+      "```/lootbox open```"
+    ],
+    [
+      "Desactivar/habilitar la capacidad para que los miembros abran botamentos (solo administradores).",
+      "```/lootbox toggle```"
+    ],
+    [
+      "Consulte sus estadísticas actuales en busca de botes de botín.",
+      "```/lootbox stats```"
+    ]
   ],
   "enabled": "Los botamentos ahora han sido ** habilitados *** en este servidor.",
   "disabled": "Los botamentos ahora han sido ** deshabilitados ** en este servidor.",
-  "serverDisabled": "Parece que los botamentos están deshabilitados en este servidor <: Kyusad: 948319004869668915>.¡PIENDO SERVER Admin para ** Habilitar Lootboxes! **",
-  "max": "Ha abierto la cantidad máxima de botamentos en este servidor para la semana.Puede abrir más Lootboxes después de %s.",
+  "serverDisabled": "Parece que los botamentos están deshabilitados en este servidor <: Kyusad: 948319004869668915>.¡PIENSE SERVER Admin para ** Habilitar lootboxes! **",
+  "max": "Ha abierto la cantidad máxima de botamentos en este servidor para la semana.Puede abrir más botes de botín después de %s.",
   "noneLeft": "Parece que no te quedan l sacos.¡Vota para ganar más!",
-  "exp": "Ganado `%S` <: gweensparkles: 933110632444723261> exp de Lootbox.",
+  "exp": "Ganado `%s` <: gweensparkles: 933110632444723261> exp de Lootbox.",
   "opened": "%sx lootbox abierto!"
 }

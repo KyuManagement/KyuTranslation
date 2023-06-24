@@ -1,10 +1,10 @@
 {
-  "helpDescription": "Ändere das Aussehen deiner Rangkarte.",
-  "helpUsage": [
+  "description": "Ändere das Aussehen deiner Rangkarte.",
+  "usage": [
     "Ändere die Farbe deiner Rangkarte.```/profile color <color>```",
     "Ändere die Transparenz für deine Rangkarte.```/profile opacity <0-100>```",
     "Ändere den Hintergrund Deiner Rangkarte.```/profile background <url>```",
-    "Ändere das Overlay für Deine Rangkarte.```/profile opacity <url>```"
+    "Ändere das Overlay für Deine Rangkarte.```/profile overlay <url>```"
   ],
   "isNotColor": "Die angegebene Farbe '%s' kann nicht gefunden werden. Bitte wähle eine Farbe aus einer der folgenden Farben aus: ```default\nblue\ngray\ngreen\norange\npink\npurple\nred\nteal\nyellow```",
   "isNotHex": "Farbe '%s' ist keine Hexadezimalfarbe. Bitte stelle sicher, dass die Farbe einem hexadezimalen Farbformat (#6cffac) folgt.",

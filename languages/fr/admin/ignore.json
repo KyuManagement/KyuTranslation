@@ -1,19 +1,27 @@
 {
-  "helpDescription": "Ignorer les canaux/commandes lorsqu'elles sont exécutées.",
-  "helpUsage": [
-    "Ajoute/supprime un canal à la liste ignorée.```/ignore channel <add/remove> <channel>```",
-    "Ajoute/supprime une commande à la liste ignorée.```/ignore command <add/remove> <command>```",
-    "Affiche une liste des commandes et salons actuellement ignorés.```/ignore show```"
+  "description": "Ignorez les canaux / commandes lorsqu'ils sont exécutés.",
+  "usage": [
+    [
+      "Ajoute / supprime un canal à la liste ignorée.",
+      "```/ignore channel <add/remove> <channel>```"
+    ],
+    [
+      "Ajoute / supprime une commande à la liste ignorée.",
+      "```/ignore command <add/remove> <command>```"
+    ],
+    [
+      "Affiche une liste des commandes et canaux actuellement ignorés.",
+      "```/ignore show```"
+    ]
   ],
-  "channelAddSuccess": "%s a été **ajouté** à la liste ignorée.",
-  "channelNotExists": "Impossible de trouver le canal fourni.",
-  "channelAddExists": "Le salon %s est **déjà** dans la liste ignorée.",
-  "channelRemoveSuccess": "Le canal %s a été **supprimé** de la liste des ignorés.",
-  "channelRemoveNotExists": "Le canal %s n'est **pas** dans la liste ignorée.",
-  "commandAddSuccess": "La commande `%s` a été **ajoutée** à la liste des ignorés.",
-  "commandNotExists": "La commande `%s` est introuvable.",
-  "commandInvalid": "Les commandes `help` et `ignore` ne peuvent pas être ajoutées à la liste des ignorés.",
-  "commandAddExists": "La commande `%s` est **déjà** dans la liste ignorée.",
-  "commandRemoveSuccess": "La commande `%s` a été **supprimée** de la liste des ignorés.",
-  "commandRemoveNotExists": "La commande `%s` n'est **pas** dans la liste ignorée."
+  "channelAddSuccess": "%s a été ** ajouté ** à la liste ignorée.",
+  "channelAddExists": "Le canal%s est ** déjà ** dans la liste ignorée.",
+  "channelRemoveSuccess": "Le canal%s a été ** supprimé ** de la liste d'ignore.",
+  "channelRemoveNotExists": "Le canal%s est ** pas ** dans la liste ignorée.",
+  "commandAddSuccess": "La commande `%s` a été ** ajoutée ** pour ignorer la liste.",
+  "commandNotExists": "La commande `%s` ne peut être trouvée.",
+  "commandInvalid": "Les commandes «Help» et «Ignore» ne peuvent pas être ajoutées pour ignorer la liste.",
+  "commandAddExists": "La commande `%s` est ** déjà ** dans la liste ignorée.",
+  "commandRemoveSuccess": "La commande `%s` a été ** supprimée ** de la liste d'ignore.",
+  "commandRemoveNotExists": "La commande `%s` est ** pas ** dans la liste ignorée."
 }

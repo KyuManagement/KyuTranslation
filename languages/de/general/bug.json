@@ -1,7 +1,5 @@
 {
-  "helpDescription": "Melde einen Fehler an die Entwickler",
-  "helpUsage": [
-    "Melde einen Fehler an die Entwickler.```/bug```"
-  ],
+  "description": "Melde einen Fehler an die Entwickler",
+  "usage": ["Melde einen Fehler an die Entwickler.```/bug```"],
   "success": "Vielen Dank für das Einreichen eines Fehlers. Unser Team wird sich so schnell wie möglich darum kümmern!"
 }
