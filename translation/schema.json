@@ -462,8 +462,8 @@
   "modifyuser.expInputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
   "modifyuser.successBadgeAdd": "%s has been given badge **%s**.",
   "modifyuser.successBadgeRemove": "Badge **%s** has been removed from %s.",
-  "modifyuser.successExpAdd": "%s has been given **%s** exp.",
-  "modifyuser.successExpRemove": "**%s** exp has been removed from %s.",
+  "modifyuser.successExpAdd": "%s has been given **%s** exp for %s.",
+  "modifyuser.successExpRemove": "**%s** exp has been removed from %s for %s.",
   "modifyuser.usage": [
     [
       "Add exp to a specific user.",

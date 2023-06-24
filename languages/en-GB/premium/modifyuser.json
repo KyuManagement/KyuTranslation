@@ -20,8 +20,8 @@
   ],
   "expInputTooHigh": "Only exp between 1-10,000 can be given at once. Please change exp amount.",
   "userNotFound": "Unable to find the mentioned user, please make sure user provided is in the guild.",
-  "successExpAdd": "%s has been given **%s** exp.",
-  "successExpRemove": "**%s** exp has been removed from %s.",
+  "successExpAdd": "%s has been given **%s** exp for %s.",
+  "successExpRemove": "**%s** exp has been removed from %s for %s.",
   "badgeNotFound": "Unable to find a badge with the id: %s.",
   "successBadgeAdd": "%s has been given badge **%s**.",
   "successBadgeRemove": "Badge **%s** has been removed from %s."
