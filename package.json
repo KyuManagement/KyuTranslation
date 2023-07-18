@@ -1,6 +1,6 @@
 {
   "name": "kyutranslation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Help KyuBot learn multiple languages!",
   "main": "index.js",
   "scripts": {

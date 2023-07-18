@@ -1,0 +1,20 @@
+{
+  "description": "Report a bug to developers",
+  "usage": [
+    ["Activate premium in a guild.", "```/premium activate```"],
+    ["Deactivate premium in a guild.", "```/premium deactivate```"],
+    ["Information about guild premium perks", "```/premium guild```"],
+    ["Information about user premium perks", "```/premium user```"]
+  ],
+  "guildActivatePremium": "This server currently doesn't have premium activated!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "guildAlreadyActivated": "This server already has premium activated!\n\nThank you for using KyuBot, we hope you enjoy your premium features <:KyuLove:944531800858972240>!",
+  "userActivatePremium": "You currently don't have premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240> to purchase them.",
+  "userAlreadyActivated": "You already have premium perks, thank you for using KyuBot <:KyuLove:944531800858972240>!",
+  "notActivated": "This server doesn't have premium activated!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "deactivatePremium": "Are you sure you want to deactivate premium for this server?\n\nThis will remove all premium perks from this server and you will not be able to revert this update.",
+  "deactivatePremiumSuccess": "Successfully deactivated premium for this server!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "activatePremium": "Are you sure you want to activate premium for this server?",
+  "activatePremiumSuccess": "Successfully activated premium for this server!\n\nYou can now use premium perks on this server, thank you for using KyuBot <:KyuLove:944531800858972240>!",
+  "maxGuildsActivated": "You have reached the maximum amount of servers you can activate premium on!\n\nIf you would like to activate premium on this server, please deactivate premium on another server first.",
+  "premiumGuildNotFound": "You have not activated premium for this guild. Please ask the user who has activated premium for this guild to deactivate it."
+}

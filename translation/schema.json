@@ -518,6 +518,36 @@
       "```/multiplier show```"
     ]
   ],
+  "premium.activatePremium": "Are you sure you want to activate premium for this server?",
+  "premium.activatePremiumSuccess": "Successfully activated premium for this server!\n\nYou can now use premium perks on this server, thank you for using KyuBot <:KyuLove:944531800858972240>!",
+  "premium.deactivatePremium": "Are you sure you want to deactivate premium for this server?\n\nThis will remove all premium perks from this server and you will not be able to revert this update.",
+  "premium.deactivatePremiumSuccess": "Successfully deactivated premium for this server!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "premium.description": "Report a bug to developers",
+  "premium.guildActivatePremium": "This server currently doesn't have premium activated!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "premium.guildAlreadyActivated": "This server already has premium activated!\n\nThank you for using KyuBot, we hope you enjoy your premium features <:KyuLove:944531800858972240>!",
+  "premium.maxGuildsActivated": "You have reached the maximum amount of servers you can activate premium on!\n\nIf you would like to activate premium on this server, please deactivate premium on another server first.",
+  "premium.notActivated": "This server doesn't have premium activated!\n\nIf you would like to purchase premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240>!",
+  "premium.premiumGuildNotFound": "You have not activated premium for this guild. Please ask the user who has activated premium for this guild to deactivate it.",
+  "premium.usage": [
+    [
+      "Activate premium in a guild.",
+      "```/premium activate```"
+    ],
+    [
+      "Deactivate premium in a guild.",
+      "```/premium deactivate```"
+    ],
+    [
+      "Information about guild premium perks",
+      "```/premium guild```"
+    ],
+    [
+      "Information about user premium perks",
+      "```/premium user```"
+    ]
+  ],
+  "premium.userActivatePremium": "You currently don't have premium perks, please visit our website at https://kyubot.com/premium <:KyuLove:944531800858972240> to purchase them.",
+  "premium.userAlreadyActivated": "You already have premium perks, thank you for using KyuBot <:KyuLove:944531800858972240>!",
   "profile.backgroundDefaultSuccess": "Profile background has been set back to default.",
   "profile.backgroundSuccess": "Background has been uploaded to the database.",
   "profile.badgeNotFound": "Unable to find a badge with the id: %s.",
