@@ -1,41 +1,41 @@
 {
-  "description": "Set multiplier for channels/roles.",
+  "description": "Multiplikator für Kanäle/Rollen festlegen.",
   "usage": [
     [
-      "Set multiplier for a text/voice channel.",
+      "Lege den Multiplikator für einen Text-/Sprachkanal fest.",
       "```/multiplier set channel <#channel> <0-250> <0-250>```"
     ],
     [
-      "Set multiplier for a role in text/voice list.",
+      "Lege den Multiplikator für eine Rolle in der Text-/Sprachliste fest.",
       "```/multiplier set role <role> <0-250> <0-250> <for>```"
     ],
     [
-      "Delete multiplier for a text/voice channel.",
+      "Multiplikator für einen Text-/Sprachkanal löschen.",
       "```/multiplier delete channel```"
     ],
     [
-      "Delete multiplier for a role in text/voice list.",
+      "Multiplikator für eine Rolle in der Text-/Sprachliste löschen.",
       "```/multiplier delete role <from>```"
     ],
     [
-      "Shows a list of current multiplier roles and channels.",
+      "Zeigt eine Liste der aktuellen Multiplikator der Rollen und Kanäle.",
       "```/multiplier show```"
     ]
   ],
 
-  "invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
-  "invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
+  "invalidMinimum": "Bitte stelle sicher, dass das Minimum größer als 0 ist, wenn das Maximum nicht festgelegt ist.",
+  "invalidMaximum": "Bitte stelle sicher, dass die minimale Erfahrung geringer ist als die maximale Erfahrung.",
 
-  "channelNotIncluded": "Unable to find a multiplier for channel %s.",
-  "channelRemoveSuccess": "Multiplier for channel %s has been removed.",
-  "channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
-  "channelAddSuccess": "Multiplier for channel %s has been set to %s.",
+  "channelNotIncluded": "Für Kanal %s konnte kein Multiplikator gefunden werden.",
+  "channelRemoveSuccess": "Der Multiplikator für Kanal %s wurde entfernt.",
+  "channelRandomSuccess": "Der Multiplikator für Kanal %s wurde so eingestellt, dass er zufällig zwischen %s und %s variiert.",
+  "channelAddSuccess": "Der Multiplikator für Kanal %s wurde auf %s gesetzt.",
 
-  "roleNotIncluded": "Unable to find a multiplier for role %s for %s.",
-  "roleRemoveSuccess": "Multiplier for role %s has been removed from %s multipliers.",
-  "roleRandomSuccess": "Multiplier for role %s has been set to randomise between %s and %s.",
-  "roleAddSuccess": "Multiplier for role %s has been set to %s.",
+  "roleNotIncluded": "Es konnte kein Multiplikator für die Rolle %s für %s gefunden werden.",
+  "roleRemoveSuccess": "Der Multiplikator für die Rolle %s wurde aus den %s-Multiplikatoren entfernt.",
+  "roleRandomSuccess": "Der Multiplikator für die Rolle %s wurde so eingestellt, dass er zufällig zwischen %s und %s variiert.",
+  "roleAddSuccess": "Der Multiplikator für die Rolle %s wurde auf %s gesetzt.",
 
-  "globalRandomSuccess": "Global multiplier has been set to randomise between %s and %s.",
-  "globalAddSuccess": "Global multiplier has been set to %s."
+  "globalRandomSuccess": "Der globale Multiplikator wurde so eingestellt, dass er zufällig zwischen %s und %s variiert.",
+  "globalAddSuccess": "Der globale Multiplikator wurde auf %s gesetzt."
 }
