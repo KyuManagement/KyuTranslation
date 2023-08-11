@@ -3,29 +3,29 @@
   "usage": [
     ["Koth-Event starten/beenden.", "```/koth <start/end> [channel]```"],
     [
-      "Lege eine Belohnung für das beste Mitglied der Koth-Rangliste fest.",
+      "Lege eine Belohnung für das beste Mitglied der KOTH-Rangliste fest.",
       "```/koth reward <role>```"
     ],
-    ["Zeigt die Koth-Rangliste für den Server an.", "```/koth leaderboard```"]
+    ["Zeigt die KOTH-Rangliste für den Server an.", "```/koth leaderboard```"]
   ],
 
-  "alreadyEnabled": "KOTH is already in progress. Please end the current KOTH to start another contest.",
-  "enabled": "KOTH has started! Claim your crown 👑 by being the most active!",
-  "startSent": "KOTH starting announcement has been sent to %s.",
-  "endConfirm": "Are you sure you want to end KOTH? By confirming you understand this is irreversible!",
+  "alreadyEnabled": "KOTH ist bereits aktiv. Bitte beende den aktuellen KOTH, um einen weiteren Wettbewerb zu starten.",
+  "enabled": "KOTH hat begonnen! Hol dir deine Krone 👑, indem du am aktivsten bist!",
+  "startSent": "KOTH-Startankündigung wurde an %s gesendet.",
+  "endConfirm": "Bist du sicher, dass du KOTH beenden möchtest? Durch die Bestätigung verstehst du, dass dies irreversibel ist!",
 
-  "noWinners": "Not enough active users in this guild to end KOTH.",
-  "winnersSent": "Koth winners announcement has been sent to %s.",
+  "noWinners": "Es gibt nicht genügend aktive Mitglieder in dieser Gilde, um KOTH zu beenden.",
+  "winnersSent": "Die Bekanntgabe der KOTH-Gewinner wurde an %s gesendet.",
 
-  "disabled": "KOTH is already disabled.",
-  "alreadyDisabled": "KOTH is currently disabled in this guild. Please ask admin's to enable KOTH.",
+  "disabled": "KOTH ist bereits deaktiviert.",
+  "alreadyDisabled": "KOTH ist derzeit in dieser Gilde deaktiviert. Bitte den Admin, KOTH zu aktivieren.",
 
-  "badgeInvalidName": "Unable to find a badge with the id `%s`.",
-  "addBadge": "Badge with name `%s` will be rewarded to user in %s position.",
-  "addExp": "User in %s position will earn `%s` experience.",
-  "addRole": "User in %s position will earn %s role.",
+  "badgeInvalidName": "Es konnte kein Abzeichen mit der ID „%s“ gefunden werden.",
+  "addBadge": "Das Abzeichen mit dem Namen „%s“ wird dem Mitglied an der Position %s verliehen.",
+  "addExp": "Mitglieder in %s-Position erhalten „%s“-Erfahrung.",
+  "addRole": "Das Mitglied an der Position %s erhält die Rolle %s.",
 
-  "removeSuccess": "Koth %s reward for %s position has been removed.",
-  "removeInvalid": "Unable to find rewards for %s position.",
-  "removePositionInvalid": "Unable to find %s reward set for %s position."
+  "removeSuccess": "Koth %s Belohnung für %s Position wurde entfernt.",
+  "removeInvalid": "Für %s Position konnten keine Belohnungen gefunden werden.",
+  "removePositionInvalid": "%s Belohnung für %s Position konnte nicht gefunden werden."
 }
