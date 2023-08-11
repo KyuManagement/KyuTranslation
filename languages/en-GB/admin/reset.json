@@ -17,7 +17,7 @@
   "settings": "Are you sure you want to delete **%s** settings?",
   "settingsSuccess": "**%s** settings have been reset",
   "success": "Reset for **%s** settings has been cancelled.",
-  "user": "Are you sure you want to delete all user data for %s.",
+  "user": "Are you sure you want to delete all user data for %s?",
   "userSuccess": "Data for user %s has been reset.",
   "footer": "WARNING! Resetting is non reversible."
 }
