@@ -44,5 +44,10 @@
   "roleAdded": "User will earn %s role when they reach text level %s.",
 
   "voiceRoleRemoved": "Role reward for level `%s` has been removed from voice leveling.",
-  "roleRemoved": "Role reward for level `%s` has been removed from text leveling."
+  "roleRemoved": "Role reward for level `%s` has been removed from text leveling.",
+
+  "maxVoiceExp": "**%s** is the maximum amount of experience rewards for voice leveling. To increase this limit, please upgrade to premium.",
+  "maxVoicePremiumExp": "**%s** is the maximum amount of experience rewards for voice leveling. Please remove some rewards to add more.",
+  "maxTextExp": "**%s** is the maximum amount of experience rewards for text leveling. To increase this limit, please upgrade to premium.",
+  "maxTextPremiumExp": "**%s** is the maximum amount of experience rewards for text leveling. Please remove some rewards to add more."
 }

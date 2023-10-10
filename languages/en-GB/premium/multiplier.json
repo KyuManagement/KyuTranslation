@@ -26,6 +26,16 @@
   "invalidMinimum": "Please make sure minimum is more than 0, when maximum is not set.",
   "invalidMaximum": "Please make sure minimum exp is less than the maximum exp.",
 
+  "maxTextChannels": "**%s** is the maximum number of channels you can add for text multiplier. Please remove some channels before adding more or you can purchase guild premium which allows you to add more channels.",
+  "maxTextPremiumChannels": "**%s** is the maximum number of channels you can add for text multiplier. Please remove some channels before adding more.",
+  "maxVoiceChannels": "**%s** is the maximum number of channels you can add for voice multiplier. Please remove some channels before adding more or you can purchase guild premium which allows you to add more channels.",
+  "maxVoicePremiumChannels": "**%s** is the maximum number of channels you can add for voice multiplier. Please remove some channels before adding more.",
+
+  "maxTextRoles": "**%s** is the maximum number of roles you can add for text multiplier. Please remove some roles before adding more or you can purchase guild premium which allows you to add more roles.",
+  "maxTextPremiumRoles": "**%s** is the maximum number of roles you can add for text multiplier. Please remove some roles before adding more.",
+  "maxVoiceRoles": "**%s** is the maximum number of roles you can add for voice multiplier. Please remove some roles before adding more or you can purchase guild premium which allows you to add more roles.",
+  "maxVoicePremiumRoles": "**%s** is the maximum number of roles you can add for voice multiplier. Please remove some roles before adding more.",
+
   "channelNotIncluded": "Unable to find a multiplier for channel %s.",
   "channelRemoveSuccess": "Multiplier for channel %s has been removed.",
   "channelRandomSuccess": "Multiplier for channel %s has been set to randomise between %s and %s.",
