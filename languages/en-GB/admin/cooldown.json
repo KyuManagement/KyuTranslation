@@ -26,5 +26,6 @@
   "roleAddSuccess": "Cooldown for role %s has been set to %s for %s.",
   "roleRemoveSuccess": "Role %s has been **removed** from %s cooldown.",
 
-  "globalSetSuccess": "Global cooldown for %s has been set to %s."
+  "globalSetSuccess": "Global cooldown for %s has been set to %s.",
+  "globalInvalidSeconds": "Invalid cooldown. Value must be between 30 and 90 seconds, for more customisation please [purchanse premium](https://kyubot.com/premium) features for this server."
 }
